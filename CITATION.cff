@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Ha hivatkozol a skillre, kérjük, így tedd."
+title: "kozerthetoseg-hu: magyar közérthetőségi skill"
+abstract: >-
+  Agent Skills szabványú skill magyar szövegek közérthetőségének
+  vizsgálatára és javítására, forrásokkal alátámasztott szabálykatalógussal
+  és külön jogi modullal.
+type: software
+authors:
+  - family-names: "Kis"
+    given-names: "Zoltán"
+    website: "https://github.com/zoltankis-arch"
+repository-code: "https://github.com/zoltankis-arch/kozerthetoseg-hu"
+license:
+  - MIT
+  - CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-11-19"
+keywords:
+  - közérthetőség
+  - plain language
+  - magyar
+  - jogi nyelv
+  - agent skills
