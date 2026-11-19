@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zoltankis-arch/kozerthetoseg-hu/schemas/szabaly.schema.json",
+  "title": "Közérthetőségi szabály",
+  "description": "Egy szabály egy TOML-fájl az assets/adatok/szabalyok/ mappában. A fájlnév az azonosító.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "azonosito",
+    "cim",
+    "csoport",
+    "szabaly",
+    "miert",
+    "alkalmazasi_kor",
+    "allapot",
+    "forrasok",
+    "pelda"
+  ],
+  "properties": {
+    "azonosito": {
+      "type": "string",
+      "pattern": "^K[0-9]{3}$",
+      "description": "K és három számjegy. Egyszer kiosztott azonosítót nem használunk újra."
+    },
+    "cim": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Rövid cím, igével vagy főnévvel."
+    },
+    "csoport": {
+      "type": "string",
+      "enum": [
+        "cel-es-tartalom",
+        "felepites",
+        "mondat",
+        "szo",
+        "szerkezet",
+        "megszolitas-es-hang",
+        "kinezet",
+        "szamok-es-jelek",
+        "tablazat-es-abra",
+        "nyomtatvany",
+        "folyamat"
+      ]
+    },
+    "szabaly": {
+      "type": "string",
+      "minLength": 1,
+      "description": "A szabály egy mondatban."
+    },
+    "miert": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Miért segít az olvasónak."
+    },
+    "alkalmazasi_kor": {
+      "type": "string",
+      "enum": [
+        "altalanos",
+        "jogi"
+      ]
+    },
+    "allapot": {
+      "type": "string",
+      "enum": [
+        "aktiv",
+        "visszavont"
+      ]
+    },
+    "utod": {
+      "type": "string",
+      "pattern": "^K[0-9]{3}$",
+      "description": "Csak visszavont szabálynál: melyik szabály lép a helyébe."
+    },
+    "visszavonas_oka": {
+      "type": "string",
+      "minLength": 1
+    },
+    "forrasok": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*#[0-9]{3}$"
+      },
+      "description": "Leltártétel-azonosítók. Aktív szabálynál legalább egy."
+    },
+    "kivetelek": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "meres": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      },
+      "description": "A meres.py mutatói, amelyek ezt a szabályt jelzik."
+    },
+    "pelda": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rossz",
+        "jo"
+      ],
+      "properties": {
+        "rossz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "jo": {
+          "type": "string",
+          "minLength": 1
+        },
+        "megjegyzes": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "elteres": {
+      "type": "array",
+      "description": "Ha a források ellentmondanak egymásnak: mit mond melyik, és mit követ a skill.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "forrasok",
+          "leiras",
+          "dontes"
+        ],
+        "properties": {
+          "forrasok": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*#[0-9]{3}$"
+            }
+          },
+          "leiras": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dontes": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

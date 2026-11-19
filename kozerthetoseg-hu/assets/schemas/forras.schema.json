@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zoltankis-arch/kozerthetoseg-hu/schemas/forras.schema.json",
+  "title": "Forrásrekord és forrásleltár",
+  "description": "Egy forrás egy TOML-fájl az assets/adatok/forrasok/ mappában. A fájlnév az azonosító.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "azonosito",
+    "cim",
+    "rovid",
+    "kiado",
+    "ev",
+    "hivatkozas",
+    "licenc",
+    "kiadas",
+    "feldolgozas_datuma",
+    "oldalszamozas",
+    "prioritas",
+    "fejezet",
+    "tetel"
+  ],
+  "properties": {
+    "azonosito": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "cim": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rovid": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Rövid hivatkozási név a generált referenciákhoz, pl. „NAV 2024b”."
+    },
+    "szerzo": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kiado": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ev": {
+      "type": "string",
+      "pattern": "^[0-9]{4}$"
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https?://"
+    },
+    "doi": {
+      "type": "string",
+      "pattern": "^10\\."
+    },
+    "isbn": {
+      "type": "string",
+      "minLength": 1
+    },
+    "hivatkozas": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Teljes bibliográfiai hivatkozás."
+    },
+    "licenc": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Licenc vagy felhasználási feltétel; ha nincs kimondva, azt írd."
+    },
+    "kiadas": {
+      "type": "string",
+      "minLength": 1,
+      "description": "A feldolgozott kiadás és terjedelem."
+    },
+    "feldolgozas_datuma": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "oldalszamozas": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Melyik oldalszámra hivatkozik a leltár (nyomtatott vagy PDF-oldal)."
+    },
+    "prioritas": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "feldolgozottsag": {
+      "type": "string",
+      "enum": [
+        "teljes",
+        "reszleges"
+      ],
+      "description": "Teljes: a forrás minden fejezete leltárban van. Részleges: csak a megjelölt fejezetek."
+    },
+    "megjegyzes": {
+      "type": "string",
+      "minLength": 1
+    },
+    "fejezet": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "azonosito",
+          "cim",
+          "oldal"
+        ],
+        "properties": {
+          "azonosito": {
+            "type": "string",
+            "pattern": "^f[0-9]{2}$"
+          },
+          "cim": {
+            "type": "string",
+            "minLength": 1
+          },
+          "oldal": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tetel_nelkul": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Ha a fejezetből egy tétel sem került a leltárba: miért."
+          }
+        }
+      }
+    },
+    "tetel": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "azonosito",
+          "fejezet",
+          "oldal",
+          "tipus",
+          "tartalom"
+        ],
+        "properties": {
+          "azonosito": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*#[0-9]{3}$"
+          },
+          "fejezet": {
+            "type": "string",
+            "pattern": "^f[0-9]{2}$"
+          },
+          "oldal": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tipus": {
+            "type": "string",
+            "enum": [
+              "szabaly",
+              "ajanlas",
+              "tilalom",
+              "ellenorzolista",
+              "pelda",
+              "meghatarozas",
+              "hatter"
+            ]
+          },
+          "tartalom": {
+            "type": "string",
+            "minLength": 1,
+            "description": "A tétel saját szavakkal."
+          },
+          "szabalyok": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^K[0-9]{3}$"
+            }
+          },
+          "referencia": {
+            "type": "string",
+            "pattern": "^references/[a-z0-9-]+\\.md#[a-z0-9-]+$"
+          },
+          "kihagyva": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Egy mondat: miért nem került szabályba vagy referenciába."
+          }
+        }
+      }
+    }
+  }
+}

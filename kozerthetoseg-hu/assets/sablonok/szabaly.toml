@@ -1,0 +1,26 @@
+# Egy szabály egy fájl. Minden KITÖLTENDŐ jelölést cserélj ki.
+# A mezők leírása: assets/schemas/szabaly.schema.json
+
+azonosito = "{{azonosito}}"
+cim = "{{cim}}"
+csoport = "{{csoport}}"
+szabaly = "KITÖLTENDŐ: a szabály egy mondatban"
+miert = "KITÖLTENDŐ: miért segít az olvasónak"
+alkalmazasi_kor = "{{kor}}"
+allapot = "aktiv"
+# Leltártétel-azonosítók; a tételeknél is erre a szabályra kell mutatni.
+forrasok = []
+kivetelek = []
+# A meres.py mutatói, ha jelzik ezt a szabályt (pl. "mondathossz").
+meres = []
+
+[pelda]
+# Saját példa, nem a forrás szövege.
+rossz = "KITÖLTENDŐ"
+jo = "KITÖLTENDŐ"
+
+# Ha két forrás ellentmond egymásnak, vedd fel így:
+# [[elteres]]
+# forrasok = ["forras-a#001", "forras-b#004"]
+# leiras = "Mit mond az egyik, mit a másik."
+# dontes = "Mit követ a skill, és miért."

@@ -1,0 +1,37 @@
+# Forrásrekord és forrásleltár. Minden KITÖLTENDŐ jelölést cserélj ki;
+# az ellenorzes.py addig hibát jelez, amíg marad belőle.
+# A mezők leírása: assets/schemas/forras.schema.json
+
+azonosito = "{{azonosito}}"
+cim = "{{cim}}"
+rovid = "KITÖLTENDŐ: rövid hivatkozási név, pl. Kiadó 2025"
+szerzo = "KITÖLTENDŐ"
+kiado = "{{kiado}}"
+ev = "{{ev}}"
+url = "{{url}}"
+hivatkozas = "KITÖLTENDŐ: teljes bibliográfiai hivatkozás"
+licenc = "KITÖLTENDŐ: licenc vagy felhasználási feltétel; ha nincs kimondva, ezt írd"
+kiadas = "KITÖLTENDŐ: a feldolgozott kiadás és terjedelem"
+feldolgozas_datuma = "{{datum}}"
+oldalszamozas = "KITÖLTENDŐ: nyomtatott oldalszám vagy PDF-oldal"
+prioritas = "{{prioritas}}"
+feldolgozottsag = "teljes"
+
+# Egy fejezet egy bejegyzés, a forrás tartalomjegyzéke szerint.
+[[fejezet]]
+azonosito = "f01"
+cim = "KITÖLTENDŐ"
+oldal = "KITÖLTENDŐ"
+
+# Egy tétel egy szabály, ajánlás, ellenőrzőlista-pont, tilalom vagy
+# előtte–utána példa, saját szavakkal. Pontosan egy leképezése van:
+#   szabalyok = ["K001"]                         vagy
+#   referencia = "references/jogi.md#horgony"    vagy
+#   kihagyva = "egy mondat: miért"
+[[tetel]]
+azonosito = "{{azonosito}}#001"
+fejezet = "f01"
+oldal = "KITÖLTENDŐ"
+tipus = "szabaly"
+tartalom = "KITÖLTENDŐ"
+kihagyva = "KITÖLTENDŐ: vagy cseréld szabalyok/referencia mezőre"
