@@ -1,0 +1,91 @@
+azonosito = "jszr-2009"
+cim = "61/2009. (XII. 14.) IRM rendelet a jogszabályszerkesztésről"
+rovid = "Jszr."
+kiado = "Igazságügyi és Rendészeti Minisztérium"
+ev = "2009"
+url = "https://njt.jog.gov.hu/jogszabaly/2009-61-20-1U"
+hivatkozas = "61/2009. (XII. 14.) IRM rendelet a jogszabályszerkesztésről (Jszr.), hatályos szöveg a Nemzeti Jogszabálytárban."
+licenc = "Jogszabály; a szerzői jogról szóló törvény szerint nem áll szerzői jogi védelem alatt."
+kiadas = "A 2024. július 1-jétől hatályos szöveg, a Nemzeti Jogszabálytárban 2026. november 19-én megtekintve."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "szakasz (§) és bekezdés; a jogszabálynak nincs oldalszáma"
+prioritas = "A"
+feldolgozottsag = "reszleges"
+megjegyzes = "Csak a megszövegezés általános követelményeit tartalmazó 2–8. § került a leltárba. A terminológiai következetességet a 4. §, az „illetve” és az „illetőleg” korlátozását a 7. § (3)–(4) bekezdése mondja ki."
+
+[[fejezet]]
+azonosito = "f01"
+cim = "I. Fejezet: A jogszabály tervezetének megszövegezésére vonatkozó általános követelmények (2–8. §)"
+oldal = "2–8. §"
+
+[[tetel]]
+azonosito = "jszr-2009#001"
+fejezet = "f01"
+oldal = "2. §"
+tipus = "szabaly"
+tartalom = "A jogszabály tervezetét a magyar nyelv szabályai szerint, világosan, közérthetően és ellentmondásmentesen kell megszövegezni."
+referencia = "references/jogi.md#jogalkotas"
+
+[[tetel]]
+azonosito = "jszr-2009#002"
+fejezet = "f01"
+oldal = "3. § (2)"
+tipus = "szabaly"
+tartalom = "A normatív tartalmat jelen idejű kijelentő mondattal, egyes szám harmadik személyben kell kifejezni."
+referencia = "references/jogi.md#jogalkotas"
+
+[[tetel]]
+azonosito = "jszr-2009#003"
+fejezet = "f01"
+oldal = "4. § (1)–(2)"
+tipus = "szabaly"
+tartalom = "Ugyanazt a fogalmat vagy rendelkezést minden előfordulásnál ugyanúgy kell megfogalmazni; azonos tárgyra eltérő megfogalmazás csak eltérő tartalomnál állhat."
+szabalyok = ["K033"]
+
+[[tetel]]
+azonosito = "jszr-2009#004"
+fejezet = "f01"
+oldal = "5. §"
+tipus = "szabaly"
+tartalom = "Az ismétlődő kifejezés helyett rövid megjelölés alkalmazható; az első előfordulásnál, „a továbbiakban:” formulával, zárójelben kell bevezetni, és nem lehet olyan kifejezés, amely máshol más jelentésű."
+szabalyok = ["K040"]
+
+[[tetel]]
+azonosito = "jszr-2009#005"
+fejezet = "f01"
+oldal = "7. § (1)–(2)"
+tipus = "szabaly"
+tartalom = "Felsorolásnál egyértelművé kell tenni, hogy az elemek közül mindnek, egynek sem, pontosan egynek vagy legalább egynek kell teljesülnie."
+szabalyok = ["K082"]
+
+[[tetel]]
+azonosito = "jszr-2009#006"
+fejezet = "f01"
+oldal = "7. § (3)"
+tipus = "szabaly"
+tartalom = "Az „illetve” kötőszó csak akkor alkalmazható, ha más egyértelmű megfogalmazás nem alkalmazható."
+szabalyok = ["K047"]
+
+[[tetel]]
+azonosito = "jszr-2009#007"
+fejezet = "f01"
+oldal = "7. § (4)"
+tipus = "tilalom"
+tartalom = "Az „illetőleg” kötőszó nem alkalmazható."
+szabalyok = ["K047"]
+
+[[tetel]]
+azonosito = "jszr-2009#008"
+fejezet = "f01"
+oldal = "7. § (5)"
+tipus = "tilalom"
+tartalom = "Az „és” és a „vagy” írásjellel összekapcsolva vagy közvetlenül egymás után nem alkalmazható."
+szabalyok = ["K047"]
+
+[[tetel]]
+azonosito = "jszr-2009#009"
+fejezet = "f01"
+oldal = "8. § (1), (3)"
+tipus = "szabaly"
+tartalom = "Mennyiséget arab számmal kell megadni, az azonos mértékegységet azonosan jelölni; a pénznem rövid megjelölése (a forint és az euró kivételével) csak bevezetése után használható."
+referencia = "references/jogi.md#jogalkotas"

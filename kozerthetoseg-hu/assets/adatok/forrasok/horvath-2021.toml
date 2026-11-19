@@ -1,0 +1,285 @@
+azonosito = "horvath-2021"
+cim = "Mitől közérthető és tömör egy jogi szöveg?"
+rovid = "Horváth 2021"
+szerzo = "Horváth Péter"
+kiado = "Széchenyi István Egyetem Állam- és Jogtudományi Kar (Jog–Állam–Politika)"
+ev = "2021"
+url = "https://jap.sze.hu/images/lapsz%C3%A1mok/2021/1/JAP_2021_01_horvath-peter.pdf"
+hivatkozas = "Horváth Péter: Mitől közérthető és tömör egy jogi szöveg? Jog–Állam–Politika, 13. évf. (2021) 1. sz., 103–113."
+licenc = "Ingyenesen elérhető folyóiratcikk; licenc nincs feltüntetve. A leltár saját szavakkal foglal össze."
+kiadas = "A folyóirat 2021/1. számában megjelent tanulmány PDF-je, 12 oldal."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "a folyóirat oldalszáma (103–114)"
+prioritas = "A"
+feldolgozottsag = "teljes"
+
+[[fejezet]]
+azonosito = "f01"
+cim = "I. Bevezetés"
+oldal = "103"
+
+[[fejezet]]
+azonosito = "f02"
+cim = "II.1. Mesterkélt szaknyelvi kifejezés helyett egyszerű köznyelvi szó"
+oldal = "103–104"
+
+[[fejezet]]
+azonosito = "f03"
+cim = "II.2. Szaknyelvi értelemben használt köznyelvi szó helyett egyszerű szaknyelvi szó"
+oldal = "104"
+
+[[fejezet]]
+azonosito = "f04"
+cim = "II.3. Választás idegen és magyar szó között"
+oldal = "105"
+
+[[fejezet]]
+azonosito = "f05"
+cim = "II.4. Szórendi változtatások"
+oldal = "105–106"
+
+[[fejezet]]
+azonosito = "f06"
+cim = "III.1. A fölösleges szavak és kifejezések mellőzése"
+oldal = "106–107"
+
+[[fejezet]]
+azonosito = "f07"
+cim = "III.2. A túlbonyolítás kerülése"
+oldal = "108–109"
+
+[[fejezet]]
+azonosito = "f08"
+cim = "III.3. A tagmondatok számának csökkentése"
+oldal = "110"
+
+[[fejezet]]
+azonosito = "f09"
+cim = "III.4. Igésítés"
+oldal = "110"
+
+[[fejezet]]
+azonosito = "f10"
+cim = "IV. Egy teljes szöveg átírása"
+oldal = "111–112"
+
+[[fejezet]]
+azonosito = "f11"
+cim = "V. Összegzés és irodalom"
+oldal = "113"
+
+[[tetel]]
+azonosito = "horvath-2021#001"
+fejezet = "f01"
+oldal = "103"
+tipus = "hatter"
+tartalom = "Mindenki számára világos szakszöveg nincs; a cél a lényegét tekintve érthető szöveg."
+referencia = "references/szovegtipusok.md#hatarok"
+
+[[tetel]]
+azonosito = "horvath-2021#002"
+fejezet = "f02"
+oldal = "103"
+tipus = "szabaly"
+tartalom = "A nem bennfenteseknek szóló közleményben a bevett köznyelvi szót érdemes használni a mesterkélt szaknyelvi kifejezés helyett."
+szabalyok = ["K029"]
+
+[[tetel]]
+azonosito = "horvath-2021#003"
+fejezet = "f02"
+oldal = "104"
+tipus = "pelda"
+tartalom = "Öt szaknyelvi kifejezés és köznyelvi megfelelője; a közkeletű, akár szleng szónak is lehet helye hivatalos szövegben."
+szabalyok = ["K029"]
+
+[[tetel]]
+azonosito = "horvath-2021#004"
+fejezet = "f02"
+oldal = "104"
+tipus = "ajanlas"
+tartalom = "Hogy mi mesterkélt és mi nélkülözhetetlen, nyelvészetileg nem dönthető el; aki közérthetően akar írni, kérdezze ki a célközönséget, és értékelje a reakcióit."
+szabalyok = ["K076"]
+
+[[tetel]]
+azonosito = "horvath-2021#005"
+fejezet = "f03"
+oldal = "104"
+tipus = "szabaly"
+tartalom = "Ha egy köznyelvi szót szaknyelvi jelentésben használnánk, és a laikus a köznyelvi jelentést érti (repülőtéri pálya, a biztosító kötelezettségének „beállása”), válasszunk egyszerűbb szakszót vagy köznyelvi körülírást."
+szabalyok = ["K031"]
+
+[[tetel]]
+azonosito = "horvath-2021#006"
+fejezet = "f04"
+oldal = "105"
+tipus = "szabaly"
+tartalom = "A meg nem honosodott, szűk körben ismert idegen szó helyett a magyar szó érthetőbb (vállalati munkakör- és szolgáltatásnevek)."
+szabalyok = ["K032"]
+
+[[tetel]]
+azonosito = "horvath-2021#007"
+fejezet = "f04"
+oldal = "105"
+tipus = "szabaly"
+tartalom = "A magyar megfelelő néha csak korlátozottan használható: az egyik mondatba illik, a másikba nem."
+szabalyok = ["K032"]
+
+[[tetel]]
+azonosito = "horvath-2021#008"
+fejezet = "f04"
+oldal = "105"
+tipus = "szabaly"
+tartalom = "A ritka, régies vagy kevésbé ismert magyar szó helyett az ismertebb idegen szinonima a jobb; ha nincs érdemi különbség, ízlés kérdése."
+szabalyok = ["K032"]
+
+[[tetel]]
+azonosito = "horvath-2021#009"
+fejezet = "f05"
+oldal = "105"
+tipus = "szabaly"
+tartalom = "Hozd előrébb a mondat lényeges részét, gyakran az állítmányt; példa egy fizetési felszólítás mellékmondatáról."
+szabalyok = ["K021"]
+
+[[tetel]]
+azonosito = "horvath-2021#010"
+fejezet = "f05"
+oldal = "106"
+tipus = "pelda"
+tartalom = "A mondat témája (amiről szól) kerüljön előre; eljárási mondat két szórendben."
+szabalyok = ["K025"]
+
+[[tetel]]
+azonosito = "horvath-2021#011"
+fejezet = "f05"
+oldal = "106"
+tipus = "szabaly"
+tartalom = "Ha egy alaptagnak sok bővítménye van, tegyél egyet az alaptag mögé; példa egy határozat megtámadásáról."
+szabalyok = ["K025"]
+
+[[tetel]]
+azonosito = "horvath-2021#012"
+fejezet = "f06"
+oldal = "106"
+tipus = "pelda"
+tartalom = "Egy célszámla teljes neve fölösleges, a számlaszám és a hatóság neve elég."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "horvath-2021#013"
+fejezet = "f06"
+oldal = "107"
+tipus = "pelda"
+tartalom = "Parkolási szabály: a jelzések fajtáinak felsorolása helyett elég, hogy a táblákat kell követni."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "horvath-2021#014"
+fejezet = "f06"
+oldal = "107"
+tipus = "pelda"
+tartalom = "Ami a helyzetből adódik (mélygarázsban mit fizet az automatánál), azt nem kell kiírni."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "horvath-2021#015"
+fejezet = "f06"
+oldal = "107"
+tipus = "pelda"
+tartalom = "Fizetési felszólításban a határidőhöz tett jelző és a „bírósági úton” fölösleges."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "horvath-2021#016"
+fejezet = "f06"
+oldal = "107"
+tipus = "szabaly"
+tartalom = "A szóismétlés a terminológia egysége miatt fontos lehet, de nem minden szó terminus; az ismétlés más módon is megoldható vagy elhagyható."
+szabalyok = ["K033"]
+
+[[tetel]]
+azonosito = "horvath-2021#017"
+fejezet = "f07"
+oldal = "108"
+tipus = "pelda"
+tartalom = "Parkolási előírás egyszerűsítése a fölösleges névmás és jelző elhagyásával."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "horvath-2021#018"
+fejezet = "f07"
+oldal = "108"
+tipus = "pelda"
+tartalom = "Jegy-visszatérítési szabály rövidítése a fölösleges szakszavak és cégnév elhagyásával."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "horvath-2021#019"
+fejezet = "f07"
+oldal = "108–109"
+tipus = "szabaly"
+tartalom = "Két ellentétes információt egy mondatban nehéz elsőre megérteni; az ilyen mondatot alakítsd át (kuponpélda)."
+szabalyok = ["K019"]
+
+[[tetel]]
+azonosito = "horvath-2021#020"
+fejezet = "f07"
+oldal = "109"
+tipus = "pelda"
+tartalom = "Ha a közlés lényege a mondat végén áll (jótállás érvényessége), hozd előre, és egyszerűsítsd a többit."
+szabalyok = ["K025"]
+
+[[tetel]]
+azonosito = "horvath-2021#021"
+fejezet = "f07"
+oldal = "109"
+tipus = "szabaly"
+tartalom = "Tagadó jelentésű ige (mellőz, hiányol, nélkülöz, tilt) és a „nem” együtt hivatalos szövegben gátolja a megértést; írd át állítóra."
+szabalyok = ["K046"]
+
+[[tetel]]
+azonosito = "horvath-2021#022"
+fejezet = "f07"
+oldal = "109"
+tipus = "pelda"
+tartalom = "Bújtatott kettős tagadás egy banki tájékoztatóban és állító átírása."
+szabalyok = ["K046"]
+
+[[tetel]]
+azonosito = "horvath-2021#023"
+fejezet = "f08"
+oldal = "110"
+tipus = "szabaly"
+tartalom = "Vizsgáld meg, milyen tagolással fogadható be hamarabb a mondat; vonj össze tagmondatokat, ha így zavaró szomszédság szűnik meg, de ne mindenáron."
+szabalyok = ["K023"]
+
+[[tetel]]
+azonosito = "horvath-2021#024"
+fejezet = "f09"
+oldal = "110"
+tipus = "szabaly"
+tartalom = "Az -ás/-és képzős főnevet és az őt kísérő „által”, „történő”, „való” szerkezetet lehetőleg ragozott igével pótold."
+szabalyok = ["K042"]
+
+[[tetel]]
+azonosito = "horvath-2021#025"
+fejezet = "f10"
+oldal = "111–112"
+tipus = "pelda"
+tartalom = "Egy mozi házirendjének átírása a nyolc eszközzel; a szöveg 28 százalékkal rövidült."
+kihagyva = "Összetett példa; az egyes fogásai a #002–#024 tételekben szerepelnek."
+
+[[tetel]]
+azonosito = "horvath-2021#026"
+fejezet = "f10"
+oldal = "112"
+tipus = "ajanlas"
+tartalom = "Hogy az átírás minőségi javulás-e, csak a szerzők visszajelzéséből derülne ki: mely pontok sérülnek gyakran, honnan ered a félreértés."
+szabalyok = ["K076"]
+
+[[tetel]]
+azonosito = "horvath-2021#027"
+fejezet = "f11"
+oldal = "113"
+tipus = "hatter"
+tartalom = "Összegzés: a nyolc eszköz együtt mutatja, hogy a közérthető és tömör jogi szövegnek nincs nyelvi akadálya."
+kihagyva = "Összegzés; az eszközök a #002–#024 tételekben szerepelnek."

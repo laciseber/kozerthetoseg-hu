@@ -1,0 +1,275 @@
+azonosito = "balogh-2023"
+cim = "Jogi szövegtípusok és közérthetőség"
+rovid = "Balogh 2023"
+szerzo = "Balogh Dorka"
+kiado = "Károli Gáspár Református Egyetem Állam- és Jogtudományi Kar; Patrocinium Kiadó (Glossa Iuridica)"
+ev = "2023"
+url = "https://real.mtak.hu/169112/"
+doi = "10.55194/GI.2023.3.10"
+hivatkozas = "Balogh Dorka: Jogi szövegtípusok és közérthetőség. Glossa Iuridica, X. évf. (2023) 3. sz., 177–196. DOI: 10.55194/GI.2023.3.10"
+licenc = "Nyílt hozzáférésű a REAL repozitóriumban; licenc nincs feltüntetve. A leltár saját szavakkal foglal össze."
+kiadas = "A Glossa Iuridica 2023/3. tematikus számában megjelent tanulmány, REAL-ből letöltött PDF."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "a folyóirat oldalszáma (177–196)"
+prioritas = "A"
+feldolgozottsag = "teljes"
+
+[[fejezet]]
+azonosito = "f01"
+cim = "Absztrakt"
+oldal = "177–178"
+
+[[fejezet]]
+azonosito = "f02"
+cim = "1. Bevezetés"
+oldal = "178"
+tetel_nelkul = "A tanulmány felépítését mutatja be, saját állítást nem tesz."
+
+[[fejezet]]
+azonosito = "f03"
+cim = "2. A közérthetőségi törekvések útjában álló akadályok"
+oldal = "179–180"
+
+[[fejezet]]
+azonosito = "f04"
+cim = "3. A jogi nyelv közérthetőséget akadályozó sajátosságai"
+oldal = "181–183"
+
+[[fejezet]]
+azonosito = "f05"
+cim = "4. Közérthetőség pro és kontra"
+oldal = "183–186"
+
+[[fejezet]]
+azonosito = "f06"
+cim = "5. A közérthető szövegezés nyelvi eszközei"
+oldal = "186–187"
+
+[[fejezet]]
+azonosito = "f07"
+cim = "6. Miben segíthet a szövegtípusok felőli megközelítés?"
+oldal = "187–190"
+
+[[fejezet]]
+azonosito = "f08"
+cim = "7. A jogi szaknyelv egyszerűsítése az egyes szövegtípusokban"
+oldal = "190–193"
+
+[[fejezet]]
+azonosito = "f09"
+cim = "8. A közérthető szövegezés és a jogi szakfordítás"
+oldal = "193–195"
+
+[[fejezet]]
+azonosito = "f10"
+cim = "9. Összegzés"
+oldal = "195–196"
+tetel_nelkul = "Összefoglalja a korábbi fejezeteket; új állítást nem tesz."
+
+[[tetel]]
+azonosito = "balogh-2023#001"
+fejezet = "f01"
+oldal = "177–178"
+tipus = "szabaly"
+tartalom = "A közérthetőség igénye szövegtípusonként eltér; a mondatszerkezeti és szövegszerkezeti változtatás biztonságosabb, mint a szócsere."
+referencia = "references/szovegtipusok.md#szocsere"
+
+[[tetel]]
+azonosito = "balogh-2023#002"
+fejezet = "f03"
+oldal = "179"
+tipus = "hatter"
+tartalom = "A szöveg címzettje határozza meg a nyelvezetét; laikus olvasónál a közérthetőség hiánya kárt okozhat."
+szabalyok = ["K001"]
+
+[[tetel]]
+azonosito = "balogh-2023#003"
+fejezet = "f03"
+oldal = "179"
+tipus = "hatter"
+tartalom = "A szakemberek egy része presztízsveszteségtől tart, ha egyszerűbben fogalmaz."
+kihagyva = "A jelenség leírása, szabályt nem ad."
+
+[[tetel]]
+azonosito = "balogh-2023#004"
+fejezet = "f03"
+oldal = "180"
+tipus = "hatter"
+tartalom = "A jogi szöveg „láthatatlansága”: a laikus érteni véli a jogszabályt, de a valódi jelentés a jogi összefüggések nélkül rejtve maradhat."
+referencia = "references/szovegtipusok.md#hatarok"
+
+[[tetel]]
+azonosito = "balogh-2023#005"
+fejezet = "f03"
+oldal = "180"
+tipus = "hatter"
+tartalom = "A pszicholingvisztika szerint a megértést nehezíti a mondat- és szóhossz, a szokatlan szórend, az ige nélküli mondat, a személytelen szerkezet, a tagolás és a beágyazott vonatkozó mellékmondat."
+referencia = "references/parancs-meres.md#mit-mer"
+
+[[tetel]]
+azonosito = "balogh-2023#006"
+fejezet = "f04"
+oldal = "181"
+tipus = "hatter"
+tartalom = "A magyar jogi nyelvre a köznyelvhez képest jellemzőbb a főnevesítés, a személytelen stílus, a bonyolult mondat, a sok vonatkozó mellékmondat és az eltérő szórend."
+szabalyok = ["K042"]
+
+[[tetel]]
+azonosito = "balogh-2023#007"
+fejezet = "f04"
+oldal = "182"
+tipus = "hatter"
+tartalom = "A szenvedő és funkcióigés szerkezet, a definíciók, a kereszthivatkozások és a szinonimák kerülése okkal alakult ki (formalitás, személytelenség, pontosság)."
+referencia = "references/szovegtipusok.md#hatarok"
+
+[[tetel]]
+azonosito = "balogh-2023#008"
+fejezet = "f04"
+oldal = "183"
+tipus = "pelda"
+tartalom = "Egy jogszabályi mondat, amelyben az alany és az állítmány közé sok bővítmény ékelődik; az állítmány előrehozása a tartalmat nem érinti."
+szabalyok = ["K021"]
+
+[[tetel]]
+azonosito = "balogh-2023#009"
+fejezet = "f05"
+oldal = "184"
+tipus = "hatter"
+tartalom = "Érvek a közérthetőség mellett: a joghoz való hozzáférés, hatékonyabb kommunikáció, kevesebb hiba."
+kihagyva = "Érvelés, szabályt nem ad."
+
+[[tetel]]
+azonosito = "balogh-2023#010"
+fejezet = "f05"
+oldal = "185"
+tipus = "hatter"
+tartalom = "Ellenérvek: elveszhet a pontos jelentés, a szinonimák kockázatosak, az egyszerű szöveg sem garantál megértést, a rugalmas kifejezések cseréje szűkítheti az értelmezést."
+referencia = "references/szovegtipusok.md#szocsere"
+
+[[tetel]]
+azonosito = "balogh-2023#011"
+fejezet = "f05"
+oldal = "186"
+tipus = "meghatarozas"
+tartalom = "Bennion négy szövegtípusa: a szöveg, amely maga a jog; amely a jog végrehajtását szolgálja; amely jogászoknak szól; amely nem jogászoknak szól."
+referencia = "references/szovegtipusok.md#bennion"
+
+[[tetel]]
+azonosito = "balogh-2023#012"
+fejezet = "f06"
+oldal = "186"
+tipus = "szabaly"
+tartalom = "Előbb vizsgáld meg, kik a szöveg olvasói és milyen funkciót tölt be, csak utána válassz közérthetőségi eszközt."
+referencia = "references/szovegtipusok.md#dontes"
+
+[[tetel]]
+azonosito = "balogh-2023#013"
+fejezet = "f06"
+oldal = "186–187"
+tipus = "szabaly"
+tartalom = "A lexikai-terminológiai változtatás kockázatos; a szintaktikai és szövegszerkezeti változtatás biztonságosabb, de a szövegszerkezettel is óvatosan kell bánni, mert sok jogi műfaj szerkezete kötött."
+referencia = "references/szovegtipusok.md#szocsere"
+
+[[tetel]]
+azonosito = "balogh-2023#014"
+fejezet = "f06"
+oldal = "186–187"
+tipus = "ajanlas"
+tartalom = "Szintaktikai eszközök: rövidebb mondat (egyes iskolák szerint legfeljebb 20 szó), kevesebb tagmondat, a beágyazott kereszthivatkozás kerülése, az alany és az állítmány egymás mellé helyezése, ige a főnév helyett."
+szabalyok = ["K020", "K023", "K024"]
+
+[[tetel]]
+azonosito = "balogh-2023#015"
+fejezet = "f06"
+oldal = "187"
+tipus = "szabaly"
+tartalom = "A következetesen használt terminológia fontos szabály; a következetlen szóhasználat rontja az érthetőséget."
+szabalyok = ["K033"]
+
+[[tetel]]
+azonosito = "balogh-2023#016"
+fejezet = "f06"
+oldal = "187"
+tipus = "hatter"
+tartalom = "Gyakori probléma a szövegszerkezet, az információk sorrendje és a mondatok közötti logikai kapcsolat."
+szabalyok = ["K011"]
+
+[[tetel]]
+azonosito = "balogh-2023#017"
+fejezet = "f07"
+oldal = "188"
+tipus = "meghatarozas"
+tartalom = "Funkcionális tipológia: tételes jog (előíró), jogalkalmazás (vegyes funkciójú, például határozat, beadvány, keresetlevél), jogtudomány (leíró, metajogi)."
+referencia = "references/szovegtipusok.md#balogh"
+
+[[tetel]]
+azonosito = "balogh-2023#018"
+fejezet = "f07"
+oldal = "189"
+tipus = "hatter"
+tartalom = "A kategóriák rugalmasak; a tervezet a kihirdetéssel normaszöveggé válik, és szóhasználatát a többi szövegtípus átveszi."
+referencia = "references/szovegtipusok.md#balogh"
+
+[[tetel]]
+azonosito = "balogh-2023#019"
+fejezet = "f08"
+oldal = "190"
+tipus = "szabaly"
+tartalom = "A leíró, metajogi szövegben a közérthetőség nem kulcskérdés, mert jogászok írják és olvassák."
+referencia = "references/szovegtipusok.md#balogh"
+
+[[tetel]]
+azonosito = "balogh-2023#020"
+fejezet = "f08"
+oldal = "190–191"
+tipus = "szabaly"
+tartalom = "A normaszövegben indokolt a közérthetőségre törekedni, de a szóalak és a szórend változtatása a normatív tartalmat is megváltoztathatja; megoldás lehet a két változat vagy a magyarázattal kiegészített jogszabály."
+referencia = "references/szovegtipusok.md#balogh"
+
+[[tetel]]
+azonosito = "balogh-2023#021"
+fejezet = "f08"
+oldal = "191"
+tipus = "pelda"
+tartalom = "A kötött formájú jogokról szóló figyelmeztetés átfogalmazása egy kísérletben összezavarta a gyanúsítottat."
+referencia = "references/szovegtipusok.md#kotott-szoveg"
+
+[[tetel]]
+azonosito = "balogh-2023#022"
+fejezet = "f08"
+oldal = "191–192"
+tipus = "szabaly"
+tartalom = "Az ügyfelet közvetlenül érintő eljárási szövegek (szerződés, végrendelet, határozat) közérthetősége indokolt."
+referencia = "references/szovegtipusok.md#balogh"
+
+[[tetel]]
+azonosito = "balogh-2023#023"
+fejezet = "f08"
+oldal = "193"
+tipus = "hatter"
+tartalom = "Korpuszkutatás szerint az ítéletek, indokolások és jogi tankönyvek a legnehezebben érthetők, a jogszabályok a skála közepén vannak."
+referencia = "references/szovegtipusok.md#balogh"
+
+[[tetel]]
+azonosito = "balogh-2023#024"
+fejezet = "f08"
+oldal = "193"
+tipus = "ajanlas"
+tartalom = "A megoldás többnyire az arany középút: a laikus megérti, de a szakszerűség nem sérül; az érthetőség viszonylagos."
+referencia = "references/szovegtipusok.md#hatarok"
+
+[[tetel]]
+azonosito = "balogh-2023#025"
+fejezet = "f09"
+oldal = "194"
+tipus = "szabaly"
+tartalom = "A jogi szakfordító megbízás nélkül nem egyszerűsíti a forrásszöveg stílusát; az egyszerűsítés a nyelven belüli átírásban indokolt."
+kihagyva = "A skill nyelvek közötti fordítással nem foglalkozik; a SKILL.md szerint nem magyar szövegre nem indul."
+
+[[tetel]]
+azonosito = "balogh-2023#026"
+fejezet = "f09"
+oldal = "195"
+tipus = "hatter"
+tartalom = "A gépi fordítás előszerkesztése közérthető szövegezéssel."
+kihagyva = "Kutatási kitekintés."

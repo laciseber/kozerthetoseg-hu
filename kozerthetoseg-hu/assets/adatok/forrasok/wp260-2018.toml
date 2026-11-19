@@ -1,0 +1,158 @@
+azonosito = "wp260-2018"
+cim = "Iránymutatás az (EU) 2016/679 rendelet szerinti átláthatóságról (WP260 rev.01)"
+rovid = "WP260 2018"
+szerzo = "A 29. cikk szerinti adatvédelmi munkacsoport"
+kiado = "Európai Bizottság; magyarul a Nemzeti Adatvédelmi és Információszabadság Hatóság közzétételében"
+ev = "2018"
+url = "https://www.naih.hu/files/wp260rev01_hu.pdf"
+hivatkozas = "A 29. cikk szerinti adatvédelmi munkacsoport: Iránymutatás az (EU) 2016/679 rendelet szerinti átláthatóságról. WP260 rev.01. Elfogadva 2017. november 29., felülvizsgálva 2018. április 11."
+licenc = "Uniós hivatalos dokumentum; felhasználási feltétel nincs feltüntetve. A leltár saját szavakkal foglal össze."
+kiadas = "A NAIH honlapján közzétett magyar nyelvű változat, 47 oldal."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "az iránymutatás oldalszáma („47/N oldal”)"
+prioritas = "A"
+feldolgozottsag = "reszleges"
+megjegyzes = "Csak az átláthatóság elemeiről, a világos és közérthető nyelvről és a gyermekek tájékoztatásáról szóló rész (7–11. oldal) került a leltárba. A tájékoztatás tartalmi elemeiről és a többszintű tájékoztató gyakorlati megoldásairól szóló fejezetek nem."
+
+[[fejezet]]
+azonosito = "f01"
+cim = "A 12. cikk követelményei; tömör, átlátható, érthető és könnyen hozzáférhető"
+oldal = "7–8"
+
+[[fejezet]]
+azonosito = "f02"
+cim = "Világos és közérthető nyelv"
+oldal = "9–11"
+
+[[fejezet]]
+azonosito = "f03"
+cim = "Tájékoztatás nyújtása gyermekek és egyéb kiszolgáltatott személyek részére"
+oldal = "11"
+
+[[tetel]]
+azonosito = "wp260-2018#001"
+fejezet = "f01"
+oldal = "7"
+tipus = "meghatarozas"
+tartalom = "A 12. cikk szerint a tájékoztatás tömör, átlátható, érthető és könnyen hozzáférhető, világos és közérthető nyelvű; írásban vagy más módon, általában díjmentesen."
+referencia = "references/jogi.md#gdpr"
+
+[[tetel]]
+azonosito = "wp260-2018#002"
+fejezet = "f01"
+oldal = "7"
+tipus = "szabaly"
+tartalom = "Tömör: kerülni kell az információ-túlterhelést; az adatvédelmi tájékoztatót el kell különíteni a szerződési feltételektől; online a többszintű tájékoztató segít."
+szabalyok = ["K018"]
+
+[[tetel]]
+azonosito = "wp260-2018#003"
+fejezet = "f01"
+oldal = "7"
+tipus = "szabaly"
+tartalom = "Érthető: a célzott közönség átlagos tagjának is értenie kell; a gyerekeknek és a szakembereknek szóló tájékoztatás közönsége más tudással bír."
+szabalyok = ["K001"]
+
+[[tetel]]
+azonosito = "wp260-2018#004"
+fejezet = "f01"
+oldal = "8"
+tipus = "ajanlas"
+tartalom = "Ha bizonytalan, hogy a tájékoztatás érthető-e, teszteld: felhasználói panel, érthetőségi teszt, párbeszéd szakmai és fogyasztóvédelmi csoportokkal."
+szabalyok = ["K076"]
+
+[[tetel]]
+azonosito = "wp260-2018#005"
+fejezet = "f02"
+oldal = "9"
+tipus = "szabaly"
+tartalom = "A tájékoztatást a lehető legegyszerűbben, összetett mondatok és bonyolult nyelvi szerkezetek nélkül kell megadni."
+szabalyok = ["K023"]
+
+[[tetel]]
+azonosito = "wp260-2018#006"
+fejezet = "f02"
+oldal = "9"
+tipus = "szabaly"
+tartalom = "A tájékoztatás legyen pontos és végleges, ne elvont vagy kétértelmű, és ne engedjen teret többféle értelmezésnek."
+szabalyok = ["K041", "K034"]
+
+[[tetel]]
+azonosito = "wp260-2018#007"
+fejezet = "f02"
+oldal = "9"
+tipus = "szabaly"
+tartalom = "Különösen az adatkezelés célja és jogalapja legyen egyértelmű."
+szabalyok = ["K079"]
+
+[[tetel]]
+azonosito = "wp260-2018#008"
+fejezet = "f02"
+oldal = "9–10"
+tipus = "pelda"
+tartalom = "Három rossz példa túl általános célmegjelölésre (szolgáltatásfejlesztés, kutatás, személyre szabás)."
+szabalyok = ["K079"]
+
+[[tetel]]
+azonosito = "wp260-2018#009"
+fejezet = "f02"
+oldal = "10"
+tipus = "pelda"
+tartalom = "Három jó példa, amelyből kiderül, milyen adatot, milyen célra és hogyan kezelnek."
+szabalyok = ["K079"]
+
+[[tetel]]
+azonosito = "wp260-2018#010"
+fejezet = "f02"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "Kerülni kell a ható igéket és a határozatlan szavakat (néhány, gyakran, lehetséges); ha az adatkezelő mégis ilyet használ, igazolnia kell, miért elkerülhetetlen."
+szabalyok = ["K080", "K039"]
+
+[[tetel]]
+azonosito = "wp260-2018#011"
+fejezet = "f02"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "A bekezdéseket és mondatokat jól kell strukturálni; a szövegrészek viszonyát felsorolásponttal érdemes jelölni."
+szabalyok = ["K013"]
+
+[[tetel]]
+azonosito = "wp260-2018#012"
+fejezet = "f02"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "Szenvedő szerkezet helyett cselekvő igenem, és kerülni kell a főnevek halmozását."
+szabalyok = ["K044", "K042"]
+
+[[tetel]]
+azonosito = "wp260-2018#013"
+fejezet = "f02"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "A tájékoztatás ne tartalmazzon túlságosan jogi, műszaki vagy szakmai nyelvezetet és terminológiát."
+szabalyok = ["K030"]
+
+[[tetel]]
+azonosito = "wp260-2018#014"
+fejezet = "f02"
+oldal = "10–11"
+tipus = "szabaly"
+tartalom = "Ha a tájékoztatást lefordítják, a fordítás legyen pontos, és ne kelljen dekódolni."
+kihagyva = "A skill nyelvek közötti fordítással nem foglalkozik."
+
+[[tetel]]
+azonosito = "wp260-2018#015"
+fejezet = "f02"
+oldal = "9"
+tipus = "hatter"
+tartalom = "Az iránymutatás a világos fogalmazás bevált gyakorlataként a Bizottság „A pontos fogalmazás művészete” című kiadványára utal."
+kihagyva = "Hivatkozás egy másik forrásra; azt a skill külön forrásként dolgozza fel."
+
+[[tetel]]
+azonosito = "wp260-2018#016"
+fejezet = "f03"
+oldal = "11"
+tipus = "szabaly"
+tartalom = "Gyermekeknek szóló tájékoztatásnál a szókincs, a hangnem és a stílus feleljen meg nekik, és ismerjék fel, hogy az üzenet nekik szól; ez a kiszolgáltatott személyekre is áll."
+referencia = "references/kek-hatar.md#gyermekek"

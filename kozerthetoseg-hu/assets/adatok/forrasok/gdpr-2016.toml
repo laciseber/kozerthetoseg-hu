@@ -1,0 +1,27 @@
+azonosito = "gdpr-2016"
+cim = "Az Európai Parlament és a Tanács (EU) 2016/679 rendelete (általános adatvédelmi rendelet)"
+rovid = "GDPR"
+kiado = "Az Európai Unió Hivatalos Lapja"
+ev = "2016"
+url = "https://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:32016R0679"
+hivatkozas = "Az Európai Parlament és a Tanács (EU) 2016/679 rendelete (2016. április 27.) a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról (általános adatvédelmi rendelet). HL L 119., 2016.5.4., 1–88."
+licenc = "Uniós jogszabály; az EUR-Lex szövege a forrás megnevezésével szabadon felhasználható."
+kiadas = "Magyar nyelvű szöveg az EUR-Lexen, 2026. november 19-én megtekintve."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "cikk és bekezdés"
+prioritas = "A"
+feldolgozottsag = "reszleges"
+megjegyzes = "Csak a 12. cikk (1) bekezdése."
+
+[[fejezet]]
+azonosito = "f01"
+cim = "12. cikk"
+oldal = "12. cikk"
+
+[[tetel]]
+azonosito = "gdpr-2016#001"
+fejezet = "f01"
+oldal = "12. cikk (1)"
+tipus = "szabaly"
+tartalom = "Az érintettnek adott tájékoztatást tömör, átlátható, érthető és könnyen hozzáférhető formában, világosan és közérthetően megfogalmazva kell nyújtani, különösen a gyermekeknek címzett információnál."
+referencia = "references/jogi.md#gdpr"

@@ -1,0 +1,160 @@
+azonosito = "gerencser-2023"
+cim = "Közérthető jogi nyelv (plain language): alkalmazható-e az eredeti modell a mai magyar törvényalkotásban?"
+rovid = "Gerencsér 2023"
+szerzo = "Gerencsér Balázs Szabolcs"
+kiado = "Országgyűlés Hivatala (Parlamenti Szemle)"
+ev = "2023"
+url = "https://szakcikkadatbazis.hu/doc/3232914"
+hivatkozas = "Gerencsér Balázs Szabolcs: Közérthető jogi nyelv (plain language): alkalmazható-e az eredeti modell a mai magyar törvényalkotásban? Parlamenti Szemle, 8. évf. (2023) 1. sz., 7–18."
+licenc = "A Szakcikk Adatbázisban olvasható; licenc nincs feltüntetve. A leltár saját szavakkal foglal össze."
+kiadas = "A Szakcikk Adatbázisban közölt szöveg, oldalhatár-jelölésekkel."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "a folyóirat oldalszáma, a Szakcikk Adatbázis oldalhatár-jelölései szerint (7–18)"
+prioritas = "A"
+feldolgozottsag = "teljes"
+
+[[fejezet]]
+azonosito = "f01"
+cim = "1. Bevezető gondolatok a kéményseprőkről"
+oldal = "7–8"
+tetel_nelkul = "Bevezető példa egy rossz jogszabályi meghatározásra; a 3.2. pont dolgozza fel (#004)."
+
+[[fejezet]]
+azonosito = "f02"
+cim = "2. A Plain Language mozgalom kezdetei az USA-ban"
+oldal = "8–12"
+
+[[fejezet]]
+azonosito = "f03"
+cim = "3. A Plain Language módszertan és eszköztár"
+oldal = "12–15"
+
+[[fejezet]]
+azonosito = "f04"
+cim = "4. A Plain Language kapcsolata a magyar jogi szövegekkel"
+oldal = "15–18"
+
+[[fejezet]]
+azonosito = "f05"
+cim = "5. Következtetések"
+oldal = "18"
+
+[[tetel]]
+azonosito = "gerencser-2023#001"
+fejezet = "f02"
+oldal = "10–12"
+tipus = "hatter"
+tartalom = "Az amerikai közérthetőségi mozgalom története; a 2010-es Plain Writing Act a szövetségi közigazgatás kommunikációjában kötelezővé tette a közérthető írást."
+kihagyva = "Amerikai jogtörténet; magyar szövegre szabályt nem ad."
+
+[[tetel]]
+azonosito = "gerencser-2023#002"
+fejezet = "f03"
+oldal = "12"
+tipus = "meghatarozas"
+tartalom = "A módszertan célja, hogy az ügyfél megtalálja, amire szüksége van, megértse, és használni tudja."
+referencia = "references/parancs-audit.md#negy-kerdes"
+
+[[tetel]]
+azonosito = "gerencser-2023#003"
+fejezet = "f03"
+oldal = "13"
+tipus = "szabaly"
+tartalom = "Légy tekintettel a címzettekre; ha különböző ügykörökben más-más a közönség, mindig ahhoz igazodj."
+szabalyok = ["K001"]
+
+[[tetel]]
+azonosito = "gerencser-2023#004"
+fejezet = "f03"
+oldal = "13–14"
+tipus = "szabaly"
+tartalom = "Használj érthető definíciót, logikus szerkezetben; a túldefiniálás és a fogalom és tulajdonsága felcserélése nehezíti a megértést."
+szabalyok = ["K030"]
+
+[[tetel]]
+azonosito = "gerencser-2023#005"
+fejezet = "f03"
+oldal = "13–14"
+tipus = "szabaly"
+tartalom = "Kerüld a szakzsargont és a töltelékszót; többszörösen összetett mondat helyett több rövid mondatot írj."
+szabalyok = ["K035", "K023"]
+
+[[tetel]]
+azonosito = "gerencser-2023#006"
+fejezet = "f03"
+oldal = "14"
+tipus = "szabaly"
+tartalom = "Rövid bekezdések, bekezdésenként egy téma, logikai kapcsolókkal; ez a tanács főleg a jogszabályon kívüli jogi szövegekre (indokolás, döntés) alkalmazható."
+szabalyok = ["K014"]
+
+[[tetel]]
+azonosito = "gerencser-2023#007"
+fejezet = "f03"
+oldal = "14"
+tipus = "szabaly"
+tartalom = "Tájékoztató, leíró szövegben használj átlátható felsorolást és táblázatot; a folyó szöveg elrejti a keresett információt."
+szabalyok = ["K013"]
+
+[[tetel]]
+azonosito = "gerencser-2023#008"
+fejezet = "f03"
+oldal = "14"
+tipus = "szabaly"
+tartalom = "Internetre szánt szövegnél alkalmazd a webes szerkesztési gyakorlatot; különböztesd meg a nyomtatott és a webes tartalmat."
+szabalyok = ["K009"]
+
+[[tetel]]
+azonosito = "gerencser-2023#009"
+fejezet = "f03"
+oldal = "15"
+tipus = "szabaly"
+tartalom = "Próba: a címzetti körből véletlenszerűen választott 6–9 ember olvassa el a szöveget egy pontig, és mondja el saját szavaival, mit jelent; segítő kérdések: mit tenne, ha megkapná; mit akart elérni az író; mi okozhat gondot."
+szabalyok = ["K076"]
+
+[[tetel]]
+azonosito = "gerencser-2023#010"
+fejezet = "f03"
+oldal = "15"
+tipus = "szabaly"
+tartalom = "Az ilyen mély ellenőrzés a tájékoztató, leíró jogi szövegnél észszerű; a törvényhozásban így nem alkalmazható, és a társadalmi egyeztetés nem azonos vele."
+referencia = "references/parancs-proba.md#mikor"
+
+[[tetel]]
+azonosito = "gerencser-2023#011"
+fejezet = "f04"
+oldal = "16–17"
+tipus = "hatter"
+tartalom = "A közérthető nyelvezetnek nincs egyetemes receptje: minden jogi szöveg más közönségnek szól; a kiindulópont mindig a célközönség ismerete."
+referencia = "references/szovegtipusok.md#hatarok"
+
+[[tetel]]
+azonosito = "gerencser-2023#012"
+fejezet = "f04"
+oldal = "17"
+tipus = "hatter"
+tartalom = "A Jat. 2. § (1) bekezdése és a Jszr. 2. §-a mondja ki a jogszabályok közérthetőségének követelményét."
+referencia = "references/jogi.md#jogalkotas"
+
+[[tetel]]
+azonosito = "gerencser-2023#013"
+fejezet = "f04"
+oldal = "17–18"
+tipus = "hatter"
+tartalom = "Az eljárási törvények nem írják elő, hogyan kell a döntést megfogalmazni; a közérthetőség normával nem kényszeríthető ki, a szövegező felelőssége."
+referencia = "references/jogi.md#jogalkotas"
+
+[[tetel]]
+azonosito = "gerencser-2023#014"
+fejezet = "f05"
+oldal = "18"
+tipus = "szabaly"
+tartalom = "Határozottan válaszd szét a jogi kötőerővel rendelkező szöveget a tájékoztatótól, és a tájékoztatót merd informatívabbá tenni."
+referencia = "references/szovegtipusok.md#kotott-szoveg"
+
+[[tetel]]
+azonosito = "gerencser-2023#015"
+fejezet = "f05"
+oldal = "18"
+tipus = "ajanlas"
+tartalom = "A szervezetek időről időre ellenőrizzék, közérthető szövegek kerülnek-e ki tőlük."
+szabalyok = ["K075"]

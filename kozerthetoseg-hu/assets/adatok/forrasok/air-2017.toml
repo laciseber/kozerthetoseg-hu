@@ -1,0 +1,35 @@
+azonosito = "air-2017"
+cim = "2017. évi CLI. törvény az adóigazgatási rendtartásról"
+rovid = "Air."
+kiado = "Országgyűlés"
+ev = "2017"
+url = "https://net.jogtar.hu/jogszabaly?docid=a1700151.tv"
+hivatkozas = "2017. évi CLI. törvény az adóigazgatási rendtartásról (Air.), hatályos szöveg."
+licenc = "Jogszabály; a szerzői jogról szóló törvény szerint nem áll szerzői jogi védelem alatt."
+kiadas = "Hatályos szöveg a Hatályos Jogszabályok Gyűjteményében, 2026. november 19-én megtekintve."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "szakasz (§)"
+prioritas = "A"
+feldolgozottsag = "reszleges"
+megjegyzes = "Csak a 6. § és a 7. §. A Kúria Kfv.I.35.067/2025/9. számú, a közérthetőségi alapelvet értelmező döntésének szövegét a v1.0.0 nem dolgozta fel."
+
+[[fejezet]]
+azonosito = "f01"
+cim = "Alapelvek: 6–7. §"
+oldal = "6–7. §"
+
+[[tetel]]
+azonosito = "air-2017#001"
+fejezet = "f01"
+oldal = "6. §"
+tipus = "szabaly"
+tartalom = "Az adóhatóság megadja az adózónak a jogszabályok megtartásához szükséges tájékoztatást, és figyelmezteti a jogai érvényesítésére."
+referencia = "references/jogi.md#air"
+
+[[tetel]]
+azonosito = "air-2017#002"
+fejezet = "f01"
+oldal = "7. §"
+tipus = "szabaly"
+tartalom = "A közérthetőség elve: az adóigazgatási eljárásban az adózókkal való kapcsolattartás nyelvezetének egyszerűnek és közérthetőnek kell lennie."
+referencia = "references/jogi.md#air"

@@ -1,0 +1,27 @@
+azonosito = "jat-2010"
+cim = "2010. évi CXXX. törvény a jogalkotásról"
+rovid = "Jat."
+kiado = "Országgyűlés"
+ev = "2010"
+url = "https://net.jogtar.hu/jogszabaly?docid=a1000130.tv"
+hivatkozas = "2010. évi CXXX. törvény a jogalkotásról (Jat.), hatályos szöveg."
+licenc = "Jogszabály; a szerzői jogról szóló törvény szerint nem áll szerzői jogi védelem alatt."
+kiadas = "Hatályos szöveg a Hatályos Jogszabályok Gyűjteményében, 2026. november 19-én megtekintve."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "szakasz (§) és bekezdés"
+prioritas = "A"
+feldolgozottsag = "reszleges"
+megjegyzes = "Csak a 2. § (1) bekezdése."
+
+[[fejezet]]
+azonosito = "f01"
+cim = "2. § (1)"
+oldal = "2. §"
+
+[[tetel]]
+azonosito = "jat-2010#001"
+fejezet = "f01"
+oldal = "2. § (1)"
+tipus = "szabaly"
+tartalom = "A jogszabálynak a címzettek számára egyértelműen értelmezhető szabályozási tartalommal kell rendelkeznie."
+referencia = "references/jogi.md#jogalkotas"

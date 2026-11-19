@@ -1,0 +1,35 @@
+azonosito = "eub-c-26-13-2014"
+cim = "Kásler és Káslerné Rábai ítélet (C-26/13)"
+rovid = "EUB C-26/13"
+kiado = "Az Európai Unió Bírósága"
+ev = "2014"
+url = "https://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:62013CJ0026"
+hivatkozas = "Az Európai Unió Bírósága (negyedik tanács) 2014. április 30-i ítélete, C-26/13. sz. ügy, Kásler és Káslerné Rábai, ECLI:EU:C:2014:282."
+licenc = "Bírósági határozat; az EUR-Lex szövege a forrás megnevezésével szabadon felhasználható."
+kiadas = "Magyar nyelvű ítélet az EUR-Lexen, 2026. november 19-én megtekintve."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "az ítélet pontjai"
+prioritas = "B"
+feldolgozottsag = "reszleges"
+megjegyzes = "Csak a „világos és érthető” követelményt értelmező 71–75. pont és a rendelkező rész 2. pontja."
+
+[[fejezet]]
+azonosito = "f01"
+cim = "A második kérdésről (71–75. pont) és a rendelkező rész"
+oldal = "71–75. pont"
+
+[[tetel]]
+azonosito = "eub-c-26-13-2014#001"
+fejezet = "f01"
+oldal = "71–72. pont"
+tipus = "szabaly"
+tartalom = "A szerződési feltételek átláthatóságának követelménye nem szűkíthető a feltétel alaki és nyelvtani érthetőségére; kiterjesztően kell érteni, mert a fogyasztó információs hátrányban van."
+szabalyok = ["K081"]
+
+[[tetel]]
+azonosito = "eub-c-26-13-2014#002"
+fejezet = "f01"
+oldal = "74–75. pont és rendelkező rész 2."
+tipus = "szabaly"
+tartalom = "A világos és érthető feltétel azt is jelenti, hogy a szerződés átláthatóan bemutatja a mechanizmus működését, és a fogyasztó egyértelmű szempontok alapján értékelni tudja a számára ebből eredő gazdasági következményeket."
+szabalyok = ["K081"]

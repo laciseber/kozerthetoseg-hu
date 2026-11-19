@@ -1,0 +1,43 @@
+azonosito = "ptk-2013"
+cim = "2013. évi V. törvény a Polgári Törvénykönyvről"
+rovid = "Ptk."
+kiado = "Országgyűlés"
+ev = "2013"
+url = "https://net.jogtar.hu/jogszabaly?docid=a1300005.tv"
+hivatkozas = "2013. évi V. törvény a Polgári Törvénykönyvről (Ptk.), hatályos szöveg."
+licenc = "Jogszabály; a szerzői jogról szóló törvény szerint nem áll szerzői jogi védelem alatt."
+kiadas = "Hatályos szöveg a Hatályos Jogszabályok Gyűjteményében, 2026. november 19-én megtekintve."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "szakasz (§) és bekezdés"
+prioritas = "A"
+feldolgozottsag = "reszleges"
+megjegyzes = "Csak a 6:102. és a 6:103. §. A kapcsolódó hazai bírói gyakorlatot (például IH 2014.65) a v1.0.0 nem dolgozta fel; a két próba értelmezése az Európai Bíróság C-26/13. számú ítéletén alapul."
+
+[[fejezet]]
+azonosito = "f01"
+cim = "Tisztességtelen általános szerződési feltétel: 6:102–6:103. §"
+oldal = "6:102–6:103. §"
+
+[[tetel]]
+azonosito = "ptk-2013#001"
+fejezet = "f01"
+oldal = "6:102. § (3)"
+tipus = "szabaly"
+tartalom = "A tisztességtelen ÁSZF-re vonatkozó szabályok nem alkalmazhatók a főszolgáltatást vagy a szolgáltatás és ellenszolgáltatás arányát meghatározó feltételre, ha az világos és érthető."
+szabalyok = ["K081"]
+
+[[tetel]]
+azonosito = "ptk-2013#002"
+fejezet = "f01"
+oldal = "6:102. § (4)"
+tipus = "szabaly"
+tartalom = "Nem tisztességtelen az a feltétel, amelyet jogszabály állapít meg, vagy jogszabály előírásának megfelelően határoznak meg."
+referencia = "references/jogi.md#aszf"
+
+[[tetel]]
+azonosito = "ptk-2013#003"
+fejezet = "f01"
+oldal = "6:103. § (1)–(2)"
+tipus = "szabaly"
+tartalom = "Fogyasztói szerződésben a szabályok az egyedileg meg nem tárgyalt feltételre is vonatkoznak, és a feltétel tisztességtelenségét önmagában az is megalapozza, ha nem egyértelmű."
+szabalyok = ["K081"]
