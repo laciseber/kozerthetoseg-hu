@@ -1,0 +1,204 @@
+{
+  "skill_name": "kozerthetoseg-hu",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "ugyvedi szolgaltatasleiras audit",
+      "parancs": "audit",
+      "prompt": "Nézd át, mennyire közérthető ez a szolgáltatásleírás egy ügyvédi iroda honlapjáról. Az olvasó egy kisvállalkozó, aki céget akar alapítani vagy eladni, és nem jogász.",
+      "expected_output": "Audit jelentés a jelentéssablon szerint, átírt teljes szöveg nélkül.",
+      "files": [
+        "evals/szovegek/01-ugyvedi-szolgaltatas.md"
+      ],
+      "expectations": [
+        "A kimenet jelentés, és nem tartalmazza a teljes szöveg átírt változatát.",
+        "Jelzi a 20 szónál jóval hosszabb mondatokat, és a K020 vagy K023 szabályra hivatkozik.",
+        "Jelzi a harmadik személyű „az Ügyfél” megnevezést, és megszólítást javasol (K048), alapértelmezésként magázással.",
+        "Jelzi az angol „due diligence” szakszót, és magyarázatot vagy ismertebb kifejezést javasol (K030 vagy K032).",
+        "Jelzi a „kialakítására kerül sor” vagy hasonló szerkezetet (K043 vagy K045).",
+        "Minden megállapításnál szerepel a hely, a szabályazonosító, a probléma az olvasó szempontjából, a javasolt átírás és a prioritás.",
+        "Lefuttatja vagy idézi a meres.py eredményét, és jelzésként, nem ítéletként kezeli."
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "adatkezelesi tajekoztato atiras",
+      "parancs": "atiras",
+      "prompt": "Írd át közérthetőre ezt az adatkezelési tájékoztató részletet egy webshop vásárlóinak.",
+      "expected_output": "Átírt szöveg, változtatások, hűségtáblázat, mérés, jogi zárómondat.",
+      "files": [
+        "evals/szovegek/02-adatkezelesi-reszlet.md"
+      ],
+      "expectations": [
+        "Felismeri az egymásba ágyazott zárójeleket (zárójelmélység legalább 3), és az átírásban feloldja őket (K024).",
+        "Betölti a jogi modult, és jelzi, hogy a „szolgáltatások fejlesztése” és az „egyéb célok” túl általános célmegjelölés (K079), a „felhasználhatja” ható ige pedig határozatlan (K080).",
+        "Az átírt szövegből nem marad ki az 5 éves megőrzési idő, a jogszabályi kivétel, a hozzájárulás mint jogalap és a GDPR-hivatkozások.",
+        "Hűségtáblázatot ad, amelyben az 5 év, a jogalapok és a kivétel külön sorban szerepel.",
+        "Nem talál ki új adatkezelési célt; ha a konkrét cél hiányzik, helyőrzővel jelzi.",
+        "A kimenet végén szerepel: a skill nem ad jogi tanácsot, a jogi tartalom változatlanságáért a szakember felel."
+      ]
+    },
+    {
+      "id": 3,
+      "eval_name": "hatosagi level hatarido",
+      "parancs": "atiras",
+      "prompt": "Írd át ezt a hiánypótlási felhívást úgy, hogy egy építtető magánszemély elsőre megértse.",
+      "expected_output": "Átírt levél a teendővel elöl, hűségtáblázat a határidővel.",
+      "files": [
+        "evals/szovegek/03-hatosagi-level.md"
+      ],
+      "expectations": [
+        "A teendő (a tervezői nyilatkozat benyújtása) és a határidő az átírt levél elején áll.",
+        "A határidő pontosan megvan: a felhívás kézhezvételétől számított 15 napon belül.",
+        "A jogkövetkezmény (az eljárás megszüntetése) és a beküldés két módja (elektronikus felület, posta) megvan.",
+        "A „-ásra kerül” szerkezeteket cselekvő igére írja át (K043), és a jogszabályhelyet a mondat végére vagy külön blokkba teszi (K012).",
+        "A „Kérjük tájékoztatásunk szíves tudomásulvételét” formulát elhagyja (K050).",
+        "A hűségtáblázatban a határidő, a jogkövetkezmény, a jogszabályhely és a benyújtott kérelem dátuma (2026. március 2.) külön sorban szerepel, és egyik sem változott meg."
+      ]
+    },
+    {
+      "id": 4,
+      "eval_name": "aszf egyoldalu modositas",
+      "parancs": "audit",
+      "prompt": "Vizsgáld meg ezt az ÁSZF-kikötést közérthetőség szempontjából. A szerződő fél fogyasztó.",
+      "expected_output": "Audit jelentés, a világos és az érthető próba külön.",
+      "files": [
+        "evals/szovegek/04-aszf-modositas.md"
+      ],
+      "expectations": [
+        "Betölti a jogi modult, és a K081 szabályt alkalmazza.",
+        "A „világos” (nyelvi érthetőség) és az „érthető” (a fogyasztó előre látja a következményeket) próba eredményét külön adja meg.",
+        "Az érthetőségi próbánál jelzi, hogy nem derül ki, mikor, mennyivel és milyen szempont szerint változhat a díj, és mit tehet a fogyasztó, ha nem fogadja el.",
+        "Nem mondja ki, hogy a kikötés tisztességtelen; ezt jogászi mérlegelésnek nevezi.",
+        "A kimenet végén szerepel: a skill nem ad jogi tanácsot, a jogi tartalom változatlanságáért a szakember felel."
+      ]
+    },
+    {
+      "id": 5,
+      "eval_name": "jogszabaly nem irhato at",
+      "parancs": "atiras",
+      "prompt": "Írd át ezt közérthetőbbre, hogy az ügyfeleink is megértsék.",
+      "expected_output": "Jelzés, hogy jogszabályszöveg, átírás nélkül; esetleg külön magyarázat javaslata.",
+      "files": [
+        "evals/szovegek/05-jogszabaly-reszlet.md"
+      ],
+      "expectations": [
+        "Felismeri, hogy a szöveg jogszabály normaszövege (előíró normaszöveg, kötelező szöveg).",
+        "Nem írja át a jogszabály szövegét, és kimondja, hogy a szövegnek a forrásával kell egyeznie.",
+        "Felajánlja vagy elkészíti a jogszabály mellé szánt, külön közérthető magyarázatot, egyértelműen elválasztva a normaszövegtől.",
+        "A kimenet végén szerepel a jogi zárómondat."
+      ]
+    },
+    {
+      "id": 6,
+      "eval_name": "kamarai egyseges formula",
+      "parancs": "atiras",
+      "prompt": "Írd át közérthetőbbre ezt a szöveget az ügyvédi iroda honlapjáról. A szöveg a területi kamara által jóváhagyott egységes tájékoztató.",
+      "expected_output": "Jelzés, hogy kötelező szöveg, átírás nélkül.",
+      "files": [
+        "evals/szovegek/06-kamarai-formula.md"
+      ],
+      "expectations": [
+        "Kötelező szövegként kezeli, és nem írja át.",
+        "Kimondja, hogy a szövegnek a kamara által jóváhagyott változattal kell egyeznie, és ezt a hívónak kell ellenőriznie.",
+        "Legfeljebb azt javasolja, hogy a kötelező szöveg mellé vagy köré kerüljön külön, közérthető tájékoztatás.",
+        "A kimenet végén szerepel a jogi zárómondat."
+      ]
+    },
+    {
+      "id": 7,
+      "eval_name": "kek hatar",
+      "parancs": "audit",
+      "prompt": "Nézd át ezt a tájékoztatót. Egy lakóotthon értelmi fogyatékossággal élő lakóinak szól.",
+      "expected_output": "Jelzés, hogy KÉK-szöveg kell; közérthetőségi megállapítások mellett a KÉK-határ kimondása.",
+      "files": [
+        "evals/szovegek/07-kek-tajekoztato.md"
+      ],
+      "expectations": [
+        "Kimondja, hogy az olvasóknak könnyen érthető kommunikáció (KÉK) kell, és ez más szabályrendszer, mint a közérthető szöveg.",
+        "Nem állítja, hogy egy közérthetőre átírt változat KÉK-szöveg volna.",
+        "Megmondja, hogy a KÉK-szöveg készítésébe és ellenőrzésébe érintett olvasókat kell bevonni, és az Inclusion Europe alapelveire vagy KÉK-szakemberre irányít."
+      ]
+    },
+    {
+      "id": 8,
+      "eval_name": "mar kozertheto szoveg",
+      "parancs": "audit",
+      "prompt": "Nézd át ezt a levelet közérthetőség szempontjából. Lakossági ügyfélnek megy.",
+      "expected_output": "Rövid jelentés: a levél közérthető, érdemi hiba nincs.",
+      "files": [
+        "evals/szovegek/08-kozertheto-level.md"
+      ],
+      "expectations": [
+        "Kimondja, hogy a levél közérthető (a fő üzenet elöl, a teendő egyértelmű, rövid mondatok).",
+        "Nem jelöl magas vagy közepes prioritású hibát.",
+        "Ha ad javaslatot, az alacsony prioritású, és jelzi, hogy nem kötelező."
+      ]
+    },
+    {
+      "id": 9,
+      "eval_name": "angol szoveg",
+      "parancs": "audit",
+      "prompt": "Nézd át, mennyire közérthető ez a szöveg.",
+      "expected_output": "Jelzés, hogy a szöveg nem magyar, értékelés nélkül.",
+      "files": [
+        "evals/szovegek/09-angol.md"
+      ],
+      "expectations": [
+        "Jelzi, hogy a szöveg angol, és a skill magyar szövegre készült.",
+        "Nem ad közérthetőségi jelentést a magyar szabálykatalógus szerint."
+      ]
+    },
+    {
+      "id": 10,
+      "eval_name": "forras felvetel mintaforras",
+      "parancs": "forras-felvetel, ellenorzes",
+      "prompt": "Vedd fel a skill forrásai közé ezt a rövid mintaforrást a forras-felvetel paranccsal. Kiadó: Mintaváros Önkormányzata, 2026, prioritás A.",
+      "expected_output": "Új forrásfájl, a tételek meglévő szabályokba összevonva, eltérésbejegyzés a mondathossznál, frissített generált referenciák, zöld ellenőrzés.",
+      "files": [
+        "evals/szovegek/10-mintaforras.md"
+      ],
+      "expectations": [
+        "Létrejön az assets/adatok/forrasok/ alatt a mintaforrás TOML-fájlja a scripts/uj_forras.py-jal, KITÖLTENDŐ mező nélkül.",
+        "A három szabály a leltárba kerül oldalszámmal és saját szavakkal, és meglévő szabályokba olvad (K002, K020, K036).",
+        "A 18 szavas felső határ miatt a K020 szabályba eltérésbejegyzés kerül, amely megmondja, mit követ a skill.",
+        "A scripts/generalas.py lefut, és a references/forrasok.md, szabalyok.md és lefedettseg.md frissül.",
+        "A scripts/ellenorzes.py hiba nélkül fut (0-s kilépési kód).",
+        "Javasolja a minor verzióemelést és a CHANGELOG-bejegyzést."
+      ]
+    },
+    {
+      "id": 11,
+      "eval_name": "meres hatosagi level",
+      "parancs": "meres",
+      "prompt": "Mérd meg ezt a levelet a mérőszkripttel, és mondd meg, mire figyeljek.",
+      "expected_output": "A meres.py kimenete és rövid értelmezés.",
+      "files": [
+        "evals/szovegek/03-hatosagi-level.md"
+      ],
+      "expectations": [
+        "Lefuttatja a scripts/meres.py-t, és a kimenet azzal kezdődik, hogy a mérőszám jelzés, nem ítélet.",
+        "Megadja a 20 szó feletti mondatok számát és a „-ásra/-ésre kerül” szerkezeteket.",
+        "Az értelmezés legfeljebb öt mondat, és a mutatókat szabályazonosítókhoz köti.",
+        "Kimondja, mit nem tud mérni a szkript (például a kettős jelentést)."
+      ]
+    },
+    {
+      "id": 12,
+      "eval_name": "proba adatkezelesi tajekoztato",
+      "parancs": "proba",
+      "prompt": "Írj próbatervet ehhez az adatkezelési tájékoztatóhoz, hogy kipróbáljuk a webshop vásárlóival.",
+      "expected_output": "Próbaterv 6–9 résztvevővel, visszamondással, konkrét kérdésekkel.",
+      "files": [
+        "evals/szovegek/02-adatkezelesi-reszlet.md"
+      ],
+      "expectations": [
+        "A résztvevők száma 6–9, a valódi címzetti körből, a szerzőt és a jogászt kizárva.",
+        "A résztvevők megállási pontokig olvasnak, és saját szavaikkal mondják el, mit értettek.",
+        "Szerepel a három általános kérdés (mit tenne, mit akart elérni az író, mi okozhat gondot egy ismerősének).",
+        "Van konkrét kérdés a megőrzési időre (5 év) és arra, mire használják az adatokat.",
+        "Megadja az átírási küszöböt, és kimondja, hogy a próba nem pótolja a jogi ellenőrzést."
+      ]
+    }
+  ]
+}
