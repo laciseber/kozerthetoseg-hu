@@ -1,0 +1,14 @@
+# Helyi munkafájlok: nem kerülnek a repóba
+kozerthetoseg-forrasterkep.md
+kozerthetoseg-skill-prompt.md
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Rendszerfájlok
+.DS_Store

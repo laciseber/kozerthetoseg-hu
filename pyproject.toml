@@ -1,0 +1,4 @@
+# Csak a fejlesztői eszközök beállításai; a skill futtatásához nem kell telepíteni semmit.
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
