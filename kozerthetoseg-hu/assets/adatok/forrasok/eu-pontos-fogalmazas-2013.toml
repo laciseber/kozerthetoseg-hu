@@ -1,0 +1,506 @@
+azonosito = "eu-pontos-fogalmazas-2013"
+cim = "A pontos fogalmazás művészete"
+rovid = "Európai Bizottság 2013"
+szerzo = "Európai Bizottság, Fordítási Főigazgatóság"
+kiado = "Az Európai Unió Kiadóhivatala"
+ev = "2013"
+doi = "10.2782/56340"
+isbn = "978-92-79-23860-4"
+hivatkozas = "Európai Bizottság, Fordítási Főigazgatóság: A pontos fogalmazás művészete. Az Európai Unió Kiadóhivatala, Luxembourg, 2013. ISBN 978-92-79-23860-4, doi:10.2782/56340."
+licenc = "© Európai Unió, 2013. A kiadvány szerint a sokszorosítás a forrás megnevezésével engedélyezett. A leltár ennek ellenére saját szavakkal foglal össze."
+kiadas = "2013-as nyomtatott kiadás PDF-je, 16 oldal. A Bizottság angol „How to write clearly” útmutatójának magyar átdolgozása; a WP260 iránymutatás 2011-es kiadásra hivatkozik."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "nyomtatott oldalszám (megegyezik a PDF-oldallal)"
+prioritas = "A"
+feldolgozottsag = "teljes"
+megjegyzes = "A Bizottság angol nyelvű „How to write clearly” útmutatójának magyar kiadása; más magyar címmel („Hogyan írjunk érthetően?”) is hivatkoznak rá."
+
+[[fejezet]]
+azonosito = "f01"
+cim = "Bevezető és tartalom"
+oldal = "2"
+
+[[fejezet]]
+azonosito = "f02"
+cim = "1. tipp: Írás előtt tervezzük meg mondandónkat!"
+oldal = "3"
+
+[[fejezet]]
+azonosito = "f03"
+cim = "2. tipp: Helyezzük az olvasót a középpontba!"
+oldal = "4"
+
+[[fejezet]]
+azonosito = "f04"
+cim = "3. tipp: Adjunk a formára!"
+oldal = "5"
+
+[[fejezet]]
+azonosito = "f05"
+cim = "4. tipp: Fogalmazzunk röviden és tömören!"
+oldal = "6"
+
+[[fejezet]]
+azonosito = "f06"
+cim = "5. tipp: Fogalmazzunk érthetően – ügyeljünk a mondatok felépítésére!"
+oldal = "7"
+
+[[fejezet]]
+azonosito = "f07"
+cim = "6. tipp: Kerüljük a túlzott főnevesítést"
+oldal = "8"
+
+[[fejezet]]
+azonosito = "f08"
+cim = "7. tipp: Kerüljük az elvont fogalmazást, legyünk konkrétak!"
+oldal = "9"
+
+[[fejezet]]
+azonosito = "f09"
+cim = "8. tipp: Kerüljük a terpeszkedő szerkezeteket, és vigyázzunk a személytelen szerkezetekkel!"
+oldal = "10"
+
+[[fejezet]]
+azonosito = "f10"
+cim = "9. tipp: Hamis barátok, szakzsargon, rövidítések és betűszavak"
+oldal = "11–13"
+
+[[fejezet]]
+azonosito = "f11"
+cim = "10. tipp: Ellenőrizzük és lektoráltassuk a szöveget!"
+oldal = "14"
+
+[[fejezet]]
+azonosito = "f12"
+cim = "Online uniós szerkesztési segédanyagok"
+oldal = "15"
+
+[[fejezet]]
+azonosito = "f13"
+cim = "Felhasznált irodalom"
+oldal = "16"
+tetel_nelkul = "Irodalomjegyzék; szabályt nem tartalmaz."
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#001"
+fejezet = "f01"
+oldal = "2"
+tipus = "hatter"
+tartalom = "A pontos fogalmazás haszna: hatékonyabb együttműködés, kevesebb felesleges levélváltás, a célközönség jóindulata."
+kihagyva = "Motiváció, szabályt nem ad."
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#002"
+fejezet = "f01"
+oldal = "2"
+tipus = "hatter"
+tartalom = "Az útmutató tippeket ad, nem szabályokat; ezeket a dokumentum mondanivalója és olvasóközönsége szerint érdemes alkalmazni."
+kihagyva = "A forrás jellegére vonatkozó megjegyzés; a skill minden szabálynál kivételeket ad, a mérőszámot jelzésnek tekinti."
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#003"
+fejezet = "f02"
+oldal = "3"
+tipus = "ajanlas"
+tartalom = "Tisztázd, ki olvassa a dokumentumot (bennfentesek, külső szakértők vagy a nagyközönség)."
+szabalyok = ["K001"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#004"
+fejezet = "f02"
+oldal = "3"
+tipus = "ajanlas"
+tartalom = "Tisztázd, mi a dokumentum célja, és mit tegyen az olvasó, miután elolvasta (döntsön, kezeljen egy helyzetet, oldjon meg egy problémát, változtasson a véleményén)."
+szabalyok = ["K001"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#005"
+fejezet = "f02"
+oldal = "3"
+tipus = "ellenorzolista"
+tartalom = "Döntsd el az üzenet lényegét; írd össze a pontokat sorrendtől függetlenül (lista, szófelhő); húzd ki a feleslegeset; a többit csoportosítsd logikusan; pótold a hiányzó ismeretet."
+szabalyok = ["K074"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#006"
+fejezet = "f02"
+oldal = "3"
+tipus = "hatter"
+tartalom = "Jogszabályra és hasonló hivatalos dokumentumra külön szövegezési szabályok vonatkoznak."
+referencia = "references/szovegtipusok.md#kotott-szoveg"
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#007"
+fejezet = "f02"
+oldal = "3"
+tipus = "ellenorzolista"
+tartalom = "A hét kérdés: mi, ki, mikor, hol, hogyan, miért, mennyi; ezzel nem marad ki lényeges információ."
+szabalyok = ["K004"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#008"
+fejezet = "f03"
+oldal = "4"
+tipus = "ajanlas"
+tartalom = "Gondold végig, kinek írsz valójában, mit tud már, és mihez kell magyarázat; gondold végig a témát az ő szemszögéből."
+szabalyok = ["K001"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#009"
+fejezet = "f03"
+oldal = "4"
+tipus = "szabaly"
+tartalom = "Szólítsd meg közvetlenül az olvasót."
+szabalyok = ["K048"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#010"
+fejezet = "f03"
+oldal = "4"
+tipus = "ajanlas"
+tartalom = "Képzeld el az olvasó kérdéseit, és válaszolj rájuk; a kérdések alcímként is állhatnak."
+szabalyok = ["K007", "K010"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#011"
+fejezet = "f03"
+oldal = "4"
+tipus = "szabaly"
+tartalom = "Ne terheld túl az olvasót felesleges információval; kerüld az intézmény eljárásaira és formaságaira utaló megjegyzéseket, és ha mégis szükségesek, röviden indokold őket."
+szabalyok = ["K005"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#012"
+fejezet = "f04"
+oldal = "5"
+tipus = "ajanlas"
+tartalom = "Ha a vázlatban van összefoglaló, azt írd meg először, és tedd a szöveg elejére; lehet, hogy már ennyi is elég."
+szabalyok = ["K017"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#013"
+fejezet = "f04"
+oldal = "5"
+tipus = "ajanlas"
+tartalom = "Ügyelj a szövegkohéziós elemekre; használj informatív címeket és kulcsszavakat (példa: a pontosabb, informatívabb cím)."
+szabalyok = ["K016"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#014"
+fejezet = "f04"
+oldal = "5"
+tipus = "ajanlas"
+tartalom = "Mérlegeld, hogy ikon, ábra vagy táblázat nem jobb-e a szövegnél, és kell-e szószedet vagy meghatározás."
+szabalyok = ["K064", "K030"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#015"
+fejezet = "f04"
+oldal = "5"
+tipus = "ajanlas"
+tartalom = "A bevezető után a következtetést olvassák a legtöbben; legyen világos, tömör és lényegre törő."
+szabalyok = ["K017"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#016"
+fejezet = "f04"
+oldal = "5"
+tipus = "ajanlas"
+tartalom = "Hosszabb dokumentumhoz jól átlátható tartalomjegyzék kell."
+szabalyok = ["K017"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#017"
+fejezet = "f04"
+oldal = "5"
+tipus = "szabaly"
+tartalom = "Rövidíts szigorúan: minden szakaszra és szóra szükség van-e? Példa: egy határidő megjelölése három, egyre rövidebb változatban."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#018"
+fejezet = "f04"
+oldal = "5"
+tipus = "tilalom"
+tartalom = "Korábbi sablont ne használj átdolgozás nélkül; más szövegekből átvett részeknél ügyelj a következetes terminológiára, kerüld az ismétlést és a kihagyást."
+szabalyok = ["K078"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#019"
+fejezet = "f05"
+oldal = "6"
+tipus = "hatter"
+tartalom = "Az írás értéke nem a hosszán múlik; az olvasó inkább neheztel a szükségesnél hosszabb szövegre."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#020"
+fejezet = "f05"
+oldal = "6"
+tipus = "szabaly"
+tartalom = "Ne jelentsd ki az egyértelműt; kerüld a töltelékkifejezéseket, a tautológiát és a szinonimahalmozást."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#021"
+fejezet = "f05"
+oldal = "6"
+tipus = "szabaly"
+tartalom = "Kerüld az önismétlést: a hosszú nevet elég egyszer kiírni, utána rövidebben hivatkozni rá; a fogalmat ne önmagával határozd meg."
+szabalyok = ["K033", "K035", "K040"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#022"
+fejezet = "f05"
+oldal = "6"
+tipus = "szabaly"
+tartalom = "Iránymutatás: egy dokumentum legfeljebb 15 oldal, egy mondat átlagosan 15–20 szó; inkább több, de rövidebb mondat."
+szabalyok = ["K020"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#023"
+fejezet = "f05"
+oldal = "6"
+tipus = "szabaly"
+tartalom = "A hosszú mondat bontásakor tartsd meg a kötőszavakat a logikai összefüggéshez; az azonos értelmű kötőszavak halmozását kerüld."
+szabalyok = ["K027"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#024"
+fejezet = "f05"
+oldal = "6"
+tipus = "pelda"
+tartalom = "Kilenc körülményes kifejezés és egyszerűbb megfelelője (ok, mennyiség, cél, feltétel, vonatkozás)."
+szabalyok = ["K036"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#025"
+fejezet = "f05"
+oldal = "6"
+tipus = "hatter"
+tartalom = "Az egyszerű fogalmazás nem vet rossz fényt a szerzőre, a szöveg hitelesebbnek hat."
+szabalyok = ["K036"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#026"
+fejezet = "f06"
+oldal = "7"
+tipus = "szabaly"
+tartalom = "Ha ugyanaz a szó több dologra vonatkozik, félrevezeti az olvasót; példa egy kérelemmel és egy határidő-módosítási kérelemmel."
+szabalyok = ["K034"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#027"
+fejezet = "f06"
+oldal = "7"
+tipus = "szabaly"
+tartalom = "Kerüld a stílusból végzett szinonimacserét; példa, ahol a kérelem és a folyamodvány váltakozik."
+szabalyok = ["K033"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#028"
+fejezet = "f06"
+oldal = "7"
+tipus = "szabaly"
+tartalom = "Tagadó szerkezet helyett inkább állítást használj; tagadó és átírt állító példapár."
+szabalyok = ["K026"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#029"
+fejezet = "f06"
+oldal = "7"
+tipus = "pelda"
+tartalom = "A szórend jelentésmódosító hatása: ugyanaz a mondat kétféle szórendben két különböző dolgot jelent."
+szabalyok = ["K025"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#030"
+fejezet = "f06"
+oldal = "7"
+tipus = "szabaly"
+tartalom = "A magyarban a hangsúlyos információ az állítmány elé kerül; az igekötő helye hangsúlyt és jelentést is változtathat."
+szabalyok = ["K025"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#031"
+fejezet = "f06"
+oldal = "7"
+tipus = "tilalom"
+tartalom = "Kerüld az idegen hatást tükröző kiemelő mondatszerkezetet; a magyarnak saját eszközei vannak a kiemelésre."
+szabalyok = ["K028"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#032"
+fejezet = "f07"
+oldal = "8"
+tipus = "szabaly"
+tartalom = "A főnévi szerkezet helyett használj igét; az -ás/-és képzős főnevek gyakran álcázott igék."
+szabalyok = ["K042"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#033"
+fejezet = "f07"
+oldal = "8"
+tipus = "pelda"
+tartalom = "Főnévi szerkezetek és igei megfelelőjük (értékel, megvizsgál, ellenőriz, felülvizsgál, kiértékel, megújít)."
+szabalyok = ["K042", "K045"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#034"
+fejezet = "f07"
+oldal = "8"
+tipus = "szabaly"
+tartalom = "A tárgynak álcázott igét néha felesleges igekötő is bonyolítja."
+szabalyok = ["K037"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#035"
+fejezet = "f08"
+oldal = "9"
+tipus = "szabaly"
+tartalom = "A konkrét kifejezést használd a hasonló jelentésű, elvontabb helyett, hacsak nincs jó okod rá."
+szabalyok = ["K041"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#036"
+fejezet = "f08"
+oldal = "9"
+tipus = "pelda"
+tartalom = "Elvont kifejezések és konkrét megfelelőjük (a pontos jelentés kiválasztása oldja meg a problémát)."
+szabalyok = ["K041"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#037"
+fejezet = "f08"
+oldal = "9"
+tipus = "tilalom"
+tartalom = "Kerüld az elkoptatott, kiüresedő igéket („csinál” helyett a pontosabb ige) és a semmitmondó divatszavakat."
+szabalyok = ["K041"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#038"
+fejezet = "f08"
+oldal = "9"
+tipus = "ajanlas"
+tartalom = "A szövegszerkesztő szinonimalistája segíthet a pontos szó megtalálásában."
+kihagyva = "Eszköztipp a szövegszerkesztőhöz; a skill nem szövegszerkesztőben dolgozik."
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#039"
+fejezet = "f09"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "Kerüld a terpeszkedő szerkezetet és a szószaporítást; két példapár, az egyik „-ásra kerül” szerkezettel."
+szabalyok = ["K045", "K043"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#040"
+fejezet = "f09"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "Ne halmozd indokolatlanul a névutós kifejezéseket (során, keretében, tekintetében, terén)."
+szabalyok = ["K038"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#041"
+fejezet = "f09"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "Kerüld a felesleges igekötőt."
+szabalyok = ["K037"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#042"
+fejezet = "f09"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "A cselekvőt homályban hagyó személytelen szerkezet helyett használj általános alanyt, de csak ha a cselekvő ismeretlen, és ügyelj, hogy az előző mondat alanya ne keveredjen bele; ha lehet, pontosítsd, ki mit csinál."
+szabalyok = ["K044"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#043"
+fejezet = "f09"
+oldal = "10"
+tipus = "hatter"
+tartalom = "A cselekvő ismerete a fordítás miatt is fontos: a pontatlan eredetit minden fordító másképp értelmezi."
+szabalyok = ["K044"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#044"
+fejezet = "f10"
+oldal = "11"
+tipus = "szabaly"
+tartalom = "Vigyázz a hamis barátokra: az idegen szóhoz hasonló magyar szó mást jelenthet; táblázat tíz szóval, a téves és a helyes jelentéssel."
+szabalyok = ["K032"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#045"
+fejezet = "f10"
+oldal = "12"
+tipus = "szabaly"
+tartalom = "A szakzsargon elfogadható, ha csak a szakmabeliek olvassák; a nagyközönségnek szóló szövegben kerüld, vagy első előfordulásnál magyarázd, adj szószedetet vagy linket."
+szabalyok = ["K030"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#046"
+fejezet = "f10"
+oldal = "12"
+tipus = "pelda"
+tartalom = "Uniós szakzsargon kifejezései és javasolt meghatározásuk."
+szabalyok = ["K030"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#047"
+fejezet = "f10"
+oldal = "13"
+tipus = "szabaly"
+tartalom = "Az ismeretlen rövidítést egy-két előfordulásnál írd ki; első előfordulásnál teljes alakban, zárójelben a rövidítéssel; csatolj rövidítéslistát."
+szabalyok = ["K040"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#048"
+fejezet = "f10"
+oldal = "13"
+tipus = "szabaly"
+tartalom = "Az ismert rövidítés kiírása is zavarhat; ugyanaz a rövidítés más szövegkörnyezetben mást jelenthet."
+szabalyok = ["K040"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#049"
+fejezet = "f11"
+oldal = "14"
+tipus = "ajanlas"
+tartalom = "Használj helyesírás-ellenőrzőt, de nem szűr ki minden hibát."
+szabalyok = ["K056"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#050"
+fejezet = "f11"
+oldal = "14"
+tipus = "ajanlas"
+tartalom = "Olvasd el újra kritikus szemmel, az olvasó nézőpontjából: világos-e a kapcsolat a mondatok és bekezdések között, logikus-e az érvelés."
+szabalyok = ["K075"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#051"
+fejezet = "f11"
+oldal = "14"
+tipus = "ajanlas"
+tartalom = "Kérd ki olyan munkatárs véleményét, akivel még nem egyeztettél; kövesd a tömörebbé és érthetőbbé tevő javaslatokat."
+szabalyok = ["K076"]
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#052"
+fejezet = "f11"
+oldal = "14"
+tipus = "hatter"
+tartalom = "A Bizottság belső szövegszerkesztési szolgáltatásai."
+kihagyva = "Intézményi szolgáltatás, szabályt nem ad."
+
+[[tetel]]
+azonosito = "eu-pontos-fogalmazas-2013#053"
+fejezet = "f12"
+oldal = "15"
+tipus = "hatter"
+tartalom = "További segédanyagok: Intézményközi kiadványszerkesztési útmutató, a jogszabályszerkesztés közös gyakorlati útmutatója, webes útmutató."
+kihagyva = "További források; az Intézményközi kiadványszerkesztési útmutató és a Közös gyakorlati útmutató külön forrásként vehető fel."

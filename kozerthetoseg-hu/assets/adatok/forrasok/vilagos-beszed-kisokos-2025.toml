@@ -1,0 +1,468 @@
+azonosito = "vilagos-beszed-kisokos-2025"
+cim = "Hogyan írjunk közérthetően? Kisokos"
+rovid = "Világos Beszéd 2025"
+szerzo = "Világos Beszéd (a kézikönyv szerzője); kiadja a Budapest Főváros Főpolgármesteri Hivatal Koordinációs Főosztálya"
+kiado = "Budapest Főváros Főpolgármesteri Hivatal"
+ev = "2025"
+url = "https://budapest.hu/api/file/doc/hogyan-irjunk-kozerthetoen-kisokos.pdf"
+hivatkozas = "Hogyan írjunk közérthetően? Készült a fővárosi közösségi költségvetési program „Legyenek közérthetőek a hivatali levelek, dokumentumok” projektje keretében, a Világos Beszéd által megírt kézikönyv alapján. Budapest Főváros Főpolgármesteri Hivatal, Budapest, 2025."
+licenc = "Ingyenesen letölthető; licenc vagy felhasználási feltétel nincs feltüntetve. A leltár saját szavakkal foglal össze, szövegrészt nem vesz át."
+kiadas = "2025-ös kiadás, 16 PDF-oldal (15 számozott oldal)."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "nyomtatott oldalszám (a PDF 2. oldala az 1. oldal)"
+prioritas = "A"
+feldolgozottsag = "teljes"
+megjegyzes = "A kisokos a 4. oldalon a 14. oldalra utal ellenőrző listáért, de a 14. oldalon a kiadói adatok állnak; az ellenőrző lista a bővített kézikönyvben van."
+
+[[fejezet]]
+azonosito = "f01"
+cim = "Előszó"
+oldal = "1"
+
+[[fejezet]]
+azonosito = "f02"
+cim = "Miről szól ez a tájékoztató?"
+oldal = "2–3"
+
+[[fejezet]]
+azonosito = "f03"
+cim = "Közérthető levelek, tájékoztatók: a fogalmazás folyamata"
+oldal = "4"
+
+[[fejezet]]
+azonosito = "f04"
+cim = "Miért írsz? Mit tegyen az olvasó?"
+oldal = "5"
+
+[[fejezet]]
+azonosito = "f05"
+cim = "Felépítés"
+oldal = "6–7"
+
+[[fejezet]]
+azonosito = "f06"
+cim = "Megfogalmazás"
+oldal = "8–9"
+
+[[fejezet]]
+azonosito = "f07"
+cim = "Kinézet"
+oldal = "9"
+
+[[fejezet]]
+azonosito = "f08"
+cim = "Segédlet közérthető nyomtatványokhoz"
+oldal = "10–12"
+
+[[fejezet]]
+azonosito = "f09"
+cim = "Záró oldalak: kiadói adatok és a projekt"
+oldal = "13–15"
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#001"
+fejezet = "f01"
+oldal = "1"
+tipus = "hatter"
+tartalom = "Az írás annyit ér, amennyit a címzett megért belőle; a nem érthető szöveg miatt az ügyfél elronthat egy igénylést, elmulaszthat egy határidőt, a hivatalnak pedig visszakérdezésekre kell válaszolnia."
+kihagyva = "Motiváció; a skill céljaként a SKILL.md és a README bevezetője mondja ki, szabályt nem ad."
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#002"
+fejezet = "f02"
+oldal = "2"
+tipus = "meghatarozas"
+tartalom = "Közérthető a szöveg, ha megfogalmazása, felépítése és kinézete miatt a célközönség megtalálja benne, amire szüksége van, megérti, és fel tudja használni."
+referencia = "references/parancs-audit.md#negy-kerdes"
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#003"
+fejezet = "f02"
+oldal = "2"
+tipus = "hatter"
+tartalom = "A közérthető szöveg az ügyfélnek időt és pénzt takarít meg, a hivatalnak kevesebb visszakérdezést, pótlást és panaszt jelent."
+kihagyva = "Motiváció, szabályt nem ad."
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#004"
+fejezet = "f02"
+oldal = "2–3"
+tipus = "ajanlas"
+tartalom = "A tudás átka: aki sokat tud a témáról, elfelejti, mit nem tud az olvasó; képzeld magad az olvasó helyébe, és gondold végig, mit tud, mit nem, és mire lesz szüksége a folyamat adott pontján."
+szabalyok = ["K001"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#005"
+fejezet = "f03"
+oldal = "4"
+tipus = "ajanlas"
+tartalom = "A közérthető fogalmazás már a vázlat előtt kezdődik: válts nézőpontot, gondolkodj az olvasó fejével."
+szabalyok = ["K001"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#006"
+fejezet = "f03"
+oldal = "4"
+tipus = "ellenorzolista"
+tartalom = "Öt lépés: kinek és milyen céllal írsz; logikus felépítés; bekezdések, mondatok, szavak megfogalmazása; áttekinthető formázás; ellenőrzés ellenőrző listával és javítás."
+szabalyok = ["K074"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#007"
+fejezet = "f03"
+oldal = "4"
+tipus = "hatter"
+tartalom = "A kisokos ellenőrző listára utal a 14. oldalon, de ebben a kiadásban a lista nem szerepel."
+kihagyva = "A lista ebben a kiadásban nincs benne; a bővített kézikönyv leltára tartalmazza."
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#008"
+fejezet = "f04"
+oldal = "5"
+tipus = "ajanlas"
+tartalom = "Határozd meg, ki kezdeményezi a kommunikációt: tájékoztató levélnél az író, válaszlevélnél, nyomtatványnál és weben az olvasó; a cél ehhez igazodik (válasz a kimondott és kimondatlan kérdésekre, segítség az ügy elintézéséhez)."
+szabalyok = ["K001"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#009"
+fejezet = "f04"
+oldal = "5"
+tipus = "ajanlas"
+tartalom = "Mindig van egy fő üzenet; fogalmazd meg a lehető legrövidebben."
+szabalyok = ["K002"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#010"
+fejezet = "f04"
+oldal = "5"
+tipus = "ajanlas"
+tartalom = "Gondold végig részletesen, mit vársz az olvasótól és mire van szüksége hozzá; fizetésnél például mennyit, meddig fizessen, és mit írjon a kedvezményezett nevéhez és a közleménybe."
+szabalyok = ["K004"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#011"
+fejezet = "f04"
+oldal = "5"
+tipus = "ajanlas"
+tartalom = "Ha nem szeretnéd, hogy az olvasó bármit tegyen, írd le világosan, hogy a levéllel nincs teendője."
+szabalyok = ["K003"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#012"
+fejezet = "f04"
+oldal = "5"
+tipus = "ajanlas"
+tartalom = "Gondold végig, mikor sikeres a kommunikáció (időben fizet, elküldi az iratot, elfogadja a tájékoztatást, nem kérdez vissza)."
+szabalyok = ["K001"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#013"
+fejezet = "f04"
+oldal = "5"
+tipus = "ajanlas"
+tartalom = "Válaszolj az olvasó kimondott és kimondatlan kérdéseire; a kérdéseit alcímként is felhasználhatod."
+szabalyok = ["K007", "K010"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#014"
+fejezet = "f05"
+oldal = "6"
+tipus = "hatter"
+tartalom = "Szemmozgás-kutatások szerint az emberek F betű alakban olvasnak: az elejét mindenki elolvassa, utána a bal oldalon haladnak lefelé, és az alcímek alapján olvasnak bele egy-egy részbe."
+szabalyok = ["K002"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#015"
+fejezet = "f05"
+oldal = "6"
+tipus = "szabaly"
+tartalom = "Kezdj a legfontosabb üzenettel: az első bekezdésből derüljön ki, miről szól a szöveg, és mi a legfontosabb tudnivaló."
+szabalyok = ["K002"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#016"
+fejezet = "f05"
+oldal = "6"
+tipus = "szabaly"
+tartalom = "A teendőt rögtön a fő üzenet után írd le; az is derüljön ki, ha nem kell tennie semmit."
+szabalyok = ["K003"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#017"
+fejezet = "f05"
+oldal = "6"
+tipus = "szabaly"
+tartalom = "A további információt önmagukban is érthető alcímekkel tagold; a legérthetőbb, ha az alcím az olvasó kérdése."
+szabalyok = ["K010"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#018"
+fejezet = "f05"
+oldal = "6"
+tipus = "szabaly"
+tartalom = "A jogszabályokat magyarázd el érthetően, a hivatkozást tedd lábjegyzetbe vagy a végén külön blokkba; rövid hivatkozás a mondat végén, zárójelben is állhat."
+szabalyok = ["K012"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#019"
+fejezet = "f05"
+oldal = "6–7"
+tipus = "szabaly"
+tartalom = "Csak arról írj, amire az olvasónak az ügy adott fázisában szüksége van, vagy amit kötelező beleírni; ne írj a hivatal belső működéséről és a későbbi fázisokról."
+szabalyok = ["K005"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#020"
+fejezet = "f06"
+oldal = "8"
+tipus = "szabaly"
+tartalom = "Szólítsd meg az olvasót („Ön”), hozzá beszélj, ne róla; ne nevezd harmadik személyben (az ügyfél, az igénylő); a hivatalra többes szám első személyben hivatkozz."
+szabalyok = ["K048", "K049"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#021"
+fejezet = "f06"
+oldal = "8"
+tipus = "pelda"
+tartalom = "Előtte–utána pár: harmadik személyű jogosultsági feltétel átírva Ön-megszólítású feltételes mondatra."
+szabalyok = ["K048"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#022"
+fejezet = "f06"
+oldal = "8"
+tipus = "szabaly"
+tartalom = "Használd az olvasó szavait; ha szakszót kell használnod, magyarázd meg; a szöveg minden szava legyen érthető az olvasónak."
+szabalyok = ["K029", "K030"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#023"
+fejezet = "f06"
+oldal = "8"
+tipus = "pelda"
+tartalom = "Két hivatali szó és köznyelvi megfelelője (tartozásra és javításra)."
+szabalyok = ["K029"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#024"
+fejezet = "f06"
+oldal = "8"
+tipus = "szabaly"
+tartalom = "A cselekvést igével fejezd ki, ne főnévvel; így kiderül, ki a cselekvő."
+szabalyok = ["K042"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#025"
+fejezet = "f06"
+oldal = "8"
+tipus = "pelda"
+tartalom = "Két pár: főnévi szerkezet helyett felszólító ige, „-ásra kerül” helyett többes szám első személyű cselekvő ige."
+szabalyok = ["K042", "K043"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#026"
+fejezet = "f06"
+oldal = "8"
+tipus = "szabaly"
+tartalom = "Weboldalhoz egyértelmű linket adj: e-mailben a link szövege mondja meg, hová jut az olvasó; levélben lépésről lépésre írd le, hogyan jut el az oldalra."
+szabalyok = ["K009"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#027"
+fejezet = "f06"
+oldal = "8"
+tipus = "szabaly"
+tartalom = "Egy mondat csak egy dologról szóljon, és legfeljebb 15–20 szóból álljon."
+szabalyok = ["K019", "K020"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#028"
+fejezet = "f06"
+oldal = "8"
+tipus = "szabaly"
+tartalom = "A mondat elején álljon az alany és az állítmány; ne szakítsa meg a mondatot közbevetés, például jogszabályi utalás; ahol kell, segíts felsorolással."
+szabalyok = ["K021", "K024"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#029"
+fejezet = "f06"
+oldal = "9"
+tipus = "szabaly"
+tartalom = "Húzd ki a felesleges, jelentés nélküli szavakat és fordulatokat (például a terjengős bevezető udvariassági formulát)."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#030"
+fejezet = "f06"
+oldal = "9"
+tipus = "pelda"
+tartalom = "Három körülményes kifejezés egyszerűbb megfelelője (feltételes kötőszó, okhatározói szerkezet, terpeszkedő szerkezet)."
+szabalyok = ["K036"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#031"
+fejezet = "f06"
+oldal = "9"
+tipus = "szabaly"
+tartalom = "Írj rövid bekezdéseket; egy bekezdés egy témáról szóljon."
+szabalyok = ["K014"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#032"
+fejezet = "f06"
+oldal = "9"
+tipus = "szabaly"
+tartalom = "Írj udvarias, partneri hangon: köszönd meg a megkeresést, fejezd ki a sajnálatot, ha nem tudsz segíteni, és kerüld a körülményes hivatali fordulatokat."
+szabalyok = ["K050"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#033"
+fejezet = "f07"
+oldal = "9"
+tipus = "szabaly"
+tartalom = "Az alcímeket két ponttal nagyobb, félkövér betűvel emeld ki, és hagyj előttük több helyet."
+szabalyok = ["K051"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#034"
+fejezet = "f07"
+oldal = "9"
+tipus = "szabaly"
+tartalom = "A lényeget félkövérrel emeld ki; a kiemelés legyen rövid, önmagában értelmes, és kevés."
+szabalyok = ["K052"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#035"
+fejezet = "f08"
+oldal = "10"
+tipus = "hatter"
+tartalom = "A nyomtatvány az ügyfél céljának eszköze, de gyakran akadály; a feladat, hogy minél többen sikeresen kitöltsék."
+kihagyva = "Motiváció a nyomtatványos szabályokhoz, szabályt nem ad."
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#036"
+fejezet = "f08"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "Csak a feltétlenül szükséges adatot kérd be; minden plusz mező csökkenti a sikeres kitöltések számát."
+szabalyok = ["K068"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#037"
+fejezet = "f08"
+oldal = "10"
+tipus = "pelda"
+tartalom = "Ha az ügyfél igazolást csatol, ne kérd be külön az igazolás adatait, mert azok a csatolt iraton szerepelnek."
+szabalyok = ["K068"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#038"
+fejezet = "f08"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "Legyen egyértelmű, melyik mező vagy csatolmány kötelező, és milyen esetben; ha minden mező kötelező, nem kell jelölni."
+szabalyok = ["K069"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#039"
+fejezet = "f08"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "A bonyolultabb kérdéseknél adj kitöltési segítséget (zárójelben a címke után, magyarázó szövegdobozban, néhány példával)."
+szabalyok = ["K070"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#040"
+fejezet = "f08"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "Add meg, hol találja az olvasó a szükséges adatot, vagy honnan szerzi be az iratot; példa: hol áll a számlán a felhasználási hely azonosítója."
+szabalyok = ["K070"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#041"
+fejezet = "f08"
+oldal = "11"
+tipus = "szabaly"
+tartalom = "Ahol lehet, a mező formázásával jelezd, milyen adatot vársz (például a tagolt adószámmező)."
+szabalyok = ["K070"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#042"
+fejezet = "f08"
+oldal = "11"
+tipus = "szabaly"
+tartalom = "Ha kevés és rövid a válaszlehetőség, add meg őket ikszelhető formában (például családi állapot)."
+szabalyok = ["K071"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#043"
+fejezet = "f08"
+oldal = "11"
+tipus = "ajanlas"
+tartalom = "Fontold meg a gyakran ismételt kérdések (GYIK) beillesztését a nyomtatvány végére."
+szabalyok = ["K072"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#044"
+fejezet = "f08"
+oldal = "11"
+tipus = "szabaly"
+tartalom = "A jó nyomtatvány szellős és áttekinthető; a közérthetőség előbbre való a tömörségnél; az egységeket üres térrel válaszd el."
+szabalyok = ["K073"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#045"
+fejezet = "f08"
+oldal = "11"
+tipus = "szabaly"
+tartalom = "Használj alcímeket a szerkezet átláthatóságáért, a szintjüknek megfelelő kiemeléssel."
+szabalyok = ["K051"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#046"
+fejezet = "f08"
+oldal = "11"
+tipus = "szabaly"
+tartalom = "Következetesen használd a térközöket, betűméreteket és behúzásokat."
+szabalyok = ["K053"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#047"
+fejezet = "f08"
+oldal = "11"
+tipus = "szabaly"
+tartalom = "A betűk legyenek olvasható méretűek; idős célközönségnél még nagyobbak."
+szabalyok = ["K055"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#048"
+fejezet = "f08"
+oldal = "12"
+tipus = "szabaly"
+tartalom = "Legyen elegendő hely a mezők kitöltésére."
+szabalyok = ["K073"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#049"
+fejezet = "f08"
+oldal = "12"
+tipus = "szabaly"
+tartalom = "A hosszabb vagy fontosabb kiegészítő magyarázatot vizuálisan elkülönülő szövegdobozba tedd (példa: csatolandó iratnál az illetékes hivatal megjelölése)."
+szabalyok = ["K073"]
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#050"
+fejezet = "f09"
+oldal = "14"
+tipus = "hatter"
+tartalom = "A kisokos bővített változata, a kézikönyv, ingyen letölthető az otlet.budapest.hu oldalról."
+kihagyva = "Kiadói információ; a kézikönyv külön forrásként vehető fel."
+
+[[tetel]]
+azonosito = "vilagos-beszed-kisokos-2025#051"
+fejezet = "f09"
+oldal = "15"
+tipus = "hatter"
+tartalom = "A projektben a Világos Beszéd 40 oldalnyi hivatali levelet és nyomtatványt írt át, ezeket felhasználókkal tesztelte, kézikönyvet, ellenőrző listát és képzést készített."
+szabalyok = ["K076"]

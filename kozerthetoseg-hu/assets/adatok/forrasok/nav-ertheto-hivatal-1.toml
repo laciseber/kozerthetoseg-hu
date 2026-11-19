@@ -1,0 +1,390 @@
+azonosito = "nav-ertheto-hivatal-1"
+cim = "Az érthető hivatal 1."
+rovid = "NAV 2024a"
+szerzo = "NAV Központi Irányítás, Kommunikációs Főosztály, Közérthetőségi Programiroda"
+kiado = "Nemzeti Adó- és Vámhivatal"
+ev = "2024"
+hivatkozas = "Nemzeti Adó- és Vámhivatal, Központi Irányítás, Kommunikációs Főosztály, Közérthetőségi Programiroda: Az érthető hivatal 1. Budapest, 2024. május."
+licenc = "A kiadvány licencet vagy felhasználási feltételt nem tüntet fel. A leltár saját szavakkal foglal össze, szövegrészt nem vesz át."
+kiadas = "2024. májusi kiadás, 33 PDF-oldal (a nyomtatott oldalak 3–63., két oldal egy PDF-oldalon)."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "nyomtatott oldalszám (az oldalak alján álló „Az érthető hivatal 1. | N” szerint)"
+prioritas = "A"
+feldolgozottsag = "teljes"
+megjegyzes = "Az első kötet a NAV Közérthetőségi Programjának szervezeti bevezetéséről szól; írási szabályt kevés tartalmaz, ezért sok tétele indokolt kihagyás. Az írási gyakorlatot a második kötet adja."
+
+[[fejezet]]
+azonosito = "f01"
+cim = "A magyar nyelv szolgálatában"
+oldal = "4–5"
+
+[[fejezet]]
+azonosito = "f02"
+cim = "Miért pont a NAV?"
+oldal = "7–8"
+
+[[fejezet]]
+azonosito = "f03"
+cim = "Eredmények"
+oldal = "10"
+
+[[fejezet]]
+azonosito = "f04"
+cim = "Előkészítés 2011–2019"
+oldal = "12–13"
+
+[[fejezet]]
+azonosito = "f05"
+cim = "Koncepció"
+oldal = "15"
+
+[[fejezet]]
+azonosito = "f06"
+cim = "Program 2019–2024"
+oldal = "16–19"
+
+[[fejezet]]
+azonosito = "f07"
+cim = "Elvárás: vezetők megnyerése, stratégia, munkacsoportok, pályázat"
+oldal = "20–26"
+
+[[fejezet]]
+azonosito = "f08"
+cim = "Segítség: segédletek, képzések, konzultációk"
+oldal = "27–33"
+
+[[fejezet]]
+azonosito = "f09"
+cim = "Kontroll: közérthetőségi kontroll, programiroda, programfejlesztés"
+oldal = "34–39"
+
+[[fejezet]]
+azonosito = "f10"
+cim = "Idővonal"
+oldal = "40–41"
+tetel_nelkul = "A program 2011 és 2024 közötti állomásainak listája; írási szabályt nem tartalmaz."
+
+[[fejezet]]
+azonosito = "f11"
+cim = "Buktatók és megoldások"
+oldal = "42–47"
+
+[[fejezet]]
+azonosito = "f12"
+cim = "Lépésről lépésre"
+oldal = "48–53"
+
+[[fejezet]]
+azonosito = "f13"
+cim = "Melléklet: cikkek a belső lapból"
+oldal = "54–61"
+
+[[fejezet]]
+azonosito = "f14"
+cim = "Felhasznált források és kiadói adatok"
+oldal = "62–63"
+tetel_nelkul = "Forrásjegyzék és kiadói adatok; írási szabályt nem tartalmaz."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#001"
+fejezet = "f01"
+oldal = "5"
+tipus = "hatter"
+tartalom = "A hivatali fordulatok koptatják a nyelvet és nehezítik a fordítást; az érthetetlen szabályok bizalmatlanságot keltenek és utánajárásra kényszerítik az ügyfeleket."
+kihagyva = "Motiváció, szabályt nem ad."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#002"
+fejezet = "f01"
+oldal = "5"
+tipus = "ajanlas"
+tartalom = "Az érthetőség mellett a szakmai és jogi szempontokat is szem előtt kell tartani; ezt az egyensúlyt nehéz fenntartani."
+szabalyok = ["K077"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#003"
+fejezet = "f02"
+oldal = "8"
+tipus = "hatter"
+tartalom = "A közérthető kommunikáció nem kényelmi szolgáltatás, hanem az ügyfél alapvető joga; segíti az önkéntes jogkövetést."
+kihagyva = "Motiváció, szabályt nem ad."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#004"
+fejezet = "f02"
+oldal = "8"
+tipus = "ajanlas"
+tartalom = "Az adózói logika szerinti kommunikáció csökkentheti az ügyek számát, hosszát és összetettségét."
+szabalyok = ["K008"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#005"
+fejezet = "f03"
+oldal = "10"
+tipus = "hatter"
+tartalom = "A program eredményei: rövidebb mondatok, egyszerűbb szóhasználat, tagoltabb szövegek, a jogszabályi hivatkozások lábjegyzetbe kerültek, a szövegek az adózói logika szerint épülnek fel."
+szabalyok = ["K008", "K012", "K020"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#006"
+fejezet = "f03"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "Ahol a célközönség, a téma és a funkció miatt részletesség, teljes jogi alátámasztás és hosszabb magyarázat kell, ott nem cél az egyszerűsítés és a jogi terminológia kiváltása."
+referencia = "references/szovegtipusok.md#kotott-szoveg"
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#007"
+fejezet = "f04"
+oldal = "12–13"
+tipus = "hatter"
+tartalom = "A programot kutatás előzte meg: nemzetközi minták, kapcsolat a Kúriával, az OBH-val és az NKE-vel, nyelvészekkel közös szövegtípus-elemzés."
+kihagyva = "Szervezeti előzmény, írási szabályt nem ad."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#008"
+fejezet = "f05"
+oldal = "15"
+tipus = "hatter"
+tartalom = "A program három pillére: elvárás, segítség, kontroll."
+kihagyva = "Szervezeti program felépítése."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#009"
+fejezet = "f06"
+oldal = "16–17"
+tipus = "hatter"
+tartalom = "A pillérek részletei: vezetői kommunikáció, segédletek, képzés, közérthetőségi kontroll, programiroda."
+kihagyva = "Szervezeti program felépítése."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#010"
+fejezet = "f07"
+oldal = "20–21"
+tipus = "hatter"
+tartalom = "A vezetői deklaráció tette a közérthetőséget kötelező kommunikációs irányelvvé; vezetői szemléletformálás előzte meg a bevezetést."
+kihagyva = "Szervezeti bevezetés, írási szabályt nem ad."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#011"
+fejezet = "f07"
+oldal = "23–24"
+tipus = "hatter"
+tartalom = "Belső felmérés: a válaszadók 95 százaléka szerint javítani kell a szövegek érthetőségén, 55 százalékuk szerint az ügyfeleknek segítség kell a NAV-szövegek értelmezéséhez."
+kihagyva = "Szervezeti felmérés eredménye, írási szabályt nem ad."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#012"
+fejezet = "f07"
+oldal = "25"
+tipus = "hatter"
+tartalom = "Munkacsoportok gyűjtötték össze és nyelvészekkel elemezték az iratmintákat; az Iratminta Munkacsoport 120 ellenőrzési iratmintát dolgozott át."
+kihagyva = "Szervezeti működés."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#013"
+fejezet = "f07"
+oldal = "26"
+tipus = "hatter"
+tartalom = "Közérthetőségi díj a legjobb ötletekért."
+kihagyva = "Szervezeti ösztönző."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#014"
+fejezet = "f08"
+oldal = "28"
+tipus = "hatter"
+tartalom = "Az első segédlet témái: nézőpontváltás, adózói logika, felépítés, mondatszerkesztés, szóhasználat, helyesírás, íráskép, később táblázatok, ábrák, sajtóközlemények."
+kihagyva = "Témajegyzék; a részleteket a nav-ertheto-hivatal-2 leltára tartalmazza."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#015"
+fejezet = "f08"
+oldal = "30"
+tipus = "ajanlas"
+tartalom = "A nehéz helyesírású szakkifejezéseket kereshető helyesírási szótár rögzíti; a kérdéses szavakat ott kell ellenőrizni, bonyolult esetben tanácsot kérni."
+szabalyok = ["K056"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#016"
+fejezet = "f08"
+oldal = "31"
+tipus = "hatter"
+tartalom = "Új segédletek a szöveg átalakításának gyakorlati, tanulható lépéseiről; heti rovat a nyelvi szabályokról."
+kihagyva = "Szervezeti segédanyag, szabályt nem ad."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#017"
+fejezet = "f08"
+oldal = "32"
+tipus = "hatter"
+tartalom = "Kétmodulos közérthetőségi képzés (elmélet és gyakorlat)."
+kihagyva = "Képzésszervezés."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#018"
+fejezet = "f08"
+oldal = "33"
+tipus = "hatter"
+tartalom = "Kiscsoportos workshopok, ahol hozott szöveget alakítanak át közösen."
+kihagyva = "Képzésszervezés."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#019"
+fejezet = "f09"
+oldal = "34"
+tipus = "ajanlas"
+tartalom = "Ügyfélnek szóló tájékoztató csak közérthetőségi felülvizsgálat után jelenhet meg."
+szabalyok = ["K075"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#020"
+fejezet = "f09"
+oldal = "34"
+tipus = "szabaly"
+tartalom = "Az átalakítás után a kezdeményező szakterület a publikálás előtt ellenőrzi, nem sérült-e a szakmai tartalom."
+szabalyok = ["K077"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#021"
+fejezet = "f09"
+oldal = "36"
+tipus = "szabaly"
+tartalom = "Minden szöveget a célcsoportja és a joghatása szerint kell vizsgálni; lesz olyan, amelyben megszorítás nélkül érvényesülhet a közérthetőség, olyan, amelyben csak feltételekkel, és olyan, amelynek formája kötött."
+referencia = "references/szovegtipusok.md#nav-harom-kor"
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#022"
+fejezet = "f09"
+oldal = "36–37"
+tipus = "ajanlas"
+tartalom = "Ne erőltesd a közérthetőség kritériumait olyan szövegre, amelynek formáját jogszabály írja elő, vagy amelynek közönsége maga a legmagasabb szakmaiságot várja."
+referencia = "references/szovegtipusok.md#kotott-szoveg"
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#023"
+fejezet = "f09"
+oldal = "38"
+tipus = "hatter"
+tartalom = "A programiroda munkatársai nem az adószakmából jöttek; a kívülálló szem gyakran előny az ügyféli logika felismerésében."
+szabalyok = ["K076"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#024"
+fejezet = "f09"
+oldal = "38–39"
+tipus = "hatter"
+tartalom = "A program monitorozása: adatbázis a felülvizsgált szövegekről, előtte–utána állapotokkal."
+kihagyva = "Szervezeti nyilvántartás."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#025"
+fejezet = "f11"
+oldal = "44"
+tipus = "hatter"
+tartalom = "A szervezeti ellenállás ellenszere a vezetői deklaráció és a folyamatos belső kommunikáció."
+kihagyva = "Szervezeti változásmenedzsment."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#026"
+fejezet = "f11"
+oldal = "44–45"
+tipus = "szabaly"
+tartalom = "A szakmai ellenállás feloldása: határold el a szövegtípusokat a célcsoport mérete és összetétele szerint; bonyolult, de sokakat érintő témában a szakmailag teljes anyag mellé egyszerűsített tájékoztató kell."
+szabalyok = ["K018"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#027"
+fejezet = "f11"
+oldal = "46"
+tipus = "ajanlas"
+tartalom = "Az egyszerű, mechanikus átalakítást segítő segédletek, például ellenőrző listák különösen hasznosak."
+szabalyok = ["K075"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#028"
+fejezet = "f11"
+oldal = "46–47"
+tipus = "hatter"
+tartalom = "A program kapacitásigénye; nyelvi szakemberek bevonása."
+kihagyva = "Szervezeti erőforrás."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#029"
+fejezet = "f12"
+oldal = "48–49"
+tipus = "ajanlas"
+tartalom = "Előkészítésként fel kell térképezni a szöveganyagot, próbaszövegeket kell átalakítani, és sablonokat kell kialakítani."
+szabalyok = ["K083"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#030"
+fejezet = "f12"
+oldal = "52"
+tipus = "ajanlas"
+tartalom = "A szövegeket közlés előtt ellenőrizni kell, és a közérthetőségi és a szakmai kontrollt össze kell hangolni."
+szabalyok = ["K077"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#031"
+fejezet = "f13"
+oldal = "54"
+tipus = "meghatarozas"
+tartalom = "Közérthető az a szöveg, amelyből olvasója első olvasásra megérti a neki szóló információt, és egyértelmű számára, mit kell tennie és milyen kedvezmények illetik meg."
+referencia = "references/parancs-audit.md#negy-kerdes"
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#032"
+fejezet = "f13"
+oldal = "55"
+tipus = "pelda"
+tartalom = "Egy 1913-as, fél A5-ös oldalnyi fizetési értesítésből kiderül, kinek, mit, mikor kell fizetnie, hogyan fellebbezhet, és mi történik, ha nem fizet; a mai megfelelője hét oldal."
+szabalyok = ["K004"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#033"
+fejezet = "f13"
+oldal = "55"
+tipus = "ajanlas"
+tartalom = "A Kúria tapasztalata szerint a szellős tagolás, a felsorolás pontokba szedése és a szórend átformálása érdemi változást hozott a határozatok stílusában."
+szabalyok = ["K013", "K025"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#034"
+fejezet = "f13"
+oldal = "55"
+tipus = "szabaly"
+tartalom = "Ha egy szakkifejezés nem változtatható meg, magyarázatára akkor is szükség van."
+szabalyok = ["K030"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#035"
+fejezet = "f13"
+oldal = "56"
+tipus = "ajanlas"
+tartalom = "Átalakított szövegminta bemutatásakor az eredeti és az átírt szöveg mellett az átalakított elemeket is fel kell sorolni, magyarázattal."
+referencia = "references/parancs-atiras.md#kimenet"
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#036"
+fejezet = "f13"
+oldal = "58–59"
+tipus = "ajanlas"
+tartalom = "Táblázatos szerkezetű határozatok és iratminták a befogadhatóság és az egységesség érdekében."
+szabalyok = ["K013"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#037"
+fejezet = "f13"
+oldal = "58–59"
+tipus = "ajanlas"
+tartalom = "Szószedet alapján kifejezéseket cserélő makró és beépíthető panelszövegek a hivatali iratokhoz."
+kihagyva = "Eszközötlet; a skill mérőszkriptje csak jelez, nem cserél automatikusan."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-1#038"
+fejezet = "f13"
+oldal = "60–61"
+tipus = "hatter"
+tartalom = "Az iratminták átdolgozása szakaszokban, a jogi szakterülettel egyeztetve történt."
+szabalyok = ["K077"]

@@ -1,0 +1,763 @@
+azonosito = "nav-ertheto-hivatal-2"
+cim = "Az érthető hivatal 2."
+rovid = "NAV 2024b"
+szerzo = "NAV Központi Irányítás, Kommunikációs Főosztály, Közérthetőségi Programiroda"
+kiado = "Nemzeti Adó- és Vámhivatal"
+ev = "2024"
+hivatkozas = "Nemzeti Adó- és Vámhivatal, Központi Irányítás, Kommunikációs Főosztály, Közérthetőségi Programiroda: Az érthető hivatal 2. Budapest, 2024. május."
+licenc = "A kiadvány licencet vagy felhasználási feltételt nem tüntet fel. A leltár saját szavakkal foglal össze; a példák mintázatát veszi át, a szövegüket nem."
+kiadas = "2024. májusi kiadás, 35 PDF-oldal (a nyomtatott oldalak 2–67., két oldal egy PDF-oldalon)."
+feldolgozas_datuma = "2026-11-19"
+oldalszamozas = "nyomtatott oldalszám (az oldalak alján álló „Az érthető hivatal 2. | N” szerint)"
+prioritas = "A"
+feldolgozottsag = "teljes"
+megjegyzes = "Példatár: a magyar források közül ez adja a legtöbb előtte–utána példát. Az egynemű példacsoportokat (például egy cseretáblázatot) egy tétel írja le, a párok számával."
+
+[[fejezet]]
+azonosito = "f01"
+cim = "Helyesírási kvíz és megoldókulcs"
+oldal = "2, 66"
+
+[[fejezet]]
+azonosito = "f02"
+cim = "Ez egy példatár"
+oldal = "4–5"
+
+[[fejezet]]
+azonosito = "f03"
+cim = "Milyen a könnyen érthető szöveg?"
+oldal = "6–7"
+
+[[fejezet]]
+azonosito = "f04"
+cim = "Adózói logika: Konkretizáljunk!, Az első lépés"
+oldal = "8–11"
+
+[[fejezet]]
+azonosito = "f05"
+cim = "Íráskép"
+oldal = "12–13"
+
+[[fejezet]]
+azonosito = "f06"
+cim = "Felépítés: cím, alcímek; szöveg eleje; sorrend; tagolás; tartalomsablon"
+oldal = "14–19"
+
+[[fejezet]]
+azonosito = "f07"
+cim = "Mondat"
+oldal = "20–23"
+
+[[fejezet]]
+azonosito = "f08"
+cim = "Szó: személytelen; cselekvés; terpeszkedő szerkezet; felesleges szó és igekötő; névutó helyett rag; lehetőség; szakkifejezés; négy jó tanács"
+oldal = "24–41"
+
+[[fejezet]]
+azonosito = "f09"
+cim = "Írásjel: kötőjel, gondolatjel, nagykötőjel; felkiáltójel; vessző"
+oldal = "42–48"
+
+[[fejezet]]
+azonosito = "f10"
+cim = "Szám"
+oldal = "49–51"
+
+[[fejezet]]
+azonosito = "f11"
+cim = "Dátum"
+oldal = "52–53"
+
+[[fejezet]]
+azonosito = "f12"
+cim = "Pénz"
+oldal = "54–55"
+
+[[fejezet]]
+azonosito = "f13"
+cim = "Mértékegység"
+oldal = "56–57"
+
+[[fejezet]]
+azonosito = "f14"
+cim = "Táblázat, ábra"
+oldal = "58–61"
+
+[[fejezet]]
+azonosito = "f15"
+cim = "Grafikon"
+oldal = "62–63"
+
+[[fejezet]]
+azonosito = "f16"
+cim = "Ellenőrzés: közérthetőségi teszt"
+oldal = "64–65"
+
+[[fejezet]]
+azonosito = "f17"
+cim = "Felhasznált források és kiadói adatok"
+oldal = "66–67"
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#001"
+fejezet = "f01"
+oldal = "2, 66"
+tipus = "pelda"
+tartalom = "Tíz nehéz helyesírású szakkifejezés három-három változattal és a helyes alakkal (például adónemek kötőjeles összetételei, uniós melléknév, idegen rövidítéses összetétel)."
+szabalyok = ["K056"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#002"
+fejezet = "f02"
+oldal = "5"
+tipus = "hatter"
+tartalom = "A második kötet példatár: a közérthető fogalmazás gyakori problémáit és megoldásait rendszerezi NAV-specifikus példákkal."
+kihagyva = "A kötet bevezetője, szabályt nem ad."
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#003"
+fejezet = "f03"
+oldal = "6"
+tipus = "meghatarozas"
+tartalom = "Közérthető a szöveg, ha felépítése, megfogalmazása és kinézete segíti az olvasót abban, hogy megtalálja, amire kíváncsi, megértse, és az információval elérje a célját."
+referencia = "references/parancs-audit.md#negy-kerdes"
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#004"
+fejezet = "f03"
+oldal = "6"
+tipus = "ajanlas"
+tartalom = "Az olvasónak minél kevesebb, számára érdektelen részleten kelljen átrágnia magát."
+szabalyok = ["K005"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#005"
+fejezet = "f03"
+oldal = "6"
+tipus = "ajanlas"
+tartalom = "A közérthetőséghez hozzátartozik a nyelvhelyesség, az idegen nyelvi szerkezetek kiváltása és a pontos helyesírás."
+szabalyok = ["K028", "K056"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#006"
+fejezet = "f04"
+oldal = "8"
+tipus = "szabaly"
+tartalom = "Hagyd el a hivatali nézőpontot; gyakori hiba, hogy a közlés a jogszabályt idézi, de kimarad belőle, mit kell tennie az ügyfélnek."
+szabalyok = ["K003", "K008"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#007"
+fejezet = "f04"
+oldal = "9"
+tipus = "pelda"
+tartalom = "Öt pár arról, hogyan fordul át ugyanaz a helyzet a hivatal oldaláról az ügyfél oldalára (megkapja, beküldi, kéri, aláírja, javítja)."
+szabalyok = ["K008"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#008"
+fejezet = "f04"
+oldal = "10"
+tipus = "szabaly"
+tartalom = "Ne általánosságban ismertesd a jogszabályt, hanem azt, milyen hatással van az olvasó életére."
+szabalyok = ["K006"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#009"
+fejezet = "f04"
+oldal = "10"
+tipus = "pelda"
+tartalom = "Három pár: személytelen eljárási mondatból felszólítás; jogszabály-ismertetésből feltételes, konkrét mondat; jogszabályhely-felsorolásból a konkrét határidő megadása."
+szabalyok = ["K006"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#010"
+fejezet = "f04"
+oldal = "11"
+tipus = "ellenorzolista"
+tartalom = "Az első lépés kérdései: mi a legfontosabb közlendő, mi a teendő, hogyan teheti meg, mi a következmény mulasztásnál, hol talál még információt, hogyan léphet kapcsolatba a hivatallal."
+szabalyok = ["K004"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#011"
+fejezet = "f05"
+oldal = "12"
+tipus = "hatter"
+tartalom = "Az ügyfél a külalak alapján dönti el, belekezd-e az olvasásba."
+szabalyok = ["K053"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#012"
+fejezet = "f05"
+oldal = "13"
+tipus = "szabaly"
+tartalom = "Szellős, áttekinthető, alcímekkel tagolt íráskép; az oldalak felépítése ne térjen el markánsan egymástól."
+szabalyok = ["K053"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#013"
+fejezet = "f05"
+oldal = "13"
+tipus = "szabaly"
+tartalom = "Egységes betűtípus, betűméret, sortávolság, térköz és behúzás; a címsorok csak méretben, esetleg színben térjenek el."
+szabalyok = ["K053"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#014"
+fejezet = "f05"
+oldal = "13"
+tipus = "szabaly"
+tartalom = "A lényeges mondatrészeket félkövérrel, a példákat és hivatkozásokat dőlttel lehet jelölni; a hasonló kiemeléseket mindig ugyanúgy."
+szabalyok = ["K052"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#015"
+fejezet = "f05"
+oldal = "13"
+tipus = "szabaly"
+tartalom = "Ha legalább három azonos szerepű rész van egy mondatban, érdemes listajeles felsorolást használni; a listajeleket következetesen kell használni."
+szabalyok = ["K013"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#016"
+fejezet = "f05"
+oldal = "13"
+tipus = "szabaly"
+tartalom = "Három listajelszintnél tovább ne bontsd a szöveget; inkább rendezd át a tartalmat."
+szabalyok = ["K054"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#017"
+fejezet = "f06"
+oldal = "15"
+tipus = "szabaly"
+tartalom = "Rövid, érthető, figyelemfelhívó cím és alcím; ne a teljes tartalmat foglalja össze, hanem a legfontosabb újdonságot; a kettőspont lerövidítheti."
+szabalyok = ["K016"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#018"
+fejezet = "f06"
+oldal = "15"
+tipus = "pelda"
+tartalom = "Két hosszú cím rövid, kettőspontos változata."
+szabalyok = ["K016"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#019"
+fejezet = "f06"
+oldal = "15"
+tipus = "szabaly"
+tartalom = "A fő üzenet kerüljön előre, különösen az, amiből az olvasó eldöntheti, vonatkozik-e rá a szabályozás."
+szabalyok = ["K002"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#020"
+fejezet = "f06"
+oldal = "15"
+tipus = "szabaly"
+tartalom = "A szöveg elején röviden foglald össze a tartalmat; egy változást ne időrendben mutass be, mert akkor a lényeg későbbre kerül."
+szabalyok = ["K002", "K011"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#021"
+fejezet = "f06"
+oldal = "16"
+tipus = "pelda"
+tartalom = "Egy időrendben előadott hír és az újdonsággal kezdődő átírt változata."
+szabalyok = ["K011"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#022"
+fejezet = "f06"
+oldal = "17"
+tipus = "szabaly"
+tartalom = "A legtöbbeket érintő információtól haladj a speciálisabb felé; előbb a legfontosabb teendők, később a részletszabályok, akkor is, ha ez megtöri a logikai sorrendet."
+szabalyok = ["K011"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#023"
+fejezet = "f06"
+oldal = "17"
+tipus = "szabaly"
+tartalom = "A mondatok sorrendjében ügyelj az ok-okozati kapcsolatra, a vonatkozó névmások pontos használatára és a tartalom logikájára."
+szabalyok = ["K027"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#024"
+fejezet = "f06"
+oldal = "17"
+tipus = "ajanlas"
+tartalom = "A leglényegesebb momentumokat érdemes kiemelni, hogy a felületesen olvasó is lássa, miről van szó."
+szabalyok = ["K052"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#025"
+fejezet = "f06"
+oldal = "17"
+tipus = "szabaly"
+tartalom = "Tagold a szöveget címekkel, alcímekkel; a címek lehetnek az ügyfél kérdései, és legyenek azonos nyelvtani szerkezetűek."
+szabalyok = ["K010"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#026"
+fejezet = "f06"
+oldal = "17"
+tipus = "szabaly"
+tartalom = "Rövid, kulcsszóval induló, tartalmilag egységes bekezdések, bekezdésenként egy fő információ; a szellős szöveg akkor is jobb, ha néhány sorral hosszabb."
+szabalyok = ["K014"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#027"
+fejezet = "f06"
+oldal = "18"
+tipus = "szabaly"
+tartalom = "A bonyolult problémát bontsd elemeire, szemléltesd példával; a többtagú felsorolás legyen listajeles, egységes kezdőbetűvel és sorvégi írásjellel."
+szabalyok = ["K013"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#028"
+fejezet = "f06"
+oldal = "18"
+tipus = "szabaly"
+tartalom = "Ha a célközönség és a téma engedi, kerüld a jogszabályi hivatkozást a szövegben; a pontos tájékoztatáshoz szükséges hivatkozást lábjegyzetbe tedd."
+szabalyok = ["K012"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#029"
+fejezet = "f06"
+oldal = "18"
+tipus = "szabaly"
+tartalom = "Kerüld a kereszthivatkozást a szöveg más pontjaira."
+szabalyok = ["K015"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#030"
+fejezet = "f06"
+oldal = "18–19"
+tipus = "pelda"
+tartalom = "Tartalomsablon a kitöltési útmutatókhoz az ügyfél kérdéseivel (mire szolgál, kire vonatkozik, hogyan nyújtható be, mi a határidő, hogyan lehet fizetni, módosítani, mik a jogkövetkezmények)."
+szabalyok = ["K083"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#031"
+fejezet = "f07"
+oldal = "20–21"
+tipus = "szabaly"
+tartalom = "A célszerű mondatrészi sorrend: alany, állítmány, tárgy, határozó, vagyis akire vonatkozik, amit tennie kell, a kötelező bővítmények, majd a mellékkörülmények."
+szabalyok = ["K021"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#032"
+fejezet = "f07"
+oldal = "21"
+tipus = "pelda"
+tartalom = "Ugyanaz a mondat négyféle szórendben, mindegyik más elemet hangsúlyoz."
+szabalyok = ["K025"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#033"
+fejezet = "f07"
+oldal = "21"
+tipus = "szabaly"
+tartalom = "Az alany és az állítmány lehetőleg a mondat elején, egymáshoz közel álljon; az állítmány ne a mondat legvégére kerüljön."
+szabalyok = ["K021"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#034"
+fejezet = "f07"
+oldal = "22"
+tipus = "pelda"
+tartalom = "Egy hosszú, főnévi szerkezetű bejelentési kötelezettséget kimondó mondat átírva úgy, hogy az alany és a „kell + ige” elöl áll."
+szabalyok = ["K021"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#035"
+fejezet = "f07"
+oldal = "22"
+tipus = "szabaly"
+tartalom = "A feltételes mondat a feltétellel induljon, hogy rögtön kiderüljön, vonatkozik-e az olvasóra (a példában kisbetűs „ön” megszólítás áll)."
+szabalyok = ["K022", "K049"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#036"
+fejezet = "f07"
+oldal = "22"
+tipus = "szabaly"
+tartalom = "Kerüld a többszörösen összetett mondatot és a hosszú zárójeles, gondolatjeles közbevetést; a kettőnél több tagmondatú mondatot bontsd egyszerű mondatokra."
+szabalyok = ["K023", "K024"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#037"
+fejezet = "f07"
+oldal = "22"
+tipus = "szabaly"
+tartalom = "Egy mondat lehetőség szerint egy dologról szóljon, egy információt adjon át."
+szabalyok = ["K019"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#038"
+fejezet = "f07"
+oldal = "22–23"
+tipus = "szabaly"
+tartalom = "Inkább állító, mint tagadó mondatot használj, és ne használj kettős tagadást; példa: „nem kell…, kivéve” helyett „csak akkor kell…”."
+szabalyok = ["K026", "K046"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#039"
+fejezet = "f07"
+oldal = "22"
+tipus = "szabaly"
+tartalom = "Legyen egyértelmű, ki vagy mi a mondat alanya; kerüld a passzív szerkezetet, különösen a „kerül” igét."
+szabalyok = ["K043", "K044"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#040"
+fejezet = "f07"
+oldal = "22"
+tipus = "pelda"
+tartalom = "Személytelen eljárási mondat átírva közvetlen felszólításra."
+szabalyok = ["K048"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#041"
+fejezet = "f07"
+oldal = "23"
+tipus = "pelda"
+tartalom = "Két főnévi szerkezetű feltétel átírva igés, Ön-megszólítású feltételre."
+szabalyok = ["K042"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#042"
+fejezet = "f07"
+oldal = "23"
+tipus = "szabaly"
+tartalom = "Ha egy hosszú szakkifejezés egy mondaton belül ismétlődik, használj névmást, vagy az első előfordulásnál zárójelben adj rövidítést, és utána azt használd."
+szabalyok = ["K040"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#043"
+fejezet = "f08"
+oldal = "25"
+tipus = "szabaly"
+tartalom = "Az alany meg nem nevezése könnyen ködösítésnek hat; természetesebb és informatívabb, ha az is kiderül, ki csinálta."
+szabalyok = ["K044"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#044"
+fejezet = "f08"
+oldal = "25"
+tipus = "meghatarozas"
+tartalom = "A „kerül” helyes, ha valaminek a helye változik meg; elvont használatban tartalmatlan ige, amely egy -ás/-és képzős főnévvel kapcsolódik."
+szabalyok = ["K043"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#045"
+fejezet = "f08"
+oldal = "26"
+tipus = "ajanlas"
+tartalom = "A „kerül”-szerkezet feloldása: határozott alany, személyrag, általános alany, múlt idejű egyes szám harmadik személyű ige, vagy egészen új ige."
+szabalyok = ["K043"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#046"
+fejezet = "f08"
+oldal = "27–29"
+tipus = "pelda"
+tartalom = "Mintegy húsz „kerül”-szerkezetes mondat és egy-három átírt változata."
+szabalyok = ["K043"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#047"
+fejezet = "f08"
+oldal = "30"
+tipus = "szabaly"
+tartalom = "A létige és a -va/-ve képzős igenév (szenvedő szerkezet) helyett nevezd meg a cselekvőt, vagy használj általános alanyt."
+szabalyok = ["K044"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#048"
+fejezet = "f08"
+oldal = "30"
+tipus = "szabaly"
+tartalom = "A befejezett melléknévi igenév állítmányként (például „a bevallás benyújtott”) elrejti az alanyt; nevezd meg a valódi alanyt, vagy használj általános alanyt."
+szabalyok = ["K044"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#049"
+fejezet = "f08"
+oldal = "30"
+tipus = "szabaly"
+tartalom = "Automatikus folyamatnál visszaható ige helyett is megnevezhető a cselekvő (a rendszer, a program)."
+szabalyok = ["K044"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#050"
+fejezet = "f08"
+oldal = "30"
+tipus = "szabaly"
+tartalom = "Az alany kihagyása nem feltétlenül hiba, de gyakran magyartalan és nem egyértelmű; ha lehet, kerüld."
+szabalyok = ["K044"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#051"
+fejezet = "f08"
+oldal = "30"
+tipus = "szabaly"
+tartalom = "A „történő” bonyolítja a mondatot; kiváltható szórendcserével vagy -i képzővel."
+szabalyok = ["K042"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#052"
+fejezet = "f08"
+oldal = "30–33"
+tipus = "pelda"
+tartalom = "Mintegy tizenöt „történő”-szerkezet és egy-két átírt változata."
+szabalyok = ["K042"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#053"
+fejezet = "f08"
+oldal = "34"
+tipus = "szabaly"
+tartalom = "A terpeszkedő szerkezet igéből képzett főnév és általános vagy tartalmatlan ige kapcsolata; nincs valós nyelvi funkciója, kihagyásával nem vész el információ."
+szabalyok = ["K045"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#054"
+fejezet = "f08"
+oldal = "35"
+tipus = "pelda"
+tartalom = "Cseretáblázat: 18 terpeszkedő szerkezet és egyszerű igei megfelelője."
+szabalyok = ["K045"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#055"
+fejezet = "f08"
+oldal = "36"
+tipus = "szabaly"
+tartalom = "Hagyd el az új információt nem hordozó kifejezést és felesleges jelzőt; ezek a szövegkörnyezetből általában egyértelműek."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#056"
+fejezet = "f08"
+oldal = "36–37"
+tipus = "pelda"
+tartalom = "Tizennégy felesleges szóval vagy jelzővel bővített kifejezés és rövid változata."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#057"
+fejezet = "f08"
+oldal = "38"
+tipus = "szabaly"
+tartalom = "Hagyd el a felesleges igekötőt az önmagában is teljes jelentésű igéről; kilenc példapár."
+szabalyok = ["K037"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#058"
+fejezet = "f08"
+oldal = "38–39"
+tipus = "szabaly"
+tartalom = "A felesleges névutó és határozószó raggal helyettesíthető, a jelentés nem változik; nyolc példapár."
+szabalyok = ["K038"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#059"
+fejezet = "f08"
+oldal = "40"
+tipus = "szabaly"
+tartalom = "A lehetőség kifejezésére a „lehetőség van valamire” és a „lehetséges valami” helyett egyszerűbb a „lehet” vagy a -hat/-het képző."
+szabalyok = ["K039"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#060"
+fejezet = "f08"
+oldal = "41"
+tipus = "szabaly"
+tartalom = "Ha lehet, kerüld a bonyolult vagy idegen szót; a szakkifejezést magyarázd meg szószedettel vagy lábjegyzettel."
+szabalyok = ["K030", "K032"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#061"
+fejezet = "f08"
+oldal = "41"
+tipus = "szabaly"
+tartalom = "A szóhasználat legyen következetes; a szinonimák összezavarják az olvasót; ne félj a szóismétléstől."
+szabalyok = ["K033"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#062"
+fejezet = "f08"
+oldal = "41"
+tipus = "szabaly"
+tartalom = "Az intézménynevet az első előfordulásnál rövidítsd (zárójelben), utána a rövidítést használd."
+szabalyok = ["K040"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#063"
+fejezet = "f08"
+oldal = "41"
+tipus = "szabaly"
+tartalom = "Az „amennyiben” helyett használd a „ha – akkor” szerkezetet."
+szabalyok = ["K036"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#064"
+fejezet = "f08"
+oldal = "41"
+tipus = "szabaly"
+tartalom = "Ami egyértelmű, azt ne írd ki: tájékoztató címében ne álljon, hogy tájékoztató; ne kezdd azzal, hogy „Tájékoztatjuk arról, hogy”."
+szabalyok = ["K035"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#065"
+fejezet = "f08"
+oldal = "41"
+tipus = "szabaly"
+tartalom = "A megszólítás száma és személye egy szövegen belül ne váltakozzon; a hivatalra is következetesen egyes szám harmadik vagy többes szám első személyben hivatkozz."
+szabalyok = ["K049"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#066"
+fejezet = "f09"
+oldal = "42–43"
+tipus = "szabaly"
+tartalom = "A kötőjel szavak, szórészek összetartozását jelöli; a gondolatjel szóközökkel közbevetést, elkülönülő gondolatot; a nagykötőjel népek, nyelvek összekapcsolását és tól–ig viszonyt."
+szabalyok = ["K061"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#067"
+fejezet = "f09"
+oldal = "44"
+tipus = "szabaly"
+tartalom = "A felszólító mondat végére felkiáltójel kell; ez helyesírási elv, nem udvariatlanság; sok egymást követő felszólításnál megengedőbb a szabály."
+szabalyok = ["K063"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#068"
+fejezet = "f09"
+oldal = "45"
+tipus = "szabaly"
+tartalom = "Az „illetve”, „illetőleg”, „valamint”, „továbbá” elé vesszőt kell tenni, felsorolásban és tagmondatok között is."
+szabalyok = ["K062"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#069"
+fejezet = "f09"
+oldal = "46–47"
+tipus = "szabaly"
+tartalom = "Az „és” előtt tagmondat bevezetésekor vessző áll, felsorolásban nem; a vessző a jelentést is megváltoztathatja."
+szabalyok = ["K062"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#070"
+fejezet = "f09"
+oldal = "48"
+tipus = "szabaly"
+tartalom = "A hasonlítást bevezető „mint” elé vessző kell; a „több mint” és a -ként jelentésű „mint” elé nem."
+szabalyok = ["K062"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#071"
+fejezet = "f10"
+oldal = "50"
+tipus = "szabaly"
+tartalom = "A számok írása egy szövegegységben legyen egységes; betűvel kétezerig egybeírjuk, fölötte kötőjellel tagoljuk; számjeggyel az öt- vagy többjegyű számokat hátulról hármasával tagoljuk, nem törő szóközzel."
+szabalyok = ["K058"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#072"
+fejezet = "f10"
+oldal = "51"
+tipus = "szabaly"
+tartalom = "Számnévként a „kétezer” használatos; az egymás alá írt számok helyiérték szerint igazodjanak."
+szabalyok = ["K058"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#073"
+fejezet = "f11"
+oldal = "52–53"
+tipus = "szabaly"
+tartalom = "A dátum formája legyen egységes, az év, hónap, nap szavak nélkül; az évszám és a nap után pont, a hónap kisbetűs; toldalékolásnál és névutós szerkezetben a pont elmarad."
+szabalyok = ["K057"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#074"
+fejezet = "f12"
+oldal = "54–55"
+tipus = "szabaly"
+tartalom = "Folyó szövegben kerüld a pénznem rövidítését; táblázatban állhat rövidítés, valutakód vagy jel; a nagy összegek folyó szövegben betűvel vagy betű és szám kombinációjával írhatók; táblázatban E Ft, M Ft, Mrd Ft."
+szabalyok = ["K059"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#075"
+fejezet = "f13"
+oldal = "56–57"
+tipus = "szabaly"
+tartalom = "A mértékegység jele után nincs pont, előtte szóköz áll; a százalékjel előtt nincs szóköz; elvont dolgok számánál nem kell „db”."
+szabalyok = ["K060"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#076"
+fejezet = "f14"
+oldal = "58"
+tipus = "szabaly"
+tartalom = "Az ábra- és táblázatcímek legyenek rövidek, informatívak, hasonló felépítésűek; az „alakulása”, „tevékenység” általában elhagyható; négy példapár."
+szabalyok = ["K065"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#077"
+fejezet = "f14"
+oldal = "59"
+tipus = "szabaly"
+tartalom = "Táblázatban a dátum formája egységes, az év, hónap szavak és a vezető nulla nélkül; a rövidítést minden táblázatban következetesen használd; sok ábránál számozott ábrajegyzék."
+szabalyok = ["K066"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#078"
+fejezet = "f14"
+oldal = "60"
+tipus = "szabaly"
+tartalom = "A kiegészítésre szoruló adatot csillaggal jelöld, és a táblázat alatt kisebb betűvel magyarázd; a helyesírás a táblázatban is érvényes; rövidítés és szó összetételét kötőjellel kapcsold."
+szabalyok = ["K066"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#079"
+fejezet = "f14"
+oldal = "61"
+tipus = "szabaly"
+tartalom = "A táblázat szövegeinek kezdőbetűje legyen következetes; kettőspont utáni felsorolás sorai kisbetűvel kezdődjenek."
+szabalyok = ["K066"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#080"
+fejezet = "f15"
+oldal = "62"
+tipus = "szabaly"
+tartalom = "A grafikonon az adatok legyenek láthatók: megfelelő betű és diagramforma, ne túlzsúfolt, ne sötét háttér."
+szabalyok = ["K067"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#081"
+fejezet = "f16"
+oldal = "64"
+tipus = "ajanlas"
+tartalom = "Ellenőrzés előtt olvasd fel hangosan a szöveget: amit nehéz felolvasni, azt megérteni sem könnyű."
+szabalyok = ["K075"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#082"
+fejezet = "f16"
+oldal = "65"
+tipus = "ellenorzolista"
+tartalom = "Közérthetőségi teszt nyolc kérdése: elöl van-e a legfontosabb; egyértelmű-e, mit és mikor kell tenni; van-e indokolatlan ismétlés; van-e elhagyható kifejezés, jelző, igekötő; van-e 4–5 soros mondat; vezetik-e az olvasót alcímek, kiemelések; lábjegyzetbe kerültek-e a hivatkozások; van-e olyan szó, amit nem értene meg bárki."
+szabalyok = ["K075"]
+
+[[tetel]]
+azonosito = "nav-ertheto-hivatal-2#083"
+fejezet = "f17"
+oldal = "66"
+tipus = "hatter"
+tartalom = "Felhasznált források, köztük a Kúria Stíluskönyve és a kozerthetofogalmazas.hu."
+kihagyva = "Forrásjegyzék; a Kúria Stíluskönyve külön forrásként vehető fel, ha elérhető."
