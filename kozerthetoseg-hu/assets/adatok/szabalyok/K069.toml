@@ -1,0 +1,14 @@
+azonosito = "K069"
+cim = "Egyértelmű, mi kötelező"
+csoport = "nyomtatvany"
+szabaly = "Jelöld egyértelműen, melyik mező és csatolmány kötelező, és melyik milyen esetben; ha minden kötelező, ezt nem kell külön jelölni."
+miert = "Az olvasó nem tudhatja, mi vonatkozik rá; ha neki kell kitalálnia, hibázik vagy időt veszít."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "vilagos-beszed-kisokos-2025#038",
+]
+
+[pelda]
+rossz = "Csatolandó: munkáltatói igazolás, vállalkozói igazolvány másolata."
+jo = "Csatolja: munkáltatói igazolást, ha alkalmazott; vállalkozói igazolvány másolatát, ha egyéni vállalkozó."

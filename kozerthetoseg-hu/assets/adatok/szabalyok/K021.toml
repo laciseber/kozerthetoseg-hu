@@ -1,0 +1,19 @@
+azonosito = "K021"
+cim = "Az alany és az állítmány elöl, egymás közelében"
+csoport = "mondat"
+szabaly = "A mondat elején álljon, kire vonatkozik (alany) és mit kell tennie (állítmány), egymáshoz közel; a bővítmények csak utánuk jöjjenek."
+miert = "Ha az állítmány a mondat végére kerül, az olvasónak az egész mondatot fejben kell tartania, mire megtudja, mi a lényeg."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "balogh-2023#008",
+  "horvath-2021#009",
+  "nav-ertheto-hivatal-2#031",
+  "nav-ertheto-hivatal-2#033",
+  "nav-ertheto-hivatal-2#034",
+  "vilagos-beszed-kisokos-2025#028",
+]
+
+[pelda]
+rossz = "A bérlőnek a lakásban végzett, a bérbeadó előzetes írásbeli hozzájárulásához kötött átalakítási munkák megkezdése előtt értesítési kötelezettsége áll fenn."
+jo = "A bérlőnek értesítenie kell a bérbeadót, mielőtt átalakítási munkába kezd. Ehhez a bérbeadó előzetes írásbeli hozzájárulása kell."

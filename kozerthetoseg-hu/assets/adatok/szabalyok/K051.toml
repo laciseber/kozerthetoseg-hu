@@ -1,0 +1,15 @@
+azonosito = "K051"
+cim = "Látható alcímek"
+csoport = "kinezet"
+szabaly = "Emeld ki az alcímeket nagyobb és félkövér betűvel, és hagyj előttük több helyet, hogy látszódjon, melyik blokkhoz tartoznak."
+miert = "A kiemelt alcímekből az olvasó egy pillantással átlátja a szöveg szerkezetét."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "vilagos-beszed-kisokos-2025#033",
+  "vilagos-beszed-kisokos-2025#045",
+]
+
+[pelda]
+rossz = "Az alcím ugyanakkora, normál vastagságú betűvel áll, mint a törzsszöveg, közvetlenül az előző bekezdés alatt."
+jo = "Az alcím két ponttal nagyobb, félkövér, és üres sor választja el az előző blokktól."

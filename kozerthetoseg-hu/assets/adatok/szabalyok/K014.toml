@@ -1,0 +1,16 @@
+azonosito = "K014"
+cim = "Rövid bekezdés, egy témával"
+csoport = "felepites"
+szabaly = "Egy bekezdés egy témáról szóljon, és lehetőleg kulcsszóval kezdődjön."
+miert = "A rövid, egytémájú bekezdés miatt az olvasó nem ugrik át véletlenül olyan információt, amelyre szüksége volna; a kulcsszó megmutatja, miről szól."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "gerencser-2023#006",
+  "nav-ertheto-hivatal-2#026",
+  "vilagos-beszed-kisokos-2025#031",
+]
+
+[pelda]
+rossz = "Egyetlen tizenkét soros bekezdés, amely a határidőről, a fizetés módjáról, a részletfizetésről és a panasz benyújtásáról is szól."
+jo = "Négy rövid bekezdés, mindegyik a saját témájával kezdődik: határidő, fizetés, részletfizetés, panasz."

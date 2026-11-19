@@ -1,0 +1,21 @@
+azonosito = "K049"
+cim = "Egy megszólítás végig"
+csoport = "megszolitas-es-hang"
+szabaly = "Ugyanazt a megszólítást használd a szöveg elejétől a végéig (szám, személy, kis- vagy nagybetű), és a kiadó szervezetet is egyféleképpen nevezd meg."
+miert = "Ha a szöveg váltogat (Ön, az adózó, Önök), az olvasó nem tudja biztosan, mikor szól neki és mikor másnak."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#035",
+  "nav-ertheto-hivatal-2#065",
+  "vilagos-beszed-kisokos-2025#020",
+]
+
+[pelda]
+rossz = "Kérjük, nyújtsa be a nyilatkozatot. Az adózó a nyilatkozatot 15 napon belül köteles benyújtani. Amennyiben Önök késve nyújtják be..."
+jo = "Kérjük, 15 napon belül küldje el a nyilatkozatot. Ha később küldi el, ..."
+
+[[elteres]]
+forrasok = ["vilagos-beszed-kisokos-2025#020", "nav-ertheto-hivatal-2#035"]
+leiras = "A Világos Beszéd kisokosa nagybetűs „Ön” megszólítást ír elő; a NAV példatárának egyik példájában kisbetűs „ön” áll, a tanácsai között viszont nagybetűs."
+dontes = "A skill a szöveg saját választását tartja meg, és azt egységesíti. Ha a szöveg nem dönt, hivatali levélben a nagybetűs „Ön”-t javasolja, mert a kisokos ezt írja elő, és a NAV is így ír a saját tanácsaiban."

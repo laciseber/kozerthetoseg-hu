@@ -1,0 +1,17 @@
+azonosito = "K005"
+cim = "Csak az olvasónak szükséges információ"
+csoport = "cel-es-tartalom"
+szabaly = "Csak azt írd le, amire az olvasónak az ügy adott szakaszában szüksége van, vagy amit jogszabály ír elő; a szervezet belső működése és a későbbi szakaszok részletei maradjanak ki."
+miert = "Minden fölös bekezdés elvonja a figyelmet a lényegről, és hosszabbá teszi az utat a teendőig. A belső eljárás leírása az olvasóban azt az érzést kelti, hogy a szervezet magával foglalkozik, nem vele."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#011",
+  "nav-ertheto-hivatal-2#004",
+  "vilagos-beszed-kisokos-2025#019",
+]
+kivetelek = ["Ha a jogszabály kötelező tartalmi elemet ír elő (például jogorvoslati tájékoztatást), az akkor is benne marad, ha az olvasónak éppen nincs rá szüksége."]
+
+[pelda]
+rossz = "A kérelmet az ügyfélszolgálati osztály iktatja, majd továbbítja a szakmai főosztálynak, amely a belső ellenőrzési szabályzat szerint két munkatárssal vizsgálja meg."
+jo = "A kérelmét 30 napon belül elbíráljuk. A döntésről levélben értesítjük."

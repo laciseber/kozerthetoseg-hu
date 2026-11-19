@@ -1,0 +1,16 @@
+azonosito = "K079"
+cim = "Adatkezelési tájékoztató: konkrét cél és jogalap"
+csoport = "cel-es-tartalom"
+szabaly = "Adatkezelési tájékoztatóban konkrétan írd le, milyen adatot, milyen célra és milyen jogalapon kezelsz; az általános célmegjelölés („szolgáltatásaink fejlesztésére”) nem elég."
+miert = "Az érintett csak akkor tudja előre látni, mi történik az adataival, és csak akkor tud tiltakozni, ha a cél konkrét."
+alkalmazasi_kor = "jogi"
+allapot = "aktiv"
+forrasok = [
+  "wp260-2018#007",
+  "wp260-2018#008",
+  "wp260-2018#009",
+]
+
+[pelda]
+rossz = "Személyes adatait szolgáltatásaink fejlesztésére használhatjuk."
+jo = "A vásárlásai listáját megőrizzük, és ez alapján ajánlunk Önnek termékeket a hírlevelünkben. Ennek jogalapja az Ön hozzájárulása, amelyet bármikor visszavonhat."

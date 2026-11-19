@@ -1,0 +1,16 @@
+azonosito = "K003"
+cim = "A teendő a fő üzenet után; ha nincs teendő, azt is mondd ki"
+csoport = "cel-es-tartalom"
+szabaly = "A fő üzenet után írd le, mit kell vagy mit lehet az olvasónak tennie; ha semmit, írd le, hogy a levéllel nincs teendője."
+miert = "A hivatali szöveg gyakran azt mondja el, amit a hivatalnak el kell mondania, és éppen az olvasó teendője marad homályban. Ha nincs teendő, ennek kimondása megspórol egy visszakérdezést."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#006",
+  "vilagos-beszed-kisokos-2025#011",
+  "vilagos-beszed-kisokos-2025#016",
+]
+
+[pelda]
+rossz = "Tájékoztatjuk, hogy a 2025. évi adatszolgáltatás feldolgozása megtörtént."
+jo = "Feldolgoztuk a 2025-ös adatszolgáltatását. Ezzel a levéllel nincs teendője."

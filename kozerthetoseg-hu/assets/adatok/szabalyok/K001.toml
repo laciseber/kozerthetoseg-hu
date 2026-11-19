@@ -1,0 +1,24 @@
+azonosito = "K001"
+cim = "Az olvasó és a cél tisztázása írás előtt"
+csoport = "cel-es-tartalom"
+szabaly = "Mielőtt írni kezdesz, határozd meg, ki olvassa a szöveget, mit tud már a témáról, mit kell tennie az olvasás után, és mikor tekinted sikeresnek a szöveget."
+miert = "Aki sokat tud a témáról, könnyen elfelejti, mit nem tud az olvasó. Ha az olvasó és a cél ki van mondva, a későbbi döntések (mi maradjon ki, milyen szó kell) erre épülhetnek."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "balogh-2023#002",
+  "eu-pontos-fogalmazas-2013#003",
+  "eu-pontos-fogalmazas-2013#004",
+  "eu-pontos-fogalmazas-2013#008",
+  "gerencser-2023#003",
+  "vilagos-beszed-kisokos-2025#004",
+  "vilagos-beszed-kisokos-2025#005",
+  "vilagos-beszed-kisokos-2025#008",
+  "vilagos-beszed-kisokos-2025#012",
+  "wp260-2018#003",
+]
+kivetelek = ["Ha a megbízó nem mondja meg az olvasót, egyetlen kérdésben kérdezz rá; ha erre sincs mód, írd le, milyen olvasót feltételeztél."]
+
+[pelda]
+rossz = "Egy szakértő a saját belső jegyzetéből másolja át az ügyfélnek szóló levelet, és a levélben a csoport belső rövidítései maradnak."
+jo = "Írás előtt egy sor: „Olvasó: a lakásfelújítási támogatást kérő magánszemély, aki most kapott hiánypótlási felhívást. Teendő: 15 napon belül beküldi a hiányzó számlát.”"

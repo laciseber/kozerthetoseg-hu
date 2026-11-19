@@ -1,0 +1,14 @@
+azonosito = "K064"
+cim = "Ábra, táblázat, ikon a szöveg helyett, ha világosabb"
+csoport = "tablazat-es-abra"
+szabaly = "Ha az információ összehasonlító, számszerű vagy folyamatot ír le, mérlegeld, hogy táblázat, ábra vagy ikon világosabb-e a szövegnél."
+miert = "Az egymás mellé tett számokat és lépéseket táblázatban gyorsabban átlátja az olvasó, mint folyó szövegben."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#014",
+]
+
+[pelda]
+rossz = "Hárommondatos bekezdés, amely öt díjtételt sorol fel feltételekkel."
+jo = "Kétoszlopos táblázat: díjtétel és feltétel."

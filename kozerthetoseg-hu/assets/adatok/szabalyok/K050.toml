@@ -1,0 +1,15 @@
+azonosito = "K050"
+cim = "Udvarias, partneri hang"
+csoport = "megszolitas-es-hang"
+szabaly = "Írj udvariasan és partnerként: köszönd meg a megkeresést, mondd ki, ha sajnálod, hogy nem tudsz segíteni, és hagyd el a merev hivatali fordulatokat."
+miert = "Az olvasó a hangnemből is érzi, hogyan kezelik. A merev formula távolságot tart, és nem ad hozzá semmit a tartalomhoz."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "vilagos-beszed-kisokos-2025#032",
+]
+meres = ["hivatali_fordulatok"]
+
+[pelda]
+rossz = "Kérjük tájékoztatásunk szíves tudomásulvételét."
+jo = "Köszönjük, hogy megkeresett minket. Sajnáljuk, hogy ebben az ügyben nem tudunk segíteni."

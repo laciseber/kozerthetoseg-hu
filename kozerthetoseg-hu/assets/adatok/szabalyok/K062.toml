@@ -1,0 +1,16 @@
+azonosito = "K062"
+cim = "Vessző az „illetve”, az „és” és a „mint” előtt"
+csoport = "szamok-es-jelek"
+szabaly = "Az „illetve”, „valamint”, „továbbá” elé tegyél vesszőt; az „és” elé akkor, ha tagmondatot vezet be; a „mint” elé, ha hasonlítást vezet be."
+miert = "Az „és” előtti vessző a jelentést is megváltoztathatja: eldönti, hogy két cselekvés közös-e."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#068",
+  "nav-ertheto-hivatal-2#069",
+  "nav-ertheto-hivatal-2#070",
+]
+
+[pelda]
+rossz = "Postán illetve elektronikusan küldheti el."
+jo = "Postán, illetve elektronikusan küldheti el."

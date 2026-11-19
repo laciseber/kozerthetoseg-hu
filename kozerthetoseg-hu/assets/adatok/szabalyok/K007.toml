@@ -1,0 +1,15 @@
+azonosito = "K007"
+cim = "Az olvasó kimondatlan kérdései"
+csoport = "cel-es-tartalom"
+szabaly = "Gondold végig, milyen kérdések merülnek fel az olvasóban, és a szövegben válaszolj rájuk akkor is, ha nem kérdezte meg őket."
+miert = "Az olvasó kérdései nem tűnnek el attól, hogy a szöveg nem válaszol rájuk; csak telefonhívás vagy panasz lesz belőlük."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#010",
+  "vilagos-beszed-kisokos-2025#013",
+]
+
+[pelda]
+rossz = "A kérelmét elutasítottuk."
+jo = "A kérelmét elutasítottuk, mert a jövedelemigazolás hiányzott. Újra beadhatja, ha csatolja az igazolást. Az új kérelemért nem kell díjat fizetnie."

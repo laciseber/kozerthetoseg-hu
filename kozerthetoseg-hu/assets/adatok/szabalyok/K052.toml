@@ -1,0 +1,16 @@
+azonosito = "K052"
+cim = "Kevés, rövid kiemelés"
+csoport = "kinezet"
+szabaly = "Félkövérrel csak a lényeget emeld ki; a kiemelés legyen rövid, magában is érthető, kevés, és a hasonló elemeket mindig ugyanúgy jelöld."
+miert = "A kiemelés akkor működik, ha ritka. Ha minden második szó félkövér, semmi nem emelkedik ki."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#014",
+  "nav-ertheto-hivatal-2#024",
+  "vilagos-beszed-kisokos-2025#034",
+]
+
+[pelda]
+rossz = "**Kérjük**, hogy a **nyilatkozatot** a **határidőn belül** **aláírva** küldje vissza **postán vagy elektronikusan**."
+jo = "Kérjük, küldje vissza a nyilatkozatot aláírva **2026. június 15-ig**."

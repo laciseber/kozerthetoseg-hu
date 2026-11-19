@@ -1,0 +1,17 @@
+azonosito = "K011"
+cim = "A legtöbbeket érintő információtól a különös esetekig"
+csoport = "felepites"
+szabaly = "Rendezd a tartalmat úgy, hogy a legtöbb olvasót érintő információ és a teendő álljon elöl, a különös esetek és a részletszabályok később; változást ne időrendben mesélj el."
+miert = "Akire a különös eset nem vonatkozik, ne kelljen végigolvasnia. Az időrendi elbeszélés a múltbeli előzményeket teszi előre, és a lényeg a szöveg közepére csúszik."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "balogh-2023#016",
+  "nav-ertheto-hivatal-2#020",
+  "nav-ertheto-hivatal-2#021",
+  "nav-ertheto-hivatal-2#022",
+]
+
+[pelda]
+rossz = "2019-ben indult a program, 2022-ben bővült, és a tavaly elfogadott döntés alapján idén júliustól a támogatás összege havi 20 000 forintra emelkedik."
+jo = "Júliustól havi 20 000 forint a támogatás. A program 2019 óta működik."

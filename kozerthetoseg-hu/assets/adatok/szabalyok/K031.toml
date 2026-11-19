@@ -1,0 +1,14 @@
+azonosito = "K031"
+cim = "Szakszó, ha a köznyelvi szó félrevezet"
+csoport = "szo"
+szabaly = "Ha egy köznyelvi szót szaknyelvi jelentésben használnál, és az olvasó a köznyelvi jelentését érti, válassz egyszerű szakszót vagy körülírást."
+miert = "A köznyelvi szó ismerősnek tűnik, ezért az olvasó nem kérdez vissza, hanem félreérti. Ez rosszabb, mint az ismeretlen szó."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "horvath-2021#005",
+]
+
+[pelda]
+rossz = "A biztosító szolgáltatási kötelezettsége nem áll be, ha a kárt szándékosan okozták."
+jo = "A biztosító nem fizet, ha a kárt szándékosan okozták."

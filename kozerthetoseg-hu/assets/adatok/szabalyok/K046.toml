@@ -1,0 +1,17 @@
+azonosito = "K046"
+cim = "Kettős tagadás nélkül"
+csoport = "szerkezet"
+szabaly = "Ne használj kettős tagadást, a bújtatottat sem (nem + tagadó jelentésű ige vagy szó: nem mellőzhető, nem hiányzik, nem tilos); fogalmazd meg állítóan."
+miert = "A kettős tagadást az olvasónak kétszer kell megfordítania, és könnyen az ellenkezőjét érti."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "horvath-2021#021",
+  "horvath-2021#022",
+  "nav-ertheto-hivatal-2#038",
+]
+meres = ["tagadas"]
+
+[pelda]
+rossz = "A kérelem nem bírálható el a jövedelemigazolás csatolása nélkül, kivéve, ha nem kötelező csatolni."
+jo = "A kérelemhez csatolja a jövedelemigazolást. Ha nincs jövedelme, ezt elég nyilatkozatban jeleznie."

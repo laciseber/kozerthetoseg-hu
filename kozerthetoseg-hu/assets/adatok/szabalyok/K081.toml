@@ -1,0 +1,18 @@
+azonosito = "K081"
+cim = "Fogyasztói kikötés: világos és érthető, két külön próba"
+csoport = "cel-es-tartalom"
+szabaly = "Fogyasztói szerződés vagy ÁSZF kikötésénél két dolgot vizsgálj külön: világos-e a szöveg nyelvileg, és érthető-e abban az értelemben, hogy a fogyasztó előre látja a kikötés következményeit (például mennyit fizet)."
+miert = "A Ptk. a főszolgáltatást meghatározó kikötést csak akkor zárja ki a tisztességtelenségi vizsgálatból, ha világos és érthető; az Európai Bíróság szerint ehhez a nyelvtani érthetőség nem elég, a fogyasztónak értékelnie kell tudnia a gazdasági következményeket."
+alkalmazasi_kor = "jogi"
+allapot = "aktiv"
+forrasok = [
+  "eub-c-26-13-2014#001",
+  "eub-c-26-13-2014#002",
+  "ptk-2013#001",
+  "ptk-2013#003",
+]
+kivetelek = ["A skill nem ad jogi tanácsot: azt jelzi, hol gyenge a kikötés a két próba szerint; a tisztességtelenség megítélése jogászi feladat."]
+
+[pelda]
+rossz = "A szolgáltató jogosult a díjat egyoldalúan módosítani a piaci körülmények változása esetén."
+jo = "A szolgáltató évente egyszer, januárban emelheti a díjat, legfeljebb a KSH által előző évre közölt fogyasztói árindex mértékével. Az emelésről 30 nappal előtte értesítjük; ha nem fogadja el, díjmentesen felmondhatja a szerződést."

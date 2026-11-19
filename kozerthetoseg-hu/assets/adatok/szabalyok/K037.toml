@@ -1,0 +1,16 @@
+azonosito = "K037"
+cim = "Felesleges igekötő nélkül"
+csoport = "szo"
+szabaly = "Ha az ige igekötő nélkül is teljes jelentésű, hagyd el az igekötőt (leellenőriz helyett ellenőriz)."
+miert = "A felesleges igekötő szószaporítás, és hivatali ízt ad a szövegnek."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#034",
+  "eu-pontos-fogalmazas-2013#041",
+  "nav-ertheto-hivatal-2#057",
+]
+
+[pelda]
+rossz = "Leellenőriztük és beazonosítottuk a befizetést."
+jo = "Ellenőriztük és azonosítottuk a befizetést."

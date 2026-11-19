@@ -1,0 +1,19 @@
+azonosito = "K075"
+cim = "Ellenőrző lista és hangos felolvasás"
+csoport = "folyamat"
+szabaly = "Mielőtt kiadod a szöveget, ellenőrizd ellenőrző listával, és olvasd fel hangosan: amit nehéz felolvasni, azt megérteni sem könnyű."
+miert = "A mechanikus ellenőrzés kiszűri azt, ami írás közben elsikkad; a felolvasás megmutatja a túl hosszú és döccenő mondatokat."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#050",
+  "gerencser-2023#015",
+  "nav-ertheto-hivatal-1#019",
+  "nav-ertheto-hivatal-1#027",
+  "nav-ertheto-hivatal-2#081",
+  "nav-ertheto-hivatal-2#082",
+]
+
+[pelda]
+rossz = "A szöveg megírás után azonnal kimegy."
+jo = "A szöveg végigmegy a lista pontjain (a fő üzenet elöl, a teendő egyértelmű, nincs 4–5 soros mondat, a jogszabályhely a végén), és a szerző felolvassa."

@@ -1,0 +1,17 @@
+azonosito = "K041"
+cim = "Konkrét szó az elvont és a divatszó helyett"
+csoport = "szo"
+szabaly = "Az elvont, homályos vagy divatos kifejezés helyett válaszd a konkrétabbat, amely megmondja, pontosan miről van szó."
+miert = "Az elvont szóból az olvasó nem tudja meg, mi történik vele. A konkrét szó pontosabb, és ellenőrizhető állítást tesz."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#035",
+  "eu-pontos-fogalmazas-2013#036",
+  "eu-pontos-fogalmazas-2013#037",
+  "wp260-2018#006",
+]
+
+[pelda]
+rossz = "Negatív tendencia figyelhető meg a foglalkoztatási lehetőségek terén."
+jo = "Kevesebb az álláshely."

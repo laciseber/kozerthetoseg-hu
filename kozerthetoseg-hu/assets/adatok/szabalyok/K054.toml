@@ -1,0 +1,14 @@
+azonosito = "K054"
+cim = "Legfeljebb három listaszint"
+csoport = "kinezet"
+szabaly = "Listát legfeljebb három szintig bonts; ha ennél mélyebb tagolás kellene, rendezd át a tartalmat."
+miert = "A sokszintű lista elveszíti az áttekinthetőségét: az olvasó nem tudja követni, melyik elem melyiknek az alpontja."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#016",
+]
+
+[pelda]
+rossz = "1. → a) → aa) → i. → – (öt szint egymás alatt)"
+jo = "Két listaszint, a harmadik szint helyett külön alcím a hozzá tartozó tételekkel."

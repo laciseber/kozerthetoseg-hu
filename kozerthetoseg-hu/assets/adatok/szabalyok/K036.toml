@@ -1,0 +1,18 @@
+azonosito = "K036"
+cim = "Egyszerűbb szó a körülményes helyett"
+csoport = "szo"
+szabaly = "A körülményes kötőszó vagy szerkezet helyett használd az egyszerűbbet: „amennyiben” helyett „ha”, „tekintettel arra, hogy” helyett „mivel”."
+miert = "Az egyszerű szó ugyanazt jelenti, csak gyorsabban olvasható; a szakszerűségből semmit nem vesz el."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#024",
+  "eu-pontos-fogalmazas-2013#025",
+  "nav-ertheto-hivatal-2#063",
+  "vilagos-beszed-kisokos-2025#030",
+]
+meres = ["hivatali_fordulatok"]
+
+[pelda]
+rossz = "Amennyiben a díjat nem fizeti meg, tekintettel arra, hogy a szerződés ezt lehetővé teszi, a szolgáltatást felfüggesztjük."
+jo = "Ha nem fizeti meg a díjat, felfüggesztjük a szolgáltatást. Ezt a szerződés lehetővé teszi."

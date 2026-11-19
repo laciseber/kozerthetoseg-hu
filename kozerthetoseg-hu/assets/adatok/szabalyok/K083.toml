@@ -1,0 +1,15 @@
+azonosito = "K083"
+cim = "Tartalomsablon az ismétlődő szövegtípusokhoz"
+csoport = "folyamat"
+szabaly = "Ha sok hasonló szöveget írsz (útmutató, ügyleírás), készíts tartalomsablont az olvasó visszatérő kérdéseivel, és mindegyik szöveg erre válaszoljon."
+miert = "A sablonnal egy olvasónak fontos pont sem marad ki, és az olvasó minden szövegben ugyanott találja ugyanazt."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-1#029",
+  "nav-ertheto-hivatal-2#030",
+]
+
+[pelda]
+rossz = "Minden ügyleírás más sorrendben, más alcímekkel készül."
+jo = "Minden ügyleírás alcímei: Mire szolgál? Kire vonatkozik? Mi a határidő? Hogyan nyújthatja be? Mennyibe kerül? Hol kap segítséget?"

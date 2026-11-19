@@ -1,0 +1,14 @@
+azonosito = "K057"
+cim = "Egységes dátum"
+csoport = "szamok-es-jelek"
+szabaly = "A dátumot egységes alakban írd (2026. április 4.), az „év”, „hónap”, „nap” szavak nélkül, a toldalékot a szabály szerint kapcsold (április 4-én, április 4-től)."
+miert = "A felesleges szavakkal megtoldott dátum nehezen olvasható, a vegyes formák pedig zavart keltenek."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#073",
+]
+
+[pelda]
+rossz = "2026. év április hónap 4. napján"
+jo = "2026. április 4-én"

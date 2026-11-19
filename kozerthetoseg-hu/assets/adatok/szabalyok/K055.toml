@@ -1,0 +1,15 @@
+azonosito = "K055"
+cim = "Olvasható betűméret"
+csoport = "kinezet"
+szabaly = "Válassz jól olvasható betűméretet, idős célközönségnek nagyobbat."
+miert = "A túl kicsi betű nem csak kényelmetlen: aki rosszul lát, vagy nincs kéznél a szemüvege, nem tudja elolvasni a szöveget."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "vilagos-beszed-kisokos-2025#047",
+]
+kivetelek = ["A könnyen érthető kommunikáció (KÉK) külön betűméret-szabályt követ."]
+
+[pelda]
+rossz = "Nyugdíjasoknak szóló tájékoztató 8 pontos betűvel."
+jo = "Nyugdíjasoknak szóló tájékoztató 13–14 pontos betűvel."

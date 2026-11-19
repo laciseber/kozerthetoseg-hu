@@ -1,0 +1,17 @@
+azonosito = "K016"
+cim = "Rövid, informatív cím"
+csoport = "felepites"
+szabaly = "A cím rövid legyen, és a legfontosabb újdonságot mondja meg, ne a teljes tartalmat foglalja össze."
+miert = "A cím alapján dönt az olvasó, hogy foglalkozik-e a szöveggel. Ha a cím mindent el akar mondani, semmi nem emelkedik ki belőle."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#013",
+  "nav-ertheto-hivatal-2#017",
+  "nav-ertheto-hivatal-2#018",
+]
+kivetelek = ["Hivatalos irat címét (például határozat) jogszabály vagy szabályzat határozhatja meg."]
+
+[pelda]
+rossz = "Tájékoztató a hulladékszállítási közszolgáltatás díjának a 2026. évre vonatkozó változásairól és a befizetés módjáról"
+jo = "Hulladékszállítás: januártól 4 százalékkal nő a díj"

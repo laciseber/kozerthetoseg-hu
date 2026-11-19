@@ -1,0 +1,16 @@
+azonosito = "K058"
+cim = "Számok egységes írása"
+csoport = "szamok-es-jelek"
+szabaly = "Egy szövegegységen belül a számokat egységesen írd (betűvel vagy számjeggyel); az öt- vagy többjegyű számokat hátulról hármasával tagold, nem törő szóközzel."
+miert = "A következetlen számírás megakasztja az olvasót, a tagolatlan nagy szám pedig nehezen olvasható ki."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#071",
+  "nav-ertheto-hivatal-2#072",
+]
+kivetelek = ["A négyjegyű számot nem kell tagolni, kivéve, ha táblázatban nagyobb számok alatt áll."]
+
+[pelda]
+rossz = "A kerület 3 iskolájában tizenkétezer-ötszáz tanuló és 12500 szülő..."
+jo = "A kerület 3 iskolájában 12 500 tanuló..."

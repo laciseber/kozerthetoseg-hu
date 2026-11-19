@@ -1,0 +1,17 @@
+azonosito = "K077"
+cim = "A szakmai tartalom hűsége"
+csoport = "folyamat"
+szabaly = "Az átírás után a szakterület ellenőrizze, hogy a szakmai és jogi tartalom nem sérült-e: minden tény, szám, határidő, feltétel és kivétel megvan-e."
+miert = "A közérthetőség nem mehet a pontosság rovására. A hűségellenőrzés teszi biztonságossá az egyszerűsítést."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-1#002",
+  "nav-ertheto-hivatal-1#020",
+  "nav-ertheto-hivatal-1#030",
+  "nav-ertheto-hivatal-1#038",
+]
+
+[pelda]
+rossz = "Az átírt változat kimegy, a jogi osztály nem látja."
+jo = "Az átírt változathoz a szerző listát ad a megváltoztatott elemekről, a jogi osztály ezek alapján jóváhagyja."

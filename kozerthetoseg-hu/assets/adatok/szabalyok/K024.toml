@@ -1,0 +1,17 @@
+azonosito = "K024"
+cim = "Nincs közbevetés és beágyazott hivatkozás a mondat közepén"
+csoport = "mondat"
+szabaly = "Ne szakítsa meg a mondatot zárójeles vagy gondolatjeles közbevetés, jogszabályi utalás vagy a szöveg más pontjára mutató hivatkozás."
+miert = "A közbevetés kettévágja a mondatot: az olvasónak meg kell jegyeznie az első felét, amíg a betoldást olvassa. Az egymásba ágyazott zárójelek ezt többszörözik."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "balogh-2023#014",
+  "nav-ertheto-hivatal-2#036",
+  "vilagos-beszed-kisokos-2025#028",
+]
+meres = ["zarojelmelyseg"]
+
+[pelda]
+rossz = "Az érintett (a GDPR 4. cikk 1. pontja szerinti azonosított vagy azonosítható természetes személy (a továbbiakban: érintett)) kérheti adatai törlését."
+jo = "Kérheti, hogy töröljük az adatait. Érintett az, akinek a személyes adatait kezeljük (GDPR 4. cikk 1. pont)."

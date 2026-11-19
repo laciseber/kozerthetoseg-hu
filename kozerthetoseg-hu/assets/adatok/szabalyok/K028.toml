@@ -1,0 +1,15 @@
+azonosito = "K028"
+cim = "Magyar mondatszerkezet idegen minták helyett"
+csoport = "mondat"
+szabaly = "Kerüld az idegen nyelvből átvett mondatszerkezeteket; a kiemelésre a magyar szórend és a hangsúly való."
+miert = "A tükörfordított szerkezet idegenül hat, és lassítja az olvasást, mert az olvasó nem a megszokott magyar mintát kapja."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#031",
+  "nav-ertheto-hivatal-2#005",
+]
+
+[pelda]
+rossz = "Ami az ügyben igazán fontos, az az, hogy a határidőt betartsa."
+jo = "Az ügyben a határidő betartása a legfontosabb."

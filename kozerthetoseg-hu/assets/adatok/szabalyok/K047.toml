@@ -1,0 +1,19 @@
+azonosito = "K047"
+cim = "„illetve”, „illetőleg” és „és/vagy” jogi szövegben"
+csoport = "szerkezet"
+szabaly = "Jogi szövegben az „illetve” helyett írd ki az egyértelmű kapcsolatot (és, vagy, valamint), az „illetőleg” és az „és/vagy” alakot ne használd."
+miert = "Az „illetve” jelentheti az „és”-t és a „vagy”-ot is; jogi szövegben ebből vita lesz. A jogszabályszerkesztési rendelet a jogszabálytervezetben ezért korlátozza vagy tiltja ezeket."
+alkalmazasi_kor = "jogi"
+allapot = "aktiv"
+forrasok = [
+  "jszr-2009#006",
+  "jszr-2009#007",
+  "jszr-2009#008",
+]
+kivetelek = ["A rendelet a jogszabály tervezetére kötelező; más jogi szövegnél (szerződés, tájékoztató) a skill ajánlásként alkalmazza."]
+meres = ["illetve_illetoleg"]
+
+[pelda]
+rossz = "A kérelmet a bérlő, illetve a tulajdonos nyújthatja be."
+jo = "A kérelmet a bérlő vagy a tulajdonos nyújthatja be."
+megjegyzes = "A rossz példából nem derül ki, hogy a kérelmet ketten együtt vagy bármelyikük egyedül nyújthatja be; a jó példa ezt eldönti."

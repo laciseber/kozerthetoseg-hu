@@ -1,0 +1,15 @@
+azonosito = "K082"
+cim = "A felsorolás elemei közötti kapcsolat egyértelmű"
+csoport = "mondat"
+szabaly = "Jogi szövegben a felsorolásnál mondd ki egyértelműen, hogy az elemek közül mindnek, egynek sem, pontosan egynek vagy legalább egynek kell teljesülnie."
+miert = "A felsorolás végén álló „és” vagy „vagy” könnyen elsikkad, és a joghatás attól függ, melyik kapcsolat érvényes."
+alkalmazasi_kor = "jogi"
+allapot = "aktiv"
+forrasok = [
+  "jszr-2009#005",
+]
+
+[pelda]
+rossz = "Jogosult az, aki\na) a településen lakik,\nb) 65 évesnél idősebb,\nc) egyedül él."
+jo = "Jogosult az, akire az alábbiak közül legalább kettő igaz:\na) a településen lakik,\nb) 65 évesnél idősebb,\nc) egyedül él."
+megjegyzes = "A rossz példából nem derül ki, hogy mindhárom feltétel kell-e, vagy elég egy is."

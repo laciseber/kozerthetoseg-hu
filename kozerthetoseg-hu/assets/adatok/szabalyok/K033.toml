@@ -1,0 +1,25 @@
+azonosito = "K033"
+cim = "Egy fogalom, egy szó végig"
+csoport = "szo"
+szabaly = "Ugyanazt a fogalmat a szöveg minden pontján ugyanazzal a szóval nevezd meg; stílusból ne cserélgesd szinonimákra."
+miert = "Ha a szöveg váltogatja a szót (kérelem, beadvány, folyamodvány), az olvasó joggal hiszi, hogy több különböző dologról van szó."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "balogh-2023#015",
+  "eu-pontos-fogalmazas-2013#021",
+  "eu-pontos-fogalmazas-2013#027",
+  "horvath-2021#016",
+  "jszr-2009#003",
+  "nav-ertheto-hivatal-2#061",
+]
+kivetelek = ["A szóismétlés itt nem hiba. Ami kerülendő, az a felesleges önismétlés: ugyanaz a hosszú név vagy körülírás újra és újra (lásd K035, K040)."]
+
+[pelda]
+rossz = "A kérelmet 30 napon belül bíráljuk el. A beadvány elbírálásáról levélben értesítjük. A folyamodványhoz csatolt iratokat visszaküldjük."
+jo = "A kérelmet 30 napon belül bíráljuk el. A döntésről levélben értesítjük. A kérelemhez csatolt iratokat visszaküldjük."
+
+[[elteres]]
+forrasok = ["nav-ertheto-hivatal-2#061", "eu-pontos-fogalmazas-2013#021"]
+leiras = "A NAV példatára szerint ne féljünk a szóismétléstől; az uniós útmutató az önismétlés kerülését kéri."
+dontes = "A kettő nem ütközik: a fogalom megnevezése ismétlődhet és ismétlődjön is, a hosszú név vagy a már elmondott tartalom ismételgetése viszont felesleges. A skill a terminust nem cseréli szinonimára, a felesleges ismétlést kihúzza."

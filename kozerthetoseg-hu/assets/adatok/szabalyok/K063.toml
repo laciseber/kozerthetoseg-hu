@@ -1,0 +1,15 @@
+azonosito = "K063"
+cim = "Felkiáltójel a felszólító mondat végén"
+csoport = "szamok-es-jelek"
+szabaly = "A felszólító mondat végére tegyél felkiáltójelet; ez helyesírási szabály, nem udvariatlanság."
+miert = "A felkiáltójel jelzi, hogy a mondat teendőt ad, nem tájékoztat. Sok egymást követő felszólításnál (útmutatóban) megengedőbb a szabály."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#067",
+]
+kivetelek = ["Lépésenkénti útmutatóban, ahol sok felszólítás követi egymást, a pont is elfogadott."]
+
+[pelda]
+rossz = "Kérjük, küldje el a nyilatkozatot."
+jo = "Kérjük, küldje el a nyilatkozatot!"

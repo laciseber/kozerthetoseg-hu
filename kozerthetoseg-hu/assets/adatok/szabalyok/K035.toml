@@ -1,0 +1,29 @@
+azonosito = "K035"
+cim = "Felesleges szavak és magától értetődő közlések nélkül"
+csoport = "szo"
+szabaly = "Hagyd el a jelentés nélküli fordulatokat, a felesleges jelzőket, a tautológiát és azt, ami a helyzetből úgyis egyértelmű."
+miert = "A felesleges szó hosszabbá teszi az utat a lényegig, és elrejti azt, ami valóban új. A „Tájékoztatjuk, hogy” után az olvasó még mindig nem tudja, miről van szó."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#017",
+  "eu-pontos-fogalmazas-2013#019",
+  "eu-pontos-fogalmazas-2013#020",
+  "eu-pontos-fogalmazas-2013#021",
+  "gerencser-2023#005",
+  "horvath-2021#012",
+  "horvath-2021#013",
+  "horvath-2021#014",
+  "horvath-2021#015",
+  "horvath-2021#017",
+  "horvath-2021#018",
+  "nav-ertheto-hivatal-2#055",
+  "nav-ertheto-hivatal-2#056",
+  "nav-ertheto-hivatal-2#064",
+  "vilagos-beszed-kisokos-2025#029",
+]
+meres = ["hivatali_fordulatok"]
+
+[pelda]
+rossz = "Tájékoztatjuk, hogy a jelen levelünkben foglaltak szerint a benyújtott kérelmét a hivatalos honlapunkon közzétett feltételek alapján megvizsgáltuk."
+jo = "Megvizsgáltuk a kérelmét a honlapunkon közzétett feltételek szerint."

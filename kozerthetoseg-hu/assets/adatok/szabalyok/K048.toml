@@ -1,0 +1,18 @@
+azonosito = "K048"
+cim = "Az olvasóhoz beszélj, ne róla"
+csoport = "megszolitas-es-hang"
+szabaly = "Szólítsd meg az olvasót közvetlenül (alapértelmezés szerint magázva, Önnek), ne hivatkozz rá harmadik személyben (az ügyfél, az igénylő); a kiadó szervezetről többes szám első személyben írj."
+miert = "A megszólításból az olvasó rögtön tudja, mikor van szó róla és mikor másról. A harmadik személy távolságot tart, és nem derül ki belőle, hogy az olvasó az érintett."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#009",
+  "nav-ertheto-hivatal-2#040",
+  "vilagos-beszed-kisokos-2025#020",
+  "vilagos-beszed-kisokos-2025#021",
+]
+kivetelek = ["Jogszabály normaszövege egyes szám harmadik személyben, jelen idejű kijelentő módban szól; ezt a skill nem írja át.", "Ha a szöveg maga tegez, a tegezés marad."]
+
+[pelda]
+rossz = "Az igénylő a támogatásra akkor jogosult, ha az igénylő háztartásában az egy főre jutó jövedelem nem haladja meg a meghatározott összeget."
+jo = "Ön akkor kaphat támogatást, ha a háztartásában az egy főre jutó jövedelem legfeljebb havi 150 000 forint."

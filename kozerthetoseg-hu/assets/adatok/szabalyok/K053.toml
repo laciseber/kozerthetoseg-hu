@@ -1,0 +1,17 @@
+azonosito = "K053"
+cim = "Szellős, egységes íráskép"
+csoport = "kinezet"
+szabaly = "Az íráskép legyen szellős és következetes: egységes betűtípus, betűméret, sorköz, térköz és behúzás; a címsorok csak méretben vagy színben térjenek el."
+miert = "Az olvasó már a külalak alapján eldönti, követhető-e a szöveg. A zsúfolt vagy következetlen oldal elveszi a kedvét az olvasástól."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#011",
+  "nav-ertheto-hivatal-2#012",
+  "nav-ertheto-hivatal-2#013",
+  "vilagos-beszed-kisokos-2025#046",
+]
+
+[pelda]
+rossz = "Háromféle betűtípus egy oldalon, eltérő sorközzel, a bekezdések között üres sor nélkül."
+jo = "Egy betűtípus, egységes sorköz, a bekezdések között térköz, a címsorok nagyobb méretűek."

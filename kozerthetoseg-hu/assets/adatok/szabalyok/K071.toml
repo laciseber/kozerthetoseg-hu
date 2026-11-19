@@ -1,0 +1,14 @@
+azonosito = "K071"
+cim = "Zárt válaszlehetőség, ha kevés a válasz"
+csoport = "nyomtatvany"
+szabaly = "Ha kevés, rövid válasz lehetséges, adj ikszelhető válaszlehetőségeket szabad szöveges mező helyett."
+miert = "Az olvasónak könnyebb választani, mint fogalmazni, a kitöltő pedig egységes, feldolgozható válaszokat kap."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "vilagos-beszed-kisokos-2025#042",
+]
+
+[pelda]
+rossz = "Lakhatás jellege: ____________________"
+jo = "Lakhatás jellege: ☐ saját tulajdon ☐ bérlemény ☐ egyéb"

@@ -1,0 +1,14 @@
+azonosito = "K078"
+cim = "Régi sablon és átvett szöveg átdolgozása"
+csoport = "folyamat"
+szabaly = "Korábbi sablont vagy más szövegből átvett részt ne használj átdolgozás nélkül: igazítsd a mostani helyzethez, és egységesítsd a szóhasználatot."
+miert = "A régi sablon elavult tényeket és hivatali fordulatokat hordoz, az összeollózott szövegben pedig váltakozik a terminológia és ismétlődik a tartalom."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#018",
+]
+
+[pelda]
+rossz = "A 2019-es sablon változatlanul megy ki, benne a már megszűnt ügyfélszolgálati címmel."
+jo = "A sablont minden kiadás előtt összevetik az aktuális adatokkal és a szakkifejezések jegyzékével."

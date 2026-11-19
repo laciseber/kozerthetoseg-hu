@@ -1,0 +1,21 @@
+azonosito = "K030"
+cim = "Szakszó csak magyarázattal"
+csoport = "szo"
+szabaly = "Ha szakszót kell használnod, magyarázd meg az első előfordulásánál, vagy adj szószedetet; a túlzottan jogi, műszaki vagy szakmai szóhasználatot kerüld."
+miert = "A szakszó sokszor nem cserélhető le (jogi következménye van), de az olvasó csak akkor tud vele mit kezdeni, ha tudja, mit jelent."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#014",
+  "eu-pontos-fogalmazas-2013#045",
+  "eu-pontos-fogalmazas-2013#046",
+  "gerencser-2023#004",
+  "nav-ertheto-hivatal-1#034",
+  "nav-ertheto-hivatal-2#060",
+  "vilagos-beszed-kisokos-2025#022",
+  "wp260-2018#013",
+]
+
+[pelda]
+rossz = "Az ingatlanra jelzálogjog került bejegyzésre."
+jo = "Az ingatlanra jelzálogjogot jegyeztek be. Ez azt jelenti, hogy ha a tartozást nem fizetik meg, a hitelező az ingatlan eladásából kaphatja meg a pénzét."

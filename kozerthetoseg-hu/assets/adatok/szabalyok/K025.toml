@@ -1,0 +1,20 @@
+azonosito = "K025"
+cim = "A lényeg előre: a szórend jelentést és hangsúlyt hordoz"
+csoport = "mondat"
+szabaly = "Tedd előre a mondat lényeges részét; a magyarban a hangsúlyos elem az ige elé kerül, ezért figyeld, mit emel ki a választott szórend."
+miert = "Ugyanazok a szavak más szórendben mást hangsúlyoznak, néha mást is jelentenek. A rossz szórend a lényeget a mondat végére dugja."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#029",
+  "eu-pontos-fogalmazas-2013#030",
+  "horvath-2021#010",
+  "horvath-2021#011",
+  "horvath-2021#020",
+  "nav-ertheto-hivatal-1#033",
+  "nav-ertheto-hivatal-2#032",
+]
+
+[pelda]
+rossz = "A szerződés megkötésétől számított 14 napon belül indoklás nélkül, a szolgáltatónak küldött nyilatkozattal elállhat."
+jo = "Elállhat a szerződéstől 14 napon belül, indoklás nélkül. Ehhez küldjön nyilatkozatot a szolgáltatónak."

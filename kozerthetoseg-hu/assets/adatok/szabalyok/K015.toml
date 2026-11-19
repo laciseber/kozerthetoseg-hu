@@ -1,0 +1,15 @@
+azonosito = "K015"
+cim = "Kereszthivatkozás helyett a szükséges információ helyben"
+csoport = "felepites"
+szabaly = "Kerüld, hogy a szöveg a saját más pontjaira utaljon („lásd a 3. pontot”); ha az információ kell, írd le ott, ahol kell."
+miert = "A kereszthivatkozás miatt az olvasónak oda-vissza kell lapoznia, és fejben kell tartania, mit olvasott máshol."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#029",
+]
+kivetelek = ["Hosszú dokumentumban az összefoglaló utalhat a részletes fejezetre."]
+
+[pelda]
+rossz = "A határidőre a 4.2. pontban foglaltak az irányadók."
+jo = "A határidő 30 nap."

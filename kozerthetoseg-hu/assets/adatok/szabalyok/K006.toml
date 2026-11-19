@@ -1,0 +1,15 @@
+azonosito = "K006"
+cim = "Konkrétan, az olvasó helyzetére vetítve"
+csoport = "cel-es-tartalom"
+szabaly = "Ne általánosságban ismertesd a szabályt, hanem azt írd le, mit jelent az olvasó ügyében."
+miert = "Az általános szabályból az olvasónak magának kellene kikövetkeztetnie, mi vonatkozik rá. A konkrét mondat ezt a munkát elvégzi helyette."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#008",
+  "nav-ertheto-hivatal-2#009",
+]
+
+[pelda]
+rossz = "Az ügyintézési határidő a vonatkozó jogszabály szerint a kérelem beérkezését követő napon kezdődik, és a hiánypótlás időtartama nem számít bele."
+jo = "Az Ön ügyében a döntés határideje 2026. május 12."

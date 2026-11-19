@@ -1,0 +1,16 @@
+azonosito = "K019"
+cim = "Egy mondat, egy dolog"
+csoport = "mondat"
+szabaly = "Egy mondat egy gondolatot, egy információt közöljön; két ellentétes közlést ne zsúfolj egy mondatba."
+miert = "Az olvasó mondatonként dolgozza fel a szöveget. Ha egy mondatban több állítás van, könnyen csak az egyiket jegyzi meg, és az ellentétes közlések egymást teszik nehezen érthetővé."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "horvath-2021#019",
+  "nav-ertheto-hivatal-2#037",
+  "vilagos-beszed-kisokos-2025#027",
+]
+
+[pelda]
+rossz = "A bérletet csak személyesen lehet megvásárolni, de a meghosszabbítás online is lehetséges, amennyiben a bérlet még érvényes."
+jo = "A bérletet személyesen vásárolhatja meg. Amíg a bérlet érvényes, online is meghosszabbíthatja."

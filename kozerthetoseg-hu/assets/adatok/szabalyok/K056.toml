@@ -1,0 +1,17 @@
+azonosito = "K056"
+cim = "A szakkifejezések helyesírása"
+csoport = "szamok-es-jelek"
+szabaly = "A nehéz helyesírású szakkifejezéseket ellenőrizd helyesírási szótárban vagy tanácsadó portálon; a helyesírás-ellenőrző program nem szűr ki minden hibát."
+miert = "A helyesírási hiba rontja a szöveg hitelét, és összetett szavaknál jelentést is változtathat."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#049",
+  "nav-ertheto-hivatal-1#015",
+  "nav-ertheto-hivatal-2#001",
+  "nav-ertheto-hivatal-2#005",
+]
+
+[pelda]
+rossz = "Az SZJA bevallás és az ÁFA visszatérítés határideje..."
+jo = "Az szja-bevallás és az áfa-visszatérítés határideje..."

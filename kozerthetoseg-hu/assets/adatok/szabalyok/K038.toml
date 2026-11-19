@@ -1,0 +1,15 @@
+azonosito = "K038"
+cim = "Névutó helyett rag"
+csoport = "szo"
+szabaly = "Ahol rag is elég, ne használj névutót vagy hosszabb szerkezetet (a hivatal felé helyett a hivatalnak, e-mail útján helyett e-mailben)."
+miert = "A rag rövidebb, és ugyanazt jelenti; a névutók halmozása elnehezíti a mondatot."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#040",
+  "nav-ertheto-hivatal-2#058",
+]
+
+[pelda]
+rossz = "A beadvány benyújtása során e-mail útján küldje meg a hivatal felé a meghatalmazást."
+jo = "Amikor beadja a kérelmet, e-mailben küldje el nekünk a meghatalmazást."

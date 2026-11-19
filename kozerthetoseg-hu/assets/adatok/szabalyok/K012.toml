@@ -1,0 +1,17 @@
+azonosito = "K012"
+cim = "A jogszabályhely a végére; a szabályt magyarázd el"
+csoport = "felepites"
+szabaly = "A jogszabályt a szövegben magyarázd el saját szavaiddal; a jogszabályhelyet tedd lábjegyzetbe, a szöveg végén külön blokkba, vagy röviden zárójelben a mondat végére."
+miert = "A mondat közepén álló paragrafushivatkozás megszakítja az olvasást, és a laikus olvasónak nem mond semmit. Akinek a pontos hely kell, a végén megtalálja."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-1#005",
+  "nav-ertheto-hivatal-2#028",
+  "vilagos-beszed-kisokos-2025#018",
+]
+kivetelek = ["Szakmai olvasónak (ügyvédnek, adótanácsadónak) szóló szövegben a pontos hivatkozás a mondatban is maradhat."]
+
+[pelda]
+rossz = "Az adóigazgatási rendtartásról szóló 2017. évi CL. törvény (a továbbiakban: Art.) 30. § (1) bekezdése alapján Önnek bejelentési kötelezettsége keletkezett."
+jo = "A változást 15 napon belül be kell jelentenie (Art. 30. §)."

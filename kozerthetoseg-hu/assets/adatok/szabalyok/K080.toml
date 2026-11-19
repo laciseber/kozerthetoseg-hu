@@ -1,0 +1,14 @@
+azonosito = "K080"
+cim = "Határozatlan kifejezés és ható ige nélkül a kiadó tevékenységéről"
+csoport = "szo"
+szabaly = "Ha azt írod le, mit tesz a szöveg kiadója (például hogyan kezeli az adatokat), kerüld a ható igét és a határozatlan szavakat (néhány, gyakran, lehetséges); ha mégis kell, indokold."
+miert = "A „felhasználhatjuk” vagy a „néhány esetben” után az olvasó nem tudja, mi történik ténylegesen, így nem tud dönteni."
+alkalmazasi_kor = "jogi"
+allapot = "aktiv"
+forrasok = [
+  "wp260-2018#010",
+]
+
+[pelda]
+rossz = "Adatait esetenként harmadik félnek is átadhatjuk."
+jo = "A szállítási címét átadjuk a futárszolgálatnak, hogy kézbesítse a csomagot. Más harmadik félnek nem adjuk át."

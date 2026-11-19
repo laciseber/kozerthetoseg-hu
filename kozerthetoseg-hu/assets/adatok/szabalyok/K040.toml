@@ -1,0 +1,20 @@
+azonosito = "K040"
+cim = "Rövidítés és rövid megjelölés"
+csoport = "szo"
+szabaly = "A ritkán előforduló kifejezést írd ki; a gyakran ismétlődő hosszú nevet az első előfordulásnál írd ki, zárójelben add meg a rövidítését vagy rövid megjelölését, és utána végig azt használd."
+miert = "Az ismeretlen rövidítés megállítja az olvasót, a hosszú név ismételgetése pedig elnehezíti a szöveget. Az első előfordulásnál bevezetett rövidítés mindkettőt megoldja."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#021",
+  "eu-pontos-fogalmazas-2013#047",
+  "eu-pontos-fogalmazas-2013#048",
+  "jszr-2009#004",
+  "nav-ertheto-hivatal-2#042",
+  "nav-ertheto-hivatal-2#062",
+]
+kivetelek = ["Ugyanaz a rövidítés más szövegkörnyezetben mást jelenthet; ha kétértelmű, írd ki.", "Könnyen érthető kommunikációban (KÉK) rövidítést nem használunk."]
+
+[pelda]
+rossz = "A KKEP keretében nyújtott támogatás feltételeit a KKEP-ÚT tartalmazza. (Mindkét rövidítés feloldás nélkül.)"
+jo = "A Kis- és Középvállalkozói Energiaprogram (a továbbiakban: energiaprogram) feltételeit az útmutató tartalmazza. Az energiaprogramba március 31-ig lehet jelentkezni."

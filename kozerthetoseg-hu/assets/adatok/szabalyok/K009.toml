@@ -1,0 +1,16 @@
+azonosito = "K009"
+cim = "Webhely: beszédes link vagy lépésenkénti útvonal"
+csoport = "cel-es-tartalom"
+szabaly = "Ha weboldalra irányítod az olvasót, a link szövege mondja meg, hová jut; nyomtatott szövegben lépésről lépésre írd le az útvonalat."
+miert = "A „kattintson ide” nem mondja meg, mi van a link mögött, nyomtatott levélben pedig a hosszú internetcím begépelése hibaforrás."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "gerencser-2023#008",
+  "vilagos-beszed-kisokos-2025#026",
+]
+kivetelek = ["Webes és nyomtatott változatnál a két forma eltérhet: a weben a link, nyomtatásban az útvonal a jobb."]
+
+[pelda]
+rossz = "A nyomtatványt itt találja: kattintson ide."
+jo = "A nyomtatványt a város honlapján találja: Ügyintézés > Parkolás > Lakossági engedély."

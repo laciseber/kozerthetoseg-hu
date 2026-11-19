@@ -1,0 +1,16 @@
+azonosito = "K034"
+cim = "Egy szó, egy jelentés"
+csoport = "szo"
+szabaly = "Egy szót a szövegen belül csak egy jelentésben használj; ha két dologra ugyanaz a szó illik, az egyiket nevezd meg másképp."
+miert = "Ha ugyanaz a szó két dologra vonatkozik (például a kérelemre és a határidő-módosítási kérelemre), az olvasó nem tudja, melyikről szól a következő mondat."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#026",
+  "wp260-2018#006",
+]
+kivetelek = ["Ezt a mérőszkript nem tudja mérni: a két jelentést csak olvasva lehet észrevenni."]
+
+[pelda]
+rossz = "A kérelmét keddig adhatja be. A határidő módosítását is kérelmezheti. A kérelmet a hivatalban adja le."
+jo = "A támogatási kérelmét keddig adhatja be. Ha ez nem sikerül, kérhet határidő-hosszabbítást. A támogatási kérelmet a hivatalban adja le."

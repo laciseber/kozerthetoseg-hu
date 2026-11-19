@@ -1,0 +1,25 @@
+azonosito = "K020"
+cim = "Mondathossz: átlagosan 15–20 szó"
+csoport = "mondat"
+szabaly = "A mondatok átlagosan 15–20 szóból álljanak; a 20 szónál hosszabb mondatot nézd meg, bontható-e."
+miert = "A hosszú mondatban az olvasónak sok mindent kell fejben tartania, mire a végére ér. A küszöb figyelmeztet, nem tilt: a mérőszám jelzés, nem ítélet."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "balogh-2023#014",
+  "eu-pontos-fogalmazas-2013#022",
+  "nav-ertheto-hivatal-1#005",
+  "uveges-2026#003",
+  "vilagos-beszed-kisokos-2025#027",
+]
+kivetelek = ["Felsorolást tartalmazó mondat hosszabb lehet, ha listába tördeled.", "A szám önmagában nem dönt: egy 22 szavas, világos szórendű mondat jobb lehet két rosszul összekötött rövidnél."]
+meres = ["mondathossz"]
+
+[pelda]
+rossz = "A kérelem benyújtását követően a hatóság a kérelemben foglaltakat a rendelkezésére álló nyilvántartások alapján megvizsgálja, és amennyiben hiányosságot állapít meg, a kérelmezőt határidő tűzésével hiánypótlásra hívja fel. (27 szó)"
+jo = "Megvizsgáljuk a kérelmét. Ha valami hiányzik, levélben kérjük, hogy pótolja, és megadjuk a határidőt. (14 szó, két mondatban)"
+
+[[elteres]]
+forrasok = ["vilagos-beszed-kisokos-2025#027", "eu-pontos-fogalmazas-2013#022", "uveges-2026#003"]
+leiras = "A Világos Beszéd kisokosa szerint egy mondat legfeljebb 15–20 szóból álljon; az uniós útmutató ugyanezt átlagként adja meg. Üveges korpuszában a szakértők által közérthetőre átírt hivatali mondatok átlaga is 25 token fölött van."
+dontes = "A skill az átlagot követi (15–20 szó), és a 20 szó feletti mondatot jelöltként mutatja, nem hibaként. Ok: jogi és hivatali szövegben egy pontos feltétel gyakran hosszabb mondatot kíván, és Üveges eredménye szerint a felszíni hossz önmagában nem dönti el az érthetőséget."

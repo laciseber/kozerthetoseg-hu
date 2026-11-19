@@ -1,0 +1,14 @@
+azonosito = "K061"
+cim = "Kötőjel, gondolatjel, nagykötőjel"
+csoport = "szamok-es-jelek"
+szabaly = "A kötőjelet szavak összekapcsolására, a gondolatjelet szóközökkel közbevetésre, a nagykötőjelet (–) tól–ig viszonyra és népek, nyelvek, helyek összekapcsolására használd."
+miert = "A három jel különböző viszonyt jelöl; ha összekeverednek, a szerkezet nehezebben olvasható ki."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#066",
+]
+
+[pelda]
+rossz = "a 2025-2026-os időszakban, Budapest-Bécs járat"
+jo = "a 2025–2026-os időszakban, Budapest–Bécs járat"

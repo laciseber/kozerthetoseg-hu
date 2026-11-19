@@ -1,0 +1,24 @@
+azonosito = "K042"
+cim = "Ige a főnévvé tett cselekvés helyett"
+csoport = "szerkezet"
+szabaly = "Az -ás/-és képzős főnévvel kifejezett cselekvést, különösen az „által”, „történő”, „való” mellett, írd át ragozott igére."
+miert = "Az igéből képzett főnév elrejti, ki cselekszik és mikor. Az igés mondat rövidebb, és kiderül belőle a cselekvő."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "balogh-2023#006",
+  "eu-pontos-fogalmazas-2013#032",
+  "eu-pontos-fogalmazas-2013#033",
+  "horvath-2021#024",
+  "nav-ertheto-hivatal-2#041",
+  "nav-ertheto-hivatal-2#051",
+  "nav-ertheto-hivatal-2#052",
+  "vilagos-beszed-kisokos-2025#024",
+  "vilagos-beszed-kisokos-2025#025",
+  "wp260-2018#012",
+]
+meres = ["fonevesites", "altal_torteno_valo"]
+
+[pelda]
+rossz = "A szerződés a megrendelésnek a szolgáltató által történő visszaigazolásával jön létre."
+jo = "A szerződés akkor jön létre, amikor a szolgáltató visszaigazolja a megrendelést."

@@ -1,0 +1,17 @@
+azonosito = "K004"
+cim = "A teendőhöz minden szükséges adat"
+csoport = "cel-es-tartalom"
+szabaly = "Ha az olvasónak tennie kell valamit, add meg mindazt, ami ehhez kell: mit, mennyit, meddig, hogyan és hol tegye, mi történik, ha nem teszi meg, és hol kap segítséget."
+miert = "Ha egy adat hiányzik (például a közlemény szövege vagy a határidő), az olvasó vagy visszakérdez, vagy hibázik. A teendőhöz tartozó adatok együtt, egy helyen a leghasznosabbak."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#007",
+  "nav-ertheto-hivatal-1#032",
+  "nav-ertheto-hivatal-2#010",
+  "vilagos-beszed-kisokos-2025#010",
+]
+
+[pelda]
+rossz = "Kérjük, rendezze tartozását a megadott határidőn belül."
+jo = "Fizessen be 12 400 forintot 2026. április 30-ig a 11111111-22222222 számlaszámra. A közleménybe írja be: „2026/417 parkolás”. Ha nem fizet, a díjat késedelmi pótlékkal együtt végrehajtjuk. Kérdés esetén hívja a 06 1 234 5678-as számot."

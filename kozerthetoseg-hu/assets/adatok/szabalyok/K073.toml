@@ -1,0 +1,16 @@
+azonosito = "K073"
+cim = "Áttekinthető nyomtatvány"
+csoport = "nyomtatvany"
+szabaly = "A nyomtatvány legyen szellős: elég hely a kézi kitöltéshez, üres tér a logikai egységek között, és elkülönülő szövegdoboz a fontos magyarázatoknak."
+miert = "A nyomtatványnál a közérthetőség előbbre való a tömörségnél: a zsúfolt űrlapot nehéz helyesen kitölteni."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "vilagos-beszed-kisokos-2025#044",
+  "vilagos-beszed-kisokos-2025#048",
+  "vilagos-beszed-kisokos-2025#049",
+]
+
+[pelda]
+rossz = "Egy oldalra zsúfolt 40 mező, 4 milliméteres sorokkal."
+jo = "Két oldal, csoportosított mezők alcímekkel, a fontos figyelmeztetés keretes dobozban."

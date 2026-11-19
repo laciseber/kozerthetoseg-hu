@@ -1,0 +1,20 @@
+azonosito = "K032"
+cim = "Az ismertebb szó, akár idegen, akár magyar"
+csoport = "szo"
+szabaly = "Az olvasó által ismertebb szót válaszd: a meg nem honosodott idegen szó helyett a magyart, a ritka vagy régies magyar szó helyett az ismert idegent; vigyázz a hamis barátokra."
+miert = "Az érthetőséget nem a szó eredete dönti el, hanem az, hogy az olvasó ismeri-e. A hamis barát (például az angol actual mintájára használt aktuális) félrevezet."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#044",
+  "horvath-2021#006",
+  "horvath-2021#007",
+  "horvath-2021#008",
+  "nav-ertheto-hivatal-2#060",
+]
+kivetelek = ["Szakmai olvasónak, aki maga is az idegen szót használja, az idegen szó maradhat."]
+meres = ["hosszu_szavak"]
+
+[pelda]
+rossz = "A helpdesk a ticket lezárásáról e-mailben küld visszaigazolást."
+jo = "Az ügyfélszolgálat e-mailben értesíti, ha lezárta a bejelentését."

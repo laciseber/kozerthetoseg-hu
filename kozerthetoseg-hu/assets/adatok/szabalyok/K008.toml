@@ -1,0 +1,17 @@
+azonosito = "K008"
+cim = "A cselekvés az olvasó oldaláról"
+csoport = "cel-es-tartalom"
+szabaly = "A folyamatot úgy írd le, ahogy az olvasó éli meg: ne azt, hogy a szervezetnek mit kell megkapnia, hanem azt, hogy az olvasónak mit kell elküldenie."
+miert = "Az olvasó a saját teendőit keresi. Ha a mondat a szervezet szemszögéből szól, neki kell átfordítania a saját teendőjére, és ez hibalehetőség."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-1#004",
+  "nav-ertheto-hivatal-1#005",
+  "nav-ertheto-hivatal-2#006",
+  "nav-ertheto-hivatal-2#007",
+]
+
+[pelda]
+rossz = "A hivatalnak a nyilatkozatot aláírva kell megkapnia."
+jo = "Írja alá a nyilatkozatot, és küldje el nekünk."

@@ -1,0 +1,20 @@
+azonosito = "K013"
+cim = "Tételes tartalom listába, folyó gondolat bekezdésbe"
+csoport = "felepites"
+szabaly = "Ha legalább három azonos szerepű elem van (lépések, feltételek, csatolandó iratok), szedd listába vagy táblázatba; az összefüggő gondolatmenet maradjon bekezdésben."
+miert = "A vesszővel felsorolt elemek a mondatban elvesznek, a listában egy pillantással áttekinthetők. A folyó gondolatmenetet viszont a lista széttördelné."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "gerencser-2023#007",
+  "nav-ertheto-hivatal-1#033",
+  "nav-ertheto-hivatal-1#036",
+  "nav-ertheto-hivatal-2#015",
+  "nav-ertheto-hivatal-2#027",
+  "wp260-2018#011",
+]
+kivetelek = ["A listaelemek kezdőbetűje és sorvégi írásjele legyen egységes."]
+
+[pelda]
+rossz = "A kérelemhez csatolni kell a személyi igazolvány másolatát, a lakcímkártya másolatát, a jövedelemigazolást, valamint a bérleti szerződést."
+jo = "A kérelemhez csatolja:\n- a személyi igazolványa másolatát,\n- a lakcímkártyája másolatát,\n- a jövedelemigazolását,\n- a bérleti szerződést."

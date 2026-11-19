@@ -1,0 +1,15 @@
+azonosito = "K074"
+cim = "Az írás lépései"
+csoport = "folyamat"
+szabaly = "Írj lépésenként: olvasó és cél, vázlat (a tartalmi pontok listája, a felesleg kihúzása, logikai csoportosítás), megfogalmazás, formázás, ellenőrzés."
+miert = "Ha a tartalom és a felépítés előbb dől el, mint a megfogalmazás, nem kell a kész mondatokat szétszedni ahhoz, hogy átrendezd a szöveget."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#005",
+  "vilagos-beszed-kisokos-2025#006",
+]
+
+[pelda]
+rossz = "A szerző az első mondattal kezdi, és írás közben dönti el, mi kerül bele."
+jo = "A szerző előbb felírja a hét pontot, kihúz kettőt, a maradékot sorba rendezi, és csak utána fogalmaz."

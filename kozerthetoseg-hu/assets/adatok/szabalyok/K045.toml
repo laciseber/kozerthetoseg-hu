@@ -1,0 +1,18 @@
+azonosito = "K045"
+cim = "Ige a terpeszkedő szerkezet helyett"
+csoport = "szerkezet"
+szabaly = "A főnévből és tartalmatlan igéből álló terpeszkedő szerkezet helyett használd az igét (döntést hoz helyett dönt)."
+miert = "A terpeszkedő szerkezet nem ad hozzá információt, csak hosszabb és hivatalosabb lesz tőle a mondat."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#033",
+  "eu-pontos-fogalmazas-2013#039",
+  "nav-ertheto-hivatal-2#053",
+  "nav-ertheto-hivatal-2#054",
+]
+meres = ["hivatali_fordulatok"]
+
+[pelda]
+rossz = "A bizottság a pályázatokról döntést hoz, és a nyertesek részére a támogatás kifizetéséről intézkedik."
+jo = "A bizottság dönt a pályázatokról, és kifizeti a támogatást a nyerteseknek."

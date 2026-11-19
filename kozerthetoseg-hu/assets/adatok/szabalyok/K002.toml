@@ -1,0 +1,19 @@
+azonosito = "K002"
+cim = "A fő üzenet elöl"
+csoport = "cel-es-tartalom"
+szabaly = "A szöveg elején, az első bekezdésben álljon a fő üzenet: miről szól a szöveg, és mi belőle a legfontosabb az olvasónak."
+miert = "Az olvasók az elejét szinte mindig elolvassák, a folytatást már csak átfutják. Ha az elején kiderül, hogy a szöveg érinti-e őket, nem kell végigolvasniuk, hogy ezt megtudják."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#019",
+  "nav-ertheto-hivatal-2#020",
+  "vilagos-beszed-kisokos-2025#009",
+  "vilagos-beszed-kisokos-2025#014",
+  "vilagos-beszed-kisokos-2025#015",
+]
+kivetelek = ["Kötött szerkezetű szövegnél (határozat, jogszabály) a szerkezetet jogszabály írja elő; ott a fő üzenetet egy rövid kísérő összefoglaló adhatja."]
+
+[pelda]
+rossz = "A kérelmével kapcsolatban az ügyintézés során megvizsgáltuk a benyújtott dokumentumokat, egyeztettünk a szakterülettel, és ennek eredményeként a kérelmét elfogadtuk."
+jo = "Elfogadtuk a parkolási engedély iránti kérelmét. Az engedélyt március 1-jétől használhatja."

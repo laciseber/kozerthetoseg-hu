@@ -1,0 +1,18 @@
+azonosito = "K010"
+cim = "Önmagukban érthető, kérdés formájú alcímek"
+csoport = "felepites"
+szabaly = "Tagold a szöveget olyan alcímekkel, amelyek magukban is érthetők; a legjobb, ha az alcím az olvasó kérdése."
+miert = "Az olvasó az alcímek alapján keresi meg a rá vonatkozó részt. A kérdés formájú alcím az ő nyelvén mutatja meg, mire ad választ a blokk."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#010",
+  "nav-ertheto-hivatal-2#025",
+  "vilagos-beszed-kisokos-2025#013",
+  "vilagos-beszed-kisokos-2025#017",
+]
+kivetelek = ["Kötött szerkezetű iratnál (határozat, jogszabály) az alcímeket jogszabály vagy belső szabályzat adhatja meg."]
+
+[pelda]
+rossz = "Egyéb rendelkezések"
+jo = "Mi történik, ha nem fizet határidőre?"

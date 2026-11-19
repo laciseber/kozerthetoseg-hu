@@ -1,0 +1,21 @@
+azonosito = "K043"
+cim = "Cselekvő ige az „-ásra/-ésre kerül” helyett"
+csoport = "szerkezet"
+szabaly = "Az „-ásra/-ésre kerül” szerkezet helyett nevezd meg a cselekvőt, vagy használj általános alanyt, visszaható vagy más igét."
+miert = "A „kerül” elvont használatban tartalmatlan ige: a cselekvés magától történik meg, a felelős eltűnik."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#039",
+  "nav-ertheto-hivatal-2#039",
+  "nav-ertheto-hivatal-2#044",
+  "nav-ertheto-hivatal-2#045",
+  "nav-ertheto-hivatal-2#046",
+  "vilagos-beszed-kisokos-2025#025",
+]
+kivetelek = ["Ha a „kerül” valódi helyváltozást jelent (a pénz a számlára kerül), maradhat."]
+meres = ["kerul_szerkezet"]
+
+[pelda]
+rossz = "A határozat a kérelmező részére postai úton megküldésre kerül."
+jo = "A határozatot postán elküldjük Önnek."

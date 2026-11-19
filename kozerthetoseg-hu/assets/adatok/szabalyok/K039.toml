@@ -1,0 +1,20 @@
+azonosito = "K039"
+cim = "Lehetőség: „lehet” vagy -hat/-het a „lehetőség van” helyett"
+csoport = "szo"
+szabaly = "Ha az olvasó lehetőségét írod le, a „lehetőség van valamire” helyett használd a „lehet” vagy a -hat/-het alakot."
+miert = "A rövidebb forma a lényegi elemeket közel hozza egymáshoz, és megmondja, ki teheti meg."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#059",
+  "wp260-2018#010",
+]
+
+[pelda]
+rossz = "Lehetőség van a kérelem elektronikus úton történő benyújtására."
+jo = "A kérelmet elektronikusan is beadhatja."
+
+[[elteres]]
+forrasok = ["nav-ertheto-hivatal-2#059", "wp260-2018#010"]
+leiras = "A NAV példatára a -hat/-het képzőt ajánlja a lehetőség kifejezésére; a WP260 iránymutatás szerint az adatkezelési tájékoztatóban kerülni kell a ható igéket, mert nem derül ki belőlük, mi történik ténylegesen."
+dontes = "A skill a két esetet szétválasztja. Ha az olvasó lehetőségéről van szó (beadhatja, kérheti), a -hat/-het a jó. Ha azt írja le, mit tesz a szöveg kiadója (adatkezelés, díjemelés), kijelentő módot kér: nem „felhasználhatjuk”, hanem „felhasználjuk, erre a célra” (lásd K080)."

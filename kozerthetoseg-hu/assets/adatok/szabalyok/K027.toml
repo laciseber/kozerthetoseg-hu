@@ -1,0 +1,15 @@
+azonosito = "K027"
+cim = "Logikai kötőszavak, halmozás nélkül"
+csoport = "mondat"
+szabaly = "A mondatok és bekezdések kapcsolatát (ok, következmény, ellentét) mondd ki kötőszóval, de azonos értelmű kötőszót ne halmozz."
+miert = "A kötőszó mutatja meg, hogyan függ össze két állítás. Ha hiányzik, az olvasónak kell kitalálnia; ha halmozódik („de viszont”), zavaró."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "eu-pontos-fogalmazas-2013#023",
+  "nav-ertheto-hivatal-2#023",
+]
+
+[pelda]
+rossz = "A határidő lejárt. Az ügyet lezártuk. De viszont kérheti az igazolást."
+jo = "A határidő lejárt, ezért az ügyet lezártuk. Igazolási kérelmet azonban beadhat."

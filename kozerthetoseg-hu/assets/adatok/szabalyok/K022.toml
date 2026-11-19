@@ -1,0 +1,14 @@
+azonosito = "K022"
+cim = "Feltételes mondat a feltétellel kezdődjön"
+csoport = "mondat"
+szabaly = "Ha egy mondat csak bizonyos esetben érvényes, a feltétel álljon az elején."
+miert = "Az olvasó a mondat elején eldöntheti, vonatkozik-e rá; ha nem, továbbléphet."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#035",
+]
+
+[pelda]
+rossz = "Csatolja a gyámhatóság engedélyét, ha a kérelmező kiskorú."
+jo = "Ha a kérelmező kiskorú, csatolja a gyámhatóság engedélyét."

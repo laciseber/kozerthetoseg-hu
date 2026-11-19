@@ -1,0 +1,14 @@
+azonosito = "K060"
+cim = "Mértékegység és százalék"
+csoport = "szamok-es-jelek"
+szabaly = "A mértékegység jele előtt szóköz áll, utána nincs pont; a százalékjel a számhoz tapad; elvont dolgok számánál ne írj „db”-ot."
+miert = "A mértékegységek írását szabvány határozza meg; a következetes írás könnyebben olvasható."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "nav-ertheto-hivatal-2#075",
+]
+
+[pelda]
+rossz = "120km., 35 %, 12 db határozat"
+jo = "120 km, 35%, 12 határozat"

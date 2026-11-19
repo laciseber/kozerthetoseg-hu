@@ -1,0 +1,16 @@
+azonosito = "K070"
+cim = "Kitöltési segítség a mezőnél"
+csoport = "nyomtatvany"
+szabaly = "A bonyolultabb mezőnél adj segítséget: mondd meg, hol találja az adatot, adj példát, és a mező formája mutassa az elvárt alakot."
+miert = "A segítség ott hasznos, ahol a kérdés felmerül; a mező tagolása (például ________-_-__) már magában megmutatja, milyen adat jön."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "vilagos-beszed-kisokos-2025#039",
+  "vilagos-beszed-kisokos-2025#040",
+  "vilagos-beszed-kisokos-2025#041",
+]
+
+[pelda]
+rossz = "Felhasználási hely azonosítója: ______________"
+jo = "Felhasználási hely azonosítója (a számla első oldalán, a „Felhasználási hely” után, H betűvel kezdődik): H _ _ _ _ _ _ _ _"

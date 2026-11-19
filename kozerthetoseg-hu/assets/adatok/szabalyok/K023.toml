@@ -1,0 +1,20 @@
+azonosito = "K023"
+cim = "Kevesebb tagmondat"
+csoport = "mondat"
+szabaly = "A kettőnél több tagmondatból álló mondatot bontsd egyszerűbb mondatokra, vagy vond össze a tagmondatokat, ha ettől világosabb lesz."
+miert = "Minden újabb tagmondat újabb viszonyt kér az olvasótól (ki, mi, mire vonatkozik). A többszörösen összetett mondatban ezek a viszonyok összecsúsznak."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "balogh-2023#014",
+  "gerencser-2023#005",
+  "horvath-2021#023",
+  "nav-ertheto-hivatal-2#036",
+  "wp260-2018#005",
+]
+kivetelek = ["Nem kell mindenáron egyszerű mondatra bontani: ha a bontás után az összetartozó elemek távol kerülnek egymástól, az összetett mondat a jobb."]
+meres = ["mondathossz", "huspacy"]
+
+[pelda]
+rossz = "Felhívjuk figyelmét, hogy amennyiben a számlát, amelyet a szolgáltató a tárgyhónapot követő 5. napig állít ki, nem fizeti meg, a szolgáltató, akinek erre a szerződés jogot ad, felfüggesztheti a szolgáltatást."
+jo = "A szolgáltató minden hónap 5-ig állítja ki a számlát. Ha nem fizeti meg, a szolgáltató felfüggesztheti a szolgáltatást; ehhez a szerződés jogot ad neki."

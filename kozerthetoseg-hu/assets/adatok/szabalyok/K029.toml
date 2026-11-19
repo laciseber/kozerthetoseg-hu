@@ -1,0 +1,19 @@
+azonosito = "K029"
+cim = "Az olvasó szavai"
+csoport = "szo"
+szabaly = "Azt a szót használd, amelyet az olvasó maga is használna; a mesterkélt szakszó helyett a bevett köznyelvi szót."
+miert = "A nem bennfentes olvasó a szakszó mögötti fogalomrendszert nem ismeri, ezért a mesterkélt szó megakasztja. A bevett köznyelvi szót elsőre érti."
+alkalmazasi_kor = "altalanos"
+allapot = "aktiv"
+forrasok = [
+  "horvath-2021#002",
+  "horvath-2021#003",
+  "vilagos-beszed-kisokos-2025#022",
+  "vilagos-beszed-kisokos-2025#023",
+]
+kivetelek = ["Ahol a szakszó jogi következményt hordoz, és a köznyelvi szó mást jelent, a szakszó marad, magyarázattal (lásd K030, K031)."]
+meres = ["hosszu_szavak"]
+
+[pelda]
+rossz = "A behajtásra jogosító dokumentum a gépjármű szélvédője mögött jól látható módon elhelyezendő."
+jo = "A behajtási engedélyt tegye ki a szélvédő mögé, jól láthatóan."
