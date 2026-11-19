@@ -1,0 +1,39 @@
+name: Új forrás javaslata
+description: Közérthetőségi útmutató, tanulmány, jogszabály vagy bírósági döntés felvétele a forráskatalógusba.
+title: "[Forrás] "
+labels: ["forrás"]
+body:
+  - type: input
+    id: hivatkozas
+    attributes:
+      label: Bibliográfiai hivatkozás
+      description: Szerző, cím, kiadó, év, oldalszám.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Nyilvános elérhetőség
+      description: URL vagy DOI. Helyi elérési utat ne adj meg.
+  - type: input
+    id: licenc
+    attributes:
+      label: Licenc vagy felhasználási feltétel
+      description: Ha a forrás nem mondja ki, írd ezt.
+  - type: dropdown
+    id: prioritas
+    attributes:
+      label: Javasolt prioritás
+      options:
+        - "A: a szabályok alapja"
+        - "B: háttér, indoklás, mérés"
+        - "C: kitekintés"
+    validations:
+      required: true
+  - type: textarea
+    id: miert
+    attributes:
+      label: Mit ad hozzá a skillhez?
+      description: Új szabályt, ellentmondó küszöböt, példákat, jogi követelményt?
+    validations:
+      required: true

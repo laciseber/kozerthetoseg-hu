@@ -1,0 +1,30 @@
+name: Szabály javaslata vagy javítása
+description: Új szabály, meglévő szabály pontosítása vagy visszavonása.
+title: "[Szabály] "
+labels: ["szabály"]
+body:
+  - type: input
+    id: szabaly
+    attributes:
+      label: Érintett szabály
+      description: Azonosító (például K020), vagy „új”.
+    validations:
+      required: true
+  - type: textarea
+    id: javaslat
+    attributes:
+      label: A javaslat egy mondatban, és miért segít az olvasónak
+    validations:
+      required: true
+  - type: textarea
+    id: forras
+    attributes:
+      label: Forrás
+      description: Melyik forrás mondja ki, melyik oldalon? Forrás nélküli szabályt nem veszünk fel.
+    validations:
+      required: true
+  - type: textarea
+    id: pelda
+    attributes:
+      label: Rossz és jó példa
+      description: Saját példa, nem a forrás szövege.

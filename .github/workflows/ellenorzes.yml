@@ -1,0 +1,45 @@
+name: Ellenőrzés
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  adatok-es-tesztek:
+    name: Adatok és tesztek (Python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Teljességi és konzisztencia-ellenőrzés
+        run: python kozerthetoseg-hu/scripts/ellenorzes.py
+      - name: A generált referenciák frissek
+        run: python kozerthetoseg-hu/scripts/generalas.py --ellenoriz
+      - name: A mérőszkript hálózat nélkül, külső csomag nélkül fut
+        run: python kozerthetoseg-hu/scripts/meres.py kozerthetoseg-hu/evals/szovegek/03-hatosagi-level.md
+      - name: Tesztek
+        run: |
+          python -m pip install --upgrade pip pytest
+          python -m pytest
+
+  skills-ref:
+    name: Agent Skills validáció (skills-ref)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: skills-ref telepítése (rögzített változat)
+        run: python -m pip install "git+https://github.com/agentskills/agentskills.git@83021e2be457a9b6679148719c1f6074f0ad975e#subdirectory=skills-ref"
+      - name: skills-ref validate
+        run: skills-ref validate ./kozerthetoseg-hu

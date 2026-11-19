@@ -1,0 +1,29 @@
+name: Hibajelentés
+description: A skill vagy egy szkript nem úgy működik, ahogy a leírás szerint kellene.
+title: "[Hiba] "
+labels: ["hiba"]
+body:
+  - type: textarea
+    id: mi-tortent
+    attributes:
+      label: Mi történt?
+    validations:
+      required: true
+  - type: textarea
+    id: mit-vartal
+    attributes:
+      label: Mit vártál?
+    validations:
+      required: true
+  - type: textarea
+    id: lepesek
+    attributes:
+      label: Hogyan lehet előidézni?
+      description: Parancs, bemeneti szöveg (személyes adat nélkül), a kimenet vagy a hibaüzenet.
+    validations:
+      required: true
+  - type: input
+    id: kornyezet
+    attributes:
+      label: Környezet
+      description: Eszköz (Claude Code, claude.ai, más), Python-verzió, a skill verziója.
