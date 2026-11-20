@@ -6,10 +6,16 @@ miert = "A felkiáltójel jelzi, hogy a mondat teendőt ad, nem tájékoztat. So
 kerdes = "A felszólító mondatok végén felkiáltójel áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#067",
 ]
 kivetelek = ["Lépésenkénti útmutatóban, ahol sok felszólítás követi egymást, a pont is elfogadott."]
+
+[[minta]]
+leiras = "felszólító „kérjük” mondat felkiáltójel nélkül"
+regex = "\\b[Kk]érjük,\\s+(?:[^\\W\\d_]+\\s+){1,10}?[^\\W\\d_]+(?:jon|jen|ja|je|on|en|ön|ék)\\."
 
 [pelda]
 rossz = "Kérjük, küldje el a nyilatkozatot."

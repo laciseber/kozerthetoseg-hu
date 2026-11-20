@@ -6,6 +6,8 @@ miert = "Az olvasó kérdései nem tűnnek el attól, hogy a szöveg nem válasz
 kerdes = "Válaszol a szöveg azokra a kérdésekre is, amelyeket az olvasó nem tett fel, de fel fognak merülni benne?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#010",
   "vilagos-beszed-kezikonyv-2025#019",

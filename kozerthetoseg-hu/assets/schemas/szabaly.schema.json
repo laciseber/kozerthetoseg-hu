@@ -14,6 +14,8 @@
     "kerdes",
     "alkalmazasi_kor",
     "allapot",
+    "ellenorzes",
+    "sulyossag",
     "forrasok",
     "pelda"
   ],
@@ -74,6 +76,24 @@
         "visszavont"
       ]
     },
+    "ellenorzes": {
+      "type": "string",
+      "enum": [
+        "gepi",
+        "vegyes",
+        "itelet"
+      ],
+      "description": "gepi: a meres.py megbízhatóan jelzi; vegyes: a meres.py jelölteket ad, de olvasva kell dönteni; itelet: csak olvasva ellenőrizhető."
+    },
+    "sulyossag": {
+      "type": "string",
+      "enum": [
+        "magas",
+        "kozepes",
+        "alacsony"
+      ],
+      "description": "Alapértelmezett prioritás az audit jelentésében (a parancs-audit.md prioritási szabálya szerint); a konkrét esetben eltérhet."
+    },
     "utod": {
       "type": "string",
       "pattern": "^K[0-9]{3}$",
@@ -106,6 +126,28 @@
         "type": "string"
       },
       "description": "A meres.py mutatói, amelyek ezt a szabályt jelzik."
+    },
+    "minta": {
+      "type": "array",
+      "description": "Egyszerű keresőminták, amelyeket a meres.py a szabály azonosítójával jelez.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "leiras",
+          "regex"
+        ],
+        "properties": {
+          "leiras": {
+            "type": "string",
+            "minLength": 1
+          },
+          "regex": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
     },
     "pelda": {
       "type": "object",

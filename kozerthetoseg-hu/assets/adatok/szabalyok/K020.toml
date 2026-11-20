@@ -6,6 +6,8 @@ miert = "A hosszú mondatban az olvasónak sok mindent kell fejben tartania, mir
 kerdes = "A mondatok átlagosan 15–20 szavasak, és a 20 szónál hosszabbakat megnézted, bonthatók-e?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "kozepes"
 forrasok = [
   "balogh-2023#014",
   "eu-pontos-fogalmazas-2013#022",

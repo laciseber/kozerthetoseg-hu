@@ -6,6 +6,8 @@ miert = "Ha nem derül ki, ki cselekszik, az olvasó nem tudja, kinek mi a dolga
 kerdes = "Kiderül, ki cselekszik, és nincs szenvedő vagy személytelen szerkezet ott, ahol a cselekvő ismert?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#042",
   "eu-pontos-fogalmazas-2013#043",

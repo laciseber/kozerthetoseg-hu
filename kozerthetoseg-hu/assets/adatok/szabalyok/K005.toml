@@ -6,6 +6,8 @@ miert = "Minden fölös bekezdés elvonja a figyelmet a lényegről, és hosszab
 kerdes = "Kimaradt minden, amire az olvasónak most nincs szüksége, és amit jogszabály sem ír elő?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#011",
   "nav-ertheto-hivatal-2#004",

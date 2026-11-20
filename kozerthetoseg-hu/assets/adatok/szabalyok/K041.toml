@@ -6,6 +6,8 @@ miert = "Az elvont szóból az olvasó nem tudja meg, mi történik vele. A konk
 kerdes = "Az elvont és divatos kifejezések helyén konkrét szó áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#035",
   "eu-pontos-fogalmazas-2013#036",

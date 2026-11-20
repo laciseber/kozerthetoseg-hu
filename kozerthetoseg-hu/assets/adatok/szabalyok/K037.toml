@@ -6,11 +6,17 @@ miert = "A felesleges igekötő szószaporítás, és hivatali ízt ad a szöveg
 kerdes = "Nincs felesleges igekötő?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "gepi"
+sulyossag = "alacsony"
 forrasok = [
   "eu-pontos-fogalmazas-2013#034",
   "eu-pontos-fogalmazas-2013#041",
   "nav-ertheto-hivatal-2#057",
 ]
+
+[[minta]]
+leiras = "leellenőriz, kihangsúlyoz és hasonló felesleges igekötős alak"
+regex = "\\b(?:le|ki|meg)?(?:leellenőr\\w*|kihangsúlyoz\\w*|lerendez\\w*|leközöl\\w*|lepontosít\\w*|leegyeztet\\w*|kielemez\\w*)"
 
 [pelda]
 rossz = "Leellenőriztük és beazonosítottuk a befizetést."

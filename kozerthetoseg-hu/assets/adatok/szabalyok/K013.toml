@@ -6,6 +6,8 @@ miert = "A vesszővel felsorolt elemek a mondatban elvesznek, a listában egy pi
 kerdes = "A legalább három azonos szerepű elem (lépés, feltétel, irat) listában vagy táblázatban áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "gerencser-2023#007",
   "nav-ertheto-hivatal-1#033",

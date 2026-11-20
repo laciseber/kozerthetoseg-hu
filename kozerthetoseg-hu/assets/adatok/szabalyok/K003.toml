@@ -6,6 +6,8 @@ miert = "A hivatali szöveg gyakran azt mondja el, amit a hivatalnak el kell mon
 kerdes = "Közvetlenül a fő üzenet után áll, mit kell vagy lehet tennie az olvasónak, vagy hogy nincs teendője?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "magas"
 forrasok = [
   "nav-ertheto-hivatal-2#006",
   "vilagos-beszed-kezikonyv-2025#017",

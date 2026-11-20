@@ -6,9 +6,15 @@ miert = "A mértékegységek írását szabvány határozza meg; a következetes
 kerdes = "A mértékegység és a százalékjel írása szabályos?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#075",
 ]
+
+[[minta]]
+leiras = "„db” elvont dolog mellett vagy hiányzó szóköz a mértékegység előtt"
+regex = "\\b\\d+(?:kg|km|cm|mm|m2|Ft)\\b"
 
 [pelda]
 rossz = "120km., 35 %, 12 db határozat"

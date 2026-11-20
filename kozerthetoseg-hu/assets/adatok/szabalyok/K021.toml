@@ -6,6 +6,8 @@ miert = "Ha az állítmány a mondat végére kerül, az olvasónak az egész mo
 kerdes = "A mondatok elején, egymás közelében áll az alany és az állítmány?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "balogh-2023#008",
   "horvath-2021#009",

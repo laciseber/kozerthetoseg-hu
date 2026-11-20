@@ -6,6 +6,8 @@ miert = "A cím mondja meg, mit lát az olvasó; a felesleges szó csak hosszabb
 kerdes = "A táblázatok és ábrák címe rövid, informatív és egységes szerkezetű?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#076",
 ]

@@ -6,6 +6,8 @@ miert = "A szakmai pontosság és a közérthetőség így nem egymás rovásár
 kerdes = "Bonyolult, sokakat érintő témánál van a teljes anyag mellett rövid, közérthető változat?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "nav-ertheto-hivatal-1#026",
   "vilagos-beszed-kezikonyv-2025#047",

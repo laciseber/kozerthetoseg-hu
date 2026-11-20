@@ -6,6 +6,8 @@ miert = "Az olvasó nem tudhatja, mi vonatkozik rá; ha neki kell kitalálnia, h
 kerdes = "Egyértelmű, melyik mező és csatolmány kötelező, és milyen esetben?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "magas"
 forrasok = [
   "vilagos-beszed-kezikonyv-2025#102",
   "vilagos-beszed-kezikonyv-2025#103",

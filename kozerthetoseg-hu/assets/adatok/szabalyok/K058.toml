@@ -6,11 +6,17 @@ miert = "A következetlen számírás megakasztja az olvasót, a tagolatlan nagy
 kerdes = "A számok írása egységes, és a nagy számok hármasával tagoltak?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#071",
   "nav-ertheto-hivatal-2#072",
 ]
 kivetelek = ["A négyjegyű számot nem kell tagolni, kivéve, ha táblázatban nagyobb számok alatt áll."]
+
+[[minta]]
+leiras = "tagolatlan, legalább ötjegyű szám"
+regex = "(?<![\\d.,])\\d{5,}(?![\\d.,])"
 
 [pelda]
 rossz = "A kerület 3 iskolájában tizenkétezer-ötszáz tanuló és 12500 szülő..."

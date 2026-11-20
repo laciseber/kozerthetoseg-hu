@@ -6,6 +6,8 @@ miert = "Minden plusz mező csökkenti azok számát, akik sikeresen kitöltik a
 kerdes = "A nyomtatvány csak a feltétlenül szükséges adatot kéri?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "vilagos-beszed-kezikonyv-2025#101",
   "vilagos-beszed-kisokos-2025#036",

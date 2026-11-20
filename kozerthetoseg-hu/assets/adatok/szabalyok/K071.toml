@@ -6,6 +6,8 @@ miert = "Az olvasónak könnyebb választani, mint fogalmazni, a kitöltő pedig
 kerdes = "Ahol kevés a lehetséges válasz, ott ikszelhető választás van?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "vilagos-beszed-kezikonyv-2025#106",
   "vilagos-beszed-kisokos-2025#042",

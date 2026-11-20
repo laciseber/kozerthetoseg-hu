@@ -6,6 +6,8 @@ miert = "A régi sablon elavult tényeket és hivatali fordulatokat hordoz, az �
 kerdes = "A régi sablont és az átvett részt a mostani helyzethez igazítottad?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "eu-pontos-fogalmazas-2013#018",
 ]

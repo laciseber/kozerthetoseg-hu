@@ -6,6 +6,8 @@ miert = "A sokszintű lista elveszíti az áttekinthetőségét: az olvasó nem 
 kerdes = "A listák legfeljebb három szintűek?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#016",
 ]

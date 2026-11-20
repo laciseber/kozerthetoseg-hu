@@ -6,6 +6,8 @@ miert = "A szakszó sokszor nem cserélhető le (jogi következménye van), de a
 kerdes = "Minden szakszó meg van magyarázva az első előfordulásnál?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#014",
   "eu-pontos-fogalmazas-2013#045",

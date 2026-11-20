@@ -6,6 +6,8 @@ miert = "Aki sokat tud a témáról, könnyen elfelejti, mit nem tud az olvasó.
 kerdes = "Tudod, ki olvassa a szöveget, mit tud már, és mit kell tennie utána?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "balogh-2023#002",
   "eu-pontos-fogalmazas-2013#003",

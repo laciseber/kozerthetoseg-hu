@@ -6,6 +6,8 @@ miert = "Az érthetőséget nem a szó eredete dönti el, hanem az, hogy az olva
 kerdes = "Mindenhol az olvasó által ismertebb szó áll, és nincs hamis barát?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#044",
   "horvath-2021#006",

@@ -6,6 +6,8 @@ miert = "Az általános szabályból az olvasónak magának kellene kikövetkezt
 kerdes = "A szöveg azt írja le, mit jelent a szabály az olvasó ügyében, nem csak általánosságban ismerteti?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "nav-ertheto-hivatal-2#008",
   "nav-ertheto-hivatal-2#009",

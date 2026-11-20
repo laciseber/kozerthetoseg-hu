@@ -6,6 +6,8 @@ miert = "A mechanikus ellenőrzés kiszűri azt, ami írás közben elsikkad; a 
 kerdes = "Ellenőrizted a szöveget ellenőrző listával, és felolvastad hangosan?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#050",
   "gerencser-2023#015",

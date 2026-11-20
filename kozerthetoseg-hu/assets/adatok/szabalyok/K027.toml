@@ -6,6 +6,8 @@ miert = "A kötőszó mutatja meg, hogyan függ össze két állítás. Ha hián
 kerdes = "Kiderül a mondatok kapcsolata (ok, következmény, ellentét), és nincs halmozott kötőszó?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#023",
   "nav-ertheto-hivatal-2#023",

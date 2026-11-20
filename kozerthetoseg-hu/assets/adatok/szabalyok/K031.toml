@@ -6,6 +6,8 @@ miert = "A köznyelvi szó ismerősnek tűnik, ezért az olvasó nem kérdez vis
 kerdes = "Nincs olyan köznyelvi szó, amelyet az olvasó más jelentésben értene, mint ahogy a szöveg használja?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "magas"
 forrasok = [
   "horvath-2021#005",
 ]

@@ -6,6 +6,8 @@ miert = "A kiemelt alcímekből az olvasó egy pillantással átlátja a szöveg
 kerdes = "Az alcímek nagyobb, félkövér betűvel látszanak, és előttük több hely van?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "vilagos-beszed-kezikonyv-2025#079",
   "vilagos-beszed-kezikonyv-2025#080",

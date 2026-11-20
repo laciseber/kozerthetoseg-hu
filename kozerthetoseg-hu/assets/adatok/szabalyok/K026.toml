@@ -6,6 +6,8 @@ miert = "A tagadó mondat megértéséhez az olvasónak előbb el kell képzelni
 kerdes = "Ami állítóan is megfogalmazható, az állító mondatban áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#028",
   "nav-ertheto-hivatal-2#038",

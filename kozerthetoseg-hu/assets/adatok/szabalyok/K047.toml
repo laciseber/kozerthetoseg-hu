@@ -6,6 +6,8 @@ miert = "Az „illetve” jelentheti az „és”-t és a „vagy”-ot is; jogi
 kerdes = "Jogi szövegben az „illetve” helyén egyértelmű kötőszó áll, és nincs „illetőleg” vagy „és/vagy”?"
 alkalmazasi_kor = "jogi"
 allapot = "aktiv"
+ellenorzes = "gepi"
+sulyossag = "kozepes"
 forrasok = [
   "jszr-2009#006",
   "jszr-2009#007",
@@ -13,6 +15,10 @@ forrasok = [
 ]
 kivetelek = ["A rendelet a jogszabály tervezetére kötelező; más jogi szövegnél (szerződés, tájékoztató) a skill ajánlásként alkalmazza."]
 meres = ["illetve_illetoleg"]
+
+[[minta]]
+leiras = "„és/vagy”"
+regex = "\\bés\\s*/\\s*vagy\\b"
 
 [pelda]
 rossz = "A kérelmet a bérlő, illetve a tulajdonos nyújthatja be."

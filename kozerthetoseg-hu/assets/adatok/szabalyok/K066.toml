@@ -6,6 +6,8 @@ miert = "A táblázatot az olvasó soronként hasonlítja össze; a következetl
 kerdes = "A táblázatban egységes a dátum, a rövidítés és a kezdőbetű, és a magyarázatra szoruló adat meg van magyarázva?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#077",
   "nav-ertheto-hivatal-2#078",

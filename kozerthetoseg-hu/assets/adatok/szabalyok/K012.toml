@@ -6,6 +6,8 @@ miert = "A mondat közepén álló paragrafushivatkozás megszakítja az olvasá
 kerdes = "A jogszabály saját szavakkal el van magyarázva, és a jogszabályhely a mondat végén, lábjegyzetben vagy külön blokkban áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "magas"
 forrasok = [
   "nav-ertheto-hivatal-1#005",
   "nav-ertheto-hivatal-2#028",
@@ -20,6 +22,10 @@ forrasok = [
   "vilagos-beszed-kisokos-2025#018",
 ]
 kivetelek = ["Szakmai olvasónak (ügyvédnek, adótanácsadónak) szóló szövegben a pontos hivatkozás a mondatban is maradhat."]
+
+[[minta]]
+leiras = "jogszabályhely a folyó szövegben (nézd meg, a mondat közepén áll-e)"
+regex = "\\b\\d{4}\\. évi [IVXLCDM]+\\. törvény\\w*|\\b\\d+(?:/\\d+)?\\. ?§"
 
 [pelda]
 rossz = "Az adóigazgatási rendtartásról szóló 2017. évi CL. törvény (a továbbiakban: Art.) 30. § (1) bekezdése alapján Önnek bejelentési kötelezettsége keletkezett."

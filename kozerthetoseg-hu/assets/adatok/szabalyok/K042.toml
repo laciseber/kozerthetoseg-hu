@@ -6,6 +6,8 @@ miert = "Az igéből képzett főnév elrejti, ki cselekszik és mikor. Az igés
 kerdes = "A cselekvéseket ige fejezi ki, nem főnévvé tett ige („által”, „történő”, „való” mellett sem)?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "kozepes"
 forrasok = [
   "balogh-2023#006",
   "eu-pontos-fogalmazas-2013#032",

@@ -6,6 +6,8 @@ miert = "A kiemelés akkor működik, ha ritka. Ha minden második szó félköv
 kerdes = "Kevés, rövid és önmagában is érthető a kiemelés?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#014",
   "nav-ertheto-hivatal-2#024",

@@ -6,6 +6,8 @@ miert = "A kitöltés közben felmerülő kérdésekre így az olvasó helyben v
 kerdes = "Megfontoltad, kell-e gyakori kérdések rész a nyomtatvány végére?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "vilagos-beszed-kezikonyv-2025#107",
   "vilagos-beszed-kisokos-2025#043",

@@ -6,6 +6,8 @@ miert = "Az olvasó a hangnemből is érzi, hogyan kezelik. A merev formula táv
 kerdes = "Udvarias és partneri a hang, merev hivatali fordulatok nélkül?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "kozepes"
 forrasok = [
   "vilagos-beszed-kezikonyv-2025#002",
   "vilagos-beszed-kezikonyv-2025#003",

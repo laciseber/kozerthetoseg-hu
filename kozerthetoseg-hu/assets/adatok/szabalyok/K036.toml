@@ -6,6 +6,8 @@ miert = "Az egyszerű szó ugyanazt jelenti, csak gyorsabban olvasható; a szaks
 kerdes = "A körülményes kötőszók és szerkezetek helyén az egyszerűbb áll („ha”, „mivel”)?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#024",
   "eu-pontos-fogalmazas-2013#025",

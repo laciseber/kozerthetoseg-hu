@@ -6,6 +6,8 @@ miert = "A rag rövidebb, és ugyanazt jelenti; a névutók halmozása elnehezí
 kerdes = "Ahol rag is elég, ott nincs névutó vagy hosszabb szerkezet?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#040",
   "nav-ertheto-hivatal-2#058",

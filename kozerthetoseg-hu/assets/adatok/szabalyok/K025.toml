@@ -6,6 +6,8 @@ miert = "Ugyanazok a szavak más szórendben mást hangsúlyoznak, néha mást i
 kerdes = "A mondatok lényeges része elöl áll, és a szórend azt emeli ki, amit ki akarsz emelni?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#029",
   "eu-pontos-fogalmazas-2013#030",

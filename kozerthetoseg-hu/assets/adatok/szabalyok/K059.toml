@@ -6,9 +6,15 @@ miert = "A kiírt pénznem folyó szövegben gördülékenyebben olvasható; tá
 kerdes = "Folyó szövegben ki van írva a pénznem?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#074",
 ]
+
+[[minta]]
+leiras = "pénznem rövidítése folyó szövegben"
+regex = "\\b\\d[\\d  ]*\\s?(?:Ft|HUF|EUR|M Ft)\\b"
 
 [pelda]
 rossz = "A díj 12345,-Ft."

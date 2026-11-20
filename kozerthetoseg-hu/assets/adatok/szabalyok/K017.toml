@@ -6,6 +6,8 @@ miert = "A hosszabb anyagból sokan csak az elejét és a végét olvassák el. 
 kerdes = "Hosszabb szövegnél van rövid összefoglaló az elején, tartalomjegyzék és világos zárás?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#012",
   "eu-pontos-fogalmazas-2013#015",

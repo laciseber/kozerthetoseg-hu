@@ -6,6 +6,8 @@ miert = "Ha a szöveg váltogat (Ön, az adózó, Önök), az olvasó nem tudja 
 kerdes = "Végig ugyanaz a megszólítás és ugyanaz a megnevezés a kiadóra?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "nav-ertheto-hivatal-2#035",
   "nav-ertheto-hivatal-2#065",

@@ -6,6 +6,8 @@ miert = "A közbevetés kettévágja a mondatot: az olvasónak meg kell jegyezni
 kerdes = "Egyetlen mondatot sem szakít meg zárójeles vagy gondolatjeles közbevetés vagy jogszabályi utalás?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "kozepes"
 forrasok = [
   "balogh-2023#014",
   "nav-ertheto-hivatal-2#036",

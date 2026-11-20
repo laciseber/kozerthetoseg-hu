@@ -6,6 +6,8 @@ miert = "A három jel különböző viszonyt jelöl; ha összekeverednek, a szer
 kerdes = "A kötőjel, a gondolatjel és a nagykötőjel a helyén van?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#066",
 ]

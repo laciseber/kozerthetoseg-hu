@@ -6,6 +6,8 @@ miert = "Minden újabb tagmondat újabb viszonyt kér az olvasótól (ki, mi, mi
 kerdes = "A kettőnél több tagmondatú mondatokat megnézted, egyszerűbbé tehetők-e?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "kozepes"
 forrasok = [
   "balogh-2023#014",
   "gerencser-2023#005",

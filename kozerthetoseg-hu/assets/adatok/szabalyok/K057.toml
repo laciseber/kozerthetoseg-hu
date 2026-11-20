@@ -6,9 +6,15 @@ miert = "A felesleges szavakkal megtoldott dátum nehezen olvasható, a vegyes f
 kerdes = "A dátumok egységes alakban állnak (2026. április 4.)?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#073",
 ]
+
+[[minta]]
+leiras = "dátum „év”, „hó”, „nap” szóval"
+regex = "\\b\\d{4}\\.?\\s*év(?:i|ben)?\\s+\\w+\\s+hó(?:nap)?\\s+\\d{1,2}\\.?\\s*nap"
 
 [pelda]
 rossz = "2026. év április hónap 4. napján"

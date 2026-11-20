@@ -6,6 +6,8 @@ miert = "A közérthetőség nem mehet a pontosság rovására. A hűségellenő
 kerdes = "A szakterület ellenőrizte, hogy az átírás után minden tény, szám, határidő, feltétel és kivétel megvan?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "magas"
 forrasok = [
   "nav-ertheto-hivatal-1#002",
   "nav-ertheto-hivatal-1#020",

@@ -6,6 +6,8 @@ miert = "A helyesírási hiba rontja a szöveg hitelét, és összetett szavakn�
 kerdes = "A nehéz helyesírású szakkifejezéseket szótárban ellenőrizted?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "eu-pontos-fogalmazas-2013#049",
   "nav-ertheto-hivatal-1#015",

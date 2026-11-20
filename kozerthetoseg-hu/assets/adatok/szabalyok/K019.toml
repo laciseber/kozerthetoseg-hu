@@ -6,6 +6,8 @@ miert = "Az olvasó mondatonként dolgozza fel a szöveget. Ha egy mondatban tö
 kerdes = "Minden mondat egy dologról szól?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "horvath-2021#019",
   "nav-ertheto-hivatal-2#037",

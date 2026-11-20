@@ -6,6 +6,8 @@ miert = "A rövid, egytémájú bekezdés miatt az olvasó nem ugrik át véletl
 kerdes = "Minden bekezdés egy témáról szól?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "gerencser-2023#006",
   "nav-ertheto-hivatal-2#026",

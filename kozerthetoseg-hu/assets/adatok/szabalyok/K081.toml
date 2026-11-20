@@ -6,6 +6,8 @@ miert = "A Ptk. a főszolgáltatást meghatározó kikötést csak akkor zárja 
 kerdes = "A fogyasztói kikötés nyelvileg világos, és a fogyasztó előre látja belőle a következményeket?"
 alkalmazasi_kor = "jogi"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "magas"
 forrasok = [
   "eub-c-26-13-2014#001",
   "eub-c-26-13-2014#002",

@@ -6,6 +6,8 @@ miert = "A nem bennfentes olvasó a szakszó mögötti fogalomrendszert nem isme
 kerdes = "Azokat a szavakat használja a szöveg, amelyeket az olvasó maga is használna?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "kozepes"
 forrasok = [
   "horvath-2021#002",
   "horvath-2021#003",

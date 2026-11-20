@@ -6,6 +6,8 @@ miert = "Az olvasó a saját teendőit keresi. Ha a mondat a szervezet szemszög
 kerdes = "A folyamat az olvasó oldaláról van leírva (mit küld el), nem a szervezetéről (mit kap meg)?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "nav-ertheto-hivatal-1#004",
   "nav-ertheto-hivatal-1#005",

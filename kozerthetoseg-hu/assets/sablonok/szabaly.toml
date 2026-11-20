@@ -10,11 +10,20 @@ miert = "KITÖLTENDŐ: miért segít az olvasónak"
 kerdes = "KITÖLTENDŐ: kérdés?"
 alkalmazasi_kor = "{{kor}}"
 allapot = "aktiv"
+# gepi: a meres.py megbízhatóan jelzi; vegyes: jelöltet ad, olvasva kell dönteni; itelet: csak olvasva.
+ellenorzes = "itelet"
+# Alapértelmezett prioritás: magas, kozepes vagy alacsony.
+sulyossag = "kozepes"
 # Leltártétel-azonosítók; a tételeknél is erre a szabályra kell mutatni.
 forrasok = []
 kivetelek = []
 # A meres.py mutatói, ha jelzik ezt a szabályt (pl. "mondathossz").
 meres = []
+
+# Gépi vagy vegyes szabálynál egyszerű keresőminta (regex), ha a beépített mérés nem fedi:
+# [[minta]]
+# leiras = "mit talál"
+# regex = "\\bminta\\b"
 
 [pelda]
 # Saját példa, nem a forrás szövege.

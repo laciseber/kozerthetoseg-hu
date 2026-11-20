@@ -1,0 +1,467 @@
+# Közérthetőségi szótár: körülményes kifejezés és egyszerűbb megfelelője.
+# A meres.py javaslatként jelzi a találatokat; az atiras forrásként használja.
+# Mezők: kifejezes, regex (kis- és nagybetű nem számít), javaslat, szabaly,
+# forrasok (leltártétel-azonosítók), mikor_nem (elhagyható: mikor ne cseréld).
+# A mezők leírása: assets/schemas/szotar.schema.json
+
+[[par]]
+kifejezes = "amennyiben"
+regex = "\\bamennyiben\\b"
+javaslat = "ha"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112", "vilagos-beszed-kisokos-2025#030", "eu-pontos-fogalmazas-2013#024"]
+
+[[par]]
+kifejezes = "abban az esetben, ha"
+regex = "\\babban az esetben,? ha\\b"
+javaslat = "ha"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112"]
+
+[[par]]
+kifejezes = "annak érdekében, hogy"
+regex = "\\bannak érdekében,? hogy\\b"
+javaslat = "azért, hogy"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112", "eu-pontos-fogalmazas-2013#024"]
+
+[[par]]
+kifejezes = "tekintettel arra, hogy"
+regex = "\\btekintettel arra,? hogy\\b"
+javaslat = "mivel"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112", "vilagos-beszed-kisokos-2025#030"]
+
+[[par]]
+kifejezes = "azon tény fényében, hogy"
+regex = "\\bazon tény fényében\\b"
+javaslat = "mivel"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112"]
+
+[[par]]
+kifejezes = "arra való tekintettel"
+regex = "\\barra való tekintettel\\b"
+javaslat = "ezért"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112"]
+
+[[par]]
+kifejezes = "ennek érdekében"
+regex = "\\bennek érdekében\\b"
+javaslat = "ezért"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112"]
+
+[[par]]
+kifejezes = "következésképpen"
+regex = "\\bkövetkezésképpen\\b"
+javaslat = "ezért"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112"]
+
+[[par]]
+kifejezes = "mindazonáltal"
+regex = "\\bmindazonáltal\\b"
+javaslat = "de"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112"]
+
+[[par]]
+kifejezes = "mindamellett"
+regex = "\\bmindamellett\\b"
+javaslat = "de"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112"]
+
+[[par]]
+kifejezes = "valamint"
+regex = "\\bvalamint\\b"
+javaslat = "és"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112"]
+mikor_nem = "Hosszú felsorolásban, ahol az „és” már szerepel, a „valamint” segíthet tagolni."
+
+[[par]]
+kifejezes = "továbbá"
+regex = "\\btovábbá\\b"
+javaslat = "és"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112"]
+mikor_nem = "Új bekezdés elején kapcsolóelemként maradhat."
+
+[[par]]
+kifejezes = "illetve"
+regex = "\\billetve\\b"
+javaslat = "és vagy vagy (a jelentés szerint)"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#117", "jszr-2009#006"]
+mikor_nem = "Jogi szövegben ez nem javaslat, hanem kötelező: a K047 szerint az egyértelmű kötőszó kell."
+
+[[par]]
+kifejezes = "vonatkozásában"
+regex = "\\bvonatkozásában\\b"
+javaslat = "-ról, -ről vagy -ra, -re"
+szabaly = "K038"
+forrasok = ["eu-pontos-fogalmazas-2013#040"]
+
+[[par]]
+kifejezes = "tekintetében"
+regex = "\\btekintetében\\b"
+javaslat = "-ról, -ről"
+szabaly = "K038"
+forrasok = ["vilagos-beszed-kezikonyv-2025#116"]
+
+[[par]]
+kifejezes = "számára"
+regex = "\\bszámára\\b"
+javaslat = "-nak, -nek"
+szabaly = "K038"
+forrasok = ["vilagos-beszed-kezikonyv-2025#116"]
+mikor_nem = "Ha a „számára” azt jelenti, hogy valakinek a szempontjából („számára érthetetlen”), maradhat."
+
+[[par]]
+kifejezes = "részére"
+regex = "\\brészére\\b"
+javaslat = "-nak, -nek"
+szabaly = "K038"
+forrasok = ["vilagos-beszed-kezikonyv-2025#116"]
+
+[[par]]
+kifejezes = "postai úton, elektronikus úton, … útján"
+regex = "\\b(?:postai|elektronikus|személyes ügyintézés) (?:útján|úton)\\b"
+javaslat = "postán, e-mailben, személyesen"
+szabaly = "K038"
+forrasok = ["vilagos-beszed-kezikonyv-2025#116", "vilagos-beszed-kisokos-2025#030"]
+
+[[par]]
+kifejezes = "során"
+regex = "\\b(?:tárgyalás|eljárás|vizsgálat|ellenőrzés) során\\b"
+javaslat = "-ban, -ben, vagy igés mellékmondat"
+szabaly = "K038"
+forrasok = ["eu-pontos-fogalmazas-2013#040"]
+mikor_nem = "Ha az időtartamot hangsúlyozza, maradhat."
+
+[[par]]
+kifejezes = "keretében"
+regex = "\\bkeretében\\b"
+javaslat = "-ban, -ben, -on, -en"
+szabaly = "K038"
+forrasok = ["vilagos-beszed-kezikonyv-2025#116", "eu-pontos-fogalmazas-2013#040"]
+
+[[par]]
+kifejezes = "folyamán"
+regex = "\\b(?:január|február|március|április|május|június|július|augusztus|szeptember|október|november|december)(?: hónap)? folyamán\\b"
+javaslat = "januárban (és így tovább)"
+szabaly = "K035"
+forrasok = ["vilagos-beszed-kezikonyv-2025#075", "vilagos-beszed-kezikonyv-2025#116"]
+
+[[par]]
+kifejezes = "a mai napon"
+regex = "\\ba mai nap(?:on|pal)\\b"
+javaslat = "ma"
+szabaly = "K035"
+forrasok = ["vilagos-beszed-kezikonyv-2025#075", "vilagos-beszed-kezikonyv-2025#116"]
+
+[[par]]
+kifejezes = "egyszeri alkalommal"
+regex = "\\begyszeri alkalommal\\b"
+javaslat = "egyszer"
+szabaly = "K035"
+forrasok = ["vilagos-beszed-kezikonyv-2025#116"]
+
+[[par]]
+kifejezes = "jelen levelünkben"
+regex = "\\bjelen level(?:ünk|em)ben\\b"
+javaslat = "levelünkben, ebben a levélben"
+szabaly = "K035"
+forrasok = ["vilagos-beszed-kezikonyv-2025#116"]
+
+[[par]]
+kifejezes = "ezúton tájékoztatjuk"
+regex = "\\bezúton tájékoztat(?:juk|om)\\b"
+javaslat = "(hagyd el, és írd le magát a tájékoztatást)"
+szabaly = "K035"
+forrasok = ["vilagos-beszed-kezikonyv-2025#075"]
+
+[[par]]
+kifejezes = "tájékoztatjuk, hogy"
+regex = "\\btájékoztat(?:juk|om),? hogy\\b"
+javaslat = "(hagyd el)"
+szabaly = "K035"
+forrasok = ["vilagos-beszed-kezikonyv-2025#075", "vilagos-beszed-kisokos-2025#029"]
+
+[[par]]
+kifejezes = "felhívjuk szíves figyelmét"
+regex = "\\bfelhívjuk (?:szíves )?figyelmét\\b"
+javaslat = "(hagyd el, vagy: „Fontos, hogy…”)"
+szabaly = "K035"
+forrasok = ["vilagos-beszed-kezikonyv-2025#075"]
+
+[[par]]
+kifejezes = "kérjük tájékoztatásunk tudomásulvételét"
+regex = "\\btudomásulvétel\\w*"
+javaslat = "(hagyd el, vagy köszönj el udvariasan)"
+szabaly = "K050"
+forrasok = ["vilagos-beszed-kezikonyv-2025#077", "vilagos-beszed-kisokos-2025#032"]
+
+[[par]]
+kifejezes = "szíveskedjen"
+regex = "\\bszíveskedj\\w*"
+javaslat = "kérjük, + felszólító ige"
+szabaly = "K050"
+forrasok = ["vilagos-beszed-kezikonyv-2025#121"]
+
+[[par]]
+kifejezes = "intézkedést foganatosít"
+regex = "\\bintézkedést foganatosít\\w*"
+javaslat = "intézkedik"
+szabaly = "K045"
+forrasok = ["vilagos-beszed-kezikonyv-2025#114", "nav-ertheto-hivatal-2#054"]
+
+[[par]]
+kifejezes = "tájékoztatást nyújt"
+regex = "\\btájékoztatást (?:nyújt|ad)\\w*"
+javaslat = "tájékoztat"
+szabaly = "K045"
+forrasok = ["vilagos-beszed-kezikonyv-2025#114", "nav-ertheto-hivatal-2#054"]
+
+[[par]]
+kifejezes = "előadást tart"
+regex = "\\belőadást tart\\w*"
+javaslat = "előad"
+szabaly = "K045"
+forrasok = ["vilagos-beszed-kezikonyv-2025#114"]
+mikor_nem = "Ha maga az előadás az esemény neve, maradhat."
+
+[[par]]
+kifejezes = "érdeklődést mutat"
+regex = "\\bérdeklődést mutat\\w*"
+javaslat = "érdeklődik"
+szabaly = "K045"
+forrasok = ["vilagos-beszed-kezikonyv-2025#114"]
+
+[[par]]
+kifejezes = "vizsgálat tárgyává tesz"
+regex = "\\bvizsgálat tárgyává te\\w*"
+javaslat = "megvizsgál"
+szabaly = "K045"
+forrasok = ["vilagos-beszed-kezikonyv-2025#114"]
+
+[[par]]
+kifejezes = "döntést hoz"
+regex = "\\bdöntést hoz\\w*"
+javaslat = "dönt"
+szabaly = "K045"
+forrasok = ["nav-ertheto-hivatal-2#054"]
+mikor_nem = "Jogi szövegben a „határozatot hoz” bevett kifejezés maradhat."
+
+[[par]]
+kifejezes = "javaslatot tesz"
+regex = "\\bjavaslatot te\\w*"
+javaslat = "javasol"
+szabaly = "K045"
+forrasok = ["vilagos-beszed-kezikonyv-2025#059"]
+
+[[par]]
+kifejezes = "hatást gyakorol"
+regex = "\\bhatást gyakorol\\w*"
+javaslat = "hat"
+szabaly = "K045"
+forrasok = ["vilagos-beszed-kezikonyv-2025#059"]
+
+[[par]]
+kifejezes = "ellenőrzést folytat"
+regex = "\\bellenőrzést folytat\\w*"
+javaslat = "ellenőriz"
+szabaly = "K045"
+forrasok = ["vilagos-beszed-kezikonyv-2025#059"]
+
+[[par]]
+kifejezes = "kérelmet benyújt"
+regex = "\\bkérelmet (?:nyújt be|benyújt)\\w*"
+javaslat = "kér, kérelmez"
+szabaly = "K045"
+forrasok = ["vilagos-beszed-kezikonyv-2025#114"]
+mikor_nem = "Ha a kérelem formai beadása a lényeg (űrlap, határidő), maradhat."
+
+[[par]]
+kifejezes = "eszközöl"
+regex = "\\beszközöl\\w*"
+javaslat = "végez, tesz (a jelentés szerint)"
+szabaly = "K045"
+forrasok = ["nav-ertheto-hivatal-2#054"]
+
+[[par]]
+kifejezes = "megrendezésre kerül"
+regex = "\\bmegrendezésre kerül\\w*"
+javaslat = "megrendezzük"
+szabaly = "K043"
+forrasok = ["vilagos-beszed-kezikonyv-2025#115"]
+
+[[par]]
+kifejezes = "rögzítésre került"
+regex = "\\brögzítésre kerül\\w*"
+javaslat = "rögzítettük"
+szabaly = "K043"
+forrasok = ["vilagos-beszed-kezikonyv-2025#115"]
+
+[[par]]
+kifejezes = "kiküldésre kerül"
+regex = "\\bkiküldésre kerül\\w*"
+javaslat = "elküldjük"
+szabaly = "K043"
+forrasok = ["nav-ertheto-hivatal-2#046"]
+
+[[par]]
+kifejezes = "elbírálásra kerül"
+regex = "\\belbírálásra kerül\\w*"
+javaslat = "elbíráljuk"
+szabaly = "K043"
+forrasok = ["nav-ertheto-hivatal-2#046"]
+
+[[par]]
+kifejezes = "hiányában"
+regex = "\\bhiányában\\b"
+javaslat = "ha nincs …, vagy „nélkül”"
+szabaly = "K026"
+forrasok = ["vilagos-beszed-kezikonyv-2025#119", "vilagos-beszed-kezikonyv-2025#060"]
+
+[[par]]
+kifejezes = "nem haladja meg"
+regex = "\\bnem haladja meg\\b"
+javaslat = "legfeljebb"
+szabaly = "K026"
+forrasok = ["vilagos-beszed-kezikonyv-2025#119"]
+
+[[par]]
+kifejezes = "nem állapítható meg"
+regex = "\\bnem állapítható meg\\b"
+javaslat = "állító, személyes alak („nem kaphat”)"
+szabaly = "K044"
+forrasok = ["vilagos-beszed-kezikonyv-2025#119"]
+
+[[par]]
+kifejezes = "esetén"
+regex = "\\besetén\\b"
+javaslat = "ha …"
+szabaly = "K022"
+forrasok = ["vilagos-beszed-kezikonyv-2025#060"]
+mikor_nem = "Rövid, egyértelmű kapcsolatban („baleset esetén hívja…”) maradhat."
+
+[[par]]
+kifejezes = "történő"
+regex = "\\btörténő\\b"
+javaslat = "-i képző, szórendcsere vagy igés mellékmondat"
+szabaly = "K042"
+forrasok = ["nav-ertheto-hivatal-2#051", "nav-ertheto-hivatal-2#052"]
+
+[[par]]
+kifejezes = "által"
+regex = "\\báltal\\b"
+javaslat = "cselekvő mondat: a cselekvő legyen az alany"
+szabaly = "K042"
+forrasok = ["nav-ertheto-hivatal-2#041"]
+
+[[par]]
+kifejezes = "ügyfél, igénylő"
+regex = "\\b(?:az|a) (?:ügyfél|igénylő|kérelmező)\\b"
+javaslat = "Ön"
+szabaly = "K048"
+forrasok = ["vilagos-beszed-kezikonyv-2025#118", "vilagos-beszed-kisokos-2025#020"]
+mikor_nem = "Ha a szöveg nem az olvasóról, hanem harmadik személyről szól, maradhat."
+
+[[par]]
+kifejezes = "hátralék"
+regex = "\\bhátralék\\w*"
+javaslat = "tartozás"
+szabaly = "K029"
+forrasok = ["vilagos-beszed-kisokos-2025#023", "vilagos-beszed-kezikonyv-2025#113"]
+
+[[par]]
+kifejezes = "helyesbít"
+regex = "\\bhelyesbít\\w*"
+javaslat = "javít"
+szabaly = "K029"
+forrasok = ["vilagos-beszed-kisokos-2025#023"]
+mikor_nem = "Jogi értelemben vett helyesbítésnél (határozat, adatkezelés) maradhat, magyarázattal."
+
+[[par]]
+kifejezes = "kiegyenlít"
+regex = "\\bkiegyenlít\\w*"
+javaslat = "befizet, kifizet"
+szabaly = "K029"
+forrasok = ["vilagos-beszed-kezikonyv-2025#113"]
+
+[[par]]
+kifejezes = "gépjárművezetői engedély"
+regex = "\\bgépjárművezetői engedély\\w*"
+javaslat = "jogosítvány"
+szabaly = "K029"
+forrasok = ["vilagos-beszed-kezikonyv-2025#113"]
+mikor_nem = "Jogszabályi idézetben maradhat."
+
+[[par]]
+kifejezes = "hagyaték"
+regex = "\\bhagyaték\\w*"
+javaslat = "örökség"
+szabaly = "K029"
+forrasok = ["vilagos-beszed-kezikonyv-2025#113"]
+mikor_nem = "Hagyatéki eljárásról szóló jogi szövegben a szakszó kell, magyarázattal."
+
+[[par]]
+kifejezes = "anomália"
+regex = "\\banomáli\\w*"
+javaslat = "szabálytalanság, hiba"
+szabaly = "K032"
+forrasok = ["vilagos-beszed-kezikonyv-2025#113"]
+
+[[par]]
+kifejezes = "applikáció"
+regex = "\\bapplikáci\\w*"
+javaslat = "alkalmazás"
+szabaly = "K032"
+forrasok = ["vilagos-beszed-kezikonyv-2025#113"]
+
+[[par]]
+kifejezes = "autonóm"
+regex = "\\bautonóm\\w*"
+javaslat = "önálló"
+szabaly = "K032"
+forrasok = ["vilagos-beszed-kezikonyv-2025#113"]
+
+[[par]]
+kifejezes = "kritérium"
+regex = "\\bkritérium\\w*"
+javaslat = "feltétel, szempont"
+szabaly = "K032"
+forrasok = ["vilagos-beszed-kezikonyv-2025#113"]
+
+[[par]]
+kifejezes = "szignifikáns"
+regex = "\\bszignifikáns\\w*"
+javaslat = "jelentős"
+szabaly = "K032"
+forrasok = ["vilagos-beszed-kezikonyv-2025#113"]
+mikor_nem = "Statisztikai értelemben maradhat."
+
+[[par]]
+kifejezes = "kihangsúlyoz"
+regex = "\\bkihangsúlyoz\\w*"
+javaslat = "hangsúlyoz"
+szabaly = "K037"
+forrasok = ["eu-pontos-fogalmazas-2013#041"]
+
+[[par]]
+kifejezes = "leellenőriz"
+regex = "\\bleellenőr\\w*"
+javaslat = "ellenőriz"
+szabaly = "K037"
+forrasok = ["eu-pontos-fogalmazas-2013#041"]
+
+[[par]]
+kifejezes = "lehetőség van"
+regex = "\\blehetőség(?:e)? (?:van|nyílik)\\b"
+javaslat = "lehet, -hat/-het"
+szabaly = "K039"
+forrasok = ["nav-ertheto-hivatal-2#059"]

@@ -6,6 +6,8 @@ miert = "A segítség ott hasznos, ahol a kérdés felmerül; a mező tagolása 
 kerdes = "A bonyolultabb mezőknél van kitöltési segítség?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "vilagos-beszed-kezikonyv-2025#104",
   "vilagos-beszed-kezikonyv-2025#105",

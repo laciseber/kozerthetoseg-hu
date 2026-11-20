@@ -6,6 +6,8 @@ miert = "Ha a szöveg váltogatja a szót (kérelem, beadvány, folyamodvány), 
 kerdes = "Ugyanazt a fogalmat végig ugyanaz a szó jelöli?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "balogh-2023#015",
   "eu-pontos-fogalmazas-2013#021",

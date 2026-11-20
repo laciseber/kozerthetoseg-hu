@@ -6,6 +6,8 @@ miert = "A sablonnal egy olvasónak fontos pont sem marad ki, és az olvasó min
 kerdes = "Az ismétlődő szövegtípushoz van tartalomsablon, és a szöveg minden pontjára válaszol?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-1#029",
   "nav-ertheto-hivatal-2#030",

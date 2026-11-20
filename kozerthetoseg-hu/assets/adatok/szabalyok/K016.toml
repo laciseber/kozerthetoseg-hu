@@ -6,6 +6,8 @@ miert = "A cím alapján dönt az olvasó, hogy foglalkozik-e a szöveggel. Ha a
 kerdes = "A cím rövid, és a legfontosabb újdonságot mondja meg?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#013",
   "nav-ertheto-hivatal-2#017",

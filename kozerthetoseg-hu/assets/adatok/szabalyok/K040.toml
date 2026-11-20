@@ -6,6 +6,8 @@ miert = "Az ismeretlen rövidítés megállítja az olvasót, a hosszú név ism
 kerdes = "A rövidítések az első előfordulásnál ki vannak írva, és utána végig ugyanaz a rövid alak áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "eu-pontos-fogalmazas-2013#021",
   "eu-pontos-fogalmazas-2013#047",

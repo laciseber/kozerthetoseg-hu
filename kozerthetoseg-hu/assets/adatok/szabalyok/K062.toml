@@ -6,11 +6,17 @@ miert = "Az „és” előtti vessző a jelentést is megváltoztathatja: eldön
 kerdes = "Megvan a vessző az „illetve”, a tagmondatot bevezető „és” és a hasonlító „mint” előtt?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#068",
   "nav-ertheto-hivatal-2#069",
   "nav-ertheto-hivatal-2#070",
 ]
+
+[[minta]]
+leiras = "hiányzó vessző az „illetve”, „valamint”, „továbbá” előtt"
+regex = "[^,\\s(]\\s+(?:illetve|valamint|továbbá)\\b"
 
 [pelda]
 rossz = "Postán illetve elektronikusan küldheti el."

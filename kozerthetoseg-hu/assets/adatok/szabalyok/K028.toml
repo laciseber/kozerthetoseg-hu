@@ -6,6 +6,8 @@ miert = "A tükörfordított szerkezet idegenül hat, és lassítja az olvasást
 kerdes = "A mondatok magyar szerkezetűek, nincs bennük idegen mintára épült fordulat?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#031",
   "nav-ertheto-hivatal-2#005",

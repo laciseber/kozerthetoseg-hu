@@ -6,6 +6,8 @@ miert = "Akire a különös eset nem vonatkozik, ne kelljen végigolvasnia. Az i
 kerdes = "A legtöbbeket érintő információ és a teendő áll elöl, a különös esetek később?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "balogh-2023#016",
   "nav-ertheto-hivatal-2#020",

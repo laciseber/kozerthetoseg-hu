@@ -6,6 +6,8 @@ miert = "Az egymás mellé tett számokat és lépéseket táblázatban gyorsabb
 kerdes = "Ahol táblázat, ábra vagy ikon világosabb volna, ott az áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#014",
   "vilagos-beszed-kezikonyv-2025#073",

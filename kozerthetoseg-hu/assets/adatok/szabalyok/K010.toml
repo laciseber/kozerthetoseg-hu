@@ -6,6 +6,8 @@ miert = "Az olvasó az alcímek alapján keresi meg a rá vonatkozó részt. A k
 kerdes = "Az alcímek önmagukban is érthetők, lehetőleg az olvasó kérdései?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#010",
   "nav-ertheto-hivatal-2#025",

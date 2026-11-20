@@ -6,6 +6,8 @@ miert = "Az érintett csak akkor tudja előre látni, mi történik az adataival
 kerdes = "Az adatkezelési tájékoztató konkrétan megmondja, milyen adatot, milyen célra és milyen jogalapon kezelnek?"
 alkalmazasi_kor = "jogi"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "magas"
 forrasok = [
   "wp260-2018#007",
   "wp260-2018#008",

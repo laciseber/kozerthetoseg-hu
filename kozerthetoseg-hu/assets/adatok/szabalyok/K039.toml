@@ -6,6 +6,8 @@ miert = "A rövidebb forma a lényegi elemeket közel hozza egymáshoz, és megm
 kerdes = "A lehetőséget „lehet” vagy -hat/-het fejezi ki, nem „lehetőség van”?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "gepi"
+sulyossag = "kozepes"
 forrasok = [
   "nav-ertheto-hivatal-2#059",
   "wp260-2018#010",

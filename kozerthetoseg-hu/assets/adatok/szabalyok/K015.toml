@@ -6,6 +6,8 @@ miert = "A kereszthivatkozás miatt az olvasónak oda-vissza kell lapoznia, és 
 kerdes = "A szöveg ott adja meg az információt, ahol kell, és nem utal a saját más pontjaira?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "nav-ertheto-hivatal-2#029",
   "vilagos-beszed-kezikonyv-2025#039",

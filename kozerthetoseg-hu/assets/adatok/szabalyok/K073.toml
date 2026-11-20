@@ -6,6 +6,8 @@ miert = "A nyomtatványnál a közérthetőség előbbre való a tömörségnél
 kerdes = "A nyomtatványon van elég hely a kitöltéshez, és szellős az elrendezés?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "vilagos-beszed-kezikonyv-2025#108",
   "vilagos-beszed-kezikonyv-2025#109",

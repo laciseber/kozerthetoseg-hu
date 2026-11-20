@@ -6,6 +6,8 @@ miert = "Ha ugyanaz a szó két dologra vonatkozik (például a kérelemre és a
 kerdes = "Minden szó egyetlen jelentésben szerepel a szövegben?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "magas"
 forrasok = [
   "eu-pontos-fogalmazas-2013#026",
   "vilagos-beszed-kezikonyv-2025#057",

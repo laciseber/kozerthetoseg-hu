@@ -6,6 +6,8 @@ miert = "A kettős tagadást az olvasónak kétszer kell megfordítania, és kö
 kerdes = "Nincs kettős tagadás, rejtett formában sem?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "magas"
 forrasok = [
   "horvath-2021#021",
   "horvath-2021#022",

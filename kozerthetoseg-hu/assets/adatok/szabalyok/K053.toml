@@ -6,6 +6,8 @@ miert = "Az olvasó már a külalak alapján eldönti, követhető-e a szöveg. 
 kerdes = "Szellős és egységes az íráskép (betű, sorköz, térköz, behúzás)?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#011",
   "nav-ertheto-hivatal-2#012",

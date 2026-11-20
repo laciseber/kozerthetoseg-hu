@@ -6,6 +6,8 @@ miert = "Az olvasók az elejét szinte mindig elolvassák, a folytatást már cs
 kerdes = "Az első bekezdésből kiderül, miről szól a szöveg, és mi a legfontosabb az olvasónak?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "magas"
 forrasok = [
   "nav-ertheto-hivatal-2#019",
   "nav-ertheto-hivatal-2#020",

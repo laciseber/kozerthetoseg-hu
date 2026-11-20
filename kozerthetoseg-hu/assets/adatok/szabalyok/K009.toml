@@ -6,6 +6,8 @@ miert = "A „kattintson ide” nem mondja meg, mi van a link mögött, nyomtato
 kerdes = "A link szövege megmondja, hová jut az olvasó, nyomtatott szövegben pedig lépésenként le van írva az útvonal?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "gerencser-2023#008",
   "vilagos-beszed-kezikonyv-2025#030",

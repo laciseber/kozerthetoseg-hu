@@ -6,6 +6,8 @@ miert = "A „kerül” elvont használatban tartalmatlan ige: a cselekvés mag�
 kerdes = "Nincs „-ásra/-ésre kerül” szerkezet?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "gepi"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#039",
   "nav-ertheto-hivatal-2#039",

@@ -6,6 +6,8 @@ miert = "Ha a tartalom és a felépítés előbb dől el, mint a megfogalmazás,
 kerdes = "Végigmentél az írás lépésein: olvasó és cél, vázlat, megfogalmazás, formázás, ellenőrzés?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#005",
   "vilagos-beszed-kezikonyv-2025#010",

@@ -6,6 +6,8 @@ miert = "A felesleges szó hosszabbá teszi az utat a lényegig, és elrejti azt
 kerdes = "Kimaradtak a jelentés nélküli fordulatok, a felesleges jelzők és a magától értetődő közlések?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "vegyes"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#017",
   "eu-pontos-fogalmazas-2013#019",

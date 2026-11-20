@@ -6,6 +6,8 @@ miert = "Hogy egy szó vagy mondat érthető-e, nyelvészetileg nem dönthető e
 kerdes = "Fontos szövegnél kipróbáltad legalább egy kívülálló olvasóval?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "kozepes"
 forrasok = [
   "eu-pontos-fogalmazas-2013#051",
   "gerencser-2023#009",

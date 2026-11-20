@@ -6,6 +6,8 @@ miert = "A rosszul választott diagram (például túl sok szeletre bontott kör
 kerdes = "A diagram illeszkedik az adatokhoz, és könnyen olvasható?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
+ellenorzes = "itelet"
+sulyossag = "alacsony"
 forrasok = [
   "nav-ertheto-hivatal-2#080",
 ]
