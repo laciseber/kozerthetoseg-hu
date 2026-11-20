@@ -51,6 +51,7 @@ def test_uj_szabaly(skill, capsys):
 
 def test_teljes_forrasfelvetel(skill, capsys):
     """A 10. eval szkriptes része: forrás felvétele, összevonás, eltérés, zöld ellenőrzés."""
+    elotte = len(list((skill / "assets" / "adatok" / "forrasok").glob("*.toml")))
     futtat(uj_forras, ["mintavaros-levelirasi-lap-2026", "--cim", "Levélírási lap",
                        "--kiado", "Mintaváros Önkormányzata", "--ev", "2026",
                        "--gyoker", str(skill), "--datum", "2026-11-19"], capsys)
@@ -89,5 +90,5 @@ def test_teljes_forrasfelvetel(skill, capsys):
     assert kod == 0
     kod, ki, hiba = futtat(ellenorzes, ["--gyoker", str(skill)], capsys)
     assert kod == 0, hiba
-    assert "17 forrás" in ki
+    assert f"{elotte + 1} forrás" in ki
     assert "mintavaros-levelirasi-lap-2026" in (skill / "references" / "forrasok.md").read_text(encoding="utf-8")

@@ -1,4 +1,5 @@
 import json
+import re
 
 import pytest
 
@@ -75,9 +76,10 @@ def test_ketiranyu_egyezes(skill, szabalydir, capsys):
     assert "vilagos-beszed-kisokos-2025#036 tétel erre a szabályra mutat" in hiba
 
 
-def test_forras_nelkuli_aktiv_szabaly(skill, szabalydir, forras, capsys):
-    csere(szabalydir / "K072.toml", '  "vilagos-beszed-kisokos-2025#043",\n', "")
-    csere(forras, 'szabalyok = ["K072"]', 'kihagyva = "teszt"')
+def test_forras_nelkuli_aktiv_szabaly(skill, szabalydir, capsys):
+    # A K031-nek egyetlen forrása van; ha azt elvesszük, forrás nélkül marad.
+    csere(szabalydir / "K031.toml", '  "horvath-2021#005",\n', "")
+    csere(skill / "assets" / "adatok" / "forrasok" / "horvath-2021.toml", 'szabalyok = ["K031"]', 'kihagyva = "teszt"')
     kod, _, hiba = ellenoriz(skill, capsys)
     assert kod == 1 and "legalább egy forrása legyen" in hiba
 
@@ -155,7 +157,8 @@ def test_tores_hivatkozas(skill, capsys):
 
 
 def test_katalogusverzio_egyezes(skill, capsys):
-    csere(skill / "assets" / "adatok" / "katalogus.toml", 'verzio = "1.0.0"', 'verzio = "1.1.0"')
+    kat = skill / "assets" / "adatok" / "katalogus.toml"
+    kat.write_text(re.sub(r'verzio = "[^"]*"', 'verzio = "9.9.9"', kat.read_text(encoding="utf-8")), encoding="utf-8")
     ujragenerál(skill, capsys)
     kod, _, hiba = ellenoriz(skill, capsys)
     assert kod == 1 and "forraskatalogus" in hiba
@@ -173,4 +176,4 @@ def test_eval_hianyzo_mezo(skill, capsys):
 def test_changelog_bejegyzes(skill, capsys):
     (skill.parent / "CHANGELOG.md").write_text("# Változásnapló\n", encoding="utf-8")
     kod, _, hiba = ellenoriz(skill, capsys)
-    assert kod == 1 and "nincs bejegyzés a(z) 1.0.0 verzióhoz" in hiba
+    assert kod == 1 and "nincs bejegyzés a(z) " in hiba and " verzióhoz" in hiba
