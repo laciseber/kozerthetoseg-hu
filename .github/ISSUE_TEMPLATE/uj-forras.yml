@@ -1,7 +1,7 @@
 name: Új forrás javaslata
 description: Közérthetőségi útmutató, tanulmány, jogszabály vagy bírósági döntés felvétele a forráskatalógusba.
 title: "[Forrás] "
-labels: ["forrás"]
+labels: ["enhancement"]
 body:
   - type: input
     id: hivatkozas
@@ -19,7 +19,7 @@ body:
     id: licenc
     attributes:
       label: Licenc vagy felhasználási feltétel
-      description: Ha a forrás nem mondja ki, írd ezt.
+      description: Ha a forrás nem mondja ki, írd be, hogy nincs feltüntetve.
   - type: dropdown
     id: prioritas
     attributes:

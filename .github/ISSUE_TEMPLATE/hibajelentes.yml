@@ -1,7 +1,7 @@
 name: Hibajelentés
 description: A skill vagy egy szkript nem úgy működik, ahogy a leírás szerint kellene.
 title: "[Hiba] "
-labels: ["hiba"]
+labels: ["bug"]
 body:
   - type: textarea
     id: mi-tortent

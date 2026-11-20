@@ -1,7 +1,7 @@
 name: Szabály javaslata vagy javítása
 description: Új szabály, meglévő szabály pontosítása vagy visszavonása.
 title: "[Szabály] "
-labels: ["szabály"]
+labels: ["enhancement"]
 body:
   - type: input
     id: szabaly
