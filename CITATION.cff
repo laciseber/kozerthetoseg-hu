@@ -14,8 +14,8 @@ repository-code: "https://github.com/zoltankis-arch/kozerthetoseg-hu"
 license:
   - MIT
   - CC-BY-4.0
-version: "1.0.0"
-date-released: "2026-11-19"
+version: "1.1.0"
+date-released: "2026-11-20"
 keywords:
   - közérthetőség
   - plain language

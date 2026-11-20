@@ -33,7 +33,7 @@ Hat parancsa van. Ha nem nevezed meg a parancsot, a kérésedből választ: ha v
 
 `forras-felvetel`. Bemenet: egy új útmutató. Kimenet: új forrásfájl a leltárral, a tételek meglévő vagy új szabályokba sorolva, frissített referenciák, zöld ellenőrzés és javaslat a verzióemelésre.
 
-`ellenorzes`. `python kozerthetoseg-hu/scripts/ellenorzes.py` Kimenet: „Rendben: 16 forrás, 342 leltártétel, 83 aktív és 0 visszavont szabály.”
+`ellenorzes`. `python kozerthetoseg-hu/scripts/ellenorzes.py` Kimenet: „Rendben: 17 forrás, 467 leltártétel, 83 aktív és 0 visszavont szabály.”
 
 ## Telepítés
 
@@ -49,7 +49,7 @@ A szkriptekhez Python 3.11 vagy újabb kell. Külső csomag és hálózat nem ke
 
 A skill tudásbázisa négy elsődleges dokumentumra épül, amelyeket fejezetről fejezetre leltároztunk:
 
-- Világos Beszéd: Hogyan írjunk közérthetően? Kisokos (Budapest Főváros Főpolgármesteri Hivatal, 2025);
+- Világos Beszéd: Hogyan írjunk közérthetően? Kisokos (Budapest Főváros Főpolgármesteri Hivatal, 2025), az 1.1.0 óta a bővített kézikönyvvel együtt;
 - NAV: Az érthető hivatal 1. és 2. (2024);
 - Európai Bizottság: A pontos fogalmazás művészete (2013).
 

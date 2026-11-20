@@ -9,6 +9,17 @@ patch; szabály visszavonása vagy parancs átnevezése: major.
 
 ## [Kiadatlan]
 
+## [1.1.0] - 2026-11-20
+
+### Hozzáadva
+
+- Új forrás: Világos Beszéd: Hogyan írjunk közérthetően? Kézikönyv (Budapest Főváros Főpolgármesteri Hivatal, 2025), a kisokos bővített változata. 13 fejezet, 125 leltártétel; a tételek meglévő szabályokba olvadtak, új szabály nem kellett.
+- Eltérésbejegyzés a K020 (mondathossz) és a K023 (tagmondatok száma) szabályban: a kézikönyv mondathossz-küszöbe szigorúbb, a tagmondatszáma engedékenyebb.
+
+### Javítva
+
+- A forrássablon és a `forras-felvetel` leírása egyértelműen mondja meg, mit kell írni a licencmezőbe, ha a forrás nem nevez meg licencet.
+
 ## [1.0.0] - 2026-11-20
 
 ### Hozzáadva
@@ -20,5 +31,6 @@ patch; szabály visszavonása vagy parancs átnevezése: major.
 - Szövegtípus-döntés (Balogh, Bennion, NAV) és KÉK-határ.
 - Szkriptek: `meres.py`, `ellenorzes.py`, `generalas.py`, `uj_forras.py`, `uj_szabaly.py`; pytest-tesztek; CI.
 
-[Kiadatlan]: https://github.com/zoltankis-arch/kozerthetoseg-hu/compare/v1.0.0...HEAD
+[Kiadatlan]: https://github.com/zoltankis-arch/kozerthetoseg-hu/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/zoltankis-arch/kozerthetoseg-hu/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/zoltankis-arch/kozerthetoseg-hu/releases/tag/v1.0.0

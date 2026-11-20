@@ -15,10 +15,10 @@ description: >-
 license: MIT (szkriptek, tesztek) és CC-BY-4.0 (szöveges tartalom), lásd LICENSE.txt
 compatibility: A szkriptekhez Python 3.11 vagy újabb kell, külső csomag és hálózat nélkül. A HuSpaCy opcionális.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: "Kis Zoltán (https://github.com/zoltankis-arch)"
   language: "hu"
-  forraskatalogus: "1.0.0"
+  forraskatalogus: "1.1.0"
 ---
 
 # Közérthetőség magyarul
