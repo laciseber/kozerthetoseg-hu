@@ -17,7 +17,7 @@ Ne induljon nem magyar szövegre (mondd meg, hogy a szöveg nem magyar), gép–
 ## Lépések
 
 1. Olvasó és cél. Rögzítsd egy-egy mondatban.
-2. Szövegtípus. Sorold be a [szovegtipusok.md](szovegtipusok.md) szerint. Ha kötelező szövegről van szó (jogszabály, előírt formula, jogszabály által megállapított feltétel, kamarai egységes szöveg), a jelentés ezt mondja ki, és csak a köré írt tájékoztató részt vizsgálja.
+2. Szövegtípus. Sorold be a [szovegtipusok.md](szovegtipusok.md) szerint. Ha kötelező szövegről van szó (jogszabály, előírt formula, jogszabályban megállapított feltétel, kamarai egységes szöveg), a jelentés ezt mondja ki, és csak a köré írt tájékoztató részt vizsgálja.
 3. KÉK-határ. Ha az olvasó értelmi fogyatékossággal élő vagy alacsony nyelvi kompetenciájú, mondd ki a [kek-hatar.md](kek-hatar.md) szerint, hogy ehhez könnyen érthető kommunikáció kell, és ez a jelentés azt nem pótolja.
 4. Keret: a négy kérdés (lent). Ezekre adj rövid összképet.
 5. Vizsgálat a [szabalyok.md](szabalyok.md) szerint, csoportonként. Minden megállapításnál: hol van (idézd a rövid szövegrészt), melyik szabályt sérti (azonosítóval), miért baj az olvasónak, javasolt átírás, prioritás.

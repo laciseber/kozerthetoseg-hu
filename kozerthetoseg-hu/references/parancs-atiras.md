@@ -6,7 +6,7 @@ Közérthetőre írja át a szöveget, majd hűségellenőrzést végez: megnéz
 
 Ha a hívó átírást, egyszerűsítést, közérthetőbb változatot kér egy magyar szövegből. Ha csak véleményt kér, az `audit` fut.
 
-Kötelező szöveget (jogszabály, előírt formula, jogszabály által megállapított feltétel, kamarai egységes szöveg) a parancs nem ír át: kimondja, hogy kötelező, és hogy a forrásával kell egyeznie. A köré írt tájékoztatót átírhatja, vagy rövid magyarázatot írhat mellé.
+Kötelező szöveget (jogszabály, előírt formula, jogszabályban megállapított feltétel, kamarai egységes szöveg) a parancs nem ír át: kimondja, hogy kötelező, és hogy a forrásával kell egyeznie. A köré írt tájékoztatót átírhatja, vagy rövid magyarázatot írhat mellé.
 
 ## Bemenet
 

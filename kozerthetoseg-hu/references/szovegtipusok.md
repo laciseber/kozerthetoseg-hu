@@ -20,7 +20,7 @@ Kötelező az a szöveg, amelynek szövegét vagy formáját jogszabály, hatós
 
 - a jogszabály normaszövege;
 - a jogszabály által előírt formula vagy kötelező tartalmi elem (például jogorvoslati tájékoztatás előírt szövege);
-- a jogszabály által megállapított szerződési feltétel (Ptk. 6:102. § (4));
+- a jogszabályban megállapított szerződési feltétel (Ptk. 6:102. § (4));
 - a szakmai kamara által jóváhagyott, kötelezően használandó egységes szöveg.
 
 Gerencsér (2023, 18. o.) azt javasolja, hogy a jogi kötőerővel rendelkező szöveget határozottan válasszuk szét a tájékoztatótól, és a tájékoztatót merjük informatívabbá tenni. A NAV (2024a, 36–37. o.) tapasztalata ugyanez: ne erőltessük a közérthetőség kritériumait arra a szövegre, amelynek formáját jogszabály írja elő. Az uniós útmutató (2013, 3. o.) is külön szövegezési szabályokat említ a jogszabályokra. Balogh (2023, 191. o.) példája megmutatja, mi történhet, ha a kötött formulát átfogalmazzák: egy kísérletben a jogokról szóló, megszokott szövegű figyelmeztetés átírt változata összezavarta a címzettet.
