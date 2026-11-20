@@ -3,6 +3,7 @@ cim = "Egyszerűbb szó a körülményes helyett"
 csoport = "szo"
 szabaly = "A körülményes kötőszó vagy szerkezet helyett használd az egyszerűbbet: „amennyiben” helyett „ha”, „tekintettel arra, hogy” helyett „mivel”."
 miert = "Az egyszerű szó ugyanazt jelenti, csak gyorsabban olvasható; a szakszerűségből semmit nem vesz el."
+kerdes = "A körülményes kötőszók és szerkezetek helyén az egyszerűbb áll („ha”, „mivel”)?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

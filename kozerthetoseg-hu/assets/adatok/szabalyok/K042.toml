@@ -3,6 +3,7 @@ cim = "Ige a főnévvé tett cselekvés helyett"
 csoport = "szerkezet"
 szabaly = "Az -ás/-és képzős főnévvel kifejezett cselekvést, különösen az „által”, „történő”, „való” mellett, írd át ragozott igére."
 miert = "Az igéből képzett főnév elrejti, ki cselekszik és mikor. Az igés mondat rövidebb, és kiderül belőle a cselekvő."
+kerdes = "A cselekvéseket ige fejezi ki, nem főnévvé tett ige („által”, „történő”, „való” mellett sem)?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

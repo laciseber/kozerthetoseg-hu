@@ -3,6 +3,7 @@ cim = "Rétegzett tájékoztatás: rövid változat a teljes mellé"
 csoport = "felepites"
 szabaly = "Ha a téma bonyolult, de sokakat érint, a teljes, szakmailag pontos anyag mellé készíts rövid, közérthető változatot, és a kettő mutasson egymásra."
 miert = "A szakmai pontosság és a közérthetőség így nem egymás rovására megy: aki gyorsan akar tájékozódni, a rövid változatot olvassa, akinek a részlet kell, a teljeset."
+kerdes = "Bonyolult, sokakat érintő témánál van a teljes anyag mellett rövid, közérthető változat?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

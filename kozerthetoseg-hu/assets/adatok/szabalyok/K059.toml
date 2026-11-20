@@ -3,6 +3,7 @@ cim = "Pénzösszeg"
 csoport = "szamok-es-jelek"
 szabaly = "Folyó szövegben a pénznemet írd ki (forint, euró), a rövidítést (Ft, EUR, M Ft) táblázatban használd."
 miert = "A kiírt pénznem folyó szövegben gördülékenyebben olvasható; táblázatban a rövidítés helyet takarít meg."
+kerdes = "Folyó szövegben ki van írva a pénznem?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

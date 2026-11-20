@@ -3,6 +3,7 @@ cim = "Nevezd meg, ki cselekszik"
 csoport = "szerkezet"
 szabaly = "A szenvedő szerkezet (el lett intézve), az igenévi állítmány (a kérelem benyújtott) és a személytelen fogalmazás helyett nevezd meg a cselekvőt; ha nem ismert, használj általános alanyt."
 miert = "Ha nem derül ki, ki cselekszik, az olvasó nem tudja, kinek mi a dolga. Az alany nélküli mondat ködösítésnek is hathat."
+kerdes = "Kiderül, ki cselekszik, és nincs szenvedő vagy személytelen szerkezet ott, ahol a cselekvő ismert?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

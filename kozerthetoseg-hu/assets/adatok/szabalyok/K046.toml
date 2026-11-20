@@ -3,6 +3,7 @@ cim = "Kettős tagadás nélkül"
 csoport = "szerkezet"
 szabaly = "Ne használj kettős tagadást, a bújtatottat sem (nem + tagadó jelentésű ige vagy szó: nem mellőzhető, nem hiányzik, nem tilos); fogalmazd meg állítóan."
 miert = "A kettős tagadást az olvasónak kétszer kell megfordítania, és könnyen az ellenkezőjét érti."
+kerdes = "Nincs kettős tagadás, rejtett formában sem?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

@@ -3,6 +3,7 @@ cim = "A cselekvés az olvasó oldaláról"
 csoport = "cel-es-tartalom"
 szabaly = "A folyamatot úgy írd le, ahogy az olvasó éli meg: ne azt, hogy a szervezetnek mit kell megkapnia, hanem azt, hogy az olvasónak mit kell elküldenie."
 miert = "Az olvasó a saját teendőit keresi. Ha a mondat a szervezet szemszögéből szól, neki kell átfordítania a saját teendőjére, és ez hibalehetőség."
+kerdes = "A folyamat az olvasó oldaláról van leírva (mit küld el), nem a szervezetéről (mit kap meg)?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

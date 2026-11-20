@@ -3,6 +3,7 @@ cim = "Az olvasó és a cél tisztázása írás előtt"
 csoport = "cel-es-tartalom"
 szabaly = "Mielőtt írni kezdesz, határozd meg, ki olvassa a szöveget, mit tud már a témáról, mit kell tennie az olvasás után, és mikor tekinted sikeresnek a szöveget."
 miert = "Aki sokat tud a témáról, könnyen elfelejti, mit nem tud az olvasó. Ha az olvasó és a cél ki van mondva, a későbbi döntések (mi maradjon ki, milyen szó kell) erre épülhetnek."
+kerdes = "Tudod, ki olvassa a szöveget, mit tud már, és mit kell tennie utána?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

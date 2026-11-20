@@ -3,6 +3,7 @@ cim = "Hosszabb szövegnél összefoglaló, tartalomjegyzék és világos zárá
 csoport = "felepites"
 szabaly = "Hosszabb dokumentumnál az elején álljon rövid összefoglaló, legyen tartalomjegyzék, és a befejezés röviden mondja ki a következtetést."
 miert = "A hosszabb anyagból sokan csak az elejét és a végét olvassák el. Ha ez a két rész önmagában is megáll, az olvasó a többit csak akkor olvassa, ha kell."
+kerdes = "Hosszabb szövegnél van rövid összefoglaló az elején, tartalomjegyzék és világos zárás?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

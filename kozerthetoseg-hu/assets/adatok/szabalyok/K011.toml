@@ -3,6 +3,7 @@ cim = "A legtöbbeket érintő információtól a különös esetekig"
 csoport = "felepites"
 szabaly = "Rendezd a tartalmat úgy, hogy a legtöbb olvasót érintő információ és a teendő álljon elöl, a különös esetek és a részletszabályok később; változást ne időrendben mesélj el."
 miert = "Akire a különös eset nem vonatkozik, ne kelljen végigolvasnia. Az időrendi elbeszélés a múltbeli előzményeket teszi előre, és a lényeg a szöveg közepére csúszik."
+kerdes = "A legtöbbeket érintő információ és a teendő áll elöl, a különös esetek később?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

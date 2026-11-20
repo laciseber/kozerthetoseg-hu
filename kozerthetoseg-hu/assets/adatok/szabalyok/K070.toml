@@ -3,6 +3,7 @@ cim = "Kitöltési segítség a mezőnél"
 csoport = "nyomtatvany"
 szabaly = "A bonyolultabb mezőnél adj segítséget: mondd meg, hol találja az adatot, adj példát, és a mező formája mutassa az elvárt alakot."
 miert = "A segítség ott hasznos, ahol a kérdés felmerül; a mező tagolása (például ________-_-__) már magában megmutatja, milyen adat jön."
+kerdes = "A bonyolultabb mezőknél van kitöltési segítség?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

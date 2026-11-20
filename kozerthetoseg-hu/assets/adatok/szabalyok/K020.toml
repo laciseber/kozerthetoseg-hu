@@ -3,6 +3,7 @@ cim = "Mondathossz: átlagosan 15–20 szó"
 csoport = "mondat"
 szabaly = "A mondatok átlagosan 15–20 szóból álljanak; a 20 szónál hosszabb mondatot nézd meg, bontható-e."
 miert = "A hosszú mondatban az olvasónak sok mindent kell fejben tartania, mire a végére ér. A küszöb figyelmeztet, nem tilt: a mérőszám jelzés, nem ítélet."
+kerdes = "A mondatok átlagosan 15–20 szavasak, és a 20 szónál hosszabbakat megnézted, bonthatók-e?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

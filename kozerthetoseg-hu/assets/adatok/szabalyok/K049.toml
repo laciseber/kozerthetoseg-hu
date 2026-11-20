@@ -3,6 +3,7 @@ cim = "Egy megszólítás végig"
 csoport = "megszolitas-es-hang"
 szabaly = "Ugyanazt a megszólítást használd a szöveg elejétől a végéig (szám, személy, kis- vagy nagybetű), és a kiadó szervezetet is egyféleképpen nevezd meg."
 miert = "Ha a szöveg váltogat (Ön, az adózó, Önök), az olvasó nem tudja biztosan, mikor szól neki és mikor másnak."
+kerdes = "Végig ugyanaz a megszólítás és ugyanaz a megnevezés a kiadóra?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

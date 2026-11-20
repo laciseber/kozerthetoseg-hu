@@ -3,6 +3,7 @@ cim = "Egy mondat, egy dolog"
 csoport = "mondat"
 szabaly = "Egy mondat egy gondolatot, egy információt közöljön; két ellentétes közlést ne zsúfolj egy mondatba."
 miert = "Az olvasó mondatonként dolgozza fel a szöveget. Ha egy mondatban több állítás van, könnyen csak az egyiket jegyzi meg, és az ellentétes közlések egymást teszik nehezen érthetővé."
+kerdes = "Minden mondat egy dologról szól?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

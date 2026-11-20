@@ -3,6 +3,7 @@ cim = "Rövid, egységes táblázat- és ábracím"
 csoport = "tablazat-es-abra"
 szabaly = "A táblázat és az ábra címe legyen rövid és informatív, a címek kövessenek hasonló szerkezetet; az „alakulása”, „tevékenység” szó általában elhagyható."
 miert = "A cím mondja meg, mit lát az olvasó; a felesleges szó csak hosszabbá teszi."
+kerdes = "A táblázatok és ábrák címe rövid, informatív és egységes szerkezetű?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

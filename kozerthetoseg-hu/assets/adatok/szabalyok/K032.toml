@@ -3,6 +3,7 @@ cim = "Az ismertebb szó, akár idegen, akár magyar"
 csoport = "szo"
 szabaly = "Az olvasó által ismertebb szót válaszd: a meg nem honosodott idegen szó helyett a magyart, a ritka vagy régies magyar szó helyett az ismert idegent; vigyázz a hamis barátokra."
 miert = "Az érthetőséget nem a szó eredete dönti el, hanem az, hogy az olvasó ismeri-e. A hamis barát (például az angol actual mintájára használt aktuális) félrevezet."
+kerdes = "Mindenhol az olvasó által ismertebb szó áll, és nincs hamis barát?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

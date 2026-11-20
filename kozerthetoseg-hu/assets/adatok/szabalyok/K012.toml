@@ -3,6 +3,7 @@ cim = "A jogszabályhely a végére; a szabályt magyarázd el"
 csoport = "felepites"
 szabaly = "A jogszabályt a szövegben magyarázd el saját szavaiddal; a jogszabályhelyet tedd lábjegyzetbe, a szöveg végén külön blokkba, vagy röviden zárójelben a mondat végére."
 miert = "A mondat közepén álló paragrafushivatkozás megszakítja az olvasást, és a laikus olvasónak nem mond semmit. Akinek a pontos hely kell, a végén megtalálja."
+kerdes = "A jogszabály saját szavakkal el van magyarázva, és a jogszabályhely a mondat végén, lábjegyzetben vagy külön blokkban áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

@@ -3,6 +3,7 @@ cim = "Udvarias, partneri hang"
 csoport = "megszolitas-es-hang"
 szabaly = "Írj udvariasan és partnerként: köszönd meg a megkeresést, mondd ki, ha sajnálod, hogy nem tudsz segíteni, és hagyd el a merev hivatali fordulatokat."
 miert = "Az olvasó a hangnemből is érzi, hogyan kezelik. A merev formula távolságot tart, és nem ad hozzá semmit a tartalomhoz."
+kerdes = "Udvarias és partneri a hang, merev hivatali fordulatok nélkül?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

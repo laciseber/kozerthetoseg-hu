@@ -3,6 +3,7 @@ cim = "Tartalomsablon az ismétlődő szövegtípusokhoz"
 csoport = "folyamat"
 szabaly = "Ha sok hasonló szöveget írsz (útmutató, ügyleírás), készíts tartalomsablont az olvasó visszatérő kérdéseivel, és mindegyik szöveg erre válaszoljon."
 miert = "A sablonnal egy olvasónak fontos pont sem marad ki, és az olvasó minden szövegben ugyanott találja ugyanazt."
+kerdes = "Az ismétlődő szövegtípushoz van tartalomsablon, és a szöveg minden pontjára válaszol?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

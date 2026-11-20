@@ -3,6 +3,7 @@ cim = "Feltételes mondat a feltétellel kezdődjön"
 csoport = "mondat"
 szabaly = "Ha egy mondat csak bizonyos esetben érvényes, a feltétel álljon az elején."
 miert = "Az olvasó a mondat elején eldöntheti, vonatkozik-e rá; ha nem, továbbléphet."
+kerdes = "A feltételes mondatok a feltétellel kezdődnek?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

@@ -6,6 +6,8 @@ cim = "{{cim}}"
 csoport = "{{csoport}}"
 szabaly = "KITÖLTENDŐ: a szabály egy mondatban"
 miert = "KITÖLTENDŐ: miért segít az olvasónak"
+# Eldöntendő kérdés az ellenőrző listához; az igen válasz a megfelelés.
+kerdes = "KITÖLTENDŐ: kérdés?"
 alkalmazasi_kor = "{{kor}}"
 allapot = "aktiv"
 # Leltártétel-azonosítók; a tételeknél is erre a szabályra kell mutatni.

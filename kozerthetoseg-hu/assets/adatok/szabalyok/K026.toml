@@ -3,6 +3,7 @@ cim = "Állító mondat a tagadó helyett"
 csoport = "mondat"
 szabaly = "Amit lehet, állító mondatban fogalmazz meg; a tagadást akkor használd, ha a tagadás maga a közlés."
 miert = "A tagadó mondat megértéséhez az olvasónak előbb el kell képzelnie az állítást, majd meg kell fordítania."
+kerdes = "Ami állítóan is megfogalmazható, az állító mondatban áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

@@ -3,6 +3,7 @@ cim = "Önmagukban érthető, kérdés formájú alcímek"
 csoport = "felepites"
 szabaly = "Tagold a szöveget olyan alcímekkel, amelyek magukban is érthetők; a legjobb, ha az alcím az olvasó kérdése."
 miert = "Az olvasó az alcímek alapján keresi meg a rá vonatkozó részt. A kérdés formájú alcím az ő nyelvén mutatja meg, mire ad választ a blokk."
+kerdes = "Az alcímek önmagukban is érthetők, lehetőleg az olvasó kérdései?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

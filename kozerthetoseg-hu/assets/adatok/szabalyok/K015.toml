@@ -3,6 +3,7 @@ cim = "Kereszthivatkozás helyett a szükséges információ helyben"
 csoport = "felepites"
 szabaly = "Kerüld, hogy a szöveg a saját más pontjaira utaljon („lásd a 3. pontot”); ha az információ kell, írd le ott, ahol kell."
 miert = "A kereszthivatkozás miatt az olvasónak oda-vissza kell lapoznia, és fejben kell tartania, mit olvasott máshol."
+kerdes = "A szöveg ott adja meg az információt, ahol kell, és nem utal a saját más pontjaira?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

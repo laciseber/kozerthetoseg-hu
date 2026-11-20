@@ -3,6 +3,7 @@ cim = "Ellenőrző lista és hangos felolvasás"
 csoport = "folyamat"
 szabaly = "Mielőtt kiadod a szöveget, ellenőrizd ellenőrző listával, és olvasd fel hangosan: amit nehéz felolvasni, azt megérteni sem könnyű."
 miert = "A mechanikus ellenőrzés kiszűri azt, ami írás közben elsikkad; a felolvasás megmutatja a túl hosszú és döccenő mondatokat."
+kerdes = "Ellenőrizted a szöveget ellenőrző listával, és felolvastad hangosan?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

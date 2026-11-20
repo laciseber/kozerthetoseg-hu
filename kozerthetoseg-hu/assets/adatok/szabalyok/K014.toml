@@ -3,6 +3,7 @@ cim = "Rövid bekezdés, egy témával"
 csoport = "felepites"
 szabaly = "Egy bekezdés egy témáról szóljon, és lehetőleg kulcsszóval kezdődjön."
 miert = "A rövid, egytémájú bekezdés miatt az olvasó nem ugrik át véletlenül olyan információt, amelyre szüksége volna; a kulcsszó megmutatja, miről szól."
+kerdes = "Minden bekezdés egy témáról szól?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

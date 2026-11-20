@@ -3,6 +3,7 @@ cim = "Számok egységes írása"
 csoport = "szamok-es-jelek"
 szabaly = "Egy szövegegységen belül a számokat egységesen írd (betűvel vagy számjeggyel); az öt- vagy többjegyű számokat hátulról hármasával tagold, nem törő szóközzel."
 miert = "A következetlen számírás megakasztja az olvasót, a tagolatlan nagy szám pedig nehezen olvasható ki."
+kerdes = "A számok írása egységes, és a nagy számok hármasával tagoltak?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

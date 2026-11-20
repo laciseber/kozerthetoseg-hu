@@ -3,6 +3,7 @@ cim = "Webhely: beszédes link vagy lépésenkénti útvonal"
 csoport = "cel-es-tartalom"
 szabaly = "Ha weboldalra irányítod az olvasót, a link szövege mondja meg, hová jut; nyomtatott szövegben lépésről lépésre írd le az útvonalat."
 miert = "A „kattintson ide” nem mondja meg, mi van a link mögött, nyomtatott levélben pedig a hosszú internetcím begépelése hibaforrás."
+kerdes = "A link szövege megmondja, hová jut az olvasó, nyomtatott szövegben pedig lépésenként le van írva az útvonal?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

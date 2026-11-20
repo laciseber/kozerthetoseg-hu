@@ -3,6 +3,7 @@ cim = "Legfeljebb három listaszint"
 csoport = "kinezet"
 szabaly = "Listát legfeljebb három szintig bonts; ha ennél mélyebb tagolás kellene, rendezd át a tartalmat."
 miert = "A sokszintű lista elveszíti az áttekinthetőségét: az olvasó nem tudja követni, melyik elem melyiknek az alpontja."
+kerdes = "A listák legfeljebb három szintűek?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

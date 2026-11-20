@@ -3,6 +3,7 @@ cim = "Egy fogalom, egy szó végig"
 csoport = "szo"
 szabaly = "Ugyanazt a fogalmat a szöveg minden pontján ugyanazzal a szóval nevezd meg; stílusból ne cserélgesd szinonimákra."
 miert = "Ha a szöveg váltogatja a szót (kérelem, beadvány, folyamodvány), az olvasó joggal hiszi, hogy több különböző dologról van szó."
+kerdes = "Ugyanazt a fogalmat végig ugyanaz a szó jelöli?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

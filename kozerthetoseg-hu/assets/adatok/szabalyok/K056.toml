@@ -3,6 +3,7 @@ cim = "A szakkifejezések helyesírása"
 csoport = "szamok-es-jelek"
 szabaly = "A nehéz helyesírású szakkifejezéseket ellenőrizd helyesírási szótárban vagy tanácsadó portálon; a helyesírás-ellenőrző program nem szűr ki minden hibát."
 miert = "A helyesírási hiba rontja a szöveg hitelét, és összetett szavaknál jelentést is változtathat."
+kerdes = "A nehéz helyesírású szakkifejezéseket szótárban ellenőrizted?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

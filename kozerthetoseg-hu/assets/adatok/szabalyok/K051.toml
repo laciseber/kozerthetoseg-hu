@@ -3,6 +3,7 @@ cim = "Látható alcímek"
 csoport = "kinezet"
 szabaly = "Emeld ki az alcímeket nagyobb és félkövér betűvel, és hagyj előttük több helyet, hogy látszódjon, melyik blokkhoz tartoznak."
 miert = "A kiemelt alcímekből az olvasó egy pillantással átlátja a szöveg szerkezetét."
+kerdes = "Az alcímek nagyobb, félkövér betűvel látszanak, és előttük több hely van?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

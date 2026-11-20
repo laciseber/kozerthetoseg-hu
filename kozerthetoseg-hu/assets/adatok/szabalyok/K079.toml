@@ -3,6 +3,7 @@ cim = "Adatkezelési tájékoztató: konkrét cél és jogalap"
 csoport = "cel-es-tartalom"
 szabaly = "Adatkezelési tájékoztatóban konkrétan írd le, milyen adatot, milyen célra és milyen jogalapon kezelsz; az általános célmegjelölés („szolgáltatásaink fejlesztésére”) nem elég."
 miert = "Az érintett csak akkor tudja előre látni, mi történik az adataival, és csak akkor tud tiltakozni, ha a cél konkrét."
+kerdes = "Az adatkezelési tájékoztató konkrétan megmondja, milyen adatot, milyen célra és milyen jogalapon kezelnek?"
 alkalmazasi_kor = "jogi"
 allapot = "aktiv"
 forrasok = [

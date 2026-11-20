@@ -3,6 +3,7 @@ cim = "Magyar mondatszerkezet idegen minták helyett"
 csoport = "mondat"
 szabaly = "Kerüld az idegen nyelvből átvett mondatszerkezeteket; a kiemelésre a magyar szórend és a hangsúly való."
 miert = "A tükörfordított szerkezet idegenül hat, és lassítja az olvasást, mert az olvasó nem a megszokott magyar mintát kapja."
+kerdes = "A mondatok magyar szerkezetűek, nincs bennük idegen mintára épült fordulat?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

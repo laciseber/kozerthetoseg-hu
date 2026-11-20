@@ -3,6 +3,7 @@ cim = "Az olvasó kimondatlan kérdései"
 csoport = "cel-es-tartalom"
 szabaly = "Gondold végig, milyen kérdések merülnek fel az olvasóban, és a szövegben válaszolj rájuk akkor is, ha nem kérdezte meg őket."
 miert = "Az olvasó kérdései nem tűnnek el attól, hogy a szöveg nem válaszol rájuk; csak telefonhívás vagy panasz lesz belőlük."
+kerdes = "Válaszol a szöveg azokra a kérdésekre is, amelyeket az olvasó nem tett fel, de fel fognak merülni benne?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

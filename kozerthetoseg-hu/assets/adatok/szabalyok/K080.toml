@@ -3,6 +3,7 @@ cim = "Határozatlan kifejezés és ható ige nélkül a kiadó tevékenységér
 csoport = "szo"
 szabaly = "Ha azt írod le, mit tesz a szöveg kiadója (például hogyan kezeli az adatokat), kerüld a ható igét és a határozatlan szavakat (néhány, gyakran, lehetséges); ha mégis kell, indokold."
 miert = "A „felhasználhatjuk” vagy a „néhány esetben” után az olvasó nem tudja, mi történik ténylegesen, így nem tud dönteni."
+kerdes = "A kiadó saját tevékenységéről szóló részekben nincs indokolatlan ható ige és határozatlan szó?"
 alkalmazasi_kor = "jogi"
 allapot = "aktiv"
 forrasok = [

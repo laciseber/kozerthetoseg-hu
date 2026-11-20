@@ -3,6 +3,7 @@ cim = "Rövid, informatív cím"
 csoport = "felepites"
 szabaly = "A cím rövid legyen, és a legfontosabb újdonságot mondja meg, ne a teljes tartalmat foglalja össze."
 miert = "A cím alapján dönt az olvasó, hogy foglalkozik-e a szöveggel. Ha a cím mindent el akar mondani, semmi nem emelkedik ki belőle."
+kerdes = "A cím rövid, és a legfontosabb újdonságot mondja meg?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

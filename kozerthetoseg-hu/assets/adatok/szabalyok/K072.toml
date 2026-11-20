@@ -3,6 +3,7 @@ cim = "Gyakori kérdések a nyomtatvány végén"
 csoport = "nyomtatvany"
 szabaly = "Mérlegeld, hogy a nyomtatvány végére tegyél gyakran ismételt kérdéseket (például: hogyan adhatom be, mi történik utána)."
 miert = "A kitöltés közben felmerülő kérdésekre így az olvasó helyben választ kap, és nem kell telefonálnia."
+kerdes = "Megfontoltad, kell-e gyakori kérdések rész a nyomtatvány végére?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

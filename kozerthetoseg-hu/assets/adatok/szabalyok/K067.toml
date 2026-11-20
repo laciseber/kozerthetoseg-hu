@@ -3,6 +3,7 @@ cim = "Olvasható diagram"
 csoport = "tablazat-es-abra"
 szabaly = "A diagram formája illeszkedjen az adatokhoz, a számok legyenek jól olvashatók, a diagram ne legyen zsúfolt, és a háttér ne nyomja el az adatokat."
 miert = "A rosszul választott diagram (például túl sok szeletre bontott kör) vagy a sötét háttér láthatatlanná teszi azt, amit meg kellene mutatnia."
+kerdes = "A diagram illeszkedik az adatokhoz, és könnyen olvasható?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

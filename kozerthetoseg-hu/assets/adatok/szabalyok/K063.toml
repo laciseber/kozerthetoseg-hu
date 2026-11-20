@@ -3,6 +3,7 @@ cim = "Felkiáltójel a felszólító mondat végén"
 csoport = "szamok-es-jelek"
 szabaly = "A felszólító mondat végére tegyél felkiáltójelet; ez helyesírási szabály, nem udvariatlanság."
 miert = "A felkiáltójel jelzi, hogy a mondat teendőt ad, nem tájékoztat. Sok egymást követő felszólításnál (útmutatóban) megengedőbb a szabály."
+kerdes = "A felszólító mondatok végén felkiáltójel áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

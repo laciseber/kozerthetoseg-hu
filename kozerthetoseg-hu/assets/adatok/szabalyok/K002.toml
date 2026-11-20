@@ -3,6 +3,7 @@ cim = "A fő üzenet elöl"
 csoport = "cel-es-tartalom"
 szabaly = "A szöveg elején, az első bekezdésben álljon a fő üzenet: miről szól a szöveg, és mi belőle a legfontosabb az olvasónak."
 miert = "Az olvasók az elejét szinte mindig elolvassák, a folytatást már csak átfutják. Ha az elején kiderül, hogy a szöveg érinti-e őket, nem kell végigolvasniuk, hogy ezt megtudják."
+kerdes = "Az első bekezdésből kiderül, miről szól a szöveg, és mi a legfontosabb az olvasónak?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

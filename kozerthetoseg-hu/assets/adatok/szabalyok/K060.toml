@@ -3,6 +3,7 @@ cim = "Mértékegység és százalék"
 csoport = "szamok-es-jelek"
 szabaly = "A mértékegység jele előtt szóköz áll, utána nincs pont; a százalékjel a számhoz tapad; elvont dolgok számánál ne írj „db”-ot."
 miert = "A mértékegységek írását szabvány határozza meg; a következetes írás könnyebben olvasható."
+kerdes = "A mértékegység és a százalékjel írása szabályos?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

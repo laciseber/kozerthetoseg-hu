@@ -3,6 +3,7 @@ cim = "A teendőhöz minden szükséges adat"
 csoport = "cel-es-tartalom"
 szabaly = "Ha az olvasónak tennie kell valamit, add meg mindazt, ami ehhez kell: mit, mennyit, meddig, hogyan és hol tegye, mi történik, ha nem teszi meg, és hol kap segítséget."
 miert = "Ha egy adat hiányzik (például a közlemény szövege vagy a határidő), az olvasó vagy visszakérdez, vagy hibázik. A teendőhöz tartozó adatok együtt, egy helyen a leghasznosabbak."
+kerdes = "Megvan a teendőhöz minden adat: mit, mennyit, meddig, hogyan, hol, mi lesz, ha elmarad, és hol kap segítséget?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

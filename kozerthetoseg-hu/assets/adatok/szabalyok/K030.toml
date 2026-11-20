@@ -3,6 +3,7 @@ cim = "Szakszó csak magyarázattal"
 csoport = "szo"
 szabaly = "Ha szakszót kell használnod, magyarázd meg az első előfordulásánál, vagy adj szószedetet; a túlzottan jogi, műszaki vagy szakmai szóhasználatot kerüld."
 miert = "A szakszó sokszor nem cserélhető le (jogi következménye van), de az olvasó csak akkor tud vele mit kezdeni, ha tudja, mit jelent."
+kerdes = "Minden szakszó meg van magyarázva az első előfordulásnál?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

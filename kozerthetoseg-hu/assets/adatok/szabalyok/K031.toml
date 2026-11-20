@@ -3,6 +3,7 @@ cim = "Szakszó, ha a köznyelvi szó félrevezet"
 csoport = "szo"
 szabaly = "Ha egy köznyelvi szót szaknyelvi jelentésben használnál, és az olvasó a köznyelvi jelentését érti, válassz egyszerű szakszót vagy körülírást."
 miert = "A köznyelvi szó ismerősnek tűnik, ezért az olvasó nem kérdez vissza, hanem félreérti. Ez rosszabb, mint az ismeretlen szó."
+kerdes = "Nincs olyan köznyelvi szó, amelyet az olvasó más jelentésben értene, mint ahogy a szöveg használja?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

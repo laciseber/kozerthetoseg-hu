@@ -3,6 +3,7 @@ cim = "Névutó helyett rag"
 csoport = "szo"
 szabaly = "Ahol rag is elég, ne használj névutót vagy hosszabb szerkezetet (a hivatal felé helyett a hivatalnak, e-mail útján helyett e-mailben)."
 miert = "A rag rövidebb, és ugyanazt jelenti; a névutók halmozása elnehezíti a mondatot."
+kerdes = "Ahol rag is elég, ott nincs névutó vagy hosszabb szerkezet?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

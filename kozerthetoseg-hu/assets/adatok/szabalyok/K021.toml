@@ -3,6 +3,7 @@ cim = "Az alany és az állítmány elöl, egymás közelében"
 csoport = "mondat"
 szabaly = "A mondat elején álljon, kire vonatkozik (alany) és mit kell tennie (állítmány), egymáshoz közel; a bővítmények csak utánuk jöjjenek."
 miert = "Ha az állítmány a mondat végére kerül, az olvasónak az egész mondatot fejben kell tartania, mire megtudja, mi a lényeg."
+kerdes = "A mondatok elején, egymás közelében áll az alany és az állítmány?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

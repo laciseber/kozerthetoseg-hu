@@ -3,6 +3,7 @@ cim = "Kevesebb tagmondat"
 csoport = "mondat"
 szabaly = "A kettőnél több tagmondatból álló mondatot bontsd egyszerűbb mondatokra, vagy vond össze a tagmondatokat, ha ettől világosabb lesz."
 miert = "Minden újabb tagmondat újabb viszonyt kér az olvasótól (ki, mi, mire vonatkozik). A többszörösen összetett mondatban ezek a viszonyok összecsúsznak."
+kerdes = "A kettőnél több tagmondatú mondatokat megnézted, egyszerűbbé tehetők-e?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

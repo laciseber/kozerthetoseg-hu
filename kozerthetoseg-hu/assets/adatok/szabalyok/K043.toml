@@ -3,6 +3,7 @@ cim = "Cselekvő ige az „-ásra/-ésre kerül” helyett"
 csoport = "szerkezet"
 szabaly = "Az „-ásra/-ésre kerül” szerkezet helyett nevezd meg a cselekvőt, vagy használj általános alanyt, visszaható vagy más igét."
 miert = "A „kerül” elvont használatban tartalmatlan ige: a cselekvés magától történik meg, a felelős eltűnik."
+kerdes = "Nincs „-ásra/-ésre kerül” szerkezet?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

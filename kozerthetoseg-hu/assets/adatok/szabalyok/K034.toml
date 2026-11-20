@@ -3,6 +3,7 @@ cim = "Egy szó, egy jelentés"
 csoport = "szo"
 szabaly = "Egy szót a szövegen belül csak egy jelentésben használj; ha két dologra ugyanaz a szó illik, az egyiket nevezd meg másképp."
 miert = "Ha ugyanaz a szó két dologra vonatkozik (például a kérelemre és a határidő-módosítási kérelemre), az olvasó nem tudja, melyikről szól a következő mondat."
+kerdes = "Minden szó egyetlen jelentésben szerepel a szövegben?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

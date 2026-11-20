@@ -3,6 +3,7 @@ cim = "Nincs közbevetés és beágyazott hivatkozás a mondat közepén"
 csoport = "mondat"
 szabaly = "Ne szakítsa meg a mondatot zárójeles vagy gondolatjeles közbevetés, jogszabályi utalás vagy a szöveg más pontjára mutató hivatkozás."
 miert = "A közbevetés kettévágja a mondatot: az olvasónak meg kell jegyeznie az első felét, amíg a betoldást olvassa. Az egymásba ágyazott zárójelek ezt többszörözik."
+kerdes = "Egyetlen mondatot sem szakít meg zárójeles vagy gondolatjeles közbevetés vagy jogszabályi utalás?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

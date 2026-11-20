@@ -3,6 +3,7 @@ cim = "Fogyasztói kikötés: világos és érthető, két külön próba"
 csoport = "cel-es-tartalom"
 szabaly = "Fogyasztói szerződés vagy ÁSZF kikötésénél két dolgot vizsgálj külön: világos-e a szöveg nyelvileg, és érthető-e abban az értelemben, hogy a fogyasztó előre látja a kikötés következményeit (például mennyit fizet)."
 miert = "A Ptk. a főszolgáltatást meghatározó kikötést csak akkor zárja ki a tisztességtelenségi vizsgálatból, ha világos és érthető; az Európai Bíróság szerint ehhez a nyelvtani érthetőség nem elég, a fogyasztónak értékelnie kell tudnia a gazdasági következményeket."
+kerdes = "A fogyasztói kikötés nyelvileg világos, és a fogyasztó előre látja belőle a következményeket?"
 alkalmazasi_kor = "jogi"
 allapot = "aktiv"
 forrasok = [

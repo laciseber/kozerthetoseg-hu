@@ -3,6 +3,7 @@ cim = "Zárt válaszlehetőség, ha kevés a válasz"
 csoport = "nyomtatvany"
 szabaly = "Ha kevés, rövid válasz lehetséges, adj ikszelhető válaszlehetőségeket szabad szöveges mező helyett."
 miert = "Az olvasónak könnyebb választani, mint fogalmazni, a kitöltő pedig egységes, feldolgozható válaszokat kap."
+kerdes = "Ahol kevés a lehetséges válasz, ott ikszelhető választás van?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

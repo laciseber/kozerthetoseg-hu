@@ -3,6 +3,7 @@ cim = "Felesleges szavak és magától értetődő közlések nélkül"
 csoport = "szo"
 szabaly = "Hagyd el a jelentés nélküli fordulatokat, a felesleges jelzőket, a tautológiát és azt, ami a helyzetből úgyis egyértelmű."
 miert = "A felesleges szó hosszabbá teszi az utat a lényegig, és elrejti azt, ami valóban új. A „Tájékoztatjuk, hogy” után az olvasó még mindig nem tudja, miről van szó."
+kerdes = "Kimaradtak a jelentés nélküli fordulatok, a felesleges jelzők és a magától értetődő közlések?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

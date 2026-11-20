@@ -3,6 +3,7 @@ cim = "A felsorolás elemei közötti kapcsolat egyértelmű"
 csoport = "mondat"
 szabaly = "Jogi szövegben a felsorolásnál mondd ki egyértelműen, hogy az elemek közül mindnek, egynek sem, pontosan egynek vagy legalább egynek kell teljesülnie."
 miert = "A felsorolás végén álló „és” vagy „vagy” könnyen elsikkad, és a joghatás attól függ, melyik kapcsolat érvényes."
+kerdes = "Jogi felsorolásnál kiderül, hogy az elemek közül mindnek, egynek vagy legalább egynek kell teljesülnie?"
 alkalmazasi_kor = "jogi"
 allapot = "aktiv"
 forrasok = [

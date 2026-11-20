@@ -3,6 +3,7 @@ cim = "Szellős, egységes íráskép"
 csoport = "kinezet"
 szabaly = "Az íráskép legyen szellős és következetes: egységes betűtípus, betűméret, sorköz, térköz és behúzás; a címsorok csak méretben vagy színben térjenek el."
 miert = "Az olvasó már a külalak alapján eldönti, követhető-e a szöveg. A zsúfolt vagy következetlen oldal elveszi a kedvét az olvasástól."
+kerdes = "Szellős és egységes az íráskép (betű, sorköz, térköz, behúzás)?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

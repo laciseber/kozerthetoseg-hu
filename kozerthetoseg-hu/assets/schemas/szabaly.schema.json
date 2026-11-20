@@ -11,6 +11,7 @@
     "csoport",
     "szabaly",
     "miert",
+    "kerdes",
     "alkalmazasi_kor",
     "allapot",
     "forrasok",
@@ -52,6 +53,12 @@
       "type": "string",
       "minLength": 1,
       "description": "Miért segít az olvasónak."
+    },
+    "kerdes": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\?$",
+      "description": "Egy eldöntendő kérdés az ellenőrző listához; az igen válasz jelenti, hogy a szöveg megfelel a szabálynak."
     },
     "alkalmazasi_kor": {
       "type": "string",

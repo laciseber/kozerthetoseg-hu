@@ -3,6 +3,7 @@ cim = "Olvasói próba"
 csoport = "folyamat"
 szabaly = "Fontos szövegnél próbáld ki a célcsoporttal vagy legalább egy kívülálló olvasóval: olvassa el, és mondja el saját szavaival, mit értett belőle, mit tenne."
 miert = "Hogy egy szó vagy mondat érthető-e, nyelvészetileg nem dönthető el: csak az olvasó reakciója mutatja meg."
+kerdes = "Fontos szövegnél kipróbáltad legalább egy kívülálló olvasóval?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

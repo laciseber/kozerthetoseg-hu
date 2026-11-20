@@ -3,6 +3,7 @@ cim = "Olvasható betűméret"
 csoport = "kinezet"
 szabaly = "Válassz jól olvasható betűméretet, idős célközönségnek nagyobbat."
 miert = "A túl kicsi betű nem csak kényelmetlen: aki rosszul lát, vagy nincs kéznél a szemüvege, nem tudja elolvasni a szöveget."
+kerdes = "Jól olvasható a betűméret, idős olvasónak nagyobb?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

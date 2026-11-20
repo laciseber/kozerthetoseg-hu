@@ -3,6 +3,7 @@ cim = "Rövidítés és rövid megjelölés"
 csoport = "szo"
 szabaly = "A ritkán előforduló kifejezést írd ki; a gyakran ismétlődő hosszú nevet az első előfordulásnál írd ki, zárójelben add meg a rövidítését vagy rövid megjelölését, és utána végig azt használd."
 miert = "Az ismeretlen rövidítés megállítja az olvasót, a hosszú név ismételgetése pedig elnehezíti a szöveget. Az első előfordulásnál bevezetett rövidítés mindkettőt megoldja."
+kerdes = "A rövidítések az első előfordulásnál ki vannak írva, és utána végig ugyanaz a rövid alak áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

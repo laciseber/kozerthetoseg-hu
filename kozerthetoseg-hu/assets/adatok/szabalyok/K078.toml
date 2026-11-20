@@ -3,6 +3,7 @@ cim = "Régi sablon és átvett szöveg átdolgozása"
 csoport = "folyamat"
 szabaly = "Korábbi sablont vagy más szövegből átvett részt ne használj átdolgozás nélkül: igazítsd a mostani helyzethez, és egységesítsd a szóhasználatot."
 miert = "A régi sablon elavult tényeket és hivatali fordulatokat hordoz, az összeollózott szövegben pedig váltakozik a terminológia és ismétlődik a tartalom."
+kerdes = "A régi sablont és az átvett részt a mostani helyzethez igazítottad?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

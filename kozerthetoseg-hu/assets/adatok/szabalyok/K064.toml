@@ -3,6 +3,7 @@ cim = "Ábra, táblázat, ikon a szöveg helyett, ha világosabb"
 csoport = "tablazat-es-abra"
 szabaly = "Ha az információ összehasonlító, számszerű vagy folyamatot ír le, mérlegeld, hogy táblázat, ábra vagy ikon világosabb-e a szövegnél."
 miert = "Az egymás mellé tett számokat és lépéseket táblázatban gyorsabban átlátja az olvasó, mint folyó szövegben."
+kerdes = "Ahol táblázat, ábra vagy ikon világosabb volna, ott az áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

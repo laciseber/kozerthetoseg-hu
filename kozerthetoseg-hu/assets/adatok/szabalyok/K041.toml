@@ -3,6 +3,7 @@ cim = "Konkrét szó az elvont és a divatszó helyett"
 csoport = "szo"
 szabaly = "Az elvont, homályos vagy divatos kifejezés helyett válaszd a konkrétabbat, amely megmondja, pontosan miről van szó."
 miert = "Az elvont szóból az olvasó nem tudja meg, mi történik vele. A konkrét szó pontosabb, és ellenőrizhető állítást tesz."
+kerdes = "Az elvont és divatos kifejezések helyén konkrét szó áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

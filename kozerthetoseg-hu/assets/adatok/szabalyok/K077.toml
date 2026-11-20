@@ -3,6 +3,7 @@ cim = "A szakmai tartalom hűsége"
 csoport = "folyamat"
 szabaly = "Az átírás után a szakterület ellenőrizze, hogy a szakmai és jogi tartalom nem sérült-e: minden tény, szám, határidő, feltétel és kivétel megvan-e."
 miert = "A közérthetőség nem mehet a pontosság rovására. A hűségellenőrzés teszi biztonságossá az egyszerűsítést."
+kerdes = "A szakterület ellenőrizte, hogy az átírás után minden tény, szám, határidő, feltétel és kivétel megvan?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

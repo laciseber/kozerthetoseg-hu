@@ -3,6 +3,7 @@ cim = "Áttekinthető nyomtatvány"
 csoport = "nyomtatvany"
 szabaly = "A nyomtatvány legyen szellős: elég hely a kézi kitöltéshez, üres tér a logikai egységek között, és elkülönülő szövegdoboz a fontos magyarázatoknak."
 miert = "A nyomtatványnál a közérthetőség előbbre való a tömörségnél: a zsúfolt űrlapot nehéz helyesen kitölteni."
+kerdes = "A nyomtatványon van elég hely a kitöltéshez, és szellős az elrendezés?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

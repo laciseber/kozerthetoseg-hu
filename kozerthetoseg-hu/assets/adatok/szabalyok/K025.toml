@@ -3,6 +3,7 @@ cim = "A lényeg előre: a szórend jelentést és hangsúlyt hordoz"
 csoport = "mondat"
 szabaly = "Tedd előre a mondat lényeges részét; a magyarban a hangsúlyos elem az ige elé kerül, ezért figyeld, mit emel ki a választott szórend."
 miert = "Ugyanazok a szavak más szórendben mást hangsúlyoznak, néha mást is jelentenek. A rossz szórend a lényeget a mondat végére dugja."
+kerdes = "A mondatok lényeges része elöl áll, és a szórend azt emeli ki, amit ki akarsz emelni?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

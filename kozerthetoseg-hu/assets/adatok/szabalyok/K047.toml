@@ -3,6 +3,7 @@ cim = "„illetve”, „illetőleg” és „és/vagy” jogi szövegben"
 csoport = "szerkezet"
 szabaly = "Jogi szövegben az „illetve” helyett írd ki az egyértelmű kapcsolatot (és, vagy, valamint), az „illetőleg” és az „és/vagy” alakot ne használd."
 miert = "Az „illetve” jelentheti az „és”-t és a „vagy”-ot is; jogi szövegben ebből vita lesz. A jogszabályszerkesztési rendelet a jogszabálytervezetben ezért korlátozza vagy tiltja ezeket."
+kerdes = "Jogi szövegben az „illetve” helyén egyértelmű kötőszó áll, és nincs „illetőleg” vagy „és/vagy”?"
 alkalmazasi_kor = "jogi"
 allapot = "aktiv"
 forrasok = [

@@ -3,6 +3,7 @@ cim = "Az olvasóhoz beszélj, ne róla"
 csoport = "megszolitas-es-hang"
 szabaly = "Szólítsd meg az olvasót közvetlenül (alapértelmezés szerint magázva, Önnek), ne hivatkozz rá harmadik személyben (az ügyfél, az igénylő); a kiadó szervezetről többes szám első személyben írj."
 miert = "A megszólításból az olvasó rögtön tudja, mikor van szó róla és mikor másról. A harmadik személy távolságot tart, és nem derül ki belőle, hogy az olvasó az érintett."
+kerdes = "A szöveg közvetlenül az olvasóhoz szól, és a kiadóról többes szám első személyben ír?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

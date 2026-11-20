@@ -3,6 +3,7 @@ cim = "A teendő a fő üzenet után; ha nincs teendő, azt is mondd ki"
 csoport = "cel-es-tartalom"
 szabaly = "A fő üzenet után írd le, mit kell vagy mit lehet az olvasónak tennie; ha semmit, írd le, hogy a levéllel nincs teendője."
 miert = "A hivatali szöveg gyakran azt mondja el, amit a hivatalnak el kell mondania, és éppen az olvasó teendője marad homályban. Ha nincs teendő, ennek kimondása megspórol egy visszakérdezést."
+kerdes = "Közvetlenül a fő üzenet után áll, mit kell vagy lehet tennie az olvasónak, vagy hogy nincs teendője?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

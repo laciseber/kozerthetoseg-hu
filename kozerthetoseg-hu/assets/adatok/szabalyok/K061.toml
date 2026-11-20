@@ -3,6 +3,7 @@ cim = "Kötőjel, gondolatjel, nagykötőjel"
 csoport = "szamok-es-jelek"
 szabaly = "A kötőjelet szavak összekapcsolására, a gondolatjelet szóközökkel közbevetésre, a nagykötőjelet (–) tól–ig viszonyra és népek, nyelvek, helyek összekapcsolására használd."
 miert = "A három jel különböző viszonyt jelöl; ha összekeverednek, a szerkezet nehezebben olvasható ki."
+kerdes = "A kötőjel, a gondolatjel és a nagykötőjel a helyén van?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

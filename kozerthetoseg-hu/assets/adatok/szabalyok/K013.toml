@@ -3,6 +3,7 @@ cim = "Tételes tartalom listába, folyó gondolat bekezdésbe"
 csoport = "felepites"
 szabaly = "Ha legalább három azonos szerepű elem van (lépések, feltételek, csatolandó iratok), szedd listába vagy táblázatba; az összefüggő gondolatmenet maradjon bekezdésben."
 miert = "A vesszővel felsorolt elemek a mondatban elvesznek, a listában egy pillantással áttekinthetők. A folyó gondolatmenetet viszont a lista széttördelné."
+kerdes = "A legalább három azonos szerepű elem (lépés, feltétel, irat) listában vagy táblázatban áll?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

@@ -3,6 +3,7 @@ cim = "Lehetőség: „lehet” vagy -hat/-het a „lehetőség van” helyett"
 csoport = "szo"
 szabaly = "Ha az olvasó lehetőségét írod le, a „lehetőség van valamire” helyett használd a „lehet” vagy a -hat/-het alakot."
 miert = "A rövidebb forma a lényegi elemeket közel hozza egymáshoz, és megmondja, ki teheti meg."
+kerdes = "A lehetőséget „lehet” vagy -hat/-het fejezi ki, nem „lehetőség van”?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

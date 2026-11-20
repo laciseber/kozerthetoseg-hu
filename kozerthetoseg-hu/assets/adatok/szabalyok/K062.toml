@@ -3,6 +3,7 @@ cim = "Vessző az „illetve”, az „és” és a „mint” előtt"
 csoport = "szamok-es-jelek"
 szabaly = "Az „illetve”, „valamint”, „továbbá” elé tegyél vesszőt; az „és” elé akkor, ha tagmondatot vezet be; a „mint” elé, ha hasonlítást vezet be."
 miert = "Az „és” előtti vessző a jelentést is megváltoztathatja: eldönti, hogy két cselekvés közös-e."
+kerdes = "Megvan a vessző az „illetve”, a tagmondatot bevezető „és” és a hasonlító „mint” előtt?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

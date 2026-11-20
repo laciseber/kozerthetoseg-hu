@@ -3,6 +3,7 @@ cim = "Csak a szükséges adatot kérd"
 csoport = "nyomtatvany"
 szabaly = "Nyomtatványon csak azt az adatot kérd be, amelyre feltétlenül szükség van, és azt se kérd külön, ami a csatolt iratból kiderül."
 miert = "Minden plusz mező csökkenti azok számát, akik sikeresen kitöltik a nyomtatványt."
+kerdes = "A nyomtatvány csak a feltétlenül szükséges adatot kéri?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

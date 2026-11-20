@@ -3,6 +3,7 @@ cim = "Konkrétan, az olvasó helyzetére vetítve"
 csoport = "cel-es-tartalom"
 szabaly = "Ne általánosságban ismertesd a szabályt, hanem azt írd le, mit jelent az olvasó ügyében."
 miert = "Az általános szabályból az olvasónak magának kellene kikövetkeztetnie, mi vonatkozik rá. A konkrét mondat ezt a munkát elvégzi helyette."
+kerdes = "A szöveg azt írja le, mit jelent a szabály az olvasó ügyében, nem csak általánosságban ismerteti?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

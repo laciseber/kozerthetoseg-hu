@@ -3,6 +3,7 @@ cim = "Csak az olvasónak szükséges információ"
 csoport = "cel-es-tartalom"
 szabaly = "Csak azt írd le, amire az olvasónak az ügy adott szakaszában szüksége van, vagy amit jogszabály ír elő; a szervezet belső működése és a későbbi szakaszok részletei maradjanak ki."
 miert = "Minden fölös bekezdés elvonja a figyelmet a lényegről, és hosszabbá teszi az utat a teendőig. A belső eljárás leírása az olvasóban azt az érzést kelti, hogy a szervezet magával foglalkozik, nem vele."
+kerdes = "Kimaradt minden, amire az olvasónak most nincs szüksége, és amit jogszabály sem ír elő?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

@@ -3,6 +3,7 @@ cim = "Ige a terpeszkedő szerkezet helyett"
 csoport = "szerkezet"
 szabaly = "A főnévből és tartalmatlan igéből álló terpeszkedő szerkezet helyett használd az igét (döntést hoz helyett dönt)."
 miert = "A terpeszkedő szerkezet nem ad hozzá információt, csak hosszabb és hivatalosabb lesz tőle a mondat."
+kerdes = "Nincs terpeszkedő szerkezet („döntést hoz” a „dönt” helyett)?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [

@@ -3,6 +3,7 @@ cim = "Következetesség és magyarázat a táblázatban"
 csoport = "tablazat-es-abra"
 szabaly = "Táblázatban is egységes legyen a dátum, a rövidítés és a kezdőbetű; a magyarázatra szoruló adatot csillaggal jelöld, és a táblázat alatt kisebb betűvel magyarázd meg."
 miert = "A táblázatot az olvasó soronként hasonlítja össze; a következetlen forma ezt nehezíti, a magyarázat nélküli részadat félrevezet."
+kerdes = "A táblázatban egységes a dátum, a rövidítés és a kezdőbetű, és a magyarázatra szoruló adat meg van magyarázva?"
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [
