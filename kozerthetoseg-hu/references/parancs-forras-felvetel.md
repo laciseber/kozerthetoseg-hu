@@ -24,7 +24,7 @@ PDF-nél olvasd ki a szöveget és a tartalomjegyzéket; ha egy oldal szkennelt 
    python scripts/uj_forras.py kiado-rovidcim-ev --cim "A forrás címe" --kiado "Kiadó" --ev 2026 --url https://... --prioritas A
    ```
 
-   Töltsd ki a KITÖLTENDŐ mezőket: rövid név, szerző, teljes hivatkozás, licenc vagy felhasználási feltétel (ha nincs kimondva, ezt írd), a feldolgozott kiadás, az oldalszámozás módja. Helyi elérési utat ne írj bele; a forrásra nyilvános URL-lel vagy bibliográfiai adattal hivatkozz.
+   Töltsd ki a KITÖLTENDŐ mezőket: rövid név, szerző, teljes hivatkozás, licenc vagy felhasználási feltétel (ha nincs kimondva, írd be, hogy nincs feltüntetve), a feldolgozott kiadás, az oldalszámozás módja. Helyi elérési utat ne írj bele; a forrásra nyilvános URL-lel vagy bibliográfiai adattal hivatkozz.
 
 2. Forrásleltár. Vedd fel a forrás tartalomjegyzékének minden fejezetét (`[[fejezet]]`), majd fejezetről fejezetre minden szabályt, ajánlást, ellenőrzőlista-pontot, tilalmat és előtte–utána példát (`[[tetel]]`), oldalszámmal, saját szavaiddal. Egy tétel egy állítás vagy egy egynemű példacsoport (például egy cseretáblázat, a párok számával). A következő szabad tételazonosító:
 
