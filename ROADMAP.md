@@ -2,7 +2,7 @@
 
 Ez a terv az angol nyelvű plain language skillek és a Vale prózalinter összevetéséből készült. Minden pont egy-egy kiadáshoz kötődik; a kész pontokat a CHANGELOG.md is felsorolja.
 
-## 1.2.0: gyors javítások a meglévő működésben
+## 1.2.0: gyors javítások a meglévő működésben (kész)
 
 1. **Tömör szabályindex és csoportonkénti részletek.** A `szabalyok.md` túl nagy ahhoz, hogy minden futásnál egyben betöltődjön. A generálás készít egy indexet (szabályonként egy sor) és csoportonként egy részletes fájlt. A skill az indexet olvassa, a részleteket csak a talált szabályoknál.
    Kész, ha: az index 15 KB alatt van, a SKILL.md erre hivatkozik, az ellenőrzés a fájlok frissességét is nézi.

@@ -9,7 +9,14 @@ patch; szabály visszavonása vagy parancs átnevezése: major.
 
 ## [Kiadatlan]
 
+## [1.2.0] - 2026-11-20
+
 ### Hozzáadva
+
+- Tömör szabályindex (`references/szabaly-index.md`, kb. 10 KB) és csoportonkénti részletfájlok (`references/szabalyok-<csoport>.md`). A skill ezeket tölti be a 96 KB-os teljes katalógus helyett.
+- Generált ellenőrző lista (`references/ellenorzo-lista.md`): minden szabály új `kerdes` mezőt kapott, egy eldöntendő kérdést. Az `atiras` utolsó lépése ezzel ellenőriz.
+- Modalitás a hűségellenőrzésben: az `atiras` leltára a „kell”, „köteles”, „jogosult”, „-hat/-het”, „tilos” és hasonló elemeket is gyűjti. A 2. eval ezt ellenőrzi.
+- Fejlesztési terv: ROADMAP.md.
 
 - SECURITY.md és issue-sablon-beállítás (config.yml).
 - Külön licencfájl a két licenc teljes szövegével (LICENSE-MIT, LICENSE-CC-BY-4.0); a LICENSE áttekintést ad.
@@ -45,6 +52,7 @@ patch; szabály visszavonása vagy parancs átnevezése: major.
 - Szövegtípus-döntés (Balogh, Bennion, NAV) és KÉK-határ.
 - Szkriptek: `meres.py`, `ellenorzes.py`, `generalas.py`, `uj_forras.py`, `uj_szabaly.py`; pytest-tesztek; CI.
 
-[Kiadatlan]: https://github.com/zoltankis-arch/kozerthetoseg-hu/compare/v1.1.0...HEAD
+[Kiadatlan]: https://github.com/zoltankis-arch/kozerthetoseg-hu/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/zoltankis-arch/kozerthetoseg-hu/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/zoltankis-arch/kozerthetoseg-hu/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/zoltankis-arch/kozerthetoseg-hu/releases/tag/v1.0.0
