@@ -18,6 +18,8 @@ patch; szabály visszavonása vagy parancs átnevezése: major.
 ### Javítva
 
 - Az issue-sablonok a repó meglévő címkéit használják.
+- README: a skill saját `audit` és `atiras` parancsával átnézve. Új rész arról, mi az a skill és hogyan kezdd; lépésenkénti telepítés; kérdés formájú alcímek; az elsődleges források helyes száma (öt).
+- A referenciákban „jogszabály által” helyett „jogszabályban” (K042).
 
 ## [1.1.0] - 2026-11-20
 
