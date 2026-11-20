@@ -7,6 +7,7 @@ alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [
   "eu-pontos-fogalmazas-2013#014",
+  "vilagos-beszed-kezikonyv-2025#073",
 ]
 
 [pelda]

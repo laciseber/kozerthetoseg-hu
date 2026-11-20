@@ -12,6 +12,7 @@ forrasok = [
   "jszr-2009#004",
   "nav-ertheto-hivatal-2#042",
   "nav-ertheto-hivatal-2#062",
+  "vilagos-beszed-kezikonyv-2025#056",
 ]
 kivetelek = ["Ugyanaz a rövidítés más szövegkörnyezetben mást jelenthet; ha kétértelmű, írd ki.", "Könnyen érthető kommunikációban (KÉK) rövidítést nem használunk."]
 

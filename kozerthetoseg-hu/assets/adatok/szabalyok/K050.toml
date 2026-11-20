@@ -6,6 +6,12 @@ miert = "Az olvasó a hangnemből is érzi, hogyan kezelik. A merev formula táv
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [
+  "vilagos-beszed-kezikonyv-2025#002",
+  "vilagos-beszed-kezikonyv-2025#003",
+  "vilagos-beszed-kezikonyv-2025#077",
+  "vilagos-beszed-kezikonyv-2025#095",
+  "vilagos-beszed-kezikonyv-2025#098",
+  "vilagos-beszed-kezikonyv-2025#121",
   "vilagos-beszed-kisokos-2025#032",
 ]
 meres = ["hivatali_fordulatok"]

@@ -6,6 +6,7 @@ miert = "Az olvasónak könnyebb választani, mint fogalmazni, a kitöltő pedig
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [
+  "vilagos-beszed-kezikonyv-2025#106",
   "vilagos-beszed-kisokos-2025#042",
 ]
 

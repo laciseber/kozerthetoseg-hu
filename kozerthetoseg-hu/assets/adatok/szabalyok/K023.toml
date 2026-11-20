@@ -10,10 +10,16 @@ forrasok = [
   "gerencser-2023#005",
   "horvath-2021#023",
   "nav-ertheto-hivatal-2#036",
+  "vilagos-beszed-kezikonyv-2025#065",
   "wp260-2018#005",
 ]
 kivetelek = ["Nem kell mindenáron egyszerű mondatra bontani: ha a bontás után az összetartozó elemek távol kerülnek egymástól, az összetett mondat a jobb."]
 meres = ["mondathossz", "huspacy"]
+
+[[elteres]]
+forrasok = ["vilagos-beszed-kezikonyv-2025#065", "nav-ertheto-hivatal-2#036"]
+leiras = "A NAV a kettőnél több tagmondatú mondatot bontaná, a Világos Beszéd kézikönyve legfeljebb három tagmondatot enged egy mondatban."
+dontes = "A skill már a kettőnél több tagmondatú mondatot is jelöli, de csak megvizsgálandó jelöltként: a kivétel szerint az összetett mondat maradhat, ha a bontás rontana rajta. Ok: a jelölés csak figyelmeztet, a bontásról az író dönt a szöveg ismeretében."
 
 [pelda]
 rossz = "Felhívjuk figyelmét, hogy amennyiben a számlát, amelyet a szolgáltató a tárgyhónapot követő 5. napig állít ki, nem fizeti meg, a szolgáltató, akinek erre a szerződés jogot ad, felfüggesztheti a szolgáltatást."

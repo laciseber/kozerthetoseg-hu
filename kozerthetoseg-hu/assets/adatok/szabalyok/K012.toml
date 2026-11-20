@@ -8,6 +8,14 @@ allapot = "aktiv"
 forrasok = [
   "nav-ertheto-hivatal-1#005",
   "nav-ertheto-hivatal-2#028",
+  "vilagos-beszed-kezikonyv-2025#025",
+  "vilagos-beszed-kezikonyv-2025#038",
+  "vilagos-beszed-kezikonyv-2025#040",
+  "vilagos-beszed-kezikonyv-2025#041",
+  "vilagos-beszed-kezikonyv-2025#042",
+  "vilagos-beszed-kezikonyv-2025#088",
+  "vilagos-beszed-kezikonyv-2025#097",
+  "vilagos-beszed-kezikonyv-2025#123",
   "vilagos-beszed-kisokos-2025#018",
 ]
 kivetelek = ["Szakmai olvasónak (ügyvédnek, adótanácsadónak) szóló szövegben a pontos hivatkozás a mondatban is maradhat."]

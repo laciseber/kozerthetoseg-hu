@@ -6,6 +6,7 @@ miert = "A kitöltés közben felmerülő kérdésekre így az olvasó helyben v
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [
+  "vilagos-beszed-kezikonyv-2025#107",
   "vilagos-beszed-kisokos-2025#043",
 ]
 

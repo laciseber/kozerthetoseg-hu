@@ -6,6 +6,7 @@ miert = "Minden plusz mező csökkenti azok számát, akik sikeresen kitöltik a
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [
+  "vilagos-beszed-kezikonyv-2025#101",
   "vilagos-beszed-kisokos-2025#036",
   "vilagos-beszed-kisokos-2025#037",
 ]

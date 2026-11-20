@@ -8,6 +8,7 @@ allapot = "aktiv"
 forrasok = [
   "balogh-2023#014",
   "nav-ertheto-hivatal-2#036",
+  "vilagos-beszed-kezikonyv-2025#068",
   "vilagos-beszed-kisokos-2025#028",
 ]
 meres = ["zarojelmelyseg"]

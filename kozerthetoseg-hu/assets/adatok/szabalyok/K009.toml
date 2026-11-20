@@ -7,6 +7,12 @@ alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [
   "gerencser-2023#008",
+  "vilagos-beszed-kezikonyv-2025#030",
+  "vilagos-beszed-kezikonyv-2025#062",
+  "vilagos-beszed-kezikonyv-2025#063",
+  "vilagos-beszed-kezikonyv-2025#064",
+  "vilagos-beszed-kezikonyv-2025#092",
+  "vilagos-beszed-kezikonyv-2025#098",
   "vilagos-beszed-kisokos-2025#026",
 ]
 kivetelek = ["Webes és nyomtatott változatnál a két forma eltérhet: a weben a link, nyomtatásban az útvonal a jobb."]

@@ -8,6 +8,12 @@ allapot = "aktiv"
 forrasok = [
   "eu-pontos-fogalmazas-2013#009",
   "nav-ertheto-hivatal-2#040",
+  "vilagos-beszed-kezikonyv-2025#049",
+  "vilagos-beszed-kezikonyv-2025#050",
+  "vilagos-beszed-kezikonyv-2025#051",
+  "vilagos-beszed-kezikonyv-2025#089",
+  "vilagos-beszed-kezikonyv-2025#098",
+  "vilagos-beszed-kezikonyv-2025#118",
   "vilagos-beszed-kisokos-2025#020",
   "vilagos-beszed-kisokos-2025#021",
 ]

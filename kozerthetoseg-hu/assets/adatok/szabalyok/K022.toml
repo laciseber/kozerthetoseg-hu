@@ -7,6 +7,8 @@ alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [
   "nav-ertheto-hivatal-2#035",
+  "vilagos-beszed-kezikonyv-2025#060",
+  "vilagos-beszed-kezikonyv-2025#070",
 ]
 
 [pelda]

@@ -7,6 +7,7 @@ alkalmazasi_kor = "jogi"
 allapot = "aktiv"
 forrasok = [
   "jszr-2009#005",
+  "vilagos-beszed-kezikonyv-2025#071",
 ]
 
 [pelda]

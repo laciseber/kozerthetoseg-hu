@@ -7,6 +7,7 @@ alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [
   "eu-pontos-fogalmazas-2013#026",
+  "vilagos-beszed-kezikonyv-2025#057",
   "wp260-2018#006",
 ]
 kivetelek = ["Ezt a mérőszkript nem tudja mérni: a két jelentést csak olvasva lehet észrevenni."]

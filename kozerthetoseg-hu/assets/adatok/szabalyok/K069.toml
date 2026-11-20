@@ -6,6 +6,8 @@ miert = "Az olvasó nem tudhatja, mi vonatkozik rá; ha neki kell kitalálnia, h
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [
+  "vilagos-beszed-kezikonyv-2025#102",
+  "vilagos-beszed-kezikonyv-2025#103",
   "vilagos-beszed-kisokos-2025#038",
 ]
 

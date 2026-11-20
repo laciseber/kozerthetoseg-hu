@@ -8,6 +8,12 @@ allapot = "aktiv"
 forrasok = [
   "eu-pontos-fogalmazas-2013#011",
   "nav-ertheto-hivatal-2#004",
+  "vilagos-beszed-kezikonyv-2025#043",
+  "vilagos-beszed-kezikonyv-2025#044",
+  "vilagos-beszed-kezikonyv-2025#045",
+  "vilagos-beszed-kezikonyv-2025#047",
+  "vilagos-beszed-kezikonyv-2025#088",
+  "vilagos-beszed-kezikonyv-2025#097",
   "vilagos-beszed-kisokos-2025#019",
 ]
 kivetelek = ["Ha a jogszabály kötelező tartalmi elemet ír elő (például jogorvoslati tájékoztatást), az akkor is benne marad, ha az olvasónak éppen nincs rá szüksége."]

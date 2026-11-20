@@ -18,6 +18,7 @@ A skill szabályai az alábbi forrásokra épülnek. Minden forrásnál a biblio
 | [NAV 2024b](#nav-ertheto-hivatal-2) Az érthető hivatal 2. | A | 83 |
 | [Ptk.](#ptk-2013) 2013. évi V. törvény a Polgári Törvénykönyvről | A | 3 |
 | [Üveges 2026](#uveges-2026) Sentence-level detection of Hungarian plain language with feature-guided augmentation | A | 6 |
+| [Világos Beszéd kézikönyv 2025](#vilagos-beszed-kezikonyv-2025) Hogyan írjunk közérthetően? Kézikönyv | A | 125 |
 | [Világos Beszéd 2025](#vilagos-beszed-kisokos-2025) Hogyan írjunk közérthetően? Kisokos | A | 51 |
 | [WP260 2018](#wp260-2018) Iránymutatás az (EU) 2016/679 rendelet szerinti átláthatóságról (WP260 rev.01) | A | 16 |
 | [EUB C-26/13](#eub-c-26-13-2014) Kásler és Káslerné Rábai ítélet (C-26/13) | B | 2 |
@@ -846,6 +847,209 @@ Nincs leltártétel. Ok: Forrásjegyzék és kiadói adatok; írási szabályt n
 | Tétel | Oldal | Fajta | Tartalom | Leképezés |
 |---|---|---|---|---|
 | <a id="uveges-2026-006"></a>006 | 21 | háttér | A finomhangolt nyelvi modell 69 százalékos pontosságot ért el; a határesetekkel és a nem közérthető szerkezetek felismerésével nehezen boldogult. | [parancs-meres.md#korlatok](parancs-meres.md#korlatok) |
+
+<a id="vilagos-beszed-kezikonyv-2025"></a>
+
+## Világos Beszéd kézikönyv 2025: Hogyan írjunk közérthetően? Kézikönyv
+
+- Azonosító: `vilagos-beszed-kezikonyv-2025`
+- Hivatkozás: Hogyan írjunk közérthetően? Kézikönyv. A fővárosi közösségi költségvetés 2022 „Legyenek közérthetőek a hivatali levelek, dokumentumok” ötletének megvalósítása, a Világos Beszéd csapatának együttműködésével. Budapest Főváros Főpolgármesteri Hivatal, Koordinációs Főosztály, Budapest, 2025.
+- Elérhetőség: https://budapest.hu/api/file/doc/hogyan-irjunk-kozerthetoen-kezikonyv.pdf
+- Felhasználási feltétel: Ingyenesen letölthető; licenc vagy felhasználási feltétel nincs feltüntetve. A leltár saját szavakkal foglal össze, szövegrészt nem vesz át.
+- Feldolgozott kiadás: 2025-ös kiadás, 44 PDF-oldal (42 számozott oldal és a kiadói adatok).
+- Oldalszámozás a leltárban: nyomtatott oldalszám (megegyezik a PDF-oldallal)
+- Feldolgozva: 2026-11-20, teljesen
+- Prioritás: A
+- Megjegyzés: A kisokos (vilagos-beszed-kisokos-2025) bővített változata. A kisokos ellenőrző listája ebben a kiadásban van (31. o.). A tartalomjegyzék az 1.1. pontot „Hogyan használd a segédletet?” címmel, a szöveg „Hogyan használd a kézikönyvet?” címmel közli.
+
+### Előszó (4–5. o.)
+
+| Tétel | Oldal | Fajta | Tartalom | Leképezés |
+|---|---|---|---|---|
+| <a id="vilagos-beszed-kezikonyv-2025-001"></a>001 | 4 | háttér | Az írás annyit ér, amennyit a címzett megért belőle; a nem érthető levél miatt az ügyfél elronthat egy igénylést, elmulaszthat egy határidőt, a hivatalnak pedig visszakérdezésekre kell válaszolnia. | kihagyva: Motiváció; a kisokos ugyanezt mondja (vilagos-beszed-kisokos-2025#001), szabályt nem ad. |
+| <a id="vilagos-beszed-kezikonyv-2025-002"></a>002 | 4 | ajánlás | Ha az ügy nem a hivatalhoz tartozik, akkor is segítesz, ha megírod az ügyfélnek, hová fordulhat a kérdésével. | [K004](szabalyok.md#k004), [K050](szabalyok.md#k050) |
+| <a id="vilagos-beszed-kezikonyv-2025-003"></a>003 | 5 | háttér | A világos kommunikáció egyenrangú partnerként kezeli az olvasót: nem bújik jogszabály mögé, a lényegre tör, udvarias és tömör. | [K050](szabalyok.md#k050) |
+
+### 1. Bevezetés (6–9. o.)
+
+| Tétel | Oldal | Fajta | Tartalom | Leképezés |
+|---|---|---|---|---|
+| <a id="vilagos-beszed-kezikonyv-2025-004"></a>004 | 6 | háttér | A szabályok elsősorban ügyfeleknek szóló sablonlevelekre, egyedi levelekre, tájékoztatókra és nyomtatványokra vonatkoznak, de más írásos szövegben, sőt szóban is működnek. | kihagyva: Alkalmazási kör; a SKILL.md leírása határozza meg, mire fut a skill. |
+| <a id="vilagos-beszed-kezikonyv-2025-005"></a>005 | 6–7 | háttér | Útmutató a kézikönyv használatához: egyszer végigolvasni, utána fellapozni; az ellenőrző listát naponta használni; a mellékletek tartalma; türelem önmagunkkal. | kihagyva: A kiadvány használatáról szól, írási szabályt nem ad. |
+| <a id="vilagos-beszed-kezikonyv-2025-006"></a>006 | 6–7 | meghatározás | Közérthető a szöveg, ha megfogalmazása, felépítése és kinézete miatt a célközönség könnyen megtalálja benne, amire szüksége van, megérti, és fel tudja használni (az ISO 24495-1 szerint). | [parancs-audit.md#negy-kerdes](parancs-audit.md#negy-kerdes) |
+| <a id="vilagos-beszed-kezikonyv-2025-007"></a>007 | 8 | háttér | A közérthető szöveg az ügyfélnek időt és pénzt takarít meg, magabiztosabbá teszi; a hivatalnak kevesebb visszakérdezést, pótlást, javítást és panaszt jelent. | kihagyva: Motiváció, szabályt nem ad. |
+| <a id="vilagos-beszed-kezikonyv-2025-008"></a>008 | 8 | háttér | Kísérlet: aki ismert dalokat kopogott le, azt hitte, a hallgatók a felét felismerik, de csak 3 százalékukat ismerték fel. Ez a tudás átka: aki ismeri a választ, azt hiszi, mások kevesebből is megértik. | [K001](szabalyok.md#k001) |
+| <a id="vilagos-beszed-kezikonyv-2025-009"></a>009 | 8 | ajánlás | A tudás átka ellen képzeld magad az olvasó helyébe: mit tud, mit nem, és mire lesz szüksége a folyamat adott pontján. | [K001](szabalyok.md#k001) |
+| <a id="vilagos-beszed-kezikonyv-2025-010"></a>010 | 9 | ajánlás | A közérthető fogalmazás lépései: nézőpontváltás; kinek és miért írsz; felépítés az olvasó logikája szerint; megfogalmazás; formázás; ellenőrzés az ellenőrző listával. | [K074](szabalyok.md#k074) |
+
+### 2. Célközönség és célok (10–12. o.)
+
+| Tétel | Oldal | Fajta | Tartalom | Leképezés |
+|---|---|---|---|---|
+| <a id="vilagos-beszed-kezikonyv-2025-011"></a>011 | 10 | tilalom | „Bárki” nem válasz arra, hogy ki az olvasód: nincs szöveg, amely mindenkihez szól. | [K001](szabalyok.md#k001) |
+| <a id="vilagos-beszed-kezikonyv-2025-012"></a>012 | 10 | ajánlás | Gondold végig az olvasás helyzetét (papír vagy képernyő, mobil, fényviszonyok, lelkiállapot) és az olvasót (mennyire ért a témához, iskolázottság, digitális jártasság, látás). | [K001](szabalyok.md#k001) |
+| <a id="vilagos-beszed-kezikonyv-2025-013"></a>013 | 10–11 | ajánlás | Ha nem tudod a választ, készülj a legrosszabbra: írj úgy, hogy kevés idővel, türelemmel és kedvezőtlen körülmények között is megértsék. | [K001](szabalyok.md#k001) |
+| <a id="vilagos-beszed-kezikonyv-2025-014"></a>014 | 11 | ajánlás | Határozd meg, ki kezdeményezi a kommunikációt: tájékoztató levélnél az író, válaszlevélnél, nyomtatványnál és weben az olvasó; a cél ehhez igazodik. | [K001](szabalyok.md#k001) |
+| <a id="vilagos-beszed-kezikonyv-2025-015"></a>015 | 11 | ajánlás | Mindig van egy fő üzenet; fogalmazd meg a lehető legrövidebben. | [K002](szabalyok.md#k002) |
+| <a id="vilagos-beszed-kezikonyv-2025-016"></a>016 | 11 | ajánlás | Gondold végig részletesen, mit vársz az olvasótól és mire van szüksége hozzá; fizetésnél például mennyit, meddig, és mit írjon a kedvezményezett nevéhez és a közleménybe. | [K004](szabalyok.md#k004) |
+| <a id="vilagos-beszed-kezikonyv-2025-017"></a>017 | 11 | ajánlás | Ha nem kell semmit tennie, írd le világosan, hogy a levéllel nincs teendője. | [K003](szabalyok.md#k003) |
+| <a id="vilagos-beszed-kezikonyv-2025-018"></a>018 | 11 | ajánlás | Gondold végig, mikor sikeres a kommunikáció: időben fizet, elküldi az iratot, tájékozott döntést hoz, elfogadja a tájékoztatást, nem kérdez vissza. | [K001](szabalyok.md#k001) |
+| <a id="vilagos-beszed-kezikonyv-2025-019"></a>019 | 12 | ajánlás | Válaszolj az olvasó kimondott és kimondatlan kérdéseire; a kérdéseit alcímként is felhasználhatod. | [K007](szabalyok.md#k007), [K010](szabalyok.md#k010) |
+| <a id="vilagos-beszed-kezikonyv-2025-020"></a>020 | 12 | ajánlás | Válaszlevélnél keresd a rejtett kérdéseket: gyanús, ha az ügyfél feltételezett vagy téves információval érvel, vagy bizonytalanságot jelző fordulatot használ; fogalmazd meg és válaszold meg ezeket a kérdéseket is. | [K007](szabalyok.md#k007) |
+| <a id="vilagos-beszed-kezikonyv-2025-021"></a>021 | 12 | ellenőrzőlista-pont | Önellenőrző kérdések és feladatok a fejezethez (kinek írsz, ki kezdeményez, a tudás átka; a legutóbbi levél vizsgálata). | kihagyva: Gyakorló kérdések; a szabályokat a fejezet tételei fedik. |
+
+### 3. Felépítés (13–21. o.)
+
+| Tétel | Oldal | Fajta | Tartalom | Leképezés |
+|---|---|---|---|---|
+| <a id="vilagos-beszed-kezikonyv-2025-022"></a>022 | 13 | háttér | Szemmozgás-kutatások szerint az emberek F betű alakban olvasnak: az elejét mindenki elolvassa, utána a bal oldalon haladnak lefelé, és az alcímek alapján olvasnak bele. | [K002](szabalyok.md#k002), [K010](szabalyok.md#k010) |
+| <a id="vilagos-beszed-kezikonyv-2025-023"></a>023 | 14–15 | szabály | A megszólítás után rögtön írd le röviden, miért írsz és mi a fő üzenet; az iskolai bevezetés–tárgyalás–befejezés helyett fordított piramis: csökkenő fontossági sorrend. | [K002](szabalyok.md#k002) |
+| <a id="vilagos-beszed-kezikonyv-2025-024"></a>024 | 14 | ajánlás | Az első egy-két mondat tisztázza a szöveg témáját, célját és lényegét. | [K002](szabalyok.md#k002) |
+| <a id="vilagos-beszed-kezikonyv-2025-025"></a>025 | 14 | tilalom | A fő üzenetben ne idézz jogszabályt, és ne írd ki a teljes címét és számát; ha kell, a témájával utalj rá, a pontos adatot lábjegyzetbe tedd. | [K002](szabalyok.md#k002), [K012](szabalyok.md#k012) |
+| <a id="vilagos-beszed-kezikonyv-2025-026"></a>026 | 14 | tilalom | A fő üzenet elé ne írj alcímet. | [K010](szabalyok.md#k010) |
+| <a id="vilagos-beszed-kezikonyv-2025-027"></a>027 | 15 | előtte–utána példa | Ábra: a fordított piramis, a legfontosabbal kezdődő szöveg. | [K002](szabalyok.md#k002) |
+| <a id="vilagos-beszed-kezikonyv-2025-028"></a>028 | 16 | szabály | A teendőt rögtön a fő üzenet után írd le, minden szükséges információval; azt is, ha nincs teendője, vagy ha csak javaslat. | [K003](szabalyok.md#k003), [K004](szabalyok.md#k004) |
+| <a id="vilagos-beszed-kezikonyv-2025-029"></a>029 | 16 | ajánlás | Udvariasan, de egyértelműen, felszólító módú igével kérd a teendőt; a felszólító mondatot és a felsorolás elemeit kezdd az igével. | [K003](szabalyok.md#k003), [K042](szabalyok.md#k042) |
+| <a id="vilagos-beszed-kezikonyv-2025-030"></a>030 | 16 | ajánlás | A teendőhöz tartozó adatot (határidő, link, levélben a weboldal elérésének lépései, a dokumentum pontos neve) ott add meg, ahol a teendőt leírod. | [K004](szabalyok.md#k004), [K009](szabalyok.md#k009) |
+| <a id="vilagos-beszed-kezikonyv-2025-031"></a>031 | 16 | ajánlás | Ha a teendő leírása egy-két mondatnál hosszabb, adj neki külön alcímet és blokkot; ha nincs teendő, nem kell hozzá alcím. | [K003](szabalyok.md#k003), [K010](szabalyok.md#k010) |
+| <a id="vilagos-beszed-kezikonyv-2025-032"></a>032 | 16–17 | előtte–utána példa | Feladat: támogatás igénylésénél melyik a legfontosabb információ (az igénylés feltétele és teendője, nem a jogszabály vagy az elérhetőség); utána jöhet a teendő részletezése, majd a háttérinformáció. | [K002](szabalyok.md#k002), [K003](szabalyok.md#k003) |
+| <a id="vilagos-beszed-kezikonyv-2025-033"></a>033 | 17 | szabály | Fél oldalnál hosszabb szövegben használj alcímeket; a fő üzenet és a teendő után a többi információt témák szerint csoportosítsd alcímes blokkokba. | [K010](szabalyok.md#k010) |
+| <a id="vilagos-beszed-kezikonyv-2025-034"></a>034 | 17 | ajánlás | Írás előtt gyűjtsd össze az olvasó kérdéseit; az alcímek ezeket fogalmazzák meg, az olvasó számára logikus sorrendben, egyes szám harmadik személyben. | [K010](szabalyok.md#k010), [K011](szabalyok.md#k011) |
+| <a id="vilagos-beszed-kezikonyv-2025-035"></a>035 | 17 | ajánlás | Előbb az alcímeket írd meg (a szöveg szerkezetét), utána a részleteket. | [K010](szabalyok.md#k010), [K074](szabalyok.md#k074) |
+| <a id="vilagos-beszed-kezikonyv-2025-036"></a>036 | 17 | tilalom | Az alcím legyen önmagában érthető, kulcsszóval; semmitmondó alcím (például „Fontos információk”) nem jó. | [K010](szabalyok.md#k010) |
+| <a id="vilagos-beszed-kezikonyv-2025-037"></a>037 | 18 | előtte–utána példa | Ugyanannak a blokknak háromféle alcíme: kérdés, témamegjelölés, állítás; a kérdés a legérthetőbb, de bármilyen alcím jobb, mint ha nincs. | [K010](szabalyok.md#k010) |
+| <a id="vilagos-beszed-kezikonyv-2025-038"></a>038 | 18 | szabály | A kötelező, de az olvasónak nem hasznos jogszabályi információt magyarázd el, ne idézd; a hivatkozást tedd a végére külön blokkba, lábjegyzetbe vagy röviden zárójelben a mondat végére. | [K012](szabalyok.md#k012) |
+| <a id="vilagos-beszed-kezikonyv-2025-039"></a>039 | 19 | tilalom | Kerüld a kereszthivatkozást (például a szöveg más pontjainak betűjeles utalását), mert megszakítja a gondolatmenetet. | [K015](szabalyok.md#k015) |
+| <a id="vilagos-beszed-kezikonyv-2025-040"></a>040 | 19 | tilalom | Lábjegyzetbe soha ne rejts el az olvasónak valóban fontos információt. | [K012](szabalyok.md#k012) |
+| <a id="vilagos-beszed-kezikonyv-2025-041"></a>041 | 19 | ajánlás | Ha az ügyfél maga hivatkozott jogszabályra, a válaszban hangsúlyosabban is szerepelhet a jogszabályhely. | [K012](szabalyok.md#k012) |
+| <a id="vilagos-beszed-kezikonyv-2025-042"></a>042 | 19 | előtte–utána példa | Előtte–utána pár: egy rendelet szó szerinti idézetével kezdődő tájékoztatás és a lényeget kimondó változat, a jogszabályhellyel a mondat végén. | [K012](szabalyok.md#k012) |
+| <a id="vilagos-beszed-kezikonyv-2025-043"></a>043 | 19–20 | szabály | Válaszold meg az olvasó összes kérdését, de csak olyan információt adj, amely az ügy adott fázisában szükséges vagy kötelező; a felesleges információ elveszi a figyelmét és a bizalmát. | [K005](szabalyok.md#k005), [K007](szabalyok.md#k007) |
+| <a id="vilagos-beszed-kezikonyv-2025-044"></a>044 | 20 | ajánlás | A később hasznos információt most hagyd ki, és akkor írd meg, amikor használni tudja; a hivatal belső működéséről ne írj. | [K005](szabalyok.md#k005) |
+| <a id="vilagos-beszed-kezikonyv-2025-045"></a>045 | 20 | ajánlás | Amire csak kevés olvasónak vagy kis eséllyel lesz szüksége, azt ne töröld, hanem a szöveg végére írd, vagy mondd meg, hol nézhet utána. | [K011](szabalyok.md#k011), [K005](szabalyok.md#k005) |
+| <a id="vilagos-beszed-kezikonyv-2025-046"></a>046 | 21 | ajánlás | Az összetartozó információ egy blokkba vagy bekezdésbe kerüljön. | [K014](szabalyok.md#k014) |
+| <a id="vilagos-beszed-kezikonyv-2025-047"></a>047 | 21 | ajánlás | Keress egyensúlyt a tömörség és a teljes tájékoztatás között; ha a teljes tájékoztatás túl hosszú lenne, irányítsd az olvasót a honlapra, e-mailben konkrét linkkel. | [K005](szabalyok.md#k005), [K018](szabalyok.md#k018) |
+| <a id="vilagos-beszed-kezikonyv-2025-048"></a>048 | 21 | ellenőrzőlista-pont | Önellenőrző kérdések és feladatok a fejezethez (F alakú olvasás, fordított piramis, alcímek; a legutóbbi levél első bekezdése és alcímei). | kihagyva: Gyakorló kérdések; a szabályokat a fejezet tételei fedik. |
+
+### 4. Megfogalmazás (22–28. o.)
+
+| Tétel | Oldal | Fajta | Tartalom | Leképezés |
+|---|---|---|---|---|
+| <a id="vilagos-beszed-kezikonyv-2025-049"></a>049 | 22 | szabály | Az olvasóhoz beszélj („Ön”), ne róla („az igénylő”), a szervezetre többes szám első, magadra egyes szám első személyben hivatkozz; a tegezés vagy magázás a helyzettől és a belső szabályoktól függ. | [K048](szabalyok.md#k048), [K049](szabalyok.md#k049) |
+| <a id="vilagos-beszed-kezikonyv-2025-050"></a>050 | 22 | ajánlás | Nem kell minden mondatba „Ön”-t írni: a megfelelő igei személyből kiderül, hogy az olvasóhoz szólsz. | [K048](szabalyok.md#k048) |
+| <a id="vilagos-beszed-kezikonyv-2025-051"></a>051 | 22 | előtte–utána példa | Előtte–utána pár: harmadik személyű, „amennyiben”-es kötelezettség átírva Ön-megszólítású feltételes mondatra. | [K048](szabalyok.md#k048) |
+| <a id="vilagos-beszed-kezikonyv-2025-052"></a>052 | 23 | szabály | Mindig a legegyszerűbb szót használd azok közül, amelyek pontosan azt jelentik, amit mondani akarsz; megkeresésre válaszolva vedd át a levélíró szavait. | [K029](szabalyok.md#k029) |
+| <a id="vilagos-beszed-kezikonyv-2025-053"></a>053 | 23 | szabály | Szakszót és zsargont csak magyarázattal használj, ha a jogszabály előírja, vagy nincs köznapi megfelelője; csak akkor ne magyarázd, ha biztos, hogy mindenki érti. | [K030](szabalyok.md#k030) |
+| <a id="vilagos-beszed-kezikonyv-2025-054"></a>054 | 23 | háttér | Nem az ügyfél dolga új szavakat tanulni; a közérthető szöveg nem butított: pontos és szakszerű marad. | [K030](szabalyok.md#k030) |
+| <a id="vilagos-beszed-kezikonyv-2025-055"></a>055 | 23 | ajánlás | Cseréld a nehéz szót, ha van rövidebb, egyszerűbb vagy pontosabb megfelelője ugyanabban a helyzetben (feltételes kötőszó, „elektronikus úton”, „illetve”). | [K036](szabalyok.md#k036) |
+| <a id="vilagos-beszed-kezikonyv-2025-056"></a>056 | 23 | ajánlás | Magyar szót használj az idegen helyett, kivéve, ha az idegen szó az elterjedtebb (például wifi, SMS, e-mail); kerüld a szokatlan rövidítést. | [K032](szabalyok.md#k032), [K040](szabalyok.md#k040) |
+| <a id="vilagos-beszed-kezikonyv-2025-057"></a>057 | 23 | szabály | Ugyanazt a dolgot végig ugyanúgy nevezd meg, és ugyanazt a szót ne használd különböző dolgokra; a szóismétlés itt nem hiba. | [K033](szabalyok.md#k033), [K034](szabalyok.md#k034) |
+| <a id="vilagos-beszed-kezikonyv-2025-058"></a>058 | 24 | szabály | A cselekvést igével fejezd ki, ne főnévvel; különösen az -ás/-és képzős főnevekben keresd az elrejtett igét, mert a főnévből nem derül ki, ki cselekszik. | [K042](szabalyok.md#k042), [K044](szabalyok.md#k044) |
+| <a id="vilagos-beszed-kezikonyv-2025-059"></a>059 | 24 | tilalom | Kerüld a terpeszkedő kifejezést (kifejező ige helyett főnév és semmitmondó ige). | [K045](szabalyok.md#k045) |
+| <a id="vilagos-beszed-kezikonyv-2025-060"></a>060 | 24 | ajánlás | Az „esetén” és a „hiányában” gyanús: általában feltételes mellékmondattal világosabb („ha Ön…”). | [K042](szabalyok.md#k042), [K022](szabalyok.md#k022) |
+| <a id="vilagos-beszed-kezikonyv-2025-061"></a>061 | 24 | előtte–utána példa | Két előtte–utána pár: főnévi szerkezetű jogosultság és kötelezettségvállalás átírva igés mondatra. | [K042](szabalyok.md#k042) |
+| <a id="vilagos-beszed-kezikonyv-2025-062"></a>062 | 25 | szabály | Weboldalhoz levélben részletes elérési utat, e-mailben linket adj; a link szövege rövid, beszédes, a mondat része, és a lehető legpontosabban mutasson a tartalomra. | [K009](szabalyok.md#k009) |
+| <a id="vilagos-beszed-kezikonyv-2025-063"></a>063 | 25 | ajánlás | Csak a link legyen aláhúzva, más szöveg ne. | [K009](szabalyok.md#k009), [K052](szabalyok.md#k052) |
+| <a id="vilagos-beszed-kezikonyv-2025-064"></a>064 | 25 | előtte–utána példa | Előtte–utána pár: „kattintson ide” típusú link átírva cselekvést megnevező linkszövegre. | [K009](szabalyok.md#k009) |
+| <a id="vilagos-beszed-kezikonyv-2025-065"></a>065 | 25 | szabály | Egy mondat egy dologról szóljon, lehetőleg legfeljebb három tagmondattal, és húsz szónál semmiképp ne legyen hosszabb; segíts felsorolással vagy táblázattal. | [K019](szabalyok.md#k019), [K020](szabalyok.md#k020), [K023](szabalyok.md#k023) |
+| <a id="vilagos-beszed-kezikonyv-2025-066"></a>066 | 26 | ajánlás | Egy mondat egy információt adjon, legfeljebb egy szorosan kapcsolódó kiegészítéssel. | [K019](szabalyok.md#k019) |
+| <a id="vilagos-beszed-kezikonyv-2025-067"></a>067 | 26 | ajánlás | Az alany, az állítmány és a tárgy minél előbb álljon; a mondat elején legfeljebb röviden jöhet más lényeges információ. | [K021](szabalyok.md#k021) |
+| <a id="vilagos-beszed-kezikonyv-2025-068"></a>068 | 26 | tilalom | Kerüld a közbevetést. | [K024](szabalyok.md#k024) |
+| <a id="vilagos-beszed-kezikonyv-2025-069"></a>069 | 26 | ajánlás | A lényeg a mondat elejére, az indoklás és a kiegészítő információ a végére kerüljön. | [K025](szabalyok.md#k025) |
+| <a id="vilagos-beszed-kezikonyv-2025-070"></a>070 | 26 | szabály | A feltételes mondatot a feltétellel kezdd, hogy akire nem vonatkozik, ne olvassa végig. | [K022](szabalyok.md#k022) |
+| <a id="vilagos-beszed-kezikonyv-2025-071"></a>071 | 26 | ajánlás | A mondaton belüli felsorolás előtt álljon kettősponttal záruló bevezető rész, amely bármelyik elemmel és az összessel együtt is kerek mondatot ad. | [K082](szabalyok.md#k082), [K013](szabalyok.md#k013) |
+| <a id="vilagos-beszed-kezikonyv-2025-072"></a>072 | 26 | ajánlás | Egymás utáni lépésekhez és pontos elemszámú listához használj számozott listát. | [K013](szabalyok.md#k013) |
+| <a id="vilagos-beszed-kezikonyv-2025-073"></a>073 | 26 | ajánlás | Táblázatot csak akkor használj, ha egy lista nem elég, és akkor is a lehető legegyszerűbbet. | [K064](szabalyok.md#k064), [K066](szabalyok.md#k066) |
+| <a id="vilagos-beszed-kezikonyv-2025-074"></a>074 | 26 | szabály | Húzz ki minden szót, amely nem ad új információt; a felvezető fordulat („tájékoztatjuk, hogy”, „felhívjuk szíves figyelmét”) helyett tájékoztass. | [K035](szabalyok.md#k035) |
+| <a id="vilagos-beszed-kezikonyv-2025-075"></a>075 | 27 | előtte–utána példa | Jelentés nélküli időhatározók és névutós szerkezetek rövid megfelelője (mai nap, hónap folyamán, számára, tekintetében, útján). | [K035](szabalyok.md#k035), [K038](szabalyok.md#k038) |
+| <a id="vilagos-beszed-kezikonyv-2025-076"></a>076 | 27 | háttér | A szabály ökölszabály: nem cél a csupa tőmondatos, személytelen szöveg; ha eltérsz tőle, tudatosan tedd. | [K035](szabalyok.md#k035) |
+| <a id="vilagos-beszed-kezikonyv-2025-077"></a>077 | 27–28 | szabály | Írj udvarias, partneri hangon: köszönd meg a megkeresést, fejezd ki a sajnálatot, ha nem tudsz segíteni, az elutasítást együttérzően közöld, és kerüld a rendreutasítónak ható hivatali záróformulát. | [K050](szabalyok.md#k050) |
+| <a id="vilagos-beszed-kezikonyv-2025-078"></a>078 | 28 | ellenőrzőlista-pont | Önellenőrző kérdések és feladatok a fejezethez (terpeszkedő szerkezetek átírása, mondathossz, alany és állítmány helye, feltételes mondat, lista). | kihagyva: Gyakorló kérdések; a szabályokat a fejezet tételei fedik. A „felszólításban mikor ajánlott tagadás” kérdésre a kézikönyv szövege nem ad szabályt. |
+
+### 5. Kinézet (29–30. o.)
+
+| Tétel | Oldal | Fajta | Tartalom | Leképezés |
+|---|---|---|---|---|
+| <a id="vilagos-beszed-kezikonyv-2025-079"></a>079 | 29 | szabály | Az alcímet a főszövegnél két ponttal nagyobb félkövér betűvel emeld ki, többszintű alcímnél szintenként legalább két pont különbséggel; előtte hagyj ki egy sort, utána ne. | [K051](szabalyok.md#k051) |
+| <a id="vilagos-beszed-kezikonyv-2025-080"></a>080 | 29 | háttér | Ami első ránézésre áttekinthető, azt az olvasó könnyebben is érti; ami bonyolultnak látszik, azt nehezebben. | [K051](szabalyok.md#k051), [K053](szabalyok.md#k053) |
+| <a id="vilagos-beszed-kezikonyv-2025-081"></a>081 | 29 | tilalom | Ne használj csupa nagybetűt, dőlt betűt (legfeljebb ritkán, címek elkülönítésére) és aláhúzást, mert rontják a szóképet; az aláhúzás képernyőn linknek látszik. | [K052](szabalyok.md#k052), [K053](szabalyok.md#k053) |
+| <a id="vilagos-beszed-kezikonyv-2025-082"></a>082 | 29–30 | szabály | A lényeget azonos méretű félkövérrel emeld ki; a kiemelés legyen rövid, önmagában értelmes és kevés. | [K052](szabalyok.md#k052) |
+| <a id="vilagos-beszed-kezikonyv-2025-083"></a>083 | 30 | ellenőrzőlista-pont | Önellenőrző kérdések a fejezethez (apró betű a kellemetlen információhoz, csupa nagybetű a fontoshoz: mindkettő hamis). | [K052](szabalyok.md#k052), [K055](szabalyok.md#k055) |
+
+### 6. Ellenőrzés és ellenőrző lista (31. o.)
+
+| Tétel | Oldal | Fajta | Tartalom | Leképezés |
+|---|---|---|---|---|
+| <a id="vilagos-beszed-kezikonyv-2025-084"></a>084 | 31 | ajánlás | Fontos szöveg első változatát pihentesd néhány órát vagy napot, utána olvasd újra, lehetőleg kinyomtatva, és ellenőrizd az ellenőrző listával. | [K075](szabalyok.md#k075) |
+| <a id="vilagos-beszed-kezikonyv-2025-085"></a>085 | 31 | ajánlás | Ha teheted, egy kolléga is olvassa át, és vesse össze az ellenőrző listával. | [K075](szabalyok.md#k075) |
+| <a id="vilagos-beszed-kezikonyv-2025-086"></a>086 | 31 | ellenőrzőlista-pont | Ellenőrző lista, felépítés: a legfontosabb üzenettel kezdődik; egyértelmű, mit tegyen vagy tehet az olvasó. | [K002](szabalyok.md#k002), [K003](szabalyok.md#k003) |
+| <a id="vilagos-beszed-kezikonyv-2025-087"></a>087 | 31 | ellenőrzőlista-pont | Ellenőrző lista, felépítés: érthető, pontos alcímek. | [K010](szabalyok.md#k010) |
+| <a id="vilagos-beszed-kezikonyv-2025-088"></a>088 | 31 | ellenőrzőlista-pont | Ellenőrző lista, felépítés: a kötelező, de lényegtelen információ elrejtve; a most szükségtelen információ törölve. | [K012](szabalyok.md#k012), [K005](szabalyok.md#k005) |
+| <a id="vilagos-beszed-kezikonyv-2025-089"></a>089 | 31 | ellenőrzőlista-pont | Ellenőrző lista, megfogalmazás: az olvasóhoz beszél, párbeszédet folytat. | [K048](szabalyok.md#k048) |
+| <a id="vilagos-beszed-kezikonyv-2025-090"></a>090 | 31 | ellenőrzőlista-pont | Ellenőrző lista, megfogalmazás: az olvasó szavai, a zsargon megmagyarázva. | [K029](szabalyok.md#k029), [K030](szabalyok.md#k030) |
+| <a id="vilagos-beszed-kezikonyv-2025-091"></a>091 | 31 | ellenőrzőlista-pont | Ellenőrző lista, megfogalmazás: a cselekvés igével kifejezve. | [K042](szabalyok.md#k042) |
+| <a id="vilagos-beszed-kezikonyv-2025-092"></a>092 | 31 | ellenőrzőlista-pont | Ellenőrző lista, megfogalmazás: egyértelmű link vagy elérési út. | [K009](szabalyok.md#k009) |
+| <a id="vilagos-beszed-kezikonyv-2025-093"></a>093 | 31 | ellenőrzőlista-pont | Ellenőrző lista, megfogalmazás: rövid mondatok, egy mondat egy dolog, a lényeggel kezdve. | [K019](szabalyok.md#k019), [K020](szabalyok.md#k020), [K025](szabalyok.md#k025) |
+| <a id="vilagos-beszed-kezikonyv-2025-094"></a>094 | 31 | ellenőrzőlista-pont | Ellenőrző lista, megfogalmazás: felesleges szavak és fordulatok kihúzva. | [K035](szabalyok.md#k035) |
+| <a id="vilagos-beszed-kezikonyv-2025-095"></a>095 | 31 | ellenőrzőlista-pont | Ellenőrző lista, megfogalmazás: udvarias, partneri hang. | [K050](szabalyok.md#k050) |
+| <a id="vilagos-beszed-kezikonyv-2025-096"></a>096 | 31 | ellenőrzőlista-pont | Ellenőrző lista, kinézet: alcímek nagyobb félkövér betűvel; a lényeg félkövérrel kiemelve. | [K051](szabalyok.md#k051), [K052](szabalyok.md#k052) |
+
+### 1. melléklet: A közérthető fogalmazás szabályainak összefoglalása (32–33. o.)
+
+| Tétel | Oldal | Fajta | Tartalom | Leképezés |
+|---|---|---|---|---|
+| <a id="vilagos-beszed-kezikonyv-2025-097"></a>097 | 32–33 | szabály | A szabályok összefoglalása, felépítés: fő üzenet elöl; teendő utána (az is, ha nincs); önmagukban érthető, lehetőleg kérdés formájú alcímek; jogszabály elmagyarázva, hivatkozás a végén; csak a szükséges információ. | [K002](szabalyok.md#k002), [K003](szabalyok.md#k003), [K010](szabalyok.md#k010), [K012](szabalyok.md#k012), [K005](szabalyok.md#k005) |
+| <a id="vilagos-beszed-kezikonyv-2025-098"></a>098 | 32–33 | szabály | A szabályok összefoglalása, megfogalmazás: megszólítás; az olvasó szavai és magyarázott szakszó; ige a főnév helyett; egyértelmű link; egy mondat egy dolog, 15–20 szó; felesleges szavak nélkül; udvarias hang. | [K048](szabalyok.md#k048), [K029](szabalyok.md#k029), [K030](szabalyok.md#k030), [K042](szabalyok.md#k042), [K009](szabalyok.md#k009), [K019](szabalyok.md#k019), [K020](szabalyok.md#k020), [K035](szabalyok.md#k035), [K050](szabalyok.md#k050) |
+| <a id="vilagos-beszed-kezikonyv-2025-099"></a>099 | 33 | szabály | A szabályok összefoglalása, kinézet: alcímek két ponttal nagyobb félkövérrel, előttük több hellyel; a lényeg rövid, kevés félkövér kiemeléssel. | [K051](szabalyok.md#k051), [K052](szabalyok.md#k052) |
+
+### 2. melléklet: Kiegészítő segédlet közérthető nyomtatványokhoz (34–36. o.)
+
+| Tétel | Oldal | Fajta | Tartalom | Leképezés |
+|---|---|---|---|---|
+| <a id="vilagos-beszed-kezikonyv-2025-100"></a>100 | 34 | háttér | A nyomtatvány az ügyfél céljának eszköze, de gyakran akadály; a közérthető nyomtatvány kevesebb kérdést és hiánypótlást jelent. A szabályok papírnyomtatványra készültek, de többségük online űrlapra is érvényes. | kihagyva: Motiváció és alkalmazási kör; szabályt nem ad. |
+| <a id="vilagos-beszed-kezikonyv-2025-101"></a>101 | 34 | szabály | Csak a feltétlenül szükséges adatot kérd be; ami a csatolt iraton szerepel, azt ne kérd külön. | [K068](szabalyok.md#k068) |
+| <a id="vilagos-beszed-kezikonyv-2025-102"></a>102 | 35 | szabály | Legyen egyértelmű, melyik mező vagy csatolmány kötelező és milyen esetben; ha minden mező kötelező, nem kell jelölni, ha csak néhány nem, azokat jelöld. | [K069](szabalyok.md#k069) |
+| <a id="vilagos-beszed-kezikonyv-2025-103"></a>103 | 35 | előtte–utána példa | A feltételhez kötött csatolmány mellé zárójelben a feltétel, a nem kötelező mező mellé „(nem kötelező)”. | [K069](szabalyok.md#k069) |
+| <a id="vilagos-beszed-kezikonyv-2025-104"></a>104 | 35 | szabály | A bonyolultabb kérdésnél adj kitöltési segítséget (zárójelben, szövegdobozban, példákkal), és mondd meg, hol találja az adatot vagy ki adja ki az iratot. | [K070](szabalyok.md#k070) |
+| <a id="vilagos-beszed-kezikonyv-2025-105"></a>105 | 35 | ajánlás | A mező formájával is jelezd, milyen adatot vársz (például tagolt adószámmező). | [K070](szabalyok.md#k070) |
+| <a id="vilagos-beszed-kezikonyv-2025-106"></a>106 | 35 | ajánlás | Kevés, rövid válaszlehetőségnél adj ikszelhető választást a szabad szöveges mező helyett. | [K071](szabalyok.md#k071) |
+| <a id="vilagos-beszed-kezikonyv-2025-107"></a>107 | 36 | ajánlás | Fontold meg a gyakori kérdések (GYIK) beillesztését a nyomtatvány végére. | [K072](szabalyok.md#k072) |
+| <a id="vilagos-beszed-kezikonyv-2025-108"></a>108 | 36 | szabály | A nyomtatvány legyen szellős és áttekinthető: a közérthetőség előbbre való a tömörségnél; üres térrel, alcímekkel és egységes térközökkel, betűméretekkel, behúzásokkal tagold. | [K073](szabalyok.md#k073), [K051](szabalyok.md#k051), [K053](szabalyok.md#k053) |
+| <a id="vilagos-beszed-kezikonyv-2025-109"></a>109 | 36 | ajánlás | Olvasható betűméret, idős célközönségnél nagyobb; elég hely a kézi kitöltéshez. | [K055](szabalyok.md#k055), [K073](szabalyok.md#k073) |
+| <a id="vilagos-beszed-kezikonyv-2025-110"></a>110 | 36 | ajánlás | A hosszabb vagy fontosabb kiegészítő magyarázatot vizuálisan elkülönülő szövegdobozba tedd. | [K073](szabalyok.md#k073) |
+
+### 3. melléklet: Közérthető szótár (37–38. o.)
+
+| Tétel | Oldal | Fajta | Tartalom | Leképezés |
+|---|---|---|---|---|
+| <a id="vilagos-beszed-kezikonyv-2025-111"></a>111 | 37 | háttér | A szótár közérthetőbb megfelelőt ad a kevésbé világos kifejezésekhez; a bal oldali szavak néha változatosságból is használhatók, de az érthetőség az elsődleges; javaslatot e-mailben várnak. | kihagyva: A szótár használatáról szól; a szópárok külön tételként szerepelnek. |
+| <a id="vilagos-beszed-kezikonyv-2025-112"></a>112 | 37–38 | előtte–utána példa | Körülményes kötőszók és fordulatok egyszerű megfelelője (feltétel, cél, ok, ellentét, következmény; „továbbá”, „valamint”, „azonban”). | [K036](szabalyok.md#k036) |
+| <a id="vilagos-beszed-kezikonyv-2025-113"></a>113 | 37–38 | előtte–utána példa | Kevésbé ismert idegen és hivatali szavak ismertebb megfelelője (például anomália, applikáció, autonóm, kritérium, szignifikáns, hagyaték). | [K032](szabalyok.md#k032), [K029](szabalyok.md#k029) |
+| <a id="vilagos-beszed-kezikonyv-2025-114"></a>114 | 37–38 | előtte–utána példa | Terpeszkedő szerkezetek igés megfelelője (előadást tart, érdeklődést mutat, intézkedést foganatosít, tájékoztatást nyújt, vizsgálat tárgyává teszi). | [K045](szabalyok.md#k045) |
+| <a id="vilagos-beszed-kezikonyv-2025-115"></a>115 | 38 | előtte–utána példa | „-ásra kerül” szerkezetek cselekvő megfelelője (megrendezésre kerül, rögzítésre került). | [K043](szabalyok.md#k043) |
+| <a id="vilagos-beszed-kezikonyv-2025-116"></a>116 | 37–38 | előtte–utána példa | Névutós és felesleges szavas szerkezetek rövid megfelelője (hónap folyamán, a mai napon, számára, tekintetében, postai úton, pályázat keretében). | [K038](szabalyok.md#k038), [K035](szabalyok.md#k035) |
+| <a id="vilagos-beszed-kezikonyv-2025-117"></a>117 | 38 | előtte–utána példa | Az „illetve” helyett legtöbbször „és” vagy „vagy”. | [K036](szabalyok.md#k036) |
+| <a id="vilagos-beszed-kezikonyv-2025-118"></a>118 | 38 | előtte–utána példa | Az ügyfélre és a hivatalra utaló harmadik személyű megnevezés helyett „Ön” és „mi”. | [K048](szabalyok.md#k048) |
+| <a id="vilagos-beszed-kezikonyv-2025-119"></a>119 | 37–38 | előtte–utána példa | Tagadó vagy személytelen döntés helyett állító, személyes megfogalmazás (hiányában, nem haladja meg, nem állapítható meg). | [K026](szabalyok.md#k026), [K044](szabalyok.md#k044) |
+| <a id="vilagos-beszed-kezikonyv-2025-120"></a>120 | 37 | előtte–utána példa | A „Fontos!” felirat helyett más kiemelés. | [K052](szabalyok.md#k052) |
+| <a id="vilagos-beszed-kezikonyv-2025-121"></a>121 | 38 | előtte–utána példa | A „szíveskedjen…” helyett kérés felszólító igével. | [K050](szabalyok.md#k050), [K003](szabalyok.md#k003) |
+
+### 4. melléklet: Gyakori kétségek és válaszok (39. o.)
+
+| Tétel | Oldal | Fajta | Tartalom | Leképezés |
+|---|---|---|---|---|
+| <a id="vilagos-beszed-kezikonyv-2025-122"></a>122 | 39 | háttér | Gyakori ellenvetések és válaszok: a megszokott forma is okoz félreértést; a közérthető szöveg nem szakmaiatlan; hosszú távon időt és pénzt takarít meg; eredménye a visszakérdezések és hibák számán mérhető; bárki megtanulhatja. | kihagyva: Érvelés a közérthetőség mellett; szabályt nem ad. |
+| <a id="vilagos-beszed-kezikonyv-2025-123"></a>123 | 39 | ajánlás | Jogszabálynak megfelelő szövegnél is segít, ha az ügyfelet érintő tudnivalót a jogszabály alapján elmagyarázod, ahelyett hogy szó szerint idéznéd. | [K012](szabalyok.md#k012) |
+| <a id="vilagos-beszed-kezikonyv-2025-124"></a>124 | 39 | háttér | Képzett olvasó is örül az egyszerűbb fogalmazásnak; nem az ő dolga szakszavakat tanulni. | [K030](szabalyok.md#k030) |
+
+### 5. melléklet: Ajánlott irodalom és weboldalak (40–41. o.)
+
+| Tétel | Oldal | Fajta | Tartalom | Leképezés |
+|---|---|---|---|---|
+| <a id="vilagos-beszed-kezikonyv-2025-125"></a>125 | 40–41 | háttér | Ajánlott irodalom és weboldalak (köztük az uniós „A pontos fogalmazás művészete”, a Federal Plain Language Guidelines, az ISO 24495-1, a kozerthetofogalmazas.hu, a PLAIN és a Clarity). | kihagyva: Irodalomjegyzék; az uniós kiadvány külön forrás (eu-pontos-fogalmazas-2013), a többi a forrástérkép része. |
+
+### Saját jegyzetek és kiadói adatok (42–43. o.)
+
+Nincs leltártétel. Ok: Üres jegyzetoldal és kiadói adatok; írási szabályt nem tartalmaz.
 
 <a id="vilagos-beszed-kisokos-2025"></a>
 

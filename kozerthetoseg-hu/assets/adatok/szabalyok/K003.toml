@@ -7,6 +7,14 @@ alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [
   "nav-ertheto-hivatal-2#006",
+  "vilagos-beszed-kezikonyv-2025#017",
+  "vilagos-beszed-kezikonyv-2025#028",
+  "vilagos-beszed-kezikonyv-2025#029",
+  "vilagos-beszed-kezikonyv-2025#031",
+  "vilagos-beszed-kezikonyv-2025#032",
+  "vilagos-beszed-kezikonyv-2025#086",
+  "vilagos-beszed-kezikonyv-2025#097",
+  "vilagos-beszed-kezikonyv-2025#121",
   "vilagos-beszed-kisokos-2025#011",
   "vilagos-beszed-kisokos-2025#016",
 ]

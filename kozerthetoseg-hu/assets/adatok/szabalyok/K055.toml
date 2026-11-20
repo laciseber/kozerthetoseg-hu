@@ -6,6 +6,8 @@ miert = "A túl kicsi betű nem csak kényelmetlen: aki rosszul lát, vagy nincs
 alkalmazasi_kor = "altalanos"
 allapot = "aktiv"
 forrasok = [
+  "vilagos-beszed-kezikonyv-2025#083",
+  "vilagos-beszed-kezikonyv-2025#109",
   "vilagos-beszed-kisokos-2025#047",
 ]
 kivetelek = ["A könnyen érthető kommunikáció (KÉK) külön betűméret-szabályt követ."]
