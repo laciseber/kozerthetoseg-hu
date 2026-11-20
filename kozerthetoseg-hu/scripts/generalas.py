@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """A generált referenciák előállítása a TOML-adatokból.
 
-Három fájlt ír újra: references/szabalyok.md, references/forrasok.md és
-references/lefedettseg.md. Kétszer futtatva ugyanazt adja, mert nem tesz
+Újraírja a references/ generált fájljait: szabalyok.md (a teljes
+katalógus), szabaly-index.md, a csoportonkénti szabalyok-<csoport>.md,
+ellenorzo-lista.md, forrasok.md és lefedettseg.md. Kétszer futtatva ugyanazt adja, mert nem tesz
 bele időbélyeget, és minden listát rendez.
 
 Használat:
@@ -46,11 +47,67 @@ def esc(szoveg: str) -> str:
     return str(szoveg).replace("|", "\\|").replace("\n", " ").strip()
 
 
+def szabaly_blokk(a: kozos.Adatok, sid: str) -> list[str]:
+    """Egy szabály részletes leírása Markdownban (a szabalyok.md és a csoportfájlok közös része)."""
+    d = a.szabalyok[sid].adat
+    s = [f'<a id="{sid.lower()}"></a>', ""]
+    jel = " (visszavonva)" if d.get("allapot") == "visszavont" else ""
+    s.append(f"### {sid} {d.get('cim', '')}{jel}")
+    s.append("")
+    if d.get("allapot") == "visszavont":
+        s.append(f"Visszavonva, helyette: [{d.get('utod')}](szabalyok.md#{str(d.get('utod', '')).lower()}). "
+                 f"Ok: {d.get('visszavonas_oka', 'nincs megadva')}")
+        s.append("")
+    s.append(f"Szabály: {d.get('szabaly', '')}")
+    s.append("")
+    s.append(f"Miért segít: {d.get('miert', '')}")
+    s.append("")
+    if d.get("kerdes"):
+        s.append(f"Ellenőrző kérdés: {d['kerdes']}")
+        s.append("")
+    p = d.get("pelda", {})
+    s.append(f"- Rossz: {p.get('rossz', '')}")
+    s.append(f"- Jó: {p.get('jo', '')}")
+    if p.get("megjegyzes"):
+        s.append(f"- Megjegyzés a példához: {p['megjegyzes']}")
+    s.append("")
+    if d.get("kivetelek"):
+        s.append("Kivételek:")
+        s.append("")
+        s.extend(f"- {k}" for k in d["kivetelek"])
+        s.append("")
+    sor = f"Kör: {KOR_NEV.get(d.get('alkalmazasi_kor', ''), d.get('alkalmazasi_kor', ''))}."
+    if d.get("meres"):
+        sor += " Mérés (meres.py): " + ", ".join(d["meres"]) + "."
+    s.append(sor)
+    s.append("")
+    forr = d.get("forrasok", [])
+    if forr:
+        s.append("Források: " + "; ".join(tetel_hivatkozas(a, t) for t in forr) + ".")
+        s.append("")
+    for e in d.get("elteres", []):
+        s.append("Ha a források eltérnek: " + e.get("leiras", "") + " "
+                 + "A skill döntése: " + e.get("dontes", "") + " ("
+                 + "; ".join(tetel_hivatkozas(a, t) for t in e.get("forrasok", [])) + ")")
+        s.append("")
+    return s
+
+
+def csoportositas(a: kozos.Adatok) -> dict[str, list[str]]:
+    csoport_szab: dict[str, list[str]] = defaultdict(list)
+    for sid in kozos.szabaly_sorrend(a.szabalyok):
+        csoport_szab[a.szabalyok[sid].adat.get("csoport", "")].append(sid)
+    return csoport_szab
+
+
+def csoportfajl(c: str) -> str:
+    return f"szabalyok-{c}.md"
+
+
 def szabalyok_md(a: kozos.Adatok) -> str:
     verzio = a.katalogus.adat.get("verzio", "?") if a.katalogus else "?"
     aktiv = [s for s in a.szabalyok if a.szabalyok[s].adat.get("allapot") == "aktiv"]
     vissza = [s for s in a.szabalyok if a.szabalyok[s].adat.get("allapot") == "visszavont"]
-    sorrend = kozos.szabaly_sorrend(a.szabalyok)
     s = [FEJLEC, "", "# Szabálykatalógus", ""]
     s.append(f"Katalógusverzió: {verzio}. Aktív szabályok: {len(aktiv)}. Visszavont szabályok: {len(vissza)}.")
     s.append("")
@@ -60,11 +117,12 @@ def szabalyok_md(a: kozos.Adatok) -> str:
         "A „csak jogi szövegnél” jelölésű szabályokat a jogi modul alkalmazza."
     )
     s.append("")
+    s.append("Ez a teljes katalógus egy fájlban, emberi olvasásra. A skill a tömör "
+             "[szabaly-index.md](szabaly-index.md) fájlt és a csoportonkénti fájlokat használja.")
+    s.append("")
     s.append("## Csoportok")
     s.append("")
-    csoport_szab: dict[str, list[str]] = defaultdict(list)
-    for sid in sorrend:
-        csoport_szab[a.szabalyok[sid].adat.get("csoport", "")].append(sid)
+    csoport_szab = csoportositas(a)
     for c, nev in kozos.CSOPORTOK.items():
         if csoport_szab.get(c):
             ids = csoport_szab[c]
@@ -79,45 +137,69 @@ def szabalyok_md(a: kozos.Adatok) -> str:
         s.append(f"## {nev}")
         s.append("")
         for sid in ids:
+            s.extend(szabaly_blokk(a, sid))
+    return "\n".join(s).rstrip() + "\n"
+
+
+def szabaly_index_md(a: kozos.Adatok) -> str:
+    verzio = a.katalogus.adat.get("verzio", "?") if a.katalogus else "?"
+    s = [FEJLEC, "", "# Szabályindex", ""]
+    s.append(f"Katalógusverzió: {verzio}. Szabályonként egy sor. Először ezt olvasd el; "
+             "a részleteket (példa, kivételek, források) csak azoknál a szabályoknál nyisd meg "
+             "a csoportfájlban, amelyek a vizsgált szövegre vonatkoznak.")
+    s.append("")
+    csoport_szab = csoportositas(a)
+    for c, nev in kozos.CSOPORTOK.items():
+        ids = csoport_szab.get(c)
+        if not ids:
+            continue
+        s.append(f"## {nev}")
+        s.append("")
+        s.append(f"Részletek: [{csoportfajl(c)}]({csoportfajl(c)})")
+        s.append("")
+        s.append("| Szabály | Cím | Kör | Mérés |")
+        s.append("|---|---|---|---|")
+        for sid in ids:
             d = a.szabalyok[sid].adat
-            s.append(f'<a id="{sid.lower()}"></a>')
-            s.append("")
-            jel = " (visszavonva)" if d.get("allapot") == "visszavont" else ""
-            s.append(f"### {sid} {d.get('cim', '')}{jel}")
-            s.append("")
             if d.get("allapot") == "visszavont":
-                s.append(f"Visszavonva, helyette: [{d.get('utod')}](#{str(d.get('utod', '')).lower()}). "
-                         f"Ok: {d.get('visszavonas_oka', 'nincs megadva')}")
-                s.append("")
-            s.append(f"Szabály: {d.get('szabaly', '')}")
-            s.append("")
-            s.append(f"Miért segít: {d.get('miert', '')}")
-            s.append("")
-            p = d.get("pelda", {})
-            s.append(f"- Rossz: {p.get('rossz', '')}")
-            s.append(f"- Jó: {p.get('jo', '')}")
-            if p.get("megjegyzes"):
-                s.append(f"- Megjegyzés a példához: {p['megjegyzes']}")
-            s.append("")
-            if d.get("kivetelek"):
-                s.append("Kivételek:")
-                s.append("")
-                s.extend(f"- {k}" for k in d["kivetelek"])
-                s.append("")
-            sor = f"Kör: {KOR_NEV.get(d.get('alkalmazasi_kor', ''), d.get('alkalmazasi_kor', ''))}."
-            if d.get("meres"):
-                sor += " Mérés (meres.py): " + ", ".join(d["meres"]) + "."
-            s.append(sor)
-            s.append("")
-            forr = d.get("forrasok", [])
-            if forr:
-                s.append("Források: " + "; ".join(tetel_hivatkozas(a, t) for t in forr) + ".")
-                s.append("")
-            for e in d.get("elteres", []):
-                s.append("Ha a források eltérnek: " + e.get("leiras", "") + " "
-                         + "A skill döntése: " + e.get("dontes", "") + " ("
-                         + "; ".join(tetel_hivatkozas(a, t) for t in e.get("forrasok", [])) + ")")
-                s.append("")
+                cim = f"{esc(d.get('cim', ''))} (visszavonva, helyette {d.get('utod')})"
+            else:
+                cim = esc(d.get("cim", ""))
+            kor = "jogi" if d.get("alkalmazasi_kor") == "jogi" else "általános"
+            mer = "igen" if d.get("meres") else ""
+            s.append(f"| [{sid}]({csoportfajl(c)}#{sid.lower()}) | {cim} | {kor} | {mer} |")
+        s.append("")
+    return "\n".join(s).rstrip() + "\n"
+
+
+def csoport_md(a: kozos.Adatok, c: str) -> str:
+    nev = kozos.CSOPORTOK[c]
+    s = [FEJLEC, "", f"# Szabályok: {nev}", ""]
+    s.append("Az összes csoport: [szabaly-index.md](szabaly-index.md).")
+    s.append("")
+    for sid in csoportositas(a).get(c, []):
+        s.extend(szabaly_blokk(a, sid))
+    return "\n".join(s).rstrip() + "\n"
+
+
+def ellenorzo_lista_md(a: kozos.Adatok) -> str:
+    s = [FEJLEC, "", "# Ellenőrző lista", ""]
+    s.append("Minden aktív szabályhoz egy kérdés. Ha a válasz igen, a szöveg megfelel a szabálynak; "
+             "ha nem, nézd meg a szabályt. A „jogi” jelölésű kérdések csak jogi szövegnél érvényesek. "
+             "Amelyik csoport a szövegre nem vonatkozik (például nyomtatvány, táblázat), azt hagyd ki.")
+    s.append("")
+    csoport_szab = csoportositas(a)
+    for c, nev in kozos.CSOPORTOK.items():
+        ids = [i for i in csoport_szab.get(c, []) if a.szabalyok[i].adat.get("allapot") == "aktiv"]
+        if not ids:
+            continue
+        s.append(f"## {nev}")
+        s.append("")
+        for sid in ids:
+            d = a.szabalyok[sid].adat
+            jogi = " (jogi)" if d.get("alkalmazasi_kor") == "jogi" else ""
+            s.append(f"- [ ] {d.get('kerdes', '')}{jogi} [{sid}]({csoportfajl(c)}#{sid.lower()})")
+        s.append("")
     return "\n".join(s).rstrip() + "\n"
 
 
@@ -268,13 +350,18 @@ def lefedettseg_md(a: kozos.Adatok) -> str:
 
 CELOK = {
     "szabalyok.md": szabalyok_md,
+    "szabaly-index.md": szabaly_index_md,
+    "ellenorzo-lista.md": ellenorzo_lista_md,
     "forrasok.md": forrasok_md,
     "lefedettseg.md": lefedettseg_md,
 }
 
 
 def generalt_tartalmak(adatok: kozos.Adatok) -> dict[str, str]:
-    return {nev: fv(adatok) for nev, fv in CELOK.items()}
+    t = {nev: fv(adatok) for nev, fv in CELOK.items()}
+    for c in kozos.CSOPORTOK:
+        t[csoportfajl(c)] = csoport_md(adatok, c)
+    return t
 
 
 def main(argv: list[str] | None = None) -> int:

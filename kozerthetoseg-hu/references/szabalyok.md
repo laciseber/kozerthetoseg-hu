@@ -2,9 +2,11 @@
 
 # Szabálykatalógus
 
-Katalógusverzió: 1.1.0. Aktív szabályok: 83. Visszavont szabályok: 0.
+Katalógusverzió: 1.2.0. Aktív szabályok: 83. Visszavont szabályok: 0.
 
 Minden szabálynál: mit kér, miért segít az olvasónak, egy saját rossz és jó példa, a kivételek, és hogy melyik forrás mondja ki (oldalszámmal, a forrásleltár tételére mutatva). A „csak jogi szövegnél” jelölésű szabályokat a jogi modul alkalmazza.
+
+Ez a teljes katalógus egy fájlban, emberi olvasásra. A skill a tömör [szabaly-index.md](szabaly-index.md) fájlt és a csoportonkénti fájlokat használja.
 
 ## Csoportok
 
@@ -32,6 +34,8 @@ Szabály: Mielőtt írni kezdesz, határozd meg, ki olvassa a szöveget, mit tud
 
 Miért segít: Aki sokat tud a témáról, könnyen elfelejti, mit nem tud az olvasó. Ha az olvasó és a cél ki van mondva, a későbbi döntések (mi maradjon ki, milyen szó kell) erre épülhetnek.
 
+Ellenőrző kérdés: Tudod, ki olvassa a szöveget, mit tud már, és mit kell tennie utána?
+
 - Rossz: Egy szakértő a saját belső jegyzetéből másolja át az ügyfélnek szóló levelet, és a levélben a csoport belső rövidítései maradnak.
 - Jó: Írás előtt egy sor: „Olvasó: a lakásfelújítási támogatást kérő magánszemély, aki most kapott hiánypótlási felhívást. Teendő: 15 napon belül beküldi a hiányzó számlát.”
 
@@ -50,6 +54,8 @@ Források: [Balogh 2023, 179. o.](forrasok.md#balogh-2023-002); [Európai Bizott
 Szabály: A szöveg elején, az első bekezdésben álljon a fő üzenet: miről szól a szöveg, és mi belőle a legfontosabb az olvasónak.
 
 Miért segít: Az olvasók az elejét szinte mindig elolvassák, a folytatást már csak átfutják. Ha az elején kiderül, hogy a szöveg érinti-e őket, nem kell végigolvasniuk, hogy ezt megtudják.
+
+Ellenőrző kérdés: Az első bekezdésből kiderül, miről szól a szöveg, és mi a legfontosabb az olvasónak?
 
 - Rossz: A kérelmével kapcsolatban az ügyintézés során megvizsgáltuk a benyújtott dokumentumokat, egyeztettünk a szakterülettel, és ennek eredményeként a kérelmét elfogadtuk.
 - Jó: Elfogadtuk a parkolási engedély iránti kérelmét. Az engedélyt március 1-jétől használhatja.
@@ -70,6 +76,8 @@ Szabály: A fő üzenet után írd le, mit kell vagy mit lehet az olvasónak ten
 
 Miért segít: A hivatali szöveg gyakran azt mondja el, amit a hivatalnak el kell mondania, és éppen az olvasó teendője marad homályban. Ha nincs teendő, ennek kimondása megspórol egy visszakérdezést.
 
+Ellenőrző kérdés: Közvetlenül a fő üzenet után áll, mit kell vagy lehet tennie az olvasónak, vagy hogy nincs teendője?
+
 - Rossz: Tájékoztatjuk, hogy a 2025. évi adatszolgáltatás feldolgozása megtörtént.
 - Jó: Feldolgoztuk a 2025-ös adatszolgáltatását. Ezzel a levéllel nincs teendője.
 
@@ -85,6 +93,8 @@ Szabály: Ha az olvasónak tennie kell valamit, add meg mindazt, ami ehhez kell:
 
 Miért segít: Ha egy adat hiányzik (például a közlemény szövege vagy a határidő), az olvasó vagy visszakérdez, vagy hibázik. A teendőhöz tartozó adatok együtt, egy helyen a leghasznosabbak.
 
+Ellenőrző kérdés: Megvan a teendőhöz minden adat: mit, mennyit, meddig, hogyan, hol, mi lesz, ha elmarad, és hol kap segítséget?
+
 - Rossz: Kérjük, rendezze tartozását a megadott határidőn belül.
 - Jó: Fizessen be 12 400 forintot 2026. április 30-ig a 11111111-22222222 számlaszámra. A közleménybe írja be: „2026/417 parkolás”. Ha nem fizet, a díjat késedelmi pótlékkal együtt végrehajtjuk. Kérdés esetén hívja a 06 1 234 5678-as számot.
 
@@ -99,6 +109,8 @@ Források: [Európai Bizottság 2013, 3. o.](forrasok.md#eu-pontos-fogalmazas-20
 Szabály: Csak azt írd le, amire az olvasónak az ügy adott szakaszában szüksége van, vagy amit jogszabály ír elő; a szervezet belső működése és a későbbi szakaszok részletei maradjanak ki.
 
 Miért segít: Minden fölös bekezdés elvonja a figyelmet a lényegről, és hosszabbá teszi az utat a teendőig. A belső eljárás leírása az olvasóban azt az érzést kelti, hogy a szervezet magával foglalkozik, nem vele.
+
+Ellenőrző kérdés: Kimaradt minden, amire az olvasónak most nincs szüksége, és amit jogszabály sem ír elő?
 
 - Rossz: A kérelmet az ügyfélszolgálati osztály iktatja, majd továbbítja a szakmai főosztálynak, amely a belső ellenőrzési szabályzat szerint két munkatárssal vizsgálja meg.
 - Jó: A kérelmét 30 napon belül elbíráljuk. A döntésről levélben értesítjük.
@@ -119,6 +131,8 @@ Szabály: Ne általánosságban ismertesd a szabályt, hanem azt írd le, mit je
 
 Miért segít: Az általános szabályból az olvasónak magának kellene kikövetkeztetnie, mi vonatkozik rá. A konkrét mondat ezt a munkát elvégzi helyette.
 
+Ellenőrző kérdés: A szöveg azt írja le, mit jelent a szabály az olvasó ügyében, nem csak általánosságban ismerteti?
+
 - Rossz: Az ügyintézési határidő a vonatkozó jogszabály szerint a kérelem beérkezését követő napon kezdődik, és a hiánypótlás időtartama nem számít bele.
 - Jó: Az Ön ügyében a döntés határideje 2026. május 12.
 
@@ -133,6 +147,8 @@ Források: [NAV 2024b, 10. o.](forrasok.md#nav-ertheto-hivatal-2-008); [NAV 2024
 Szabály: Gondold végig, milyen kérdések merülnek fel az olvasóban, és a szövegben válaszolj rájuk akkor is, ha nem kérdezte meg őket.
 
 Miért segít: Az olvasó kérdései nem tűnnek el attól, hogy a szöveg nem válaszol rájuk; csak telefonhívás vagy panasz lesz belőlük.
+
+Ellenőrző kérdés: Válaszol a szöveg azokra a kérdésekre is, amelyeket az olvasó nem tett fel, de fel fognak merülni benne?
 
 - Rossz: A kérelmét elutasítottuk.
 - Jó: A kérelmét elutasítottuk, mert a jövedelemigazolás hiányzott. Újra beadhatja, ha csatolja az igazolást. Az új kérelemért nem kell díjat fizetnie.
@@ -149,6 +165,8 @@ Szabály: A folyamatot úgy írd le, ahogy az olvasó éli meg: ne azt, hogy a s
 
 Miért segít: Az olvasó a saját teendőit keresi. Ha a mondat a szervezet szemszögéből szól, neki kell átfordítania a saját teendőjére, és ez hibalehetőség.
 
+Ellenőrző kérdés: A folyamat az olvasó oldaláról van leírva (mit küld el), nem a szervezetéről (mit kap meg)?
+
 - Rossz: A hivatalnak a nyilatkozatot aláírva kell megkapnia.
 - Jó: Írja alá a nyilatkozatot, és küldje el nekünk.
 
@@ -163,6 +181,8 @@ Források: [NAV 2024a, 8. o.](forrasok.md#nav-ertheto-hivatal-1-004); [NAV 2024a
 Szabály: Ha weboldalra irányítod az olvasót, a link szövege mondja meg, hová jut; nyomtatott szövegben lépésről lépésre írd le az útvonalat.
 
 Miért segít: A „kattintson ide” nem mondja meg, mi van a link mögött, nyomtatott levélben pedig a hosszú internetcím begépelése hibaforrás.
+
+Ellenőrző kérdés: A link szövege megmondja, hová jut az olvasó, nyomtatott szövegben pedig lépésenként le van írva az útvonal?
 
 - Rossz: A nyomtatványt itt találja: kattintson ide.
 - Jó: A nyomtatványt a város honlapján találja: Ügyintézés > Parkolás > Lakossági engedély.
@@ -183,6 +203,8 @@ Szabály: Adatkezelési tájékoztatóban konkrétan írd le, milyen adatot, mil
 
 Miért segít: Az érintett csak akkor tudja előre látni, mi történik az adataival, és csak akkor tud tiltakozni, ha a cél konkrét.
 
+Ellenőrző kérdés: Az adatkezelési tájékoztató konkrétan megmondja, milyen adatot, milyen célra és milyen jogalapon kezelnek?
+
 - Rossz: Személyes adatait szolgáltatásaink fejlesztésére használhatjuk.
 - Jó: A vásárlásai listáját megőrizzük, és ez alapján ajánlunk Önnek termékeket a hírlevelünkben. Ennek jogalapja az Ön hozzájárulása, amelyet bármikor visszavonhat.
 
@@ -197,6 +219,8 @@ Források: [WP260 2018, 9. o.](forrasok.md#wp260-2018-007); [WP260 2018, 9–10.
 Szabály: Fogyasztói szerződés vagy ÁSZF kikötésénél két dolgot vizsgálj külön: világos-e a szöveg nyelvileg, és érthető-e abban az értelemben, hogy a fogyasztó előre látja a kikötés következményeit (például mennyit fizet).
 
 Miért segít: A Ptk. a főszolgáltatást meghatározó kikötést csak akkor zárja ki a tisztességtelenségi vizsgálatból, ha világos és érthető; az Európai Bíróság szerint ehhez a nyelvtani érthetőség nem elég, a fogyasztónak értékelnie kell tudnia a gazdasági következményeket.
+
+Ellenőrző kérdés: A fogyasztói kikötés nyelvileg világos, és a fogyasztó előre látja belőle a következményeket?
 
 - Rossz: A szolgáltató jogosult a díjat egyoldalúan módosítani a piaci körülmények változása esetén.
 - Jó: A szolgáltató évente egyszer, januárban emelheti a díjat, legfeljebb a KSH által előző évre közölt fogyasztói árindex mértékével. Az emelésről 30 nappal előtte értesítjük; ha nem fogadja el, díjmentesen felmondhatja a szerződést.
@@ -221,6 +245,8 @@ Szabály: Tagold a szöveget olyan alcímekkel, amelyek magukban is érthetők; 
 
 Miért segít: Az olvasó az alcímek alapján keresi meg a rá vonatkozó részt. A kérdés formájú alcím az ő nyelvén mutatja meg, mire ad választ a blokk.
 
+Ellenőrző kérdés: Az alcímek önmagukban is érthetők, lehetőleg az olvasó kérdései?
+
 - Rossz: Egyéb rendelkezések
 - Jó: Mi történik, ha nem fizet határidőre?
 
@@ -240,6 +266,8 @@ Szabály: Rendezd a tartalmat úgy, hogy a legtöbb olvasót érintő informáci
 
 Miért segít: Akire a különös eset nem vonatkozik, ne kelljen végigolvasnia. Az időrendi elbeszélés a múltbeli előzményeket teszi előre, és a lényeg a szöveg közepére csúszik.
 
+Ellenőrző kérdés: A legtöbbeket érintő információ és a teendő áll elöl, a különös esetek később?
+
 - Rossz: 2019-ben indult a program, 2022-ben bővült, és a tavaly elfogadott döntés alapján idén júliustól a támogatás összege havi 20 000 forintra emelkedik.
 - Jó: Júliustól havi 20 000 forint a támogatás. A program 2019 óta működik.
 
@@ -254,6 +282,8 @@ Források: [Balogh 2023, 187. o.](forrasok.md#balogh-2023-016); [NAV 2024b, 15. 
 Szabály: A jogszabályt a szövegben magyarázd el saját szavaiddal; a jogszabályhelyet tedd lábjegyzetbe, a szöveg végén külön blokkba, vagy röviden zárójelben a mondat végére.
 
 Miért segít: A mondat közepén álló paragrafushivatkozás megszakítja az olvasást, és a laikus olvasónak nem mond semmit. Akinek a pontos hely kell, a végén megtalálja.
+
+Ellenőrző kérdés: A jogszabály saját szavakkal el van magyarázva, és a jogszabályhely a mondat végén, lábjegyzetben vagy külön blokkban áll?
 
 - Rossz: Az adóigazgatási rendtartásról szóló 2017. évi CL. törvény (a továbbiakban: Art.) 30. § (1) bekezdése alapján Önnek bejelentési kötelezettsége keletkezett.
 - Jó: A változást 15 napon belül be kell jelentenie (Art. 30. §).
@@ -273,6 +303,8 @@ Források: [NAV 2024a, 10. o.](forrasok.md#nav-ertheto-hivatal-1-005); [NAV 2024
 Szabály: Ha legalább három azonos szerepű elem van (lépések, feltételek, csatolandó iratok), szedd listába vagy táblázatba; az összefüggő gondolatmenet maradjon bekezdésben.
 
 Miért segít: A vesszővel felsorolt elemek a mondatban elvesznek, a listában egy pillantással áttekinthetők. A folyó gondolatmenetet viszont a lista széttördelné.
+
+Ellenőrző kérdés: A legalább három azonos szerepű elem (lépés, feltétel, irat) listában vagy táblázatban áll?
 
 - Rossz: A kérelemhez csatolni kell a személyi igazolvány másolatát, a lakcímkártya másolatát, a jövedelemigazolást, valamint a bérleti szerződést.
 - Jó: A kérelemhez csatolja:
@@ -297,6 +329,8 @@ Szabály: Egy bekezdés egy témáról szóljon, és lehetőleg kulcsszóval kez
 
 Miért segít: A rövid, egytémájú bekezdés miatt az olvasó nem ugrik át véletlenül olyan információt, amelyre szüksége volna; a kulcsszó megmutatja, miről szól.
 
+Ellenőrző kérdés: Minden bekezdés egy témáról szól?
+
 - Rossz: Egyetlen tizenkét soros bekezdés, amely a határidőről, a fizetés módjáról, a részletfizetésről és a panasz benyújtásáról is szól.
 - Jó: Négy rövid bekezdés, mindegyik a saját témájával kezdődik: határidő, fizetés, részletfizetés, panasz.
 
@@ -311,6 +345,8 @@ Források: [Gerencsér 2023, 14. o.](forrasok.md#gerencser-2023-006); [NAV 2024b
 Szabály: Kerüld, hogy a szöveg a saját más pontjaira utaljon („lásd a 3. pontot”); ha az információ kell, írd le ott, ahol kell.
 
 Miért segít: A kereszthivatkozás miatt az olvasónak oda-vissza kell lapoznia, és fejben kell tartania, mit olvasott máshol.
+
+Ellenőrző kérdés: A szöveg ott adja meg az információt, ahol kell, és nem utal a saját más pontjaira?
 
 - Rossz: A határidőre a 4.2. pontban foglaltak az irányadók.
 - Jó: A határidő 30 nap.
@@ -331,6 +367,8 @@ Szabály: A cím rövid legyen, és a legfontosabb újdonságot mondja meg, ne a
 
 Miért segít: A cím alapján dönt az olvasó, hogy foglalkozik-e a szöveggel. Ha a cím mindent el akar mondani, semmi nem emelkedik ki belőle.
 
+Ellenőrző kérdés: A cím rövid, és a legfontosabb újdonságot mondja meg?
+
 - Rossz: Tájékoztató a hulladékszállítási közszolgáltatás díjának a 2026. évre vonatkozó változásairól és a befizetés módjáról
 - Jó: Hulladékszállítás: januártól 4 százalékkal nő a díj
 
@@ -350,6 +388,8 @@ Szabály: Hosszabb dokumentumnál az elején álljon rövid összefoglaló, legy
 
 Miért segít: A hosszabb anyagból sokan csak az elejét és a végét olvassák el. Ha ez a két rész önmagában is megáll, az olvasó a többit csak akkor olvassa, ha kell.
 
+Ellenőrző kérdés: Hosszabb szövegnél van rövid összefoglaló az elején, tartalomjegyzék és világos zárás?
+
 - Rossz: Egy 20 oldalas jelentés, amelynek első oldala a módszertan leírásával kezdődik, és a javaslatok a 17. oldalon bukkannak fel.
 - Jó: Az első oldalon fél oldalas összefoglaló a három javaslattal, utána tartalomjegyzék, a végén egy bekezdés arról, mi a következő lépés.
 
@@ -364,6 +404,8 @@ Források: [Európai Bizottság 2013, 5. o.](forrasok.md#eu-pontos-fogalmazas-20
 Szabály: Ha a téma bonyolult, de sokakat érint, a teljes, szakmailag pontos anyag mellé készíts rövid, közérthető változatot, és a kettő mutasson egymásra.
 
 Miért segít: A szakmai pontosság és a közérthetőség így nem egymás rovására megy: aki gyorsan akar tájékozódni, a rövid változatot olvassa, akinek a részlet kell, a teljeset.
+
+Ellenőrző kérdés: Bonyolult, sokakat érintő témánál van a teljes anyag mellett rövid, közérthető változat?
 
 - Rossz: Egyetlen 14 oldalas adatkezelési tájékoztató, amelyben az érintett a saját kérdésére adott választ görgetve keresi.
 - Jó: Egy egyoldalas áttekintés (milyen adatot, mire, meddig kezelünk, hogyan tiltakozhat), mindegyik ponttól link a részletes tájékoztató megfelelő fejezetére.
@@ -384,6 +426,8 @@ Szabály: Egy mondat egy gondolatot, egy információt közöljön; két ellent�
 
 Miért segít: Az olvasó mondatonként dolgozza fel a szöveget. Ha egy mondatban több állítás van, könnyen csak az egyiket jegyzi meg, és az ellentétes közlések egymást teszik nehezen érthetővé.
 
+Ellenőrző kérdés: Minden mondat egy dologról szól?
+
 - Rossz: A bérletet csak személyesen lehet megvásárolni, de a meghosszabbítás online is lehetséges, amennyiben a bérlet még érvényes.
 - Jó: A bérletet személyesen vásárolhatja meg. Amíg a bérlet érvényes, online is meghosszabbíthatja.
 
@@ -398,6 +442,8 @@ Források: [Horváth 2021, 108–109. o.](forrasok.md#horvath-2021-019); [NAV 20
 Szabály: A mondatok átlagosan 15–20 szóból álljanak; a 20 szónál hosszabb mondatot nézd meg, bontható-e.
 
 Miért segít: A hosszú mondatban az olvasónak sok mindent kell fejben tartania, mire a végére ér. A küszöb figyelmeztet, nem tilt: a mérőszám jelzés, nem ítélet.
+
+Ellenőrző kérdés: A mondatok átlagosan 15–20 szavasak, és a 20 szónál hosszabbakat megnézted, bonthatók-e?
 
 - Rossz: A kérelem benyújtását követően a hatóság a kérelemben foglaltakat a rendelkezésére álló nyilvántartások alapján megvizsgálja, és amennyiben hiányosságot állapít meg, a kérelmezőt határidő tűzésével hiánypótlásra hívja fel. (27 szó)
 - Jó: Megvizsgáljuk a kérelmét. Ha valami hiányzik, levélben kérjük, hogy pótolja, és megadjuk a határidőt. (14 szó, két mondatban)
@@ -421,6 +467,8 @@ Szabály: A mondat elején álljon, kire vonatkozik (alany) és mit kell tennie 
 
 Miért segít: Ha az állítmány a mondat végére kerül, az olvasónak az egész mondatot fejben kell tartania, mire megtudja, mi a lényeg.
 
+Ellenőrző kérdés: A mondatok elején, egymás közelében áll az alany és az állítmány?
+
 - Rossz: A bérlőnek a lakásban végzett, a bérbeadó előzetes írásbeli hozzájárulásához kötött átalakítási munkák megkezdése előtt értesítési kötelezettsége áll fenn.
 - Jó: A bérlőnek értesítenie kell a bérbeadót, mielőtt átalakítási munkába kezd. Ehhez a bérbeadó előzetes írásbeli hozzájárulása kell.
 
@@ -436,6 +484,8 @@ Szabály: Ha egy mondat csak bizonyos esetben érvényes, a feltétel álljon az
 
 Miért segít: Az olvasó a mondat elején eldöntheti, vonatkozik-e rá; ha nem, továbbléphet.
 
+Ellenőrző kérdés: A feltételes mondatok a feltétellel kezdődnek?
+
 - Rossz: Csatolja a gyámhatóság engedélyét, ha a kérelmező kiskorú.
 - Jó: Ha a kérelmező kiskorú, csatolja a gyámhatóság engedélyét.
 
@@ -450,6 +500,8 @@ Források: [NAV 2024b, 22. o.](forrasok.md#nav-ertheto-hivatal-2-035); [Világos
 Szabály: A kettőnél több tagmondatból álló mondatot bontsd egyszerűbb mondatokra, vagy vond össze a tagmondatokat, ha ettől világosabb lesz.
 
 Miért segít: Minden újabb tagmondat újabb viszonyt kér az olvasótól (ki, mi, mire vonatkozik). A többszörösen összetett mondatban ezek a viszonyok összecsúsznak.
+
+Ellenőrző kérdés: A kettőnél több tagmondatú mondatokat megnézted, egyszerűbbé tehetők-e?
 
 - Rossz: Felhívjuk figyelmét, hogy amennyiben a számlát, amelyet a szolgáltató a tárgyhónapot követő 5. napig állít ki, nem fizeti meg, a szolgáltató, akinek erre a szerződés jogot ad, felfüggesztheti a szolgáltatást.
 - Jó: A szolgáltató minden hónap 5-ig állítja ki a számlát. Ha nem fizeti meg, a szolgáltató felfüggesztheti a szolgáltatást; ehhez a szerződés jogot ad neki.
@@ -472,6 +524,8 @@ Szabály: Ne szakítsa meg a mondatot zárójeles vagy gondolatjeles közbeveté
 
 Miért segít: A közbevetés kettévágja a mondatot: az olvasónak meg kell jegyeznie az első felét, amíg a betoldást olvassa. Az egymásba ágyazott zárójelek ezt többszörözik.
 
+Ellenőrző kérdés: Egyetlen mondatot sem szakít meg zárójeles vagy gondolatjeles közbevetés vagy jogszabályi utalás?
+
 - Rossz: Az érintett (a GDPR 4. cikk 1. pontja szerinti azonosított vagy azonosítható természetes személy (a továbbiakban: érintett)) kérheti adatai törlését.
 - Jó: Kérheti, hogy töröljük az adatait. Érintett az, akinek a személyes adatait kezeljük (GDPR 4. cikk 1. pont).
 
@@ -486,6 +540,8 @@ Források: [Balogh 2023, 186–187. o.](forrasok.md#balogh-2023-014); [NAV 2024b
 Szabály: Tedd előre a mondat lényeges részét; a magyarban a hangsúlyos elem az ige elé kerül, ezért figyeld, mit emel ki a választott szórend.
 
 Miért segít: Ugyanazok a szavak más szórendben mást hangsúlyoznak, néha mást is jelentenek. A rossz szórend a lényeget a mondat végére dugja.
+
+Ellenőrző kérdés: A mondatok lényeges része elöl áll, és a szórend azt emeli ki, amit ki akarsz emelni?
 
 - Rossz: A szerződés megkötésétől számított 14 napon belül indoklás nélkül, a szolgáltatónak küldött nyilatkozattal elállhat.
 - Jó: Elállhat a szerződéstől 14 napon belül, indoklás nélkül. Ehhez küldjön nyilatkozatot a szolgáltatónak.
@@ -502,6 +558,8 @@ Szabály: Amit lehet, állító mondatban fogalmazz meg; a tagadást akkor haszn
 
 Miért segít: A tagadó mondat megértéséhez az olvasónak előbb el kell képzelnie az állítást, majd meg kell fordítania.
 
+Ellenőrző kérdés: Ami állítóan is megfogalmazható, az állító mondatban áll?
+
 - Rossz: Nem fogadható el a kérelem, ha nem tartalmazza az aláírást.
 - Jó: A kérelmet aláírva fogadjuk el.
 
@@ -516,6 +574,8 @@ Források: [Európai Bizottság 2013, 7. o.](forrasok.md#eu-pontos-fogalmazas-20
 Szabály: A mondatok és bekezdések kapcsolatát (ok, következmény, ellentét) mondd ki kötőszóval, de azonos értelmű kötőszót ne halmozz.
 
 Miért segít: A kötőszó mutatja meg, hogyan függ össze két állítás. Ha hiányzik, az olvasónak kell kitalálnia; ha halmozódik („de viszont”), zavaró.
+
+Ellenőrző kérdés: Kiderül a mondatok kapcsolata (ok, következmény, ellentét), és nincs halmozott kötőszó?
 
 - Rossz: A határidő lejárt. Az ügyet lezártuk. De viszont kérheti az igazolást.
 - Jó: A határidő lejárt, ezért az ügyet lezártuk. Igazolási kérelmet azonban beadhat.
@@ -532,6 +592,8 @@ Szabály: Kerüld az idegen nyelvből átvett mondatszerkezeteket; a kiemelésre
 
 Miért segít: A tükörfordított szerkezet idegenül hat, és lassítja az olvasást, mert az olvasó nem a megszokott magyar mintát kapja.
 
+Ellenőrző kérdés: A mondatok magyar szerkezetűek, nincs bennük idegen mintára épült fordulat?
+
 - Rossz: Ami az ügyben igazán fontos, az az, hogy a határidőt betartsa.
 - Jó: Az ügyben a határidő betartása a legfontosabb.
 
@@ -546,6 +608,8 @@ Források: [Európai Bizottság 2013, 7. o.](forrasok.md#eu-pontos-fogalmazas-20
 Szabály: Jogi szövegben a felsorolásnál mondd ki egyértelműen, hogy az elemek közül mindnek, egynek sem, pontosan egynek vagy legalább egynek kell teljesülnie.
 
 Miért segít: A felsorolás végén álló „és” vagy „vagy” könnyen elsikkad, és a joghatás attól függ, melyik kapcsolat érvényes.
+
+Ellenőrző kérdés: Jogi felsorolásnál kiderül, hogy az elemek közül mindnek, egynek vagy legalább egynek kell teljesülnie?
 
 - Rossz: Jogosult az, aki
 a) a településen lakik,
@@ -573,6 +637,8 @@ Szabály: Azt a szót használd, amelyet az olvasó maga is használna; a mester
 
 Miért segít: A nem bennfentes olvasó a szakszó mögötti fogalomrendszert nem ismeri, ezért a mesterkélt szó megakasztja. A bevett köznyelvi szót elsőre érti.
 
+Ellenőrző kérdés: Azokat a szavakat használja a szöveg, amelyeket az olvasó maga is használna?
+
 - Rossz: A behajtásra jogosító dokumentum a gépjármű szélvédője mögött jól látható módon elhelyezendő.
 - Jó: A behajtási engedélyt tegye ki a szélvédő mögé, jól láthatóan.
 
@@ -592,6 +658,8 @@ Szabály: Ha szakszót kell használnod, magyarázd meg az első előfordulásá
 
 Miért segít: A szakszó sokszor nem cserélhető le (jogi következménye van), de az olvasó csak akkor tud vele mit kezdeni, ha tudja, mit jelent.
 
+Ellenőrző kérdés: Minden szakszó meg van magyarázva az első előfordulásnál?
+
 - Rossz: Az ingatlanra jelzálogjog került bejegyzésre.
 - Jó: Az ingatlanra jelzálogjogot jegyeztek be. Ez azt jelenti, hogy ha a tartozást nem fizetik meg, a hitelező az ingatlan eladásából kaphatja meg a pénzét.
 
@@ -607,6 +675,8 @@ Szabály: Ha egy köznyelvi szót szaknyelvi jelentésben használnál, és az o
 
 Miért segít: A köznyelvi szó ismerősnek tűnik, ezért az olvasó nem kérdez vissza, hanem félreérti. Ez rosszabb, mint az ismeretlen szó.
 
+Ellenőrző kérdés: Nincs olyan köznyelvi szó, amelyet az olvasó más jelentésben értene, mint ahogy a szöveg használja?
+
 - Rossz: A biztosító szolgáltatási kötelezettsége nem áll be, ha a kárt szándékosan okozták.
 - Jó: A biztosító nem fizet, ha a kárt szándékosan okozták.
 
@@ -621,6 +691,8 @@ Források: [Horváth 2021, 104. o.](forrasok.md#horvath-2021-005).
 Szabály: Az olvasó által ismertebb szót válaszd: a meg nem honosodott idegen szó helyett a magyart, a ritka vagy régies magyar szó helyett az ismert idegent; vigyázz a hamis barátokra.
 
 Miért segít: Az érthetőséget nem a szó eredete dönti el, hanem az, hogy az olvasó ismeri-e. A hamis barát (például az angol actual mintájára használt aktuális) félrevezet.
+
+Ellenőrző kérdés: Mindenhol az olvasó által ismertebb szó áll, és nincs hamis barát?
 
 - Rossz: A helpdesk a ticket lezárásáról e-mailben küld visszaigazolást.
 - Jó: Az ügyfélszolgálat e-mailben értesíti, ha lezárta a bejelentését.
@@ -640,6 +712,8 @@ Források: [Európai Bizottság 2013, 11. o.](forrasok.md#eu-pontos-fogalmazas-2
 Szabály: Ugyanazt a fogalmat a szöveg minden pontján ugyanazzal a szóval nevezd meg; stílusból ne cserélgesd szinonimákra.
 
 Miért segít: Ha a szöveg váltogatja a szót (kérelem, beadvány, folyamodvány), az olvasó joggal hiszi, hogy több különböző dologról van szó.
+
+Ellenőrző kérdés: Ugyanazt a fogalmat végig ugyanaz a szó jelöli?
 
 - Rossz: A kérelmet 30 napon belül bíráljuk el. A beadvány elbírálásáról levélben értesítjük. A folyamodványhoz csatolt iratokat visszaküldjük.
 - Jó: A kérelmet 30 napon belül bíráljuk el. A döntésről levélben értesítjük. A kérelemhez csatolt iratokat visszaküldjük.
@@ -662,6 +736,8 @@ Szabály: Egy szót a szövegen belül csak egy jelentésben használj; ha két 
 
 Miért segít: Ha ugyanaz a szó két dologra vonatkozik (például a kérelemre és a határidő-módosítási kérelemre), az olvasó nem tudja, melyikről szól a következő mondat.
 
+Ellenőrző kérdés: Minden szó egyetlen jelentésben szerepel a szövegben?
+
 - Rossz: A kérelmét keddig adhatja be. A határidő módosítását is kérelmezheti. A kérelmet a hivatalban adja le.
 - Jó: A támogatási kérelmét keddig adhatja be. Ha ez nem sikerül, kérhet határidő-hosszabbítást. A támogatási kérelmet a hivatalban adja le.
 
@@ -681,6 +757,8 @@ Szabály: Hagyd el a jelentés nélküli fordulatokat, a felesleges jelzőket, a
 
 Miért segít: A felesleges szó hosszabbá teszi az utat a lényegig, és elrejti azt, ami valóban új. A „Tájékoztatjuk, hogy” után az olvasó még mindig nem tudja, miről van szó.
 
+Ellenőrző kérdés: Kimaradtak a jelentés nélküli fordulatok, a felesleges jelzők és a magától értetődő közlések?
+
 - Rossz: Tájékoztatjuk, hogy a jelen levelünkben foglaltak szerint a benyújtott kérelmét a hivatalos honlapunkon közzétett feltételek alapján megvizsgáltuk.
 - Jó: Megvizsgáltuk a kérelmét a honlapunkon közzétett feltételek szerint.
 
@@ -695,6 +773,8 @@ Források: [Európai Bizottság 2013, 5. o.](forrasok.md#eu-pontos-fogalmazas-20
 Szabály: A körülményes kötőszó vagy szerkezet helyett használd az egyszerűbbet: „amennyiben” helyett „ha”, „tekintettel arra, hogy” helyett „mivel”.
 
 Miért segít: Az egyszerű szó ugyanazt jelenti, csak gyorsabban olvasható; a szakszerűségből semmit nem vesz el.
+
+Ellenőrző kérdés: A körülményes kötőszók és szerkezetek helyén az egyszerűbb áll („ha”, „mivel”)?
 
 - Rossz: Amennyiben a díjat nem fizeti meg, tekintettel arra, hogy a szerződés ezt lehetővé teszi, a szolgáltatást felfüggesztjük.
 - Jó: Ha nem fizeti meg a díjat, felfüggesztjük a szolgáltatást. Ezt a szerződés lehetővé teszi.
@@ -711,6 +791,8 @@ Szabály: Ha az ige igekötő nélkül is teljes jelentésű, hagyd el az igekö
 
 Miért segít: A felesleges igekötő szószaporítás, és hivatali ízt ad a szövegnek.
 
+Ellenőrző kérdés: Nincs felesleges igekötő?
+
 - Rossz: Leellenőriztük és beazonosítottuk a befizetést.
 - Jó: Ellenőriztük és azonosítottuk a befizetést.
 
@@ -726,6 +808,8 @@ Szabály: Ahol rag is elég, ne használj névutót vagy hosszabb szerkezetet (a
 
 Miért segít: A rag rövidebb, és ugyanazt jelenti; a névutók halmozása elnehezíti a mondatot.
 
+Ellenőrző kérdés: Ahol rag is elég, ott nincs névutó vagy hosszabb szerkezet?
+
 - Rossz: A beadvány benyújtása során e-mail útján küldje meg a hivatal felé a meghatalmazást.
 - Jó: Amikor beadja a kérelmet, e-mailben küldje el nekünk a meghatalmazást.
 
@@ -740,6 +824,8 @@ Források: [Európai Bizottság 2013, 10. o.](forrasok.md#eu-pontos-fogalmazas-2
 Szabály: Ha az olvasó lehetőségét írod le, a „lehetőség van valamire” helyett használd a „lehet” vagy a -hat/-het alakot.
 
 Miért segít: A rövidebb forma a lényegi elemeket közel hozza egymáshoz, és megmondja, ki teheti meg.
+
+Ellenőrző kérdés: A lehetőséget „lehet” vagy -hat/-het fejezi ki, nem „lehetőség van”?
 
 - Rossz: Lehetőség van a kérelem elektronikus úton történő benyújtására.
 - Jó: A kérelmet elektronikusan is beadhatja.
@@ -757,6 +843,8 @@ Ha a források eltérnek: A NAV példatára a -hat/-het képzőt ajánlja a lehe
 Szabály: A ritkán előforduló kifejezést írd ki; a gyakran ismétlődő hosszú nevet az első előfordulásnál írd ki, zárójelben add meg a rövidítését vagy rövid megjelölését, és utána végig azt használd.
 
 Miért segít: Az ismeretlen rövidítés megállítja az olvasót, a hosszú név ismételgetése pedig elnehezíti a szöveget. Az első előfordulásnál bevezetett rövidítés mindkettőt megoldja.
+
+Ellenőrző kérdés: A rövidítések az első előfordulásnál ki vannak írva, és utána végig ugyanaz a rövid alak áll?
 
 - Rossz: A KKEP keretében nyújtott támogatás feltételeit a KKEP-ÚT tartalmazza. (Mindkét rövidítés feloldás nélkül.)
 - Jó: A Kis- és Középvállalkozói Energiaprogram (a továbbiakban: energiaprogram) feltételeit az útmutató tartalmazza. Az energiaprogramba március 31-ig lehet jelentkezni.
@@ -778,6 +866,8 @@ Szabály: Az elvont, homályos vagy divatos kifejezés helyett válaszd a konkr�
 
 Miért segít: Az elvont szóból az olvasó nem tudja meg, mi történik vele. A konkrét szó pontosabb, és ellenőrizhető állítást tesz.
 
+Ellenőrző kérdés: Az elvont és divatos kifejezések helyén konkrét szó áll?
+
 - Rossz: Negatív tendencia figyelhető meg a foglalkoztatási lehetőségek terén.
 - Jó: Kevesebb az álláshely.
 
@@ -792,6 +882,8 @@ Források: [Európai Bizottság 2013, 9. o.](forrasok.md#eu-pontos-fogalmazas-20
 Szabály: Ha azt írod le, mit tesz a szöveg kiadója (például hogyan kezeli az adatokat), kerüld a ható igét és a határozatlan szavakat (néhány, gyakran, lehetséges); ha mégis kell, indokold.
 
 Miért segít: A „felhasználhatjuk” vagy a „néhány esetben” után az olvasó nem tudja, mi történik ténylegesen, így nem tud dönteni.
+
+Ellenőrző kérdés: A kiadó saját tevékenységéről szóló részekben nincs indokolatlan ható ige és határozatlan szó?
 
 - Rossz: Adatait esetenként harmadik félnek is átadhatjuk.
 - Jó: A szállítási címét átadjuk a futárszolgálatnak, hogy kézbesítse a csomagot. Más harmadik félnek nem adjuk át.
@@ -812,6 +904,8 @@ Szabály: Az -ás/-és képzős főnévvel kifejezett cselekvést, különösen 
 
 Miért segít: Az igéből képzett főnév elrejti, ki cselekszik és mikor. Az igés mondat rövidebb, és kiderül belőle a cselekvő.
 
+Ellenőrző kérdés: A cselekvéseket ige fejezi ki, nem főnévvé tett ige („által”, „történő”, „való” mellett sem)?
+
 - Rossz: A szerződés a megrendelésnek a szolgáltató által történő visszaigazolásával jön létre.
 - Jó: A szerződés akkor jön létre, amikor a szolgáltató visszaigazolja a megrendelést.
 
@@ -826,6 +920,8 @@ Források: [Balogh 2023, 181. o.](forrasok.md#balogh-2023-006); [Európai Bizott
 Szabály: Az „-ásra/-ésre kerül” szerkezet helyett nevezd meg a cselekvőt, vagy használj általános alanyt, visszaható vagy más igét.
 
 Miért segít: A „kerül” elvont használatban tartalmatlan ige: a cselekvés magától történik meg, a felelős eltűnik.
+
+Ellenőrző kérdés: Nincs „-ásra/-ésre kerül” szerkezet?
 
 - Rossz: A határozat a kérelmező részére postai úton megküldésre kerül.
 - Jó: A határozatot postán elküldjük Önnek.
@@ -846,6 +942,8 @@ Szabály: A szenvedő szerkezet (el lett intézve), az igenévi állítmány (a 
 
 Miért segít: Ha nem derül ki, ki cselekszik, az olvasó nem tudja, kinek mi a dolga. Az alany nélküli mondat ködösítésnek is hathat.
 
+Ellenőrző kérdés: Kiderül, ki cselekszik, és nincs szenvedő vagy személytelen szerkezet ott, ahol a cselekvő ismert?
+
 - Rossz: A hiba ki lett javítva, a számla újra lett küldve.
 - Jó: Kijavítottuk a hibát, és újra elküldtük a számlát.
 
@@ -865,6 +963,8 @@ Szabály: A főnévből és tartalmatlan igéből álló terpeszkedő szerkezet 
 
 Miért segít: A terpeszkedő szerkezet nem ad hozzá információt, csak hosszabb és hivatalosabb lesz tőle a mondat.
 
+Ellenőrző kérdés: Nincs terpeszkedő szerkezet („döntést hoz” a „dönt” helyett)?
+
 - Rossz: A bizottság a pályázatokról döntést hoz, és a nyertesek részére a támogatás kifizetéséről intézkedik.
 - Jó: A bizottság dönt a pályázatokról, és kifizeti a támogatást a nyerteseknek.
 
@@ -880,6 +980,8 @@ Szabály: Ne használj kettős tagadást, a bújtatottat sem (nem + tagadó jele
 
 Miért segít: A kettős tagadást az olvasónak kétszer kell megfordítania, és könnyen az ellenkezőjét érti.
 
+Ellenőrző kérdés: Nincs kettős tagadás, rejtett formában sem?
+
 - Rossz: A kérelem nem bírálható el a jövedelemigazolás csatolása nélkül, kivéve, ha nem kötelező csatolni.
 - Jó: A kérelemhez csatolja a jövedelemigazolást. Ha nincs jövedelme, ezt elég nyilatkozatban jeleznie.
 
@@ -894,6 +996,8 @@ Források: [Horváth 2021, 109. o.](forrasok.md#horvath-2021-021); [Horváth 202
 Szabály: Jogi szövegben az „illetve” helyett írd ki az egyértelmű kapcsolatot (és, vagy, valamint), az „illetőleg” és az „és/vagy” alakot ne használd.
 
 Miért segít: Az „illetve” jelentheti az „és”-t és a „vagy”-ot is; jogi szövegben ebből vita lesz. A jogszabályszerkesztési rendelet a jogszabálytervezetben ezért korlátozza vagy tiltja ezeket.
+
+Ellenőrző kérdés: Jogi szövegben az „illetve” helyén egyértelmű kötőszó áll, és nincs „illetőleg” vagy „és/vagy”?
 
 - Rossz: A kérelmet a bérlő, illetve a tulajdonos nyújthatja be.
 - Jó: A kérelmet a bérlő vagy a tulajdonos nyújthatja be.
@@ -919,6 +1023,8 @@ Szabály: Szólítsd meg az olvasót közvetlenül (alapértelmezés szerint mag
 
 Miért segít: A megszólításból az olvasó rögtön tudja, mikor van szó róla és mikor másról. A harmadik személy távolságot tart, és nem derül ki belőle, hogy az olvasó az érintett.
 
+Ellenőrző kérdés: A szöveg közvetlenül az olvasóhoz szól, és a kiadóról többes szám első személyben ír?
+
 - Rossz: Az igénylő a támogatásra akkor jogosult, ha az igénylő háztartásában az egy főre jutó jövedelem nem haladja meg a meghatározott összeget.
 - Jó: Ön akkor kaphat támogatást, ha a háztartásában az egy főre jutó jövedelem legfeljebb havi 150 000 forint.
 
@@ -939,6 +1045,8 @@ Szabály: Ugyanazt a megszólítást használd a szöveg elejétől a végéig (
 
 Miért segít: Ha a szöveg váltogat (Ön, az adózó, Önök), az olvasó nem tudja biztosan, mikor szól neki és mikor másnak.
 
+Ellenőrző kérdés: Végig ugyanaz a megszólítás és ugyanaz a megnevezés a kiadóra?
+
 - Rossz: Kérjük, nyújtsa be a nyilatkozatot. Az adózó a nyilatkozatot 15 napon belül köteles benyújtani. Amennyiben Önök késve nyújtják be...
 - Jó: Kérjük, 15 napon belül küldje el a nyilatkozatot. Ha később küldi el, ...
 
@@ -955,6 +1063,8 @@ Ha a források eltérnek: A Világos Beszéd kisokosa nagybetűs „Ön” megsz
 Szabály: Írj udvariasan és partnerként: köszönd meg a megkeresést, mondd ki, ha sajnálod, hogy nem tudsz segíteni, és hagyd el a merev hivatali fordulatokat.
 
 Miért segít: Az olvasó a hangnemből is érzi, hogyan kezelik. A merev formula távolságot tart, és nem ad hozzá semmit a tartalomhoz.
+
+Ellenőrző kérdés: Udvarias és partneri a hang, merev hivatali fordulatok nélkül?
 
 - Rossz: Kérjük tájékoztatásunk szíves tudomásulvételét.
 - Jó: Köszönjük, hogy megkeresett minket. Sajnáljuk, hogy ebben az ügyben nem tudunk segíteni.
@@ -975,6 +1085,8 @@ Szabály: Emeld ki az alcímeket nagyobb és félkövér betűvel, és hagyj el�
 
 Miért segít: A kiemelt alcímekből az olvasó egy pillantással átlátja a szöveg szerkezetét.
 
+Ellenőrző kérdés: Az alcímek nagyobb, félkövér betűvel látszanak, és előttük több hely van?
+
 - Rossz: Az alcím ugyanakkora, normál vastagságú betűvel áll, mint a törzsszöveg, közvetlenül az előző bekezdés alatt.
 - Jó: Az alcím két ponttal nagyobb, félkövér, és üres sor választja el az előző blokktól.
 
@@ -989,6 +1101,8 @@ Források: [Világos Beszéd kézikönyv 2025, 29. o.](forrasok.md#vilagos-besze
 Szabály: Félkövérrel csak a lényeget emeld ki; a kiemelés legyen rövid, magában is érthető, kevés, és a hasonló elemeket mindig ugyanúgy jelöld.
 
 Miért segít: A kiemelés akkor működik, ha ritka. Ha minden második szó félkövér, semmi nem emelkedik ki.
+
+Ellenőrző kérdés: Kevés, rövid és önmagában is érthető a kiemelés?
 
 - Rossz: **Kérjük**, hogy a **nyilatkozatot** a **határidőn belül** **aláírva** küldje vissza **postán vagy elektronikusan**.
 - Jó: Kérjük, küldje vissza a nyilatkozatot aláírva **2026. június 15-ig**.
@@ -1005,6 +1119,8 @@ Szabály: Az íráskép legyen szellős és következetes: egységes betűtípus
 
 Miért segít: Az olvasó már a külalak alapján eldönti, követhető-e a szöveg. A zsúfolt vagy következetlen oldal elveszi a kedvét az olvasástól.
 
+Ellenőrző kérdés: Szellős és egységes az íráskép (betű, sorköz, térköz, behúzás)?
+
 - Rossz: Háromféle betűtípus egy oldalon, eltérő sorközzel, a bekezdések között üres sor nélkül.
 - Jó: Egy betűtípus, egységes sorköz, a bekezdések között térköz, a címsorok nagyobb méretűek.
 
@@ -1020,6 +1136,8 @@ Szabály: Listát legfeljebb három szintig bonts; ha ennél mélyebb tagolás k
 
 Miért segít: A sokszintű lista elveszíti az áttekinthetőségét: az olvasó nem tudja követni, melyik elem melyiknek az alpontja.
 
+Ellenőrző kérdés: A listák legfeljebb három szintűek?
+
 - Rossz: 1. → a) → aa) → i. → – (öt szint egymás alatt)
 - Jó: Két listaszint, a harmadik szint helyett külön alcím a hozzá tartozó tételekkel.
 
@@ -1034,6 +1152,8 @@ Források: [NAV 2024b, 13. o.](forrasok.md#nav-ertheto-hivatal-2-016).
 Szabály: Válassz jól olvasható betűméretet, idős célközönségnek nagyobbat.
 
 Miért segít: A túl kicsi betű nem csak kényelmetlen: aki rosszul lát, vagy nincs kéznél a szemüvege, nem tudja elolvasni a szöveget.
+
+Ellenőrző kérdés: Jól olvasható a betűméret, idős olvasónak nagyobb?
 
 - Rossz: Nyugdíjasoknak szóló tájékoztató 8 pontos betűvel.
 - Jó: Nyugdíjasoknak szóló tájékoztató 13–14 pontos betűvel.
@@ -1058,6 +1178,8 @@ Szabály: A nehéz helyesírású szakkifejezéseket ellenőrizd helyesírási s
 
 Miért segít: A helyesírási hiba rontja a szöveg hitelét, és összetett szavaknál jelentést is változtathat.
 
+Ellenőrző kérdés: A nehéz helyesírású szakkifejezéseket szótárban ellenőrizted?
+
 - Rossz: Az SZJA bevallás és az ÁFA visszatérítés határideje...
 - Jó: Az szja-bevallás és az áfa-visszatérítés határideje...
 
@@ -1073,6 +1195,8 @@ Szabály: A dátumot egységes alakban írd (2026. április 4.), az „év”, �
 
 Miért segít: A felesleges szavakkal megtoldott dátum nehezen olvasható, a vegyes formák pedig zavart keltenek.
 
+Ellenőrző kérdés: A dátumok egységes alakban állnak (2026. április 4.)?
+
 - Rossz: 2026. év április hónap 4. napján
 - Jó: 2026. április 4-én
 
@@ -1087,6 +1211,8 @@ Források: [NAV 2024b, 52–53. o.](forrasok.md#nav-ertheto-hivatal-2-073).
 Szabály: Egy szövegegységen belül a számokat egységesen írd (betűvel vagy számjeggyel); az öt- vagy többjegyű számokat hátulról hármasával tagold, nem törő szóközzel.
 
 Miért segít: A következetlen számírás megakasztja az olvasót, a tagolatlan nagy szám pedig nehezen olvasható ki.
+
+Ellenőrző kérdés: A számok írása egységes, és a nagy számok hármasával tagoltak?
 
 - Rossz: A kerület 3 iskolájában tizenkétezer-ötszáz tanuló és 12500 szülő...
 - Jó: A kerület 3 iskolájában 12 500 tanuló...
@@ -1107,6 +1233,8 @@ Szabály: Folyó szövegben a pénznemet írd ki (forint, euró), a rövidítés
 
 Miért segít: A kiírt pénznem folyó szövegben gördülékenyebben olvasható; táblázatban a rövidítés helyet takarít meg.
 
+Ellenőrző kérdés: Folyó szövegben ki van írva a pénznem?
+
 - Rossz: A díj 12345,-Ft.
 - Jó: A díj 12 345 forint.
 
@@ -1121,6 +1249,8 @@ Források: [NAV 2024b, 54–55. o.](forrasok.md#nav-ertheto-hivatal-2-074).
 Szabály: A mértékegység jele előtt szóköz áll, utána nincs pont; a százalékjel a számhoz tapad; elvont dolgok számánál ne írj „db”-ot.
 
 Miért segít: A mértékegységek írását szabvány határozza meg; a következetes írás könnyebben olvasható.
+
+Ellenőrző kérdés: A mértékegység és a százalékjel írása szabályos?
 
 - Rossz: 120km., 35 %, 12 db határozat
 - Jó: 120 km, 35%, 12 határozat
@@ -1137,6 +1267,8 @@ Szabály: A kötőjelet szavak összekapcsolására, a gondolatjelet szóközök
 
 Miért segít: A három jel különböző viszonyt jelöl; ha összekeverednek, a szerkezet nehezebben olvasható ki.
 
+Ellenőrző kérdés: A kötőjel, a gondolatjel és a nagykötőjel a helyén van?
+
 - Rossz: a 2025-2026-os időszakban, Budapest-Bécs járat
 - Jó: a 2025–2026-os időszakban, Budapest–Bécs járat
 
@@ -1152,6 +1284,8 @@ Szabály: Az „illetve”, „valamint”, „továbbá” elé tegyél vessző
 
 Miért segít: Az „és” előtti vessző a jelentést is megváltoztathatja: eldönti, hogy két cselekvés közös-e.
 
+Ellenőrző kérdés: Megvan a vessző az „illetve”, a tagmondatot bevezető „és” és a hasonlító „mint” előtt?
+
 - Rossz: Postán illetve elektronikusan küldheti el.
 - Jó: Postán, illetve elektronikusan küldheti el.
 
@@ -1166,6 +1300,8 @@ Források: [NAV 2024b, 45. o.](forrasok.md#nav-ertheto-hivatal-2-068); [NAV 2024
 Szabály: A felszólító mondat végére tegyél felkiáltójelet; ez helyesírási szabály, nem udvariatlanság.
 
 Miért segít: A felkiáltójel jelzi, hogy a mondat teendőt ad, nem tájékoztat. Sok egymást követő felszólításnál (útmutatóban) megengedőbb a szabály.
+
+Ellenőrző kérdés: A felszólító mondatok végén felkiáltójel áll?
 
 - Rossz: Kérjük, küldje el a nyilatkozatot.
 - Jó: Kérjük, küldje el a nyilatkozatot!
@@ -1190,6 +1326,8 @@ Szabály: Ha az információ összehasonlító, számszerű vagy folyamatot ír 
 
 Miért segít: Az egymás mellé tett számokat és lépéseket táblázatban gyorsabban átlátja az olvasó, mint folyó szövegben.
 
+Ellenőrző kérdés: Ahol táblázat, ábra vagy ikon világosabb volna, ott az áll?
+
 - Rossz: Hárommondatos bekezdés, amely öt díjtételt sorol fel feltételekkel.
 - Jó: Kétoszlopos táblázat: díjtétel és feltétel.
 
@@ -1204,6 +1342,8 @@ Források: [Európai Bizottság 2013, 5. o.](forrasok.md#eu-pontos-fogalmazas-20
 Szabály: A táblázat és az ábra címe legyen rövid és informatív, a címek kövessenek hasonló szerkezetet; az „alakulása”, „tevékenység” szó általában elhagyható.
 
 Miért segít: A cím mondja meg, mit lát az olvasó; a felesleges szó csak hosszabbá teszi.
+
+Ellenőrző kérdés: A táblázatok és ábrák címe rövid, informatív és egységes szerkezetű?
 
 - Rossz: A beérkezett kérelmek számának alakulása a 2025. évben
 - Jó: Beérkezett kérelmek, 2025
@@ -1220,6 +1360,8 @@ Szabály: Táblázatban is egységes legyen a dátum, a rövidítés és a kezd�
 
 Miért segít: A táblázatot az olvasó soronként hasonlítja össze; a következetlen forma ezt nehezíti, a magyarázat nélküli részadat félrevezet.
 
+Ellenőrző kérdés: A táblázatban egységes a dátum, a rövidítés és a kezdőbetű, és a magyarázatra szoruló adat meg van magyarázva?
+
 - Rossz: 2025. év | 2025. március hónap | 2025.03.6
 - Jó: 2025 | március | március 6.*  (* Március 6-ig beérkezett adatok.)
 
@@ -1234,6 +1376,8 @@ Források: [NAV 2024b, 59. o.](forrasok.md#nav-ertheto-hivatal-2-077); [NAV 2024
 Szabály: A diagram formája illeszkedjen az adatokhoz, a számok legyenek jól olvashatók, a diagram ne legyen zsúfolt, és a háttér ne nyomja el az adatokat.
 
 Miért segít: A rosszul választott diagram (például túl sok szeletre bontott kör) vagy a sötét háttér láthatatlanná teszi azt, amit meg kellene mutatnia.
+
+Ellenőrző kérdés: A diagram illeszkedik az adatokhoz, és könnyen olvasható?
 
 - Rossz: Tizennégy szeletre bontott kördiagram, sötétkék háttéren, apró számokkal.
 - Jó: Sávdiagram a négy legnagyobb tétellel, a többi „egyéb” néven összevonva, világos háttéren.
@@ -1254,6 +1398,8 @@ Szabály: Nyomtatványon csak azt az adatot kérd be, amelyre feltétlenül szü
 
 Miért segít: Minden plusz mező csökkenti azok számát, akik sikeresen kitöltik a nyomtatványt.
 
+Ellenőrző kérdés: A nyomtatvány csak a feltétlenül szükséges adatot kéri?
+
 - Rossz: Csatolt igazolás + külön mezők: az igazolás száma, kelte, a kiállító szerv neve és címe.
 - Jó: Csatolt igazolás, további mező nélkül.
 
@@ -1268,6 +1414,8 @@ Források: [Világos Beszéd kézikönyv 2025, 34. o.](forrasok.md#vilagos-besze
 Szabály: Jelöld egyértelműen, melyik mező és csatolmány kötelező, és melyik milyen esetben; ha minden kötelező, ezt nem kell külön jelölni.
 
 Miért segít: Az olvasó nem tudhatja, mi vonatkozik rá; ha neki kell kitalálnia, hibázik vagy időt veszít.
+
+Ellenőrző kérdés: Egyértelmű, melyik mező és csatolmány kötelező, és milyen esetben?
 
 - Rossz: Csatolandó: munkáltatói igazolás, vállalkozói igazolvány másolata.
 - Jó: Csatolja: munkáltatói igazolást, ha alkalmazott; vállalkozói igazolvány másolatát, ha egyéni vállalkozó.
@@ -1284,6 +1432,8 @@ Szabály: A bonyolultabb mezőnél adj segítséget: mondd meg, hol találja az 
 
 Miért segít: A segítség ott hasznos, ahol a kérdés felmerül; a mező tagolása (például ________-_-__) már magában megmutatja, milyen adat jön.
 
+Ellenőrző kérdés: A bonyolultabb mezőknél van kitöltési segítség?
+
 - Rossz: Felhasználási hely azonosítója: ______________
 - Jó: Felhasználási hely azonosítója (a számla első oldalán, a „Felhasználási hely” után, H betűvel kezdődik): H _ _ _ _ _ _ _ _
 
@@ -1298,6 +1448,8 @@ Források: [Világos Beszéd kézikönyv 2025, 35. o.](forrasok.md#vilagos-besze
 Szabály: Ha kevés, rövid válasz lehetséges, adj ikszelhető válaszlehetőségeket szabad szöveges mező helyett.
 
 Miért segít: Az olvasónak könnyebb választani, mint fogalmazni, a kitöltő pedig egységes, feldolgozható válaszokat kap.
+
+Ellenőrző kérdés: Ahol kevés a lehetséges válasz, ott ikszelhető választás van?
 
 - Rossz: Lakhatás jellege: ____________________
 - Jó: Lakhatás jellege: ☐ saját tulajdon ☐ bérlemény ☐ egyéb
@@ -1314,6 +1466,8 @@ Szabály: Mérlegeld, hogy a nyomtatvány végére tegyél gyakran ismételt ké
 
 Miért segít: A kitöltés közben felmerülő kérdésekre így az olvasó helyben választ kap, és nem kell telefonálnia.
 
+Ellenőrző kérdés: Megfontoltad, kell-e gyakori kérdések rész a nyomtatvány végére?
+
 - Rossz: A nyomtatvány a kitöltési mezőkkel véget ér.
 - Jó: A nyomtatvány végén: Hogyan adhatom be? Mennyi idő alatt döntenek? Mit tegyek, ha elírtam valamit?
 
@@ -1328,6 +1482,8 @@ Források: [Világos Beszéd kézikönyv 2025, 36. o.](forrasok.md#vilagos-besze
 Szabály: A nyomtatvány legyen szellős: elég hely a kézi kitöltéshez, üres tér a logikai egységek között, és elkülönülő szövegdoboz a fontos magyarázatoknak.
 
 Miért segít: A nyomtatványnál a közérthetőség előbbre való a tömörségnél: a zsúfolt űrlapot nehéz helyesen kitölteni.
+
+Ellenőrző kérdés: A nyomtatványon van elég hely a kitöltéshez, és szellős az elrendezés?
 
 - Rossz: Egy oldalra zsúfolt 40 mező, 4 milliméteres sorokkal.
 - Jó: Két oldal, csoportosított mezők alcímekkel, a fontos figyelmeztetés keretes dobozban.
@@ -1348,6 +1504,8 @@ Szabály: Írj lépésenként: olvasó és cél, vázlat (a tartalmi pontok list
 
 Miért segít: Ha a tartalom és a felépítés előbb dől el, mint a megfogalmazás, nem kell a kész mondatokat szétszedni ahhoz, hogy átrendezd a szöveget.
 
+Ellenőrző kérdés: Végigmentél az írás lépésein: olvasó és cél, vázlat, megfogalmazás, formázás, ellenőrzés?
+
 - Rossz: A szerző az első mondattal kezdi, és írás közben dönti el, mi kerül bele.
 - Jó: A szerző előbb felírja a hét pontot, kihúz kettőt, a maradékot sorba rendezi, és csak utána fogalmaz.
 
@@ -1363,6 +1521,8 @@ Szabály: Mielőtt kiadod a szöveget, ellenőrizd ellenőrző listával, és ol
 
 Miért segít: A mechanikus ellenőrzés kiszűri azt, ami írás közben elsikkad; a felolvasás megmutatja a túl hosszú és döccenő mondatokat.
 
+Ellenőrző kérdés: Ellenőrizted a szöveget ellenőrző listával, és felolvastad hangosan?
+
 - Rossz: A szöveg megírás után azonnal kimegy.
 - Jó: A szöveg végigmegy a lista pontjain (a fő üzenet elöl, a teendő egyértelmű, nincs 4–5 soros mondat, a jogszabályhely a végén), és a szerző felolvassa.
 
@@ -1377,6 +1537,8 @@ Források: [Európai Bizottság 2013, 14. o.](forrasok.md#eu-pontos-fogalmazas-2
 Szabály: Fontos szövegnél próbáld ki a célcsoporttal vagy legalább egy kívülálló olvasóval: olvassa el, és mondja el saját szavaival, mit értett belőle, mit tenne.
 
 Miért segít: Hogy egy szó vagy mondat érthető-e, nyelvészetileg nem dönthető el: csak az olvasó reakciója mutatja meg.
+
+Ellenőrző kérdés: Fontos szövegnél kipróbáltad legalább egy kívülálló olvasóval?
 
 - Rossz: A szöveget csak a szerző és a jogász nézi át, akik mindketten ismerik a témát.
 - Jó: Hat ügyfél elolvassa a levelet, és elmondja, mit tenne utána; ketten félreértik a határidőt, ezért a szerző átírja azt a mondatot.
@@ -1397,6 +1559,8 @@ Szabály: Az átírás után a szakterület ellenőrizze, hogy a szakmai és jog
 
 Miért segít: A közérthetőség nem mehet a pontosság rovására. A hűségellenőrzés teszi biztonságossá az egyszerűsítést.
 
+Ellenőrző kérdés: A szakterület ellenőrizte, hogy az átírás után minden tény, szám, határidő, feltétel és kivétel megvan?
+
 - Rossz: Az átírt változat kimegy, a jogi osztály nem látja.
 - Jó: Az átírt változathoz a szerző listát ad a megváltoztatott elemekről, a jogi osztály ezek alapján jóváhagyja.
 
@@ -1412,6 +1576,8 @@ Szabály: Korábbi sablont vagy más szövegből átvett részt ne használj át
 
 Miért segít: A régi sablon elavult tényeket és hivatali fordulatokat hordoz, az összeollózott szövegben pedig váltakozik a terminológia és ismétlődik a tartalom.
 
+Ellenőrző kérdés: A régi sablont és az átvett részt a mostani helyzethez igazítottad?
+
 - Rossz: A 2019-es sablon változatlanul megy ki, benne a már megszűnt ügyfélszolgálati címmel.
 - Jó: A sablont minden kiadás előtt összevetik az aktuális adatokkal és a szakkifejezések jegyzékével.
 
@@ -1426,6 +1592,8 @@ Források: [Európai Bizottság 2013, 5. o.](forrasok.md#eu-pontos-fogalmazas-20
 Szabály: Ha sok hasonló szöveget írsz (útmutató, ügyleírás), készíts tartalomsablont az olvasó visszatérő kérdéseivel, és mindegyik szöveg erre válaszoljon.
 
 Miért segít: A sablonnal egy olvasónak fontos pont sem marad ki, és az olvasó minden szövegben ugyanott találja ugyanazt.
+
+Ellenőrző kérdés: Az ismétlődő szövegtípushoz van tartalomsablon, és a szöveg minden pontjára válaszol?
 
 - Rossz: Minden ügyleírás más sorrendben, más alcímekkel készül.
 - Jó: Minden ügyleírás alcímei: Mire szolgál? Kire vonatkozik? Mi a határidő? Hogyan nyújthatja be? Mennyibe kerül? Hol kap segítséget?

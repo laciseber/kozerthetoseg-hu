@@ -177,3 +177,10 @@ def test_changelog_bejegyzes(skill, capsys):
     (skill.parent / "CHANGELOG.md").write_text("# Változásnapló\n", encoding="utf-8")
     kod, _, hiba = ellenoriz(skill, capsys)
     assert kod == 1 and "nincs bejegyzés a(z) " in hiba and " verzióhoz" in hiba
+
+
+def test_hianyzo_ellenorzo_kerdes(skill, szabalydir, capsys):
+    p = szabalydir / "K043.toml"
+    p.write_text(re.sub(r"^kerdes = .*\n", "", p.read_text(encoding="utf-8"), flags=re.M), encoding="utf-8")
+    kod, _, hiba = ellenoriz(skill, capsys)
+    assert kod == 1 and "K043.toml" in hiba and "kerdes" in hiba
