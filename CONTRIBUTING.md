@@ -55,6 +55,8 @@ python scripts/ellenorzes.py
 
 Ha egy fejezetből egy tétel sem kerül be, a fejezet `tetel_nelkul` mezőjében indokold; enélkül az ellenőrzés hibát jelez.
 
+Végül vedd fel a forrást a README „A felhasznált források” táblázatába, a tételszámmal és a forrás URL-jével vagy DOI-jával. A `tests/test_readme.py` teszt jelzi, ha kimaradt.
+
 ## Új szabály felvétele
 
 1. `python scripts/uj_szabaly.py --cim "A szabály címe" --csoport mondat` (a csoportok listája: `python scripts/uj_szabaly.py --help`). A szkript a következő szabad azonosítót adja. Egyszer kiosztott azonosítót nem használunk újra.

@@ -20,6 +20,8 @@ patch; szabály visszavonása vagy parancs átnevezése: major.
 - Az issue-sablonok a repó meglévő címkéit használják.
 - README: a skill saját `audit` és `atiras` parancsával átnézve. Új rész arról, mi az a skill és hogyan kezdd; lépésenkénti telepítés; kérdés formájú alcímek; az elsődleges források helyes száma (öt).
 - A referenciákban „jogszabály által” helyett „jogszabályban” (K042).
+- README: új rész a tudásbázis 17 forrásáról, forrásonként a hivatkozással, a felhasználás céljával, a tételszámmal és az elérhetőséggel. Egy teszt ellenőrzi, hogy minden forrás szerepel benne.
+- A NAV két kötetének forrásrekordja megkapta a kiadó nyilvános oldalát.
 
 ## [1.1.0] - 2026-11-20
 
