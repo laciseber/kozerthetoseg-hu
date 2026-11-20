@@ -36,7 +36,7 @@ A teljes leírás a [parancs-forras-felvetel.md](kozerthetoseg-hu/references/par
    python scripts/uj_forras.py kiado-rovidcim-2026 --cim "Cím" --kiado "Kiadó" --ev 2026 --url https://... --prioritas A
    ```
 
-   Töltsd ki a KITÖLTENDŐ mezőket. Licenc: ha a forrás nem mondja ki, ezt írd. Helyi elérési út nem kerülhet a fájlba.
+   Töltsd ki a KITÖLTENDŐ mezőket. Licenc: ha a forrás nem mondja ki, írd be, hogy nincs feltüntetve. Helyi elérési út nem kerülhet a fájlba.
 
 2. Forrásleltár: a tartalomjegyzék minden fejezete egy `[[fejezet]]`, és fejezetről fejezetre minden szabály, ajánlás, ellenőrzőlista-pont, tilalom és előtte–utána példa egy `[[tetel]]`, oldalszámmal, saját szavaiddal. A következő szabad tételazonosító: `python scripts/uj_forras.py --kovetkezo-tetel kiado-rovidcim-2026`.
 

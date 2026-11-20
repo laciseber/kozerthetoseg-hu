@@ -8,7 +8,8 @@ description: >-
   vagy meg kell nézni, mennyire közérthető: hivatali levél, tájékoztató,
   ügyfél-tájékoztató, adatkezelési tájékoztató, ÁSZF, szerződés, határozat,
   jogi szöveg, nyomtatvány, weboldal szövege. Akkor is, ha a kérés plain
-  language-et, közérthetőséget vagy egyszerűbb fogalmazást említ. Jogi
+  language-et, közérthetőséget, egyszerűsítést vagy egyszerűbb fogalmazást
+  említ. Jogi
   szövegnél jogi modult tölt be, és nem ad jogi tanácsot. Ne indítsd nem
   magyar szövegre, gép–gép kimenetre (JSON, napló, kód) és szépirodalomra.
 license: MIT (szkriptek, tesztek) és CC-BY-4.0 (szöveges tartalom), lásd LICENSE.txt
@@ -47,7 +48,7 @@ Minden parancs saját referenciafájlt kap, egységes szerkezettel. Olvasd el a 
 ## Közös munkafolyamat (`audit` és `atiras`)
 
 1. Olvasó és cél. Ki olvassa a szöveget, mit tud már, mit kell tennie utána. Ha a hívó nem mondja meg, egyetlen kérdésben kérdezz rá. Ha nincs kit kérdezni, írd le, milyen olvasót feltételeztél, és haladj tovább.
-2. Szövegtípus. Sorold be a [szovegtipusok.md](references/szovegtipusok.md) szerint: előíró normaszöveg, eljárási vegyes szöveg (határozat, beadvány, panasz), leíró metajogi szöveg vagy nem jogi tájékoztató. Döntsd el azt is, kötelező szöveg-e (jogszabály, előírt formula, jogszabály által megállapított feltétel, kamarai egységes szöveg). Kötelező szöveget a skill nem ír át: kimondja, hogy kötelező, és hogy a forrásával kell egyeznie.
+2. Szövegtípus. Sorold be a [szovegtipusok.md](references/szovegtipusok.md) szerint: előíró normaszöveg, eljárási vegyes szöveg (határozat, beadvány, panasz), leíró metajogi szöveg vagy nem jogi tájékoztató. Döntsd el azt is, kötelező szöveg-e (jogszabály, előírt formula, jogszabályban megállapított feltétel, kamarai egységes szöveg). Kötelező szöveget a skill nem ír át: kimondja, hogy kötelező, és hogy a forrásával kell egyeznie.
 3. KÉK-határ. Ha az olvasó értelmi fogyatékossággal élő vagy alacsony nyelvi kompetenciájú, mondd ki, hogy ehhez könnyen érthető kommunikáció kell, ami más szabályrendszer ([kek-hatar.md](references/kek-hatar.md)).
 4. A négy kérdés mint keret (ISO 24495-1): megkapja-e az olvasó, amire szüksége van; megtalálja-e; megérti-e; tudja-e használni.
 5. Vizsgálat a szabálykatalógus szerint ([szabalyok.md](references/szabalyok.md)). Hivatkozz a szabály azonosítójára (K001–K083).

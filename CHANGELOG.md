@@ -9,7 +9,7 @@ patch; szabály visszavonása vagy parancs átnevezése: major.
 
 ## [Kiadatlan]
 
-## [1.0.0] - 2026-11-19
+## [1.0.0] - 2026-11-20
 
 ### Hozzáadva
 

@@ -40,7 +40,7 @@ Hat parancsa van. Ha nem nevezed meg a parancsot, a kérésedből választ: ha v
 A skill maga a `kozerthetoseg-hu/` mappa a repóban.
 
 - Claude Code: másold a mappát a `~/.claude/skills/` (személyes) vagy a projekt `.claude/skills/` mappájába, például: `git clone https://github.com/zoltankis-arch/kozerthetoseg-hu && cp -r kozerthetoseg-hu/kozerthetoseg-hu ~/.claude/skills/`.
-- claude.ai: tömörítsd a `kozerthetoseg-hu/` mappát ZIP-be, és töltsd fel a skillek között (a beállításokban a képességeknél).
+- claude.ai: tömörítsd a `kozerthetoseg-hu/` mappát ZIP-be, és töltsd fel a claude.ai beállításaiban, a skillek között.
 - Más eszköz, amely az Agent Skills szabványt követi: az eszköz leírása szerint add hozzá a mappát; a skill nem függ a Claude-tól.
 
 A szkriptekhez Python 3.11 vagy újabb kell. Külső csomag és hálózat nem kell. A HuSpaCy opcionális: ha telepítve van, a `meres.py --huspacy` a függőségi mélységet és a beágyazott tagmondatokat is méri.
@@ -53,7 +53,12 @@ A skill tudásbázisa négy elsődleges dokumentumra épül, amelyeket fejezetr�
 - NAV: Az érthető hivatal 1. és 2. (2024);
 - Európai Bizottság: A pontos fogalmazás művészete (2013).
 
-Ezeket egészíti ki Horváth Péter (2021), Balogh Dorka (2023), Gerencsér Balázs Szabolcs (2023) és Üveges István (2026) tanulmánya, a WP260 adatvédelmi iránymutatás, az Inclusion Europe alapelvei, a jogszabályszerkesztési rendelet, a jogalkotási törvény, az adóigazgatási rendtartás, a Ptk. és a GDPR vonatkozó szakaszai, valamint az Európai Bíróság C-26/13. számú ítélete.
+Ezeket egészítik ki:
+
+- Horváth Péter (2021), Balogh Dorka (2023), Gerencsér Balázs Szabolcs (2023) és Üveges István (2026) tanulmánya;
+- a WP260 adatvédelmi iránymutatás és az Inclusion Europe alapelvei a könnyen érthető kommunikációról;
+- a jogszabályszerkesztési rendelet, a jogalkotási törvény, az adóigazgatási rendtartás, a Ptk. és a GDPR vonatkozó szakaszai;
+- az Európai Bíróság C-26/13. számú ítélete.
 
 A források minden szabálya, ajánlása és példája egy-egy leltártétel, saját szavakkal, oldalszámmal. Minden tétel vagy egy szabályra mutat, vagy egy referenciafájl adott pontjára, vagy indoklással ki van hagyva. Ha két forrás ellentmond egymásnak (például a mondathossz küszöbén), a szabály kimondja, melyiket követi a skill és miért. A teljes katalógus: [forrasok.md](kozerthetoseg-hu/references/forrasok.md), a szabályok: [szabalyok.md](kozerthetoseg-hu/references/szabalyok.md), a lefedettség: [lefedettseg.md](kozerthetoseg-hu/references/lefedettseg.md).
 
@@ -85,7 +90,13 @@ Szerző: Kis Zoltán ([github.com/zoltankis-arch](https://github.com/zoltankis-a
 
 ## Köszönet
 
-Köszönet a források szerzőinek és kiadóinak: a Világos Beszédnek és Budapest Főváros Főpolgármesteri Hivatalának, a Nemzeti Adó- és Vámhivatal Közérthetőségi Programirodájának, az Európai Bizottság Fordítási Főigazgatóságának, Horváth Péternek, Balogh Dorkának, Gerencsér Balázs Szabolcsnak, Üveges Istvánnak, a 29. cikk szerinti adatvédelmi munkacsoportnak és az Inclusion Europe-nak. A skill az ő munkájukra épül; a hibák a skill hibái.
+A skill ezekre a munkákra épül; a hibák a skill hibái. Köszönet a források szerzőinek és kiadóinak:
+
+- a Világos Beszédnek és Budapest Főváros Főpolgármesteri Hivatalának;
+- a Nemzeti Adó- és Vámhivatal Közérthetőségi Programirodájának;
+- az Európai Bizottság Fordítási Főigazgatóságának;
+- Horváth Péternek, Balogh Dorkának, Gerencsér Balázs Szabolcsnak és Üveges Istvánnak;
+- a 29. cikk szerinti adatvédelmi munkacsoportnak és az Inclusion Europe-nak.
 
 ## In English
 
