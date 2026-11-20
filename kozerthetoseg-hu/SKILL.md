@@ -15,10 +15,10 @@ description: >-
 license: MIT (szkriptek, tesztek) és CC-BY-4.0 (szöveges tartalom), lásd LICENSE.txt
 compatibility: A szkriptekhez Python 3.11 vagy újabb kell, külső csomag és hálózat nélkül. A HuSpaCy opcionális.
 metadata:
-  version: "1.2.0"
+  version: "1.3.0"
   author: "Kis Zoltán (https://github.com/zoltankis-arch)"
   language: "hu"
-  forraskatalogus: "1.2.0"
+  forraskatalogus: "1.3.0"
 ---
 
 # Közérthetőség magyarul
@@ -40,7 +40,7 @@ Minden parancs saját referenciafájlt kap, egységes szerkezettel. Olvasd el a 
 |---|---|---|
 | `audit` | Jelentést ad, nem ír át: hol, melyik szabály, miért baj az olvasónak, javasolt átírás, prioritás | [parancs-audit.md](references/parancs-audit.md) |
 | `atiras` | Átírja a szöveget, utána hűségellenőrzést végez: minden tény, szám, határidő, feltétel, kivétel, modalitás és jogi kifejezés megvan-e | [parancs-atiras.md](references/parancs-atiras.md) |
-| `meres` | Lefuttatja a mérőszkriptet, és jelzésként értelmezi az eredményt | [parancs-meres.md](references/parancs-meres.md) |
+| `meres` | Lefuttatja a mérőszkriptet, és jelzésként értelmezi az eredményt; minden jelzés egy szabályhoz kötődik, súlyossággal | [parancs-meres.md](references/parancs-meres.md) |
 | `proba` | Olvasói próbatervet ír 6–9 fős, visszamondásos módszerrel | [parancs-proba.md](references/parancs-proba.md) |
 | `forras-felvetel` | Új forrást dolgoz fel öt lépésben, újragenerál, ellenőriz, verzióemelést javasol | [parancs-forras-felvetel.md](references/parancs-forras-felvetel.md) |
 | `ellenorzes` | Teljességi és konzisztencia-ellenőrzés: séma, azonosítók, lefedettség, hivatkozások | [parancs-ellenorzes.md](references/parancs-ellenorzes.md) |
@@ -71,6 +71,7 @@ Minden parancs saját referenciafájlt kap, egységes szerkezettel. Olvasd el a 
 - [references/szabaly-index.md](references/szabaly-index.md): a szabálykatalógus tömör indexe, szabályonként egy sor (generált). Ezt olvasd be először.
 - `references/szabalyok-<csoport>.md`: a szabályok részletei csoportonként, példákkal és forrásokkal (generált).
 - [references/ellenorzo-lista.md](references/ellenorzo-lista.md): szabályonként egy eldöntendő kérdés (generált).
+- [references/szotar.md](references/szotar.md): körülményes kifejezések egyszerűbb megfelelője, és mikor ne cseréld (generált). Átírásnál használd.
 - [references/szabalyok.md](references/szabalyok.md): a teljes katalógus egy fájlban, emberi olvasásra (generált).
 - [references/forrasok.md](references/forrasok.md): a forráskatalógus és a teljes forrásleltár (generált).
 - [references/lefedettseg.md](references/lefedettseg.md): melyik forrás melyik tétele hová került (generált).

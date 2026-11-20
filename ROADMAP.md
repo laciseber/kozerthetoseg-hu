@@ -11,7 +11,7 @@ Ez a terv az angol nyelvű plain language skillek és a Vale prózalinter össze
 3. **Generált ellenőrző lista.** Minden aktív szabály kap egy eldöntendő kérdést (`kerdes` mező). Ezekből készül a `references/ellenorzo-lista.md`, amelyet az `atiras` utolsó lépése és az ember is használ.
    Kész, ha: mind a 83 szabálynak van kérdése, a séma megköveteli, a lista generált.
 
-## 1.3.0: szabályvezérelt mérés
+## 1.3.0: szabályvezérelt mérés (kész)
 
 4. **Gépi és ítéleti szabályok szétválasztása.** Minden szabály új mezőket kap: `ellenorzes` (gépi, ítélet vagy vegyes), alapértelmezett `sulyossag`, és gépi szabálynál a keresett minták (`minta`). A `meres.py` ezekből dolgozik, nem beégetett listából. Új kapcsolók: `--kuszob` és szabályazonosítós kimenet, kilépési kóddal.
    Kész, ha: a mérés minden jelzése egy szabályazonosítóhoz kötődik, és a jelenlegi tesztek változatlan eredménnyel futnak.

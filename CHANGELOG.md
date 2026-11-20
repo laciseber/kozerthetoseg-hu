@@ -9,6 +9,16 @@ patch; szabály visszavonása vagy parancs átnevezése: major.
 
 ## [Kiadatlan]
 
+## [1.3.0] - 2026-11-20
+
+### Hozzáadva
+
+- Szabályvezérelt mérés: minden szabály `ellenorzes` (gépi, vegyes, ítélet) és `sulyossag` mezőt kapott, a gépileg jelezhetők `[[minta]]` keresőmintát. A `meres.py` minden jelzést szabályazonosítóhoz köt („Szabályonkénti jelzések” táblázat, JSON-ban `jelzesek`).
+- Szótár: `assets/adatok/szotar.toml`, 64 körülményes kifejezés egyszerűbb megfelelővel, forrással és „mikor ne cseréld” megjegyzéssel; olvasható változata a generált `references/szotar.md`. A mérés javaslatként jelzi, az `atiras` forrásként használja.
+- `meres.py --max-jelzes N --szint …`: 1-es kilépési kód, ha a jelzések száma túllépi a határt (dokumentációs CI-hez).
+- Ellenőrzés: a szótár sémája, regexei és hivatkozásai; a minták regexei; minden gépi vagy vegyes szabályhoz tartozik mérés.
+- A szabályindex súlyosságot és ellenőrzési módot is mutat.
+
 ## [1.2.0] - 2026-11-20
 
 ### Hozzáadva
@@ -52,7 +62,8 @@ patch; szabály visszavonása vagy parancs átnevezése: major.
 - Szövegtípus-döntés (Balogh, Bennion, NAV) és KÉK-határ.
 - Szkriptek: `meres.py`, `ellenorzes.py`, `generalas.py`, `uj_forras.py`, `uj_szabaly.py`; pytest-tesztek; CI.
 
-[Kiadatlan]: https://github.com/zoltankis-arch/kozerthetoseg-hu/compare/v1.2.0...HEAD
+[Kiadatlan]: https://github.com/zoltankis-arch/kozerthetoseg-hu/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/zoltankis-arch/kozerthetoseg-hu/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/zoltankis-arch/kozerthetoseg-hu/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/zoltankis-arch/kozerthetoseg-hu/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/zoltankis-arch/kozerthetoseg-hu/releases/tag/v1.0.0

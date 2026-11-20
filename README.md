@@ -1,7 +1,7 @@
 # kozerthetoseg-hu
 
 [![Ellenőrzés](https://github.com/zoltankis-arch/kozerthetoseg-hu/actions/workflows/ellenorzes.yml/badge.svg)](https://github.com/zoltankis-arch/kozerthetoseg-hu/actions/workflows/ellenorzes.yml)
-[![Verzió](https://img.shields.io/badge/verzi%C3%B3-1.2.0-blue)](CHANGELOG.md)
+[![Verzió](https://img.shields.io/badge/verzi%C3%B3-1.3.0-blue)](CHANGELOG.md)
 [![Licenc: MIT és CC BY 4.0](https://img.shields.io/badge/licenc-MIT%20%2B%20CC%20BY%204.0-green)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-specifik%C3%A1ci%C3%B3-informational)](https://agentskills.io/specification)
 
@@ -29,7 +29,7 @@ Hat parancsa van. A parancsot nem kell megnevezned: ha véleményt kérsz, jelen
 |---|---|
 | `audit` | Jelentést ad a szövegről, de nem írja át. Minden észrevételnél megmondja, hol van a gond, melyik szabályt sérti, miért baj az olvasónak, hogyan lehetne jobb, és mennyire sürgős. |
 | `atiras` | Átírja a szöveget. Utána ellenőrzi, hogy minden tény, szám, határidő, feltétel és jogi kifejezés megmaradt-e. |
-| `meres` | Lefuttatja a mérőszkriptet: mondathossz, főnévvé tett igék, „kerül”-szerkezetek és hasonlók. A szám jelzés, nem ítélet. |
+| `meres` | Lefuttatja a mérőszkriptet: mondathossz, főnévvé tett igék, „kerül”-szerkezetek, a szótár körülményes kifejezései és hasonlók. Minden jelzést egy szabályhoz köt, súlyossággal. A szám jelzés, nem ítélet. |
 | `proba` | Olvasói próbát tervez: 6–9 ember a célcsoportból elolvassa a szöveget, és saját szavaival elmondja, mit értett. |
 | `forras-felvetel` | Új forrást vesz fel a skill tudásbázisába, szabványos lépésekkel. |
 | `ellenorzes` | Ellenőrzi, hogy a tudásbázis teljes és ellentmondásmentes. |
@@ -98,6 +98,8 @@ Add hozzá a mappát az eszköz leírása szerint. A skill nem függ a Claude-t�
 ```
 python kozerthetoseg-hu/scripts/meres.py levél.md
 ```
+
+Dokumentációs CI-ben: a `--max-jelzes 0 --szint magas` kapcsolókkal a szkript 1-es kóddal lép ki, ha magas súlyosságú jelzést talál.
 
 ### Mi kell a szkriptekhez?
 

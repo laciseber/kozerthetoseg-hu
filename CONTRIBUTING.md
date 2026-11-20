@@ -60,11 +60,27 @@ Végül vedd fel a forrást a README „A felhasznált források” táblázatá
 ## Új szabály felvétele
 
 1. `python scripts/uj_szabaly.py --cim "A szabály címe" --csoport mondat` (a csoportok listája: `python scripts/uj_szabaly.py --help`). A szkript a következő szabad azonosítót adja. Egyszer kiosztott azonosítót nem használunk újra.
-2. Töltsd ki: a szabály egy mondatban, miért segít az olvasónak, egy eldöntendő ellenőrző kérdés (`kerdes`; az igen válasz jelenti a megfelelést), saját rossz és jó példa, kivételek, alkalmazási kör (`altalanos` vagy `jogi`), és ha a mérőszkript jelzi, a `meres` mező.
+2. Töltsd ki: a szabály egy mondatban, miért segít az olvasónak, egy eldöntendő ellenőrző kérdés (`kerdes`; az igen válasz jelenti a megfelelést), saját rossz és jó példa, kivételek, alkalmazási kör (`altalanos` vagy `jogi`), alapértelmezett súlyosság (`sulyossag`: `magas`, `kozepes`, `alacsony`), és az ellenőrzés módja (`ellenorzes`): `gepi`, ha a mérőszkript megbízhatóan jelzi, `vegyes`, ha jelöltet ad, `itelet`, ha csak olvasva ellenőrizhető. Gépi vagy vegyes szabálynál kell `meres` mező (beépített mutató), `[[minta]]` (keresőminta) vagy szótárpár; különben az ellenőrzés hibát jelez.
 3. Forrás nélküli szabályt nem veszünk fel: a leltárban legalább egy tétel mutasson rá, és a szabály `forrasok` listája ugyanezt tartalmazza.
 4. Generálás és ellenőrzés, mint fent.
 
 Szabályt nem törlünk. Ha egy szabály meghaladottá válik, visszavonjuk: `allapot = "visszavont"`, `utod = "K0xx"`, `visszavonas_oka = "..."`, és a rá mutató tételeket az utódra irányítjuk.
+
+## Szótárpár felvétele
+
+A szótár (`assets/adatok/szotar.toml`) körülményes kifejezéseket és egyszerűbb megfelelőjüket tartja. Egy pár egy `[[par]]`:
+
+```toml
+[[par]]
+kifejezes = "amennyiben"
+regex = "\\bamennyiben\\b"
+javaslat = "ha"
+szabaly = "K036"
+forrasok = ["vilagos-beszed-kezikonyv-2025#112"]
+mikor_nem = "elhagyható: mikor ne cseréld"
+```
+
+Minden párnak legyen forrása a leltárból, és ha a csere nem mindig helyes, a `mikor_nem` mező mondja meg, mikor nem. Utána futtasd a generálást (ez frissíti a `references/szotar.md`-t) és az ellenőrzést.
 
 ## Új parancs felvétele
 
