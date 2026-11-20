@@ -126,3 +126,36 @@ def test_huspacy_mukodik_hamis_modellel(tmp_path, capsys, monkeypatch):
     h = json.loads(ki)["huspacy"]
     assert h["fuggosegi_melyseg_max"] == 2
     assert h["beagyazott_tagmondatok"] == 2
+
+
+def test_szabalyonkenti_jelzesek(tmp_path, capsys):
+    f = tmp_path / "level.md"
+    f.write_text("Amennyiben a kérelem elbírálásra kerül, tájékoztatjuk, hogy a döntés és/vagy "
+                 "a határozat postai úton megküldésre kerül.", encoding="utf-8")
+    kod, ki, _ = futtat(meres, ["--json", str(f)], capsys)
+    assert kod == 0
+    j = json.loads(ki)["jelzesek"]
+    szabalyok = {x["szabaly"] for x in j}
+    assert {"K036", "K043", "K047", "K038"} <= szabalyok
+    szotar = [x for x in j if x["honnan"] == "szótár" and "amennyiben" in x["mi"]]
+    assert szotar and szotar[0]["javaslat"] == "ha"
+    assert all(x["sulyossag"] in ("magas", "kozepes", "alacsony") for x in j)
+
+
+def test_kozertheto_szovegben_nincs_magas_jelzes(capsys):
+    f = SKILL / "evals" / "szovegek" / "08-kozertheto-level.md"
+    kod, _, _ = futtat(meres, ["--max-jelzes", "0", "--szint", "magas", str(f)], capsys)
+    assert kod == 0
+
+
+def test_kuszob_tullepes_kilepesi_kod(capsys):
+    f = SKILL / "evals" / "szovegek" / "03-hatosagi-level.md"
+    kod, _, hiba = futtat(meres, ["--max-jelzes", "0", str(f)], capsys)
+    assert kod == 1 and "meghaladja" in hiba
+
+
+def test_ugyanarra_ugyanazt_adja(capsys):
+    f = SKILL / "evals" / "szovegek" / "02-adatkezelesi-reszlet.md"
+    _, egy, _ = futtat(meres, ["--json", str(f)], capsys)
+    _, ketto, _ = futtat(meres, ["--json", str(f)], capsys)
+    assert egy == ketto

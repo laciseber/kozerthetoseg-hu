@@ -17,7 +17,7 @@ Ellenőrző kérdés: A nyomtatvány csak a feltétlenül szükséges adatot ké
 - Rossz: Csatolt igazolás + külön mezők: az igazolás száma, kelte, a kiállító szerv neve és címe.
 - Jó: Csatolt igazolás, további mező nélkül.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Világos Beszéd kézikönyv 2025, 34. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-101); [Világos Beszéd 2025, 10. o.](forrasok.md#vilagos-beszed-kisokos-2025-036); [Világos Beszéd 2025, 10. o.](forrasok.md#vilagos-beszed-kisokos-2025-037).
 
@@ -34,7 +34,7 @@ Ellenőrző kérdés: Egyértelmű, melyik mező és csatolmány kötelező, és
 - Rossz: Csatolandó: munkáltatói igazolás, vállalkozói igazolvány másolata.
 - Jó: Csatolja: munkáltatói igazolást, ha alkalmazott; vállalkozói igazolvány másolatát, ha egyéni vállalkozó.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: magas. Ellenőrzés: olvasva.
 
 Források: [Világos Beszéd kézikönyv 2025, 35. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-102); [Világos Beszéd kézikönyv 2025, 35. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-103); [Világos Beszéd 2025, 10. o.](forrasok.md#vilagos-beszed-kisokos-2025-038).
 
@@ -51,7 +51,7 @@ Ellenőrző kérdés: A bonyolultabb mezőknél van kitöltési segítség?
 - Rossz: Felhasználási hely azonosítója: ______________
 - Jó: Felhasználási hely azonosítója (a számla első oldalán, a „Felhasználási hely” után, H betűvel kezdődik): H _ _ _ _ _ _ _ _
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Világos Beszéd kézikönyv 2025, 35. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-104); [Világos Beszéd kézikönyv 2025, 35. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-105); [Világos Beszéd 2025, 10. o.](forrasok.md#vilagos-beszed-kisokos-2025-039); [Világos Beszéd 2025, 10. o.](forrasok.md#vilagos-beszed-kisokos-2025-040); [Világos Beszéd 2025, 11. o.](forrasok.md#vilagos-beszed-kisokos-2025-041).
 
@@ -68,7 +68,7 @@ Ellenőrző kérdés: Ahol kevés a lehetséges válasz, ott ikszelhető válasz
 - Rossz: Lakhatás jellege: ____________________
 - Jó: Lakhatás jellege: ☐ saját tulajdon ☐ bérlemény ☐ egyéb
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Világos Beszéd kézikönyv 2025, 35. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-106); [Világos Beszéd 2025, 11. o.](forrasok.md#vilagos-beszed-kisokos-2025-042).
 
@@ -85,7 +85,7 @@ Ellenőrző kérdés: Megfontoltad, kell-e gyakori kérdések rész a nyomtatvá
 - Rossz: A nyomtatvány a kitöltési mezőkkel véget ér.
 - Jó: A nyomtatvány végén: Hogyan adhatom be? Mennyi idő alatt döntenek? Mit tegyek, ha elírtam valamit?
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: olvasva.
 
 Források: [Világos Beszéd kézikönyv 2025, 36. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-107); [Világos Beszéd 2025, 11. o.](forrasok.md#vilagos-beszed-kisokos-2025-043).
 
@@ -102,6 +102,6 @@ Ellenőrző kérdés: A nyomtatványon van elég hely a kitöltéshez, és szell
 - Rossz: Egy oldalra zsúfolt 40 mező, 4 milliméteres sorokkal.
 - Jó: Két oldal, csoportosított mezők alcímekkel, a fontos figyelmeztetés keretes dobozban.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Világos Beszéd kézikönyv 2025, 36. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-108); [Világos Beszéd kézikönyv 2025, 36. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-109); [Világos Beszéd kézikönyv 2025, 36. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-110); [Világos Beszéd 2025, 11. o.](forrasok.md#vilagos-beszed-kisokos-2025-044); [Világos Beszéd 2025, 12. o.](forrasok.md#vilagos-beszed-kisokos-2025-048); [Világos Beszéd 2025, 12. o.](forrasok.md#vilagos-beszed-kisokos-2025-049).

@@ -22,7 +22,7 @@ Kivételek:
 - Jogszabály normaszövege egyes szám harmadik személyben, jelen idejű kijelentő módban szól; ezt a skill nem írja át.
 - Ha a szöveg maga tegez, a tegezés marad.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt.
 
 Források: [Európai Bizottság 2013, 4. o.](forrasok.md#eu-pontos-fogalmazas-2013-009); [NAV 2024b, 22. o.](forrasok.md#nav-ertheto-hivatal-2-040); [Világos Beszéd kézikönyv 2025, 22. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-049); [Világos Beszéd kézikönyv 2025, 22. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-050); [Világos Beszéd kézikönyv 2025, 22. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-051); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-089); [Világos Beszéd kézikönyv 2025, 32–33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-098); [Világos Beszéd kézikönyv 2025, 38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-118); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-020); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-021).
 
@@ -39,7 +39,7 @@ Ellenőrző kérdés: Végig ugyanaz a megszólítás és ugyanaz a megnevezés 
 - Rossz: Kérjük, nyújtsa be a nyilatkozatot. Az adózó a nyilatkozatot 15 napon belül köteles benyújtani. Amennyiben Önök késve nyújtják be...
 - Jó: Kérjük, 15 napon belül küldje el a nyilatkozatot. Ha később küldi el, ...
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [NAV 2024b, 22. o.](forrasok.md#nav-ertheto-hivatal-2-035); [NAV 2024b, 41. o.](forrasok.md#nav-ertheto-hivatal-2-065); [Világos Beszéd kézikönyv 2025, 22. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-049); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-020).
 
@@ -58,6 +58,6 @@ Ellenőrző kérdés: Udvarias és partneri a hang, merev hivatali fordulatok n�
 - Rossz: Kérjük tájékoztatásunk szíves tudomásulvételét.
 - Jó: Köszönjük, hogy megkeresett minket. Sajnáljuk, hogy ebben az ügyben nem tudunk segíteni.
 
-Kör: általános. Mérés (meres.py): hivatali_fordulatok.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt. Mérés (meres.py): hivatali_fordulatok.
 
 Források: [Világos Beszéd kézikönyv 2025, 4. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-002); [Világos Beszéd kézikönyv 2025, 5. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-003); [Világos Beszéd kézikönyv 2025, 27–28. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-077); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-095); [Világos Beszéd kézikönyv 2025, 32–33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-098); [Világos Beszéd kézikönyv 2025, 38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-121); [Világos Beszéd 2025, 9. o.](forrasok.md#vilagos-beszed-kisokos-2025-032).

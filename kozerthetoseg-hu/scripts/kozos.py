@@ -205,6 +205,7 @@ class Adatok:
     szabalyok: dict[str, TomlFajl] = field(default_factory=dict)
     forrasok: dict[str, TomlFajl] = field(default_factory=dict)
     katalogus: TomlFajl | None = None
+    szotar: TomlFajl | None = None
     olvasasi_hibak: list[AdatHiba] = field(default_factory=list)
 
     def tetelek(self):
@@ -222,6 +223,11 @@ def adatok_betolt(gyoker: Path = SKILL_GYOKER) -> Adatok:
         a.katalogus = toml_olvas(adatdir / "katalogus.toml")
     except AdatHiba as e:
         a.olvasasi_hibak.append(e)
+    if (adatdir / "szotar.toml").exists():
+        try:
+            a.szotar = toml_olvas(adatdir / "szotar.toml")
+        except AdatHiba as e:
+            a.olvasasi_hibak.append(e)
     for p in sorted((adatdir / "szabalyok").glob("*.toml")):
         try:
             a.szabalyok[p.stem] = toml_olvas(p)

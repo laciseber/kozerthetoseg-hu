@@ -26,6 +26,8 @@ FEJLEC = (
     "TOML-fájljai. Újragenerálás: python scripts/generalas.py -->"
 )
 KOR_NEV = {"altalanos": "általános", "jogi": "csak jogi szövegnél"}
+ELL_NEV = {"gepi": "gépi", "vegyes": "jelölt", "itelet": "olvasva"}
+SULY_NEV = {"magas": "magas", "kozepes": "közepes", "alacsony": "alacsony"}
 
 
 def horgony(azonosito: str) -> str:
@@ -77,8 +79,12 @@ def szabaly_blokk(a: kozos.Adatok, sid: str) -> list[str]:
         s.extend(f"- {k}" for k in d["kivetelek"])
         s.append("")
     sor = f"Kör: {KOR_NEV.get(d.get('alkalmazasi_kor', ''), d.get('alkalmazasi_kor', ''))}."
+    sor += (f" Alapértelmezett súlyosság: {SULY_NEV.get(d.get('sulyossag', ''), d.get('sulyossag', ''))}."
+            f" Ellenőrzés: {ELL_NEV.get(d.get('ellenorzes', ''), d.get('ellenorzes', ''))}.")
     if d.get("meres"):
         sor += " Mérés (meres.py): " + ", ".join(d["meres"]) + "."
+    if d.get("minta"):
+        sor += " Keresőminta: " + "; ".join(m.get("leiras", "") for m in d["minta"]) + "."
     s.append(sor)
     s.append("")
     forr = d.get("forrasok", [])
@@ -146,7 +152,9 @@ def szabaly_index_md(a: kozos.Adatok) -> str:
     s = [FEJLEC, "", "# Szabályindex", ""]
     s.append(f"Katalógusverzió: {verzio}. Szabályonként egy sor. Először ezt olvasd el; "
              "a részleteket (példa, kivételek, források) csak azoknál a szabályoknál nyisd meg "
-             "a csoportfájlban, amelyek a vizsgált szövegre vonatkoznak.")
+             "a csoportfájlban, amelyek a vizsgált szövegre vonatkoznak. Ellenőrzés: „gépi” = a meres.py "
+             "megbízhatóan jelzi; „jelölt” = a meres.py jelöltet ad, olvasva kell dönteni; „olvasva” = csak olvasva "
+             "ellenőrizhető.")
     s.append("")
     csoport_szab = csoportositas(a)
     for c, nev in kozos.CSOPORTOK.items():
@@ -157,8 +165,8 @@ def szabaly_index_md(a: kozos.Adatok) -> str:
         s.append("")
         s.append(f"Részletek: [{csoportfajl(c)}]({csoportfajl(c)})")
         s.append("")
-        s.append("| Szabály | Cím | Kör | Mérés |")
-        s.append("|---|---|---|---|")
+        s.append("| Szabály | Cím | Kör | Súlyosság | Ellenőrzés |")
+        s.append("|---|---|---|---|---|")
         for sid in ids:
             d = a.szabalyok[sid].adat
             if d.get("allapot") == "visszavont":
@@ -166,8 +174,9 @@ def szabaly_index_md(a: kozos.Adatok) -> str:
             else:
                 cim = esc(d.get("cim", ""))
             kor = "jogi" if d.get("alkalmazasi_kor") == "jogi" else "általános"
-            mer = "igen" if d.get("meres") else ""
-            s.append(f"| [{sid}]({csoportfajl(c)}#{sid.lower()}) | {cim} | {kor} | {mer} |")
+            sul = SULY_NEV.get(d.get("sulyossag", ""), "")
+            ell = ELL_NEV.get(d.get("ellenorzes", ""), "")
+            s.append(f"| [{sid}]({csoportfajl(c)}#{sid.lower()}) | {cim} | {kor} | {sul} | {ell} |")
         s.append("")
     return "\n".join(s).rstrip() + "\n"
 
@@ -179,6 +188,23 @@ def csoport_md(a: kozos.Adatok, c: str) -> str:
     s.append("")
     for sid in csoportositas(a).get(c, []):
         s.extend(szabaly_blokk(a, sid))
+    return "\n".join(s).rstrip() + "\n"
+
+
+def szotar_md(a: kozos.Adatok) -> str:
+    s = [FEJLEC, "", "# Közérthetőségi szótár", ""]
+    s.append("Körülményes kifejezés és egyszerűbb megfelelője. A meres.py javaslatként jelzi a találatokat; "
+             "átírásnál nézd meg a „Mikor ne cseréld” oszlopot is. Jogi kifejezést csak magyarázattal együtt cserélj.")
+    s.append("")
+    s.append("| Kifejezés | Javaslat | Szabály | Mikor ne cseréld | Forrás |")
+    s.append("|---|---|---|---|---|")
+    parok = a.szotar.adat.get("par", []) if a.szotar else []
+    for p in sorted(parok, key=lambda x: (x.get("szabaly", ""), x.get("kifejezes", "").lower())):
+        sid = p.get("szabaly", "")
+        c = a.szabalyok[sid].adat.get("csoport", "") if sid in a.szabalyok else ""
+        forr = "; ".join(tetel_hivatkozas(a, t) for t in p.get("forrasok", []))
+        s.append(f"| {esc(p.get('kifejezes', ''))} | {esc(p.get('javaslat', ''))} | "
+                 f"[{sid}]({csoportfajl(c)}#{sid.lower()}) | {esc(p.get('mikor_nem', ''))} | {forr} |")
     return "\n".join(s).rstrip() + "\n"
 
 
@@ -352,6 +378,7 @@ CELOK = {
     "szabalyok.md": szabalyok_md,
     "szabaly-index.md": szabaly_index_md,
     "ellenorzo-lista.md": ellenorzo_lista_md,
+    "szotar.md": szotar_md,
     "forrasok.md": forrasok_md,
     "lefedettseg.md": lefedettseg_md,
 }

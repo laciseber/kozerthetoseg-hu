@@ -21,7 +21,7 @@ Kivételek:
 
 - Ahol a szakszó jogi következményt hordoz, és a köznyelvi szó mást jelent, a szakszó marad, magyarázattal (lásd K030, K031).
 
-Kör: általános. Mérés (meres.py): hosszu_szavak.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt. Mérés (meres.py): hosszu_szavak.
 
 Források: [Horváth 2021, 103. o.](forrasok.md#horvath-2021-002); [Horváth 2021, 104. o.](forrasok.md#horvath-2021-003); [Világos Beszéd kézikönyv 2025, 23. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-052); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-090); [Világos Beszéd kézikönyv 2025, 32–33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-098); [Világos Beszéd kézikönyv 2025, 37–38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-113); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-022); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-023).
 
@@ -38,7 +38,7 @@ Ellenőrző kérdés: Minden szakszó meg van magyarázva az első előfordulás
 - Rossz: Az ingatlanra jelzálogjog került bejegyzésre.
 - Jó: Az ingatlanra jelzálogjogot jegyeztek be. Ez azt jelenti, hogy ha a tartozást nem fizetik meg, a hitelező az ingatlan eladásából kaphatja meg a pénzét.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Európai Bizottság 2013, 5. o.](forrasok.md#eu-pontos-fogalmazas-2013-014); [Európai Bizottság 2013, 12. o.](forrasok.md#eu-pontos-fogalmazas-2013-045); [Európai Bizottság 2013, 12. o.](forrasok.md#eu-pontos-fogalmazas-2013-046); [Gerencsér 2023, 13–14. o.](forrasok.md#gerencser-2023-004); [NAV 2024a, 55. o.](forrasok.md#nav-ertheto-hivatal-1-034); [NAV 2024b, 41. o.](forrasok.md#nav-ertheto-hivatal-2-060); [Világos Beszéd kézikönyv 2025, 23. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-053); [Világos Beszéd kézikönyv 2025, 23. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-054); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-090); [Világos Beszéd kézikönyv 2025, 32–33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-098); [Világos Beszéd kézikönyv 2025, 39. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-124); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-022); [WP260 2018, 10. o.](forrasok.md#wp260-2018-013).
 
@@ -55,7 +55,7 @@ Ellenőrző kérdés: Nincs olyan köznyelvi szó, amelyet az olvasó más jelen
 - Rossz: A biztosító szolgáltatási kötelezettsége nem áll be, ha a kárt szándékosan okozták.
 - Jó: A biztosító nem fizet, ha a kárt szándékosan okozták.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: magas. Ellenőrzés: olvasva.
 
 Források: [Horváth 2021, 104. o.](forrasok.md#horvath-2021-005).
 
@@ -76,7 +76,7 @@ Kivételek:
 
 - Szakmai olvasónak, aki maga is az idegen szót használja, az idegen szó maradhat.
 
-Kör: általános. Mérés (meres.py): hosszu_szavak.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt. Mérés (meres.py): hosszu_szavak.
 
 Források: [Európai Bizottság 2013, 11. o.](forrasok.md#eu-pontos-fogalmazas-2013-044); [Horváth 2021, 105. o.](forrasok.md#horvath-2021-006); [Horváth 2021, 105. o.](forrasok.md#horvath-2021-007); [Horváth 2021, 105. o.](forrasok.md#horvath-2021-008); [NAV 2024b, 41. o.](forrasok.md#nav-ertheto-hivatal-2-060); [Világos Beszéd kézikönyv 2025, 23. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-056); [Világos Beszéd kézikönyv 2025, 37–38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-113).
 
@@ -97,7 +97,7 @@ Kivételek:
 
 - A szóismétlés itt nem hiba. Ami kerülendő, az a felesleges önismétlés: ugyanaz a hosszú név vagy körülírás újra és újra (lásd K035, K040).
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Balogh 2023, 187. o.](forrasok.md#balogh-2023-015); [Európai Bizottság 2013, 6. o.](forrasok.md#eu-pontos-fogalmazas-2013-021); [Európai Bizottság 2013, 7. o.](forrasok.md#eu-pontos-fogalmazas-2013-027); [Horváth 2021, 107. o.](forrasok.md#horvath-2021-016); [Jszr., 4. § (1)–(2)](forrasok.md#jszr-2009-003); [NAV 2024b, 41. o.](forrasok.md#nav-ertheto-hivatal-2-061); [Világos Beszéd kézikönyv 2025, 23. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-057).
 
@@ -120,7 +120,7 @@ Kivételek:
 
 - Ezt a mérőszkript nem tudja mérni: a két jelentést csak olvasva lehet észrevenni.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: magas. Ellenőrzés: olvasva.
 
 Források: [Európai Bizottság 2013, 7. o.](forrasok.md#eu-pontos-fogalmazas-2013-026); [Világos Beszéd kézikönyv 2025, 23. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-057); [WP260 2018, 9. o.](forrasok.md#wp260-2018-006).
 
@@ -137,7 +137,7 @@ Ellenőrző kérdés: Kimaradtak a jelentés nélküli fordulatok, a felesleges 
 - Rossz: Tájékoztatjuk, hogy a jelen levelünkben foglaltak szerint a benyújtott kérelmét a hivatalos honlapunkon közzétett feltételek alapján megvizsgáltuk.
 - Jó: Megvizsgáltuk a kérelmét a honlapunkon közzétett feltételek szerint.
 
-Kör: általános. Mérés (meres.py): hivatali_fordulatok.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt. Mérés (meres.py): hivatali_fordulatok.
 
 Források: [Európai Bizottság 2013, 5. o.](forrasok.md#eu-pontos-fogalmazas-2013-017); [Európai Bizottság 2013, 6. o.](forrasok.md#eu-pontos-fogalmazas-2013-019); [Európai Bizottság 2013, 6. o.](forrasok.md#eu-pontos-fogalmazas-2013-020); [Európai Bizottság 2013, 6. o.](forrasok.md#eu-pontos-fogalmazas-2013-021); [Gerencsér 2023, 13–14. o.](forrasok.md#gerencser-2023-005); [Horváth 2021, 106. o.](forrasok.md#horvath-2021-012); [Horváth 2021, 107. o.](forrasok.md#horvath-2021-013); [Horváth 2021, 107. o.](forrasok.md#horvath-2021-014); [Horváth 2021, 107. o.](forrasok.md#horvath-2021-015); [Horváth 2021, 108. o.](forrasok.md#horvath-2021-017); [Horváth 2021, 108. o.](forrasok.md#horvath-2021-018); [NAV 2024b, 36. o.](forrasok.md#nav-ertheto-hivatal-2-055); [NAV 2024b, 36–37. o.](forrasok.md#nav-ertheto-hivatal-2-056); [NAV 2024b, 41. o.](forrasok.md#nav-ertheto-hivatal-2-064); [Világos Beszéd kézikönyv 2025, 26. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-074); [Világos Beszéd kézikönyv 2025, 27. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-075); [Világos Beszéd kézikönyv 2025, 27. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-076); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-094); [Világos Beszéd kézikönyv 2025, 32–33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-098); [Világos Beszéd kézikönyv 2025, 37–38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-116); [Világos Beszéd 2025, 9. o.](forrasok.md#vilagos-beszed-kisokos-2025-029).
 
@@ -154,7 +154,7 @@ Ellenőrző kérdés: A körülményes kötőszók és szerkezetek helyén az eg
 - Rossz: Amennyiben a díjat nem fizeti meg, tekintettel arra, hogy a szerződés ezt lehetővé teszi, a szolgáltatást felfüggesztjük.
 - Jó: Ha nem fizeti meg a díjat, felfüggesztjük a szolgáltatást. Ezt a szerződés lehetővé teszi.
 
-Kör: általános. Mérés (meres.py): hivatali_fordulatok.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt. Mérés (meres.py): hivatali_fordulatok.
 
 Források: [Európai Bizottság 2013, 6. o.](forrasok.md#eu-pontos-fogalmazas-2013-024); [Európai Bizottság 2013, 6. o.](forrasok.md#eu-pontos-fogalmazas-2013-025); [NAV 2024b, 41. o.](forrasok.md#nav-ertheto-hivatal-2-063); [Világos Beszéd kézikönyv 2025, 23. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-055); [Világos Beszéd kézikönyv 2025, 37–38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-112); [Világos Beszéd kézikönyv 2025, 38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-117); [Világos Beszéd 2025, 9. o.](forrasok.md#vilagos-beszed-kisokos-2025-030).
 
@@ -171,7 +171,7 @@ Ellenőrző kérdés: Nincs felesleges igekötő?
 - Rossz: Leellenőriztük és beazonosítottuk a befizetést.
 - Jó: Ellenőriztük és azonosítottuk a befizetést.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: gépi. Keresőminta: leellenőriz, kihangsúlyoz és hasonló felesleges igekötős alak.
 
 Források: [Európai Bizottság 2013, 8. o.](forrasok.md#eu-pontos-fogalmazas-2013-034); [Európai Bizottság 2013, 10. o.](forrasok.md#eu-pontos-fogalmazas-2013-041); [NAV 2024b, 38. o.](forrasok.md#nav-ertheto-hivatal-2-057).
 
@@ -188,7 +188,7 @@ Ellenőrző kérdés: Ahol rag is elég, ott nincs névutó vagy hosszabb szerke
 - Rossz: A beadvány benyújtása során e-mail útján küldje meg a hivatal felé a meghatalmazást.
 - Jó: Amikor beadja a kérelmet, e-mailben küldje el nekünk a meghatalmazást.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt.
 
 Források: [Európai Bizottság 2013, 10. o.](forrasok.md#eu-pontos-fogalmazas-2013-040); [NAV 2024b, 38–39. o.](forrasok.md#nav-ertheto-hivatal-2-058); [Világos Beszéd kézikönyv 2025, 27. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-075); [Világos Beszéd kézikönyv 2025, 37–38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-116).
 
@@ -205,7 +205,7 @@ Ellenőrző kérdés: A lehetőséget „lehet” vagy -hat/-het fejezi ki, nem 
 - Rossz: Lehetőség van a kérelem elektronikus úton történő benyújtására.
 - Jó: A kérelmet elektronikusan is beadhatja.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: gépi.
 
 Források: [NAV 2024b, 40. o.](forrasok.md#nav-ertheto-hivatal-2-059); [WP260 2018, 10. o.](forrasok.md#wp260-2018-010).
 
@@ -229,7 +229,7 @@ Kivételek:
 - Ugyanaz a rövidítés más szövegkörnyezetben mást jelenthet; ha kétértelmű, írd ki.
 - Könnyen érthető kommunikációban (KÉK) rövidítést nem használunk.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: olvasva.
 
 Források: [Európai Bizottság 2013, 6. o.](forrasok.md#eu-pontos-fogalmazas-2013-021); [Európai Bizottság 2013, 13. o.](forrasok.md#eu-pontos-fogalmazas-2013-047); [Európai Bizottság 2013, 13. o.](forrasok.md#eu-pontos-fogalmazas-2013-048); [Jszr., 5. §](forrasok.md#jszr-2009-004); [NAV 2024b, 23. o.](forrasok.md#nav-ertheto-hivatal-2-042); [NAV 2024b, 41. o.](forrasok.md#nav-ertheto-hivatal-2-062); [Világos Beszéd kézikönyv 2025, 23. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-056).
 
@@ -246,7 +246,7 @@ Ellenőrző kérdés: Az elvont és divatos kifejezések helyén konkrét szó �
 - Rossz: Negatív tendencia figyelhető meg a foglalkoztatási lehetőségek terén.
 - Jó: Kevesebb az álláshely.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Európai Bizottság 2013, 9. o.](forrasok.md#eu-pontos-fogalmazas-2013-035); [Európai Bizottság 2013, 9. o.](forrasok.md#eu-pontos-fogalmazas-2013-036); [Európai Bizottság 2013, 9. o.](forrasok.md#eu-pontos-fogalmazas-2013-037); [WP260 2018, 9. o.](forrasok.md#wp260-2018-006).
 
@@ -263,6 +263,6 @@ Ellenőrző kérdés: A kiadó saját tevékenységéről szóló részekben nin
 - Rossz: Adatait esetenként harmadik félnek is átadhatjuk.
 - Jó: A szállítási címét átadjuk a futárszolgálatnak, hogy kézbesítse a csomagot. Más harmadik félnek nem adjuk át.
 
-Kör: csak jogi szövegnél.
+Kör: csak jogi szövegnél. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt. Keresőminta: ható ige a kiadó tevékenységéről (jelölt).
 
 Források: [WP260 2018, 10. o.](forrasok.md#wp260-2018-010).

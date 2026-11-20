@@ -17,7 +17,7 @@ Ellenőrző kérdés: A cselekvéseket ige fejezi ki, nem főnévvé tett ige (�
 - Rossz: A szerződés a megrendelésnek a szolgáltató által történő visszaigazolásával jön létre.
 - Jó: A szerződés akkor jön létre, amikor a szolgáltató visszaigazolja a megrendelést.
 
-Kör: általános. Mérés (meres.py): fonevesites, altal_torteno_valo.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt. Mérés (meres.py): fonevesites, altal_torteno_valo.
 
 Források: [Balogh 2023, 181. o.](forrasok.md#balogh-2023-006); [Európai Bizottság 2013, 8. o.](forrasok.md#eu-pontos-fogalmazas-2013-032); [Európai Bizottság 2013, 8. o.](forrasok.md#eu-pontos-fogalmazas-2013-033); [Horváth 2021, 110. o.](forrasok.md#horvath-2021-024); [NAV 2024b, 23. o.](forrasok.md#nav-ertheto-hivatal-2-041); [NAV 2024b, 30. o.](forrasok.md#nav-ertheto-hivatal-2-051); [NAV 2024b, 30–33. o.](forrasok.md#nav-ertheto-hivatal-2-052); [Világos Beszéd kézikönyv 2025, 16. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-029); [Világos Beszéd kézikönyv 2025, 24. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-058); [Világos Beszéd kézikönyv 2025, 24. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-060); [Világos Beszéd kézikönyv 2025, 24. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-061); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-091); [Világos Beszéd kézikönyv 2025, 32–33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-098); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-024); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-025); [WP260 2018, 10. o.](forrasok.md#wp260-2018-012).
 
@@ -38,7 +38,7 @@ Kivételek:
 
 - Ha a „kerül” valódi helyváltozást jelent (a pénz a számlára kerül), maradhat.
 
-Kör: általános. Mérés (meres.py): kerul_szerkezet.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: gépi. Mérés (meres.py): kerul_szerkezet.
 
 Források: [Európai Bizottság 2013, 10. o.](forrasok.md#eu-pontos-fogalmazas-2013-039); [NAV 2024b, 22. o.](forrasok.md#nav-ertheto-hivatal-2-039); [NAV 2024b, 25. o.](forrasok.md#nav-ertheto-hivatal-2-044); [NAV 2024b, 26. o.](forrasok.md#nav-ertheto-hivatal-2-045); [NAV 2024b, 27–29. o.](forrasok.md#nav-ertheto-hivatal-2-046); [Világos Beszéd kézikönyv 2025, 38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-115); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-025).
 
@@ -59,7 +59,7 @@ Kivételek:
 
 - Általános alanyt (elintézték) csak akkor használj, ha a cselekvőt nem tudod vagy nem lényeges, és ügyelj, hogy az előző mondat alanya ne keveredjen bele.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt.
 
 Források: [Európai Bizottság 2013, 10. o.](forrasok.md#eu-pontos-fogalmazas-2013-042); [Európai Bizottság 2013, 10. o.](forrasok.md#eu-pontos-fogalmazas-2013-043); [NAV 2024b, 22. o.](forrasok.md#nav-ertheto-hivatal-2-039); [NAV 2024b, 25. o.](forrasok.md#nav-ertheto-hivatal-2-043); [NAV 2024b, 30. o.](forrasok.md#nav-ertheto-hivatal-2-047); [NAV 2024b, 30. o.](forrasok.md#nav-ertheto-hivatal-2-048); [NAV 2024b, 30. o.](forrasok.md#nav-ertheto-hivatal-2-049); [NAV 2024b, 30. o.](forrasok.md#nav-ertheto-hivatal-2-050); [Világos Beszéd kézikönyv 2025, 24. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-058); [Világos Beszéd kézikönyv 2025, 37–38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-119); [WP260 2018, 10. o.](forrasok.md#wp260-2018-012).
 
@@ -76,7 +76,7 @@ Ellenőrző kérdés: Nincs terpeszkedő szerkezet („döntést hoz” a „dö
 - Rossz: A bizottság a pályázatokról döntést hoz, és a nyertesek részére a támogatás kifizetéséről intézkedik.
 - Jó: A bizottság dönt a pályázatokról, és kifizeti a támogatást a nyerteseknek.
 
-Kör: általános. Mérés (meres.py): hivatali_fordulatok.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt. Mérés (meres.py): hivatali_fordulatok.
 
 Források: [Európai Bizottság 2013, 8. o.](forrasok.md#eu-pontos-fogalmazas-2013-033); [Európai Bizottság 2013, 10. o.](forrasok.md#eu-pontos-fogalmazas-2013-039); [NAV 2024b, 34. o.](forrasok.md#nav-ertheto-hivatal-2-053); [NAV 2024b, 35. o.](forrasok.md#nav-ertheto-hivatal-2-054); [Világos Beszéd kézikönyv 2025, 24. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-059); [Világos Beszéd kézikönyv 2025, 37–38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-114).
 
@@ -93,7 +93,7 @@ Ellenőrző kérdés: Nincs kettős tagadás, rejtett formában sem?
 - Rossz: A kérelem nem bírálható el a jövedelemigazolás csatolása nélkül, kivéve, ha nem kötelező csatolni.
 - Jó: A kérelemhez csatolja a jövedelemigazolást. Ha nincs jövedelme, ezt elég nyilatkozatban jeleznie.
 
-Kör: általános. Mérés (meres.py): tagadas.
+Kör: általános. Alapértelmezett súlyosság: magas. Ellenőrzés: jelölt. Mérés (meres.py): tagadas.
 
 Források: [Horváth 2021, 109. o.](forrasok.md#horvath-2021-021); [Horváth 2021, 109. o.](forrasok.md#horvath-2021-022); [NAV 2024b, 22–23. o.](forrasok.md#nav-ertheto-hivatal-2-038).
 
@@ -115,6 +115,6 @@ Kivételek:
 
 - A rendelet a jogszabály tervezetére kötelező; más jogi szövegnél (szerződés, tájékoztató) a skill ajánlásként alkalmazza.
 
-Kör: csak jogi szövegnél. Mérés (meres.py): illetve_illetoleg.
+Kör: csak jogi szövegnél. Alapértelmezett súlyosság: közepes. Ellenőrzés: gépi. Mérés (meres.py): illetve_illetoleg. Keresőminta: „és/vagy”.
 
 Források: [Jszr., 7. § (3)](forrasok.md#jszr-2009-006); [Jszr., 7. § (4)](forrasok.md#jszr-2009-007); [Jszr., 7. § (5)](forrasok.md#jszr-2009-008).

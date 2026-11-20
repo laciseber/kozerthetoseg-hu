@@ -9,12 +9,12 @@ Ha a hívó számokat kér a szövegről (mondathossz, főnevesítés, „kerül
 ## Bemenet
 
 - Markdown- vagy sima szövegfájl, vagy a szabványos bemenet. A YAML-frontmattert, a HTML-megjegyzést, a kódblokkot és a sorközi kódot a szkript kihagyja; a címsorokat és a táblázatsorokat nem számolja a mondatok közé.
-- Elhagyható kapcsolók: `--json`, `--kuszob N` (mondathossz-küszöb, alapérték 20), `--szohossz N` (hosszú szó határa, alapérték 15), `--huspacy` (ha a HuSpaCy és egy magyar modell telepítve van).
+- Elhagyható kapcsolók: `--json`, `--kuszob N` (mondathossz-küszöb, alapérték 20), `--szohossz N` (hosszú szó határa, alapérték 15), `--huspacy` (ha a HuSpaCy és egy magyar modell telepítve van), `--max-jelzes N` és `--szint magas|kozepes|alacsony` (CI-hez: 1-es kilépési kód, ha a megadott vagy súlyosabb jelzések száma N-nél több).
 
 ## Lépések
 
 1. Futtasd: `python scripts/meres.py szoveg.md` (gépi feldolgozáshoz `--json`). A szkript csak a Python 3.11+ standard könyvtárát használja, hálózat nem kell, és ugyanarra a szövegre mindig ugyanazt adja.
-2. Olvasd ki a mutatókat, és kösd őket a szabályokhoz (a táblázat lent).
+2. Olvasd ki a mutatókat és a „Szabályonkénti jelzések” táblázatot. Minden jelzés egy szabályhoz kötődik, a szabály alapértelmezett súlyosságával és az ellenőrzés módjával: a „gépi” jelzés megbízható, a „jelölt” csak arra mutat, hol érdemes ránézni.
 3. Minden kiugró értéknél nézd meg magát a mondatot: a szám csak jelölt. Egy 24 szavas, jól tagolt mondat lehet rendben; egy 12 szavas, kettős tagadással nem.
 4. Ha a szkript hibával lép ki (nincs fájl, üres bemenet, nincs HuSpaCy), add tovább a magyar hibaüzenetet.
 
@@ -34,6 +34,17 @@ Ha a hívó számokat kér a szövegről (mondathossz, főnevesítés, „kerül
 | `hivatali_fordulatok` | rögzített lista: amennyiben, tekintettel arra, eszközöl, foganatosít, sor kerül és társaik | K035, K036, K045, K050 |
 | `tagadas` | „nem” + tagadó jelentésű szó (mellőz, nélkül, tilos, kivéve…) | K026, K046 |
 | `huspacy` | függőségi mélység, beágyazott tagmondatok (csak `--huspacy` kapcsolóval) | K023 |
+
+<a id="szabalyvezerelt"></a>
+
+### Szabályvezérelt jelzések
+
+A beépített mutatók mellett a szkript két adatforrásból dolgozik:
+
+- a szabályok `minta` mezőjéből: egyszerű keresőminták a gépileg jelezhető szabályokhoz (például „és/vagy”, tagolatlan ötjegyű szám, ható ige a kiadó tevékenységéről);
+- a szótárból (`assets/adatok/szotar.toml`, olvasható változata: [szotar.md](szotar.md)): körülményes kifejezés, egyszerűbb megfelelő, és mikor ne cseréld.
+
+Minden szabály `ellenorzes` mezője megmondja, mennyire bízhatsz a jelzésben: `gepi` (a szkript megbízhatóan jelzi), `vegyes` (jelöltet ad, olvasva kell dönteni) vagy `itelet` (csak olvasva ellenőrizhető, a szkript nem jelzi). A `sulyossag` mező az alapértelmezett prioritás; a konkrét esetben az audit eltérhet tőle.
 
 A választás nem véletlen. Balogh (2023) a pszicholingvisztikai irodalom alapján a mondat- és szóhosszt, a szokatlan szórendet, a személytelen szerkezetet és a beágyazott mellékmondatot sorolja a megértést nehezítő jelenségek közé. Üveges (2026) korpuszán a közérthető mondatokkal együtt jár az alacsonyabb lexikai sűrűség, kevesebb visszautaló névmás, kevesebb beágyazott tagmondat és főnevesítés.
 

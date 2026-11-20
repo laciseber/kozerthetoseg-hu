@@ -184,3 +184,22 @@ def test_hianyzo_ellenorzo_kerdes(skill, szabalydir, capsys):
     p.write_text(re.sub(r"^kerdes = .*\n", "", p.read_text(encoding="utf-8"), flags=re.M), encoding="utf-8")
     kod, _, hiba = ellenoriz(skill, capsys)
     assert kod == 1 and "K043.toml" in hiba and "kerdes" in hiba
+
+
+def test_hibas_minta_regex(skill, szabalydir, capsys):
+    csere(szabalydir / "K047.toml", 'regex = "\\\\bés\\\\s*/\\\\s*vagy\\\\b"', 'regex = "(nyitott"')
+    kod, _, hiba = ellenoriz(skill, capsys)
+    assert kod == 1 and "K047.toml" in hiba and "regexe hibás" in hiba
+
+
+def test_gepi_szabaly_meres_nelkul(skill, szabalydir, capsys):
+    csere(szabalydir / "K031.toml", 'ellenorzes = "itelet"', 'ellenorzes = "gepi"')
+    kod, _, hiba = ellenoriz(skill, capsys)
+    assert kod == 1 and "K031.toml" in hiba and "gépi vagy vegyes" in hiba
+
+
+def test_szotar_nem_letezo_tetel(skill, capsys):
+    p = skill / "assets" / "adatok" / "szotar.toml"
+    csere(p, '"vilagos-beszed-kezikonyv-2025#113"', '"vilagos-beszed-kezikonyv-2025#999"')
+    kod, _, hiba = ellenoriz(skill, capsys)
+    assert kod == 1 and "szotar.toml" in hiba and "#999" in hiba

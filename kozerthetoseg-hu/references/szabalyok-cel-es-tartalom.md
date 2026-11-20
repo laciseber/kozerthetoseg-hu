@@ -21,7 +21,7 @@ Kivételek:
 
 - Ha a megbízó nem mondja meg az olvasót, egyetlen kérdésben kérdezz rá; ha erre sincs mód, írd le, milyen olvasót feltételeztél.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Balogh 2023, 179. o.](forrasok.md#balogh-2023-002); [Európai Bizottság 2013, 3. o.](forrasok.md#eu-pontos-fogalmazas-2013-003); [Európai Bizottság 2013, 3. o.](forrasok.md#eu-pontos-fogalmazas-2013-004); [Európai Bizottság 2013, 4. o.](forrasok.md#eu-pontos-fogalmazas-2013-008); [Gerencsér 2023, 13. o.](forrasok.md#gerencser-2023-003); [Világos Beszéd kézikönyv 2025, 8. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-008); [Világos Beszéd kézikönyv 2025, 8. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-009); [Világos Beszéd kézikönyv 2025, 10. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-011); [Világos Beszéd kézikönyv 2025, 10. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-012); [Világos Beszéd kézikönyv 2025, 10–11. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-013); [Világos Beszéd kézikönyv 2025, 11. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-014); [Világos Beszéd kézikönyv 2025, 11. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-018); [Világos Beszéd 2025, 2–3. o.](forrasok.md#vilagos-beszed-kisokos-2025-004); [Világos Beszéd 2025, 4. o.](forrasok.md#vilagos-beszed-kisokos-2025-005); [Világos Beszéd 2025, 5. o.](forrasok.md#vilagos-beszed-kisokos-2025-008); [Világos Beszéd 2025, 5. o.](forrasok.md#vilagos-beszed-kisokos-2025-012); [WP260 2018, 7. o.](forrasok.md#wp260-2018-003).
 
@@ -42,7 +42,7 @@ Kivételek:
 
 - Kötött szerkezetű szövegnél (határozat, jogszabály) a szerkezetet jogszabály írja elő; ott a fő üzenetet egy rövid kísérő összefoglaló adhatja.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: magas. Ellenőrzés: olvasva.
 
 Források: [NAV 2024b, 15. o.](forrasok.md#nav-ertheto-hivatal-2-019); [NAV 2024b, 15. o.](forrasok.md#nav-ertheto-hivatal-2-020); [Világos Beszéd kézikönyv 2025, 11. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-015); [Világos Beszéd kézikönyv 2025, 13. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-022); [Világos Beszéd kézikönyv 2025, 14–15. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-023); [Világos Beszéd kézikönyv 2025, 14. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-024); [Világos Beszéd kézikönyv 2025, 14. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-025); [Világos Beszéd kézikönyv 2025, 15. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-027); [Világos Beszéd kézikönyv 2025, 16–17. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-032); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-086); [Világos Beszéd kézikönyv 2025, 32–33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-097); [Világos Beszéd 2025, 5. o.](forrasok.md#vilagos-beszed-kisokos-2025-009); [Világos Beszéd 2025, 6. o.](forrasok.md#vilagos-beszed-kisokos-2025-014); [Világos Beszéd 2025, 6. o.](forrasok.md#vilagos-beszed-kisokos-2025-015).
 
@@ -59,7 +59,7 @@ Ellenőrző kérdés: Közvetlenül a fő üzenet után áll, mit kell vagy lehe
 - Rossz: Tájékoztatjuk, hogy a 2025. évi adatszolgáltatás feldolgozása megtörtént.
 - Jó: Feldolgoztuk a 2025-ös adatszolgáltatását. Ezzel a levéllel nincs teendője.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: magas. Ellenőrzés: olvasva.
 
 Források: [NAV 2024b, 8. o.](forrasok.md#nav-ertheto-hivatal-2-006); [Világos Beszéd kézikönyv 2025, 11. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-017); [Világos Beszéd kézikönyv 2025, 16. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-028); [Világos Beszéd kézikönyv 2025, 16. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-029); [Világos Beszéd kézikönyv 2025, 16. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-031); [Világos Beszéd kézikönyv 2025, 16–17. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-032); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-086); [Világos Beszéd kézikönyv 2025, 32–33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-097); [Világos Beszéd kézikönyv 2025, 38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-121); [Világos Beszéd 2025, 5. o.](forrasok.md#vilagos-beszed-kisokos-2025-011); [Világos Beszéd 2025, 6. o.](forrasok.md#vilagos-beszed-kisokos-2025-016).
 
@@ -76,7 +76,7 @@ Ellenőrző kérdés: Megvan a teendőhöz minden adat: mit, mennyit, meddig, ho
 - Rossz: Kérjük, rendezze tartozását a megadott határidőn belül.
 - Jó: Fizessen be 12 400 forintot 2026. április 30-ig a 11111111-22222222 számlaszámra. A közleménybe írja be: „2026/417 parkolás”. Ha nem fizet, a díjat késedelmi pótlékkal együtt végrehajtjuk. Kérdés esetén hívja a 06 1 234 5678-as számot.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: magas. Ellenőrzés: olvasva.
 
 Források: [Európai Bizottság 2013, 3. o.](forrasok.md#eu-pontos-fogalmazas-2013-007); [NAV 2024a, 55. o.](forrasok.md#nav-ertheto-hivatal-1-032); [NAV 2024b, 11. o.](forrasok.md#nav-ertheto-hivatal-2-010); [Világos Beszéd kézikönyv 2025, 4. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-002); [Világos Beszéd kézikönyv 2025, 11. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-016); [Világos Beszéd kézikönyv 2025, 16. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-028); [Világos Beszéd kézikönyv 2025, 16. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-030); [Világos Beszéd 2025, 5. o.](forrasok.md#vilagos-beszed-kisokos-2025-010).
 
@@ -97,7 +97,7 @@ Kivételek:
 
 - Ha a jogszabály kötelező tartalmi elemet ír elő (például jogorvoslati tájékoztatást), az akkor is benne marad, ha az olvasónak éppen nincs rá szüksége.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Európai Bizottság 2013, 4. o.](forrasok.md#eu-pontos-fogalmazas-2013-011); [NAV 2024b, 6. o.](forrasok.md#nav-ertheto-hivatal-2-004); [Világos Beszéd kézikönyv 2025, 19–20. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-043); [Világos Beszéd kézikönyv 2025, 20. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-044); [Világos Beszéd kézikönyv 2025, 20. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-045); [Világos Beszéd kézikönyv 2025, 21. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-047); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-088); [Világos Beszéd kézikönyv 2025, 32–33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-097); [Világos Beszéd 2025, 6–7. o.](forrasok.md#vilagos-beszed-kisokos-2025-019).
 
@@ -114,7 +114,7 @@ Ellenőrző kérdés: A szöveg azt írja le, mit jelent a szabály az olvasó �
 - Rossz: Az ügyintézési határidő a vonatkozó jogszabály szerint a kérelem beérkezését követő napon kezdődik, és a hiánypótlás időtartama nem számít bele.
 - Jó: Az Ön ügyében a döntés határideje 2026. május 12.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [NAV 2024b, 10. o.](forrasok.md#nav-ertheto-hivatal-2-008); [NAV 2024b, 10. o.](forrasok.md#nav-ertheto-hivatal-2-009).
 
@@ -131,7 +131,7 @@ Ellenőrző kérdés: Válaszol a szöveg azokra a kérdésekre is, amelyeket az
 - Rossz: A kérelmét elutasítottuk.
 - Jó: A kérelmét elutasítottuk, mert a jövedelemigazolás hiányzott. Újra beadhatja, ha csatolja az igazolást. Az új kérelemért nem kell díjat fizetnie.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Európai Bizottság 2013, 4. o.](forrasok.md#eu-pontos-fogalmazas-2013-010); [Világos Beszéd kézikönyv 2025, 12. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-019); [Világos Beszéd kézikönyv 2025, 12. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-020); [Világos Beszéd kézikönyv 2025, 19–20. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-043); [Világos Beszéd 2025, 5. o.](forrasok.md#vilagos-beszed-kisokos-2025-013).
 
@@ -148,7 +148,7 @@ Ellenőrző kérdés: A folyamat az olvasó oldaláról van leírva (mit küld e
 - Rossz: A hivatalnak a nyilatkozatot aláírva kell megkapnia.
 - Jó: Írja alá a nyilatkozatot, és küldje el nekünk.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [NAV 2024a, 8. o.](forrasok.md#nav-ertheto-hivatal-1-004); [NAV 2024a, 10. o.](forrasok.md#nav-ertheto-hivatal-1-005); [NAV 2024b, 8. o.](forrasok.md#nav-ertheto-hivatal-2-006); [NAV 2024b, 9. o.](forrasok.md#nav-ertheto-hivatal-2-007).
 
@@ -169,7 +169,7 @@ Kivételek:
 
 - Webes és nyomtatott változatnál a két forma eltérhet: a weben a link, nyomtatásban az útvonal a jobb.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Gerencsér 2023, 14. o.](forrasok.md#gerencser-2023-008); [Világos Beszéd kézikönyv 2025, 16. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-030); [Világos Beszéd kézikönyv 2025, 25. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-062); [Világos Beszéd kézikönyv 2025, 25. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-063); [Világos Beszéd kézikönyv 2025, 25. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-064); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-092); [Világos Beszéd kézikönyv 2025, 32–33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-098); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-026).
 
@@ -186,7 +186,7 @@ Ellenőrző kérdés: Az adatkezelési tájékoztató konkrétan megmondja, mily
 - Rossz: Személyes adatait szolgáltatásaink fejlesztésére használhatjuk.
 - Jó: A vásárlásai listáját megőrizzük, és ez alapján ajánlunk Önnek termékeket a hírlevelünkben. Ennek jogalapja az Ön hozzájárulása, amelyet bármikor visszavonhat.
 
-Kör: csak jogi szövegnél.
+Kör: csak jogi szövegnél. Alapértelmezett súlyosság: magas. Ellenőrzés: olvasva.
 
 Források: [WP260 2018, 9. o.](forrasok.md#wp260-2018-007); [WP260 2018, 9–10. o.](forrasok.md#wp260-2018-008); [WP260 2018, 10. o.](forrasok.md#wp260-2018-009).
 
@@ -207,6 +207,6 @@ Kivételek:
 
 - A skill nem ad jogi tanácsot: azt jelzi, hol gyenge a kikötés a két próba szerint; a tisztességtelenség megítélése jogászi feladat.
 
-Kör: csak jogi szövegnél.
+Kör: csak jogi szövegnél. Alapértelmezett súlyosság: magas. Ellenőrzés: olvasva.
 
 Források: [EUB C-26/13, 71–72. pont](forrasok.md#eub-c-26-13-2014-001); [EUB C-26/13, 74–75. pont és rendelkező rész 2.](forrasok.md#eub-c-26-13-2014-002); [Ptk., 6:102. § (3)](forrasok.md#ptk-2013-001); [Ptk., 6:103. § (1)–(2)](forrasok.md#ptk-2013-003).

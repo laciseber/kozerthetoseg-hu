@@ -91,7 +91,7 @@ def ellenoriz_adatok(n: Naplo, a: kozos.Adatok) -> None:
 
     # Szabályok: séma, fájlnév, folytonos azonosítók
     for sid, f in a.szabalyok.items():
-        sema_hibak(n, f, szabaly_sema, ("elteres",))
+        sema_hibak(n, f, szabaly_sema, ("elteres", "minta"))
         kitoltendo(n, f)
         if f.adat.get("azonosito") != sid:
             n.hiba(f.utvonal, f.sor("azonosito"),
@@ -135,6 +135,21 @@ def ellenoriz_adatok(n: Naplo, a: kozos.Adatok) -> None:
             if fa not in hasznalt_fejezet and not fej.get("tetel_nelkul"):
                 n.hiba(f.utvonal, f.sor("cim", "fejezet", i),
                        f"a(z) „{fej.get('cim')}” fejezetből nincs leltártétel, és a tetel_nelkul mező sem mondja meg, miért")
+
+    # Szótár: séma, regex, létező szabály és leltártétel
+    if a.szotar:
+        sf = a.szotar
+        sema_hibak(n, sf, kozos.sema_betolt("szotar.schema.json", gy), ("par",))
+        for j, p in enumerate(sf.adat.get("par", [])):
+            try:
+                re.compile(p.get("regex", ""))
+            except re.error as e:
+                n.hiba(sf.utvonal, sf.sor("regex", "par", j), f"a(z) „{p.get('kifejezes')}” regexe hibás: {e}")
+            if p.get("szabaly") not in a.szabalyok:
+                n.hiba(sf.utvonal, sf.sor("szabaly", "par", j), f"nem létező szabály: {p.get('szabaly')}")
+            for tid in p.get("forrasok", []):
+                if tid not in minden_tetel:
+                    n.hiba(sf.utvonal, sf.sor("forrasok", "par", j), f"nem létező leltártételre hivatkozik: {tid}")
 
     # Leképezés: minden tétel célba ér
     visszautal: dict[str, set[str]] = defaultdict(set)
@@ -193,6 +208,17 @@ def ellenoriz_adatok(n: Naplo, a: kozos.Adatok) -> None:
                 if tid not in forr:
                     n.hiba(f.utvonal, f.sor("forrasok", "elteres", j),
                            f"az eltérésnél hivatkozott tétel ({tid}) nincs a szabály forrásai között")
+        for j, mt in enumerate(d.get("minta", [])):
+            try:
+                re.compile(mt.get("regex", ""))
+            except re.error as e:
+                n.hiba(f.utvonal, f.sor("regex", "minta", j), f"a minta regexe hibás: {e}")
+        if d.get("allapot") == "aktiv" and d.get("ellenorzes") in ("gepi", "vegyes"):
+            szotarban = a.szotar and any(p.get("szabaly") == sid for p in a.szotar.adat.get("par", []))
+            if not (d.get("meres") or d.get("minta") or szotarban):
+                n.hiba(f.utvonal, f.sor("ellenorzes"),
+                       "gépi vagy vegyes szabálynak legyen meres mezője, minta bejegyzése vagy szótárpárja; "
+                       "különben az ellenorzes mező legyen „itelet”")
         for m in d.get("meres", []):
             if m not in meres.METRIKAK:
                 n.hiba(f.utvonal, f.sor("meres"),

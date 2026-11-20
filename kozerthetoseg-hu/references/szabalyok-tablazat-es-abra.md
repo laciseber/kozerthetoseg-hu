@@ -17,7 +17,7 @@ Ellenőrző kérdés: Ahol táblázat, ábra vagy ikon világosabb volna, ott az
 - Rossz: Hárommondatos bekezdés, amely öt díjtételt sorol fel feltételekkel.
 - Jó: Kétoszlopos táblázat: díjtétel és feltétel.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Európai Bizottság 2013, 5. o.](forrasok.md#eu-pontos-fogalmazas-2013-014); [Világos Beszéd kézikönyv 2025, 26. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-073).
 
@@ -34,7 +34,7 @@ Ellenőrző kérdés: A táblázatok és ábrák címe rövid, informatív és e
 - Rossz: A beérkezett kérelmek számának alakulása a 2025. évben
 - Jó: Beérkezett kérelmek, 2025
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: olvasva.
 
 Források: [NAV 2024b, 58. o.](forrasok.md#nav-ertheto-hivatal-2-076).
 
@@ -51,7 +51,7 @@ Ellenőrző kérdés: A táblázatban egységes a dátum, a rövidítés és a k
 - Rossz: 2025. év | 2025. március hónap | 2025.03.6
 - Jó: 2025 | március | március 6.*  (* Március 6-ig beérkezett adatok.)
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: olvasva.
 
 Források: [NAV 2024b, 59. o.](forrasok.md#nav-ertheto-hivatal-2-077); [NAV 2024b, 60. o.](forrasok.md#nav-ertheto-hivatal-2-078); [NAV 2024b, 61. o.](forrasok.md#nav-ertheto-hivatal-2-079); [Világos Beszéd kézikönyv 2025, 26. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-073).
 
@@ -68,6 +68,6 @@ Ellenőrző kérdés: A diagram illeszkedik az adatokhoz, és könnyen olvashat�
 - Rossz: Tizennégy szeletre bontott kördiagram, sötétkék háttéren, apró számokkal.
 - Jó: Sávdiagram a négy legnagyobb tétellel, a többi „egyéb” néven összevonva, világos háttéren.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: olvasva.
 
 Források: [NAV 2024b, 62. o.](forrasok.md#nav-ertheto-hivatal-2-080).

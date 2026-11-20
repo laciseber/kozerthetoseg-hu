@@ -17,7 +17,7 @@ Ellenőrző kérdés: Az alcímek nagyobb, félkövér betűvel látszanak, és 
 - Rossz: Az alcím ugyanakkora, normál vastagságú betűvel áll, mint a törzsszöveg, közvetlenül az előző bekezdés alatt.
 - Jó: Az alcím két ponttal nagyobb, félkövér, és üres sor választja el az előző blokktól.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: olvasva.
 
 Források: [Világos Beszéd kézikönyv 2025, 29. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-079); [Világos Beszéd kézikönyv 2025, 29. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-080); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-096); [Világos Beszéd kézikönyv 2025, 33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-099); [Világos Beszéd kézikönyv 2025, 36. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-108); [Világos Beszéd 2025, 9. o.](forrasok.md#vilagos-beszed-kisokos-2025-033); [Világos Beszéd 2025, 11. o.](forrasok.md#vilagos-beszed-kisokos-2025-045).
 
@@ -34,7 +34,7 @@ Ellenőrző kérdés: Kevés, rövid és önmagában is érthető a kiemelés?
 - Rossz: **Kérjük**, hogy a **nyilatkozatot** a **határidőn belül** **aláírva** küldje vissza **postán vagy elektronikusan**.
 - Jó: Kérjük, küldje vissza a nyilatkozatot aláírva **2026. június 15-ig**.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: olvasva.
 
 Források: [NAV 2024b, 13. o.](forrasok.md#nav-ertheto-hivatal-2-014); [NAV 2024b, 17. o.](forrasok.md#nav-ertheto-hivatal-2-024); [Világos Beszéd kézikönyv 2025, 25. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-063); [Világos Beszéd kézikönyv 2025, 29. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-081); [Világos Beszéd kézikönyv 2025, 29–30. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-082); [Világos Beszéd kézikönyv 2025, 30. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-083); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-096); [Világos Beszéd kézikönyv 2025, 33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-099); [Világos Beszéd kézikönyv 2025, 37. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-120); [Világos Beszéd 2025, 9. o.](forrasok.md#vilagos-beszed-kisokos-2025-034).
 
@@ -51,7 +51,7 @@ Ellenőrző kérdés: Szellős és egységes az íráskép (betű, sorköz, tér
 - Rossz: Háromféle betűtípus egy oldalon, eltérő sorközzel, a bekezdések között üres sor nélkül.
 - Jó: Egy betűtípus, egységes sorköz, a bekezdések között térköz, a címsorok nagyobb méretűek.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: olvasva.
 
 Források: [NAV 2024b, 12. o.](forrasok.md#nav-ertheto-hivatal-2-011); [NAV 2024b, 13. o.](forrasok.md#nav-ertheto-hivatal-2-012); [NAV 2024b, 13. o.](forrasok.md#nav-ertheto-hivatal-2-013); [Világos Beszéd kézikönyv 2025, 29. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-080); [Világos Beszéd kézikönyv 2025, 29. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-081); [Világos Beszéd kézikönyv 2025, 36. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-108); [Világos Beszéd 2025, 11. o.](forrasok.md#vilagos-beszed-kisokos-2025-046).
 
@@ -68,7 +68,7 @@ Ellenőrző kérdés: A listák legfeljebb három szintűek?
 - Rossz: 1. → a) → aa) → i. → – (öt szint egymás alatt)
 - Jó: Két listaszint, a harmadik szint helyett külön alcím a hozzá tartozó tételekkel.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: olvasva.
 
 Források: [NAV 2024b, 13. o.](forrasok.md#nav-ertheto-hivatal-2-016).
 
@@ -89,6 +89,6 @@ Kivételek:
 
 - A könnyen érthető kommunikáció (KÉK) külön betűméret-szabályt követ.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: olvasva.
 
 Források: [Világos Beszéd kézikönyv 2025, 30. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-083); [Világos Beszéd kézikönyv 2025, 36. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-109); [Világos Beszéd 2025, 11. o.](forrasok.md#vilagos-beszed-kisokos-2025-047).

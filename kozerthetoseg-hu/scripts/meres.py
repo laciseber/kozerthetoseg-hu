@@ -10,6 +10,14 @@ Használat:
     python scripts/meres.py --json szoveg.txt
     cat szoveg.txt | python scripts/meres.py -
     python scripts/meres.py --huspacy szoveg.md   # ha a HuSpaCy telepítve van
+    python scripts/meres.py --max-jelzes 0 --szint magas szoveg.md   # CI-ben
+
+A beépített mutatók mellett a szabálykatalógus (assets/adatok/szabalyok/)
+keresőmintáit és a szótár (assets/adatok/szotar.toml) párjait is lefuttatja,
+és minden jelzést a szabály azonosítójához köt.
+
+Kilépési kód: 0 rendben; 1 ha --max-jelzes meg van adva, és a --szint vagy
+annál súlyosabb jelzések száma meghaladja; 2 hibás bemenet; 3 HuSpaCy-hiba.
 """
 
 from __future__ import annotations
@@ -21,6 +29,16 @@ import statistics
 import sys
 from collections import Counter
 from pathlib import Path
+
+try:
+    import tomllib
+except ModuleNotFoundError:  # Python 3.10 alatt nincs; a szkripthez 3.11 kell
+    tomllib = None
+
+SKILL_GYOKER = Path(__file__).resolve().parent.parent
+SULY_SORREND = {"magas": 0, "kozepes": 1, "alacsony": 2}
+SULY_NEV = {"magas": "magas", "kozepes": "közepes", "alacsony": "alacsony"}
+ELL_NEV = {"gepi": "gépi", "vegyes": "jelölt", "itelet": "olvasva"}
 
 FIGYELMEZTETES = (
     "A mérőszám jelzés, nem ítélet. Felszíni jegyekből nem lehet megbízhatóan "
@@ -314,7 +332,90 @@ def mer(szoveg: str, kuszob: int = 20, szohossz: int = 15) -> dict:
         "hosszu_szavak": hosszu_szavak,
         "hivatali_fordulatok": hivatali,
         "tagadas": {"db": len(tagadas), "elofordulasok": tagadas},
+        "_folyo": folyo,
     }, mondatok
+
+
+def metrika_db(e: dict, kulcs: str) -> int:
+    """Egy beépített mutató jelzéseinek száma (0 = nincs mit jelezni)."""
+    if kulcs == "mondathossz":
+        return e["mondathossz"]["kuszob_feletti"]
+    if kulcs == "fonevesites":
+        return e["fonevesites"]["jeloltek"]
+    if kulcs == "kerul_szerkezet":
+        return e["kerul_szerkezet"]["db"]
+    if kulcs == "altal_torteno_valo":
+        return sum(v["db"] for v in e["altal_torteno_valo"].values())
+    if kulcs == "illetve_illetoleg":
+        return sum(e["illetve_illetoleg"].values())
+    if kulcs == "zarojelmelyseg":
+        return e["zarojelmelyseg"]["egymasba_agyazott"]
+    if kulcs == "hosszu_szavak":
+        return e["hosszu_szavak"]["db"]
+    if kulcs == "hivatali_fordulatok":
+        return sum(h["db"] for h in e["hivatali_fordulatok"])
+    if kulcs == "tagadas":
+        return e["tagadas"]["db"]
+    return 0
+
+
+def katalogus_betolt(gyoker: Path) -> tuple[dict, list]:
+    """A szabályok és a szótárpárok a skill adataiból; ha nincsenek meg, üresen."""
+    szabalyok, szotar = {}, []
+    adat = gyoker / "assets" / "adatok"
+    if tomllib is None or not (adat / "szabalyok").is_dir():
+        return szabalyok, szotar
+    for p in sorted((adat / "szabalyok").glob("K*.toml")):
+        d = tomllib.loads(p.read_text(encoding="utf-8"))
+        if d.get("allapot") == "aktiv":
+            szabalyok[d["azonosito"]] = d
+    if (adat / "szotar.toml").is_file():
+        szotar = tomllib.loads((adat / "szotar.toml").read_text(encoding="utf-8")).get("par", [])
+    return szabalyok, szotar
+
+
+def kornyezet(szoveg: str, m: re.Match, szel: int = 30) -> str:
+    eleje = max(0, m.start() - szel)
+    vege = min(len(szoveg), m.end() + szel)
+    return ("…" if eleje else "") + szoveg[eleje:vege].strip() + ("…" if vege < len(szoveg) else "")
+
+
+def jelzesek(folyo: str, e: dict, szabalyok: dict, szotar: list) -> list[dict]:
+    """Minden jelzés egy szabályhoz kötve: beépített mutató, katalógusminta vagy szótárpár."""
+    ki = []
+
+    def uj(sid, honnan, mi, db, pelda="", javaslat="", mikor_nem=""):
+        d = szabalyok.get(sid, {})
+        ki.append({
+            "szabaly": sid,
+            "cim": d.get("cim", ""),
+            "sulyossag": d.get("sulyossag", "kozepes"),
+            "ellenorzes": d.get("ellenorzes", "vegyes"),
+            "kor": d.get("alkalmazasi_kor", "altalanos"),
+            "honnan": honnan,
+            "mi": mi,
+            "db": db,
+            "pelda": pelda,
+            "javaslat": javaslat,
+            "mikor_nem": mikor_nem,
+        })
+
+    for sid, d in szabalyok.items():
+        for kulcs in d.get("meres", []):
+            db = metrika_db(e, kulcs)
+            if db:
+                uj(sid, "mutató", METRIKAK.get(kulcs, kulcs), db)
+        for mt in d.get("minta", []):
+            talalat = list(re.finditer(mt["regex"], folyo, re.IGNORECASE))
+            if talalat:
+                uj(sid, "minta", mt["leiras"], len(talalat), kornyezet(folyo, talalat[0]))
+    for p in szotar:
+        talalat = list(re.finditer(p["regex"], folyo, re.IGNORECASE))
+        if talalat and p.get("szabaly") in szabalyok:
+            uj(p["szabaly"], "szótár", f"„{p['kifejezes']}”", len(talalat), kornyezet(folyo, talalat[0]),
+               p.get("javaslat", ""), p.get("mikor_nem", ""))
+    ki.sort(key=lambda j: (SULY_SORREND.get(j["sulyossag"], 1), j["szabaly"], j["honnan"], j["mi"]))
+    return ki
 
 
 def huspacy_meres(mondatok: list[str], modell: str) -> dict:
@@ -415,6 +516,22 @@ def markdown(e: dict) -> str:
         s.append("")
         s.extend(f"- {r}" for r in reszletek)
         s.append("")
+    if e.get("jelzesek"):
+        s.append("## Szabályonkénti jelzések")
+        s.append("")
+        s.append("Súlyosság: a szabály alapértelmezett prioritása. Ellenőrzés: „gépi” = a szkript "
+                 "megbízhatóan jelzi; „jelölt” = olvasva kell eldönteni, valóban hiba-e.")
+        s.append("")
+        s.append("| Szabály | Súlyosság | Ellenőrzés | Mit talált | Db | Példa | Javaslat |")
+        s.append("|---|---|---|---|---|---|---|")
+        for j in e["jelzesek"]:
+            jog = " (jogi)" if j["kor"] == "jogi" else ""
+            jav = j["javaslat"] + (f" Kivétel: {j['mikor_nem']}" if j["mikor_nem"] else "")
+            cella = lambda x: x.replace("|", "\\|").replace("\n", " ")
+            s.append(f"| {j['szabaly']}{jog} | {SULY_NEV.get(j['sulyossag'], j['sulyossag'])} | "
+                     f"{ELL_NEV.get(j['ellenorzes'], j['ellenorzes'])} | {cella(j['mi'])} | {j['db']} | "
+                     f"{cella(j['pelda'])} | {cella(jav)} |")
+        s.append("")
     s.append("## Amit a mérés nem mutat meg")
     s.append("")
     s.extend(f"- {n}" for n in e["nem_meri"])
@@ -432,6 +549,12 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--szohossz", type=int, default=15, help="hosszú szó határa betűben (alapérték: 15)")
     p.add_argument("--huspacy", action="store_true", help="függőségi mélység és beágyazott tagmondatok HuSpaCy-val")
     p.add_argument("--huspacy-modell", default="hu_core_news_lg", help="a betöltendő HuSpaCy-modell neve")
+    p.add_argument("--max-jelzes", type=int, default=None,
+                   help="ha a --szint vagy súlyosabb jelzések száma ennél több, a kilépési kód 1 (CI-hez)")
+    p.add_argument("--szint", choices=["magas", "kozepes", "alacsony"], default="alacsony",
+                   help="a --max-jelzes ennél súlyosabb vagy ilyen jelzéseket számol (alapérték: alacsony)")
+    p.add_argument("--gyoker", type=Path, default=SKILL_GYOKER,
+                   help="a skill mappája, ahol a szabályok és a szótár vannak (alapérték: a szkript fölötti mappa)")
     a = p.parse_args(argv)
 
     if a.kuszob < 1 or a.szohossz < 1:
@@ -454,6 +577,9 @@ def main(argv: list[str] | None = None) -> int:
         return 2
 
     eredmeny, mondatok = mer(szoveg, a.kuszob, a.szohossz)
+    folyo = eredmeny.pop("_folyo")
+    szabalyok, szotar = katalogus_betolt(a.gyoker)
+    eredmeny["jelzesek"] = jelzesek(folyo, eredmeny, szabalyok, szotar)
     if a.huspacy:
         try:
             eredmeny["huspacy"] = huspacy_meres(mondatok, a.huspacy_modell)
@@ -464,6 +590,13 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(eredmeny, ensure_ascii=False, indent=2))
     else:
         print(markdown(eredmeny), end="")
+    if a.max_jelzes is not None:
+        hatar = SULY_SORREND[a.szint]
+        db = sum(1 for j in eredmeny["jelzesek"] if SULY_SORREND.get(j["sulyossag"], 1) <= hatar)
+        if db > a.max_jelzes:
+            print(f"A(z) {a.szint} vagy súlyosabb jelzések száma ({db}) meghaladja a megengedettet ({a.max_jelzes}).",
+                  file=sys.stderr)
+            return 1
     return 0
 
 

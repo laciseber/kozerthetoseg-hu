@@ -17,7 +17,7 @@ Ellenőrző kérdés: A nehéz helyesírású szakkifejezéseket szótárban ell
 - Rossz: Az SZJA bevallás és az ÁFA visszatérítés határideje...
 - Jó: Az szja-bevallás és az áfa-visszatérítés határideje...
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: olvasva.
 
 Források: [Európai Bizottság 2013, 14. o.](forrasok.md#eu-pontos-fogalmazas-2013-049); [NAV 2024a, 30. o.](forrasok.md#nav-ertheto-hivatal-1-015); [NAV 2024b, 2, 66. o.](forrasok.md#nav-ertheto-hivatal-2-001); [NAV 2024b, 6. o.](forrasok.md#nav-ertheto-hivatal-2-005).
 
@@ -34,7 +34,7 @@ Ellenőrző kérdés: A dátumok egységes alakban állnak (2026. április 4.)?
 - Rossz: 2026. év április hónap 4. napján
 - Jó: 2026. április 4-én
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: jelölt. Keresőminta: dátum „év”, „hó”, „nap” szóval.
 
 Források: [NAV 2024b, 52–53. o.](forrasok.md#nav-ertheto-hivatal-2-073).
 
@@ -55,7 +55,7 @@ Kivételek:
 
 - A négyjegyű számot nem kell tagolni, kivéve, ha táblázatban nagyobb számok alatt áll.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: jelölt. Keresőminta: tagolatlan, legalább ötjegyű szám.
 
 Források: [NAV 2024b, 50. o.](forrasok.md#nav-ertheto-hivatal-2-071); [NAV 2024b, 51. o.](forrasok.md#nav-ertheto-hivatal-2-072).
 
@@ -72,7 +72,7 @@ Ellenőrző kérdés: Folyó szövegben ki van írva a pénznem?
 - Rossz: A díj 12345,-Ft.
 - Jó: A díj 12 345 forint.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: jelölt. Keresőminta: pénznem rövidítése folyó szövegben.
 
 Források: [NAV 2024b, 54–55. o.](forrasok.md#nav-ertheto-hivatal-2-074).
 
@@ -89,7 +89,7 @@ Ellenőrző kérdés: A mértékegység és a százalékjel írása szabályos?
 - Rossz: 120km., 35 %, 12 db határozat
 - Jó: 120 km, 35%, 12 határozat
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: jelölt. Keresőminta: „db” elvont dolog mellett vagy hiányzó szóköz a mértékegység előtt.
 
 Források: [NAV 2024b, 56–57. o.](forrasok.md#nav-ertheto-hivatal-2-075).
 
@@ -106,7 +106,7 @@ Ellenőrző kérdés: A kötőjel, a gondolatjel és a nagykötőjel a helyén v
 - Rossz: a 2025-2026-os időszakban, Budapest-Bécs járat
 - Jó: a 2025–2026-os időszakban, Budapest–Bécs járat
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: olvasva.
 
 Források: [NAV 2024b, 42–43. o.](forrasok.md#nav-ertheto-hivatal-2-066).
 
@@ -123,7 +123,7 @@ Ellenőrző kérdés: Megvan a vessző az „illetve”, a tagmondatot bevezető
 - Rossz: Postán illetve elektronikusan küldheti el.
 - Jó: Postán, illetve elektronikusan küldheti el.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: jelölt. Keresőminta: hiányzó vessző az „illetve”, „valamint”, „továbbá” előtt.
 
 Források: [NAV 2024b, 45. o.](forrasok.md#nav-ertheto-hivatal-2-068); [NAV 2024b, 46–47. o.](forrasok.md#nav-ertheto-hivatal-2-069); [NAV 2024b, 48. o.](forrasok.md#nav-ertheto-hivatal-2-070).
 
@@ -144,6 +144,6 @@ Kivételek:
 
 - Lépésenkénti útmutatóban, ahol sok felszólítás követi egymást, a pont is elfogadott.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: alacsony. Ellenőrzés: jelölt. Keresőminta: felszólító „kérjük” mondat felkiáltójel nélkül.
 
 Források: [NAV 2024b, 44. o.](forrasok.md#nav-ertheto-hivatal-2-067).

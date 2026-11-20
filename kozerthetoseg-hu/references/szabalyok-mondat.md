@@ -17,7 +17,7 @@ Ellenőrző kérdés: Minden mondat egy dologról szól?
 - Rossz: A bérletet csak személyesen lehet megvásárolni, de a meghosszabbítás online is lehetséges, amennyiben a bérlet még érvényes.
 - Jó: A bérletet személyesen vásárolhatja meg. Amíg a bérlet érvényes, online is meghosszabbíthatja.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Horváth 2021, 108–109. o.](forrasok.md#horvath-2021-019); [NAV 2024b, 22. o.](forrasok.md#nav-ertheto-hivatal-2-037); [Világos Beszéd kézikönyv 2025, 25. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-065); [Világos Beszéd kézikönyv 2025, 26. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-066); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-093); [Világos Beszéd kézikönyv 2025, 32–33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-098); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-027).
 
@@ -39,7 +39,7 @@ Kivételek:
 - Felsorolást tartalmazó mondat hosszabb lehet, ha listába tördeled.
 - A szám önmagában nem dönt: egy 22 szavas, világos szórendű mondat jobb lehet két rosszul összekötött rövidnél.
 
-Kör: általános. Mérés (meres.py): mondathossz.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt. Mérés (meres.py): mondathossz.
 
 Források: [Balogh 2023, 186–187. o.](forrasok.md#balogh-2023-014); [Európai Bizottság 2013, 6. o.](forrasok.md#eu-pontos-fogalmazas-2013-022); [NAV 2024a, 10. o.](forrasok.md#nav-ertheto-hivatal-1-005); [Üveges 2026, 9. o.](forrasok.md#uveges-2026-003); [Világos Beszéd kézikönyv 2025, 25. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-065); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-093); [Világos Beszéd kézikönyv 2025, 32–33. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-098); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-027).
 
@@ -58,7 +58,7 @@ Ellenőrző kérdés: A mondatok elején, egymás közelében áll az alany és 
 - Rossz: A bérlőnek a lakásban végzett, a bérbeadó előzetes írásbeli hozzájárulásához kötött átalakítási munkák megkezdése előtt értesítési kötelezettsége áll fenn.
 - Jó: A bérlőnek értesítenie kell a bérbeadót, mielőtt átalakítási munkába kezd. Ehhez a bérbeadó előzetes írásbeli hozzájárulása kell.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Balogh 2023, 183. o.](forrasok.md#balogh-2023-008); [Horváth 2021, 105. o.](forrasok.md#horvath-2021-009); [NAV 2024b, 20–21. o.](forrasok.md#nav-ertheto-hivatal-2-031); [NAV 2024b, 21. o.](forrasok.md#nav-ertheto-hivatal-2-033); [NAV 2024b, 22. o.](forrasok.md#nav-ertheto-hivatal-2-034); [Világos Beszéd kézikönyv 2025, 26. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-067); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-028).
 
@@ -75,7 +75,7 @@ Ellenőrző kérdés: A feltételes mondatok a feltétellel kezdődnek?
 - Rossz: Csatolja a gyámhatóság engedélyét, ha a kérelmező kiskorú.
 - Jó: Ha a kérelmező kiskorú, csatolja a gyámhatóság engedélyét.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: magas. Ellenőrzés: olvasva.
 
 Források: [NAV 2024b, 22. o.](forrasok.md#nav-ertheto-hivatal-2-035); [Világos Beszéd kézikönyv 2025, 24. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-060); [Világos Beszéd kézikönyv 2025, 26. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-070).
 
@@ -96,7 +96,7 @@ Kivételek:
 
 - Nem kell mindenáron egyszerű mondatra bontani: ha a bontás után az összetartozó elemek távol kerülnek egymástól, az összetett mondat a jobb.
 
-Kör: általános. Mérés (meres.py): mondathossz, huspacy.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt. Mérés (meres.py): mondathossz, huspacy.
 
 Források: [Balogh 2023, 186–187. o.](forrasok.md#balogh-2023-014); [Gerencsér 2023, 13–14. o.](forrasok.md#gerencser-2023-005); [Horváth 2021, 110. o.](forrasok.md#horvath-2021-023); [NAV 2024b, 22. o.](forrasok.md#nav-ertheto-hivatal-2-036); [Világos Beszéd kézikönyv 2025, 25. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-065); [WP260 2018, 9. o.](forrasok.md#wp260-2018-005).
 
@@ -115,7 +115,7 @@ Ellenőrző kérdés: Egyetlen mondatot sem szakít meg zárójeles vagy gondola
 - Rossz: Az érintett (a GDPR 4. cikk 1. pontja szerinti azonosított vagy azonosítható természetes személy (a továbbiakban: érintett)) kérheti adatai törlését.
 - Jó: Kérheti, hogy töröljük az adatait. Érintett az, akinek a személyes adatait kezeljük (GDPR 4. cikk 1. pont).
 
-Kör: általános. Mérés (meres.py): zarojelmelyseg.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt. Mérés (meres.py): zarojelmelyseg.
 
 Források: [Balogh 2023, 186–187. o.](forrasok.md#balogh-2023-014); [NAV 2024b, 22. o.](forrasok.md#nav-ertheto-hivatal-2-036); [Világos Beszéd kézikönyv 2025, 26. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-068); [Világos Beszéd 2025, 8. o.](forrasok.md#vilagos-beszed-kisokos-2025-028).
 
@@ -132,7 +132,7 @@ Ellenőrző kérdés: A mondatok lényeges része elöl áll, és a szórend azt
 - Rossz: A szerződés megkötésétől számított 14 napon belül indoklás nélkül, a szolgáltatónak küldött nyilatkozattal elállhat.
 - Jó: Elállhat a szerződéstől 14 napon belül, indoklás nélkül. Ehhez küldjön nyilatkozatot a szolgáltatónak.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Európai Bizottság 2013, 7. o.](forrasok.md#eu-pontos-fogalmazas-2013-029); [Európai Bizottság 2013, 7. o.](forrasok.md#eu-pontos-fogalmazas-2013-030); [Horváth 2021, 106. o.](forrasok.md#horvath-2021-010); [Horváth 2021, 106. o.](forrasok.md#horvath-2021-011); [Horváth 2021, 109. o.](forrasok.md#horvath-2021-020); [NAV 2024a, 55. o.](forrasok.md#nav-ertheto-hivatal-1-033); [NAV 2024b, 21. o.](forrasok.md#nav-ertheto-hivatal-2-032); [Világos Beszéd kézikönyv 2025, 26. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-069); [Világos Beszéd kézikönyv 2025, 31. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-093).
 
@@ -149,7 +149,7 @@ Ellenőrző kérdés: Ami állítóan is megfogalmazható, az állító mondatba
 - Rossz: Nem fogadható el a kérelem, ha nem tartalmazza az aláírást.
 - Jó: A kérelmet aláírva fogadjuk el.
 
-Kör: általános. Mérés (meres.py): tagadas.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: jelölt. Mérés (meres.py): tagadas.
 
 Források: [Európai Bizottság 2013, 7. o.](forrasok.md#eu-pontos-fogalmazas-2013-028); [NAV 2024b, 22–23. o.](forrasok.md#nav-ertheto-hivatal-2-038); [Világos Beszéd kézikönyv 2025, 37–38. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-119).
 
@@ -166,7 +166,7 @@ Ellenőrző kérdés: Kiderül a mondatok kapcsolata (ok, következmény, ellent
 - Rossz: A határidő lejárt. Az ügyet lezártuk. De viszont kérheti az igazolást.
 - Jó: A határidő lejárt, ezért az ügyet lezártuk. Igazolási kérelmet azonban beadhat.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Európai Bizottság 2013, 6. o.](forrasok.md#eu-pontos-fogalmazas-2013-023); [NAV 2024b, 17. o.](forrasok.md#nav-ertheto-hivatal-2-023).
 
@@ -183,7 +183,7 @@ Ellenőrző kérdés: A mondatok magyar szerkezetűek, nincs bennük idegen mint
 - Rossz: Ami az ügyben igazán fontos, az az, hogy a határidőt betartsa.
 - Jó: Az ügyben a határidő betartása a legfontosabb.
 
-Kör: általános.
+Kör: általános. Alapértelmezett súlyosság: közepes. Ellenőrzés: olvasva.
 
 Források: [Európai Bizottság 2013, 7. o.](forrasok.md#eu-pontos-fogalmazas-2013-031); [NAV 2024b, 6. o.](forrasok.md#nav-ertheto-hivatal-2-005).
 
@@ -207,6 +207,6 @@ b) 65 évesnél idősebb,
 c) egyedül él.
 - Megjegyzés a példához: A rossz példából nem derül ki, hogy mindhárom feltétel kell-e, vagy elég egy is.
 
-Kör: csak jogi szövegnél.
+Kör: csak jogi szövegnél. Alapértelmezett súlyosság: magas. Ellenőrzés: olvasva.
 
 Források: [Jszr., 7. § (1)–(2)](forrasok.md#jszr-2009-005); [Világos Beszéd kézikönyv 2025, 26. o.](forrasok.md#vilagos-beszed-kezikonyv-2025-071).
