@@ -9,6 +9,16 @@ patch; szabály visszavonása vagy parancs átnevezése: major.
 
 ## [Kiadatlan]
 
+### Hozzáadva
+
+- SECURITY.md és issue-sablon-beállítás (config.yml).
+- Külön licencfájl a két licenc teljes szövegével (LICENSE-MIT, LICENSE-CC-BY-4.0); a LICENSE áttekintést ad.
+- Jelvények a README elején.
+
+### Javítva
+
+- Az issue-sablonok a repó meglévő címkéit használják.
+
 ## [1.1.0] - 2026-11-20
 
 ### Hozzáadva

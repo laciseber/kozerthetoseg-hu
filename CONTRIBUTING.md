@@ -82,6 +82,8 @@ A skill a [szemantikus verziókezelést](https://semver.org/lang/hu/) követi. A
 | Megfogalmazás javítása, elírás, példa cseréje | patch (1.0.0 → 1.0.1) |
 | Szabály visszavonása, parancs átnevezése vagy törlése | major (1.0.0 → 2.0.0) |
 
+Kiadáskor a CITATION.cff `version` és `date-released` mezőjét, valamint a README verziójelvényét is frissítsd.
+
 Minden kiadás a CHANGELOG.md-ben kap bejegyzést ([Keep a Changelog](https://keepachangelog.com/hu/1.1.0/) formában), és a `main` ág megfelelő commitja `vX.Y.Z` címkét.
 
 ## Amit ne tegyél a repóba

@@ -1,5 +1,10 @@
 # kozerthetoseg-hu
 
+[![Ellenőrzés](https://github.com/zoltankis-arch/kozerthetoseg-hu/actions/workflows/ellenorzes.yml/badge.svg)](https://github.com/zoltankis-arch/kozerthetoseg-hu/actions/workflows/ellenorzes.yml)
+[![Verzió](https://img.shields.io/badge/verzi%C3%B3-1.1.0-blue)](CHANGELOG.md)
+[![Licenc: MIT és CC BY 4.0](https://img.shields.io/badge/licenc-MIT%20%2B%20CC%20BY%204.0-green)](LICENSE)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-specifik%C3%A1ci%C3%B3-informational)](https://agentskills.io/specification)
+
 Ez a skill segít, hogy egy magyar szöveg olvasója megértse és használni tudja azt, amit kapott: hivatali levelet, tájékoztatót, adatkezelési tájékoztatót, ÁSZF-et, határozatot. Nyelvészeknek, jogászoknak, hivatali szövegíróknak és fejlesztőknek készült, és minden javaslata nyilvános forrásra épül, oldalszámmal.
 
 A skill az [Agent Skills](https://agentskills.io/specification) szabványt követi, így a Claude-ban és más, ezt a szabványt ismerő eszközben is használható.
@@ -84,9 +89,9 @@ A forrásokból a skill nem vesz át szövegrészt: a mintázatot veszi át, a p
 
 ## Licenc és hivatkozás
 
-A kód (szkriptek, tesztek, CI) MIT, a szöveges tartalom (szabályok, referenciák, dokumentáció) [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.hu) licenc alatt áll; részletek: [LICENSE](LICENSE). Hivatkozás: [CITATION.cff](CITATION.cff).
+A kód (szkriptek, tesztek, CI) MIT, a szöveges tartalom (szabályok, referenciák, dokumentáció) [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.hu) licenc alatt áll; részletek: [LICENSE](LICENSE), a licencek szövege: [LICENSE-MIT](LICENSE-MIT) és [LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0). Hivatkozás: [CITATION.cff](CITATION.cff).
 
-Szerző: Kis Zoltán ([github.com/zoltankis-arch](https://github.com/zoltankis-arch)).
+Szerző: Kis Zoltán ([github.com/zoltankis-arch](https://github.com/zoltankis-arch)). Biztonsági hibát a [SECURITY.md](SECURITY.md) szerint jelezz.
 
 ## Köszönet
 
