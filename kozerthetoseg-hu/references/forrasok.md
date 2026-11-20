@@ -486,6 +486,7 @@ Nincs leltártétel. Ok: Bevezető példa egy rossz jogszabályi meghatározásr
 
 - Azonosító: `nav-ertheto-hivatal-1`
 - Hivatkozás: Nemzeti Adó- és Vámhivatal, Központi Irányítás, Kommunikációs Főosztály, Közérthetőségi Programiroda: Az érthető hivatal 1. Budapest, 2024. május.
+- Elérhetőség: https://nav.gov.hu/kiadvanyok/kozerthetosegi-program
 - Felhasználási feltétel: A kiadvány licencet vagy felhasználási feltételt nem tüntet fel. A leltár saját szavakkal foglal össze, szövegrészt nem vesz át.
 - Feldolgozott kiadás: 2024. májusi kiadás, 33 PDF-oldal (a nyomtatott oldalak 3–63., két oldal egy PDF-oldalon).
 - Oldalszámozás a leltárban: nyomtatott oldalszám (az oldalak alján álló „Az érthető hivatal 1. | N” szerint)
@@ -605,6 +606,7 @@ Nincs leltártétel. Ok: Forrásjegyzék és kiadói adatok; írási szabályt n
 
 - Azonosító: `nav-ertheto-hivatal-2`
 - Hivatkozás: Nemzeti Adó- és Vámhivatal, Központi Irányítás, Kommunikációs Főosztály, Közérthetőségi Programiroda: Az érthető hivatal 2. Budapest, 2024. május.
+- Elérhetőség: https://nav.gov.hu/kiadvanyok/kozerthetosegi-program
 - Felhasználási feltétel: A kiadvány licencet vagy felhasználási feltételt nem tüntet fel. A leltár saját szavakkal foglal össze; a példák mintázatát veszi át, a szövegüket nem.
 - Feldolgozott kiadás: 2024. májusi kiadás, 35 PDF-oldal (a nyomtatott oldalak 2–67., két oldal egy PDF-oldalon).
 - Oldalszámozás a leltárban: nyomtatott oldalszám (az oldalak alján álló „Az érthető hivatal 2. | N” szerint)
