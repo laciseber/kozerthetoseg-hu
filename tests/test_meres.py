@@ -22,7 +22,7 @@ def test_mondatbontas_roviditesek_es_datumok():
 
 
 def test_markdown_elofeldolgozas():
-    szoveg = ("<!-- megjegyzés. Ez nem mondat. -->\n# Cím\n\nElső bekezdés.\n\n"
+    szoveg = ("---\nname: x\ndescription: frontmatter. Nem mondat.\n---\n<!-- megjegyzés. Ez nem mondat. -->\n# Cím\n\nElső bekezdés.\n\n"
               "- listaelem egy\n- listaelem kettő\n\n| a | b |\n|---|---|\n| c | d |\n\n"
               "```\nkód. Ez sem mondat.\n```\nA `kód` itt sorközi.")
     egysegek = meres.elofeldolgoz(szoveg)
@@ -32,6 +32,7 @@ def test_markdown_elofeldolgozas():
     assert fajtak.count("tablazat") == 2
     teljes = " ".join(t for _, t in egysegek)
     assert "megjegyzés" not in teljes
+    assert "frontmatter" not in teljes
     assert "Ez sem mondat" not in teljes
     assert "kód" not in teljes
 

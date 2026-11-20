@@ -8,7 +8,7 @@ Ha a hívó számokat kér a szövegről (mondathossz, főnevesítés, „kerül
 
 ## Bemenet
 
-- Markdown- vagy sima szövegfájl, vagy a szabványos bemenet. A HTML-megjegyzést, a kódblokkot és a sorközi kódot a szkript kihagyja; a címsorokat és a táblázatsorokat nem számolja a mondatok közé.
+- Markdown- vagy sima szövegfájl, vagy a szabványos bemenet. A YAML-frontmattert, a HTML-megjegyzést, a kódblokkot és a sorközi kódot a szkript kihagyja; a címsorokat és a táblázatsorokat nem számolja a mondatok közé.
 - Elhagyható kapcsolók: `--json`, `--kuszob N` (mondathossz-küszöb, alapérték 20), `--szohossz N` (hosszú szó határa, alapérték 15), `--huspacy` (ha a HuSpaCy és egy magyar modell telepítve van).
 
 ## Lépések

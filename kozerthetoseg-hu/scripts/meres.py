@@ -106,10 +106,11 @@ TAGADAS = re.compile(
 def elofeldolgoz(szoveg: str) -> list[tuple[str, str]]:
     """Markdownból vagy sima szövegből egységek: [(fajta, szöveg)].
 
-    Fajták: 'bekezdes', 'listaelem', 'cim', 'tablazat'. A HTML-megjegyzést,
-    a kódblokkot és a sorközi kódot kihagyja.
+    Fajták: 'bekezdes', 'listaelem', 'cim', 'tablazat'. A YAML-frontmattert,
+    a HTML-megjegyzést, a kódblokkot és a sorközi kódot kihagyja.
     """
     szoveg = szoveg.replace("\r\n", "\n").replace("\r", "\n")
+    szoveg = re.sub(r"\A---\n.*?\n---\n", "", szoveg, flags=re.DOTALL)
     szoveg = re.sub(r"<!--.*?-->", " ", szoveg, flags=re.DOTALL)
     szoveg = re.sub(r"^(```|~~~).*?^\1[^\n]*$", "", szoveg, flags=re.DOTALL | re.MULTILINE)
     szoveg = re.sub(r"`[^`\n]*`", " ", szoveg)
