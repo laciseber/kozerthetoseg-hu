@@ -15,10 +15,10 @@ description: >-
 license: MIT (szkriptek, tesztek) és CC-BY-4.0 (szöveges tartalom), lásd LICENSE.txt
 compatibility: A szkriptekhez Python 3.11 vagy újabb kell, külső csomag és hálózat nélkül. A HuSpaCy opcionális.
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   author: "Kis Zoltán (https://github.com/zoltankis-arch)"
   language: "hu"
-  forraskatalogus: "1.1.0"
+  forraskatalogus: "1.2.0"
 ---
 
 # Közérthetőség magyarul
@@ -39,7 +39,7 @@ Minden parancs saját referenciafájlt kap, egységes szerkezettel. Olvasd el a 
 | Parancs | Mit csinál | Részletek |
 |---|---|---|
 | `audit` | Jelentést ad, nem ír át: hol, melyik szabály, miért baj az olvasónak, javasolt átírás, prioritás | [parancs-audit.md](references/parancs-audit.md) |
-| `atiras` | Átírja a szöveget, utána hűségellenőrzést végez: minden tény, szám, határidő, feltétel, kivétel és jogi kifejezés megvan-e | [parancs-atiras.md](references/parancs-atiras.md) |
+| `atiras` | Átírja a szöveget, utána hűségellenőrzést végez: minden tény, szám, határidő, feltétel, kivétel, modalitás és jogi kifejezés megvan-e | [parancs-atiras.md](references/parancs-atiras.md) |
 | `meres` | Lefuttatja a mérőszkriptet, és jelzésként értelmezi az eredményt | [parancs-meres.md](references/parancs-meres.md) |
 | `proba` | Olvasói próbatervet ír 6–9 fős, visszamondásos módszerrel | [parancs-proba.md](references/parancs-proba.md) |
 | `forras-felvetel` | Új forrást dolgoz fel öt lépésben, újragenerál, ellenőriz, verzióemelést javasol | [parancs-forras-felvetel.md](references/parancs-forras-felvetel.md) |
@@ -51,7 +51,7 @@ Minden parancs saját referenciafájlt kap, egységes szerkezettel. Olvasd el a 
 2. Szövegtípus. Sorold be a [szovegtipusok.md](references/szovegtipusok.md) szerint: előíró normaszöveg, eljárási vegyes szöveg (határozat, beadvány, panasz), leíró metajogi szöveg vagy nem jogi tájékoztató. Döntsd el azt is, kötelező szöveg-e (jogszabály, előírt formula, jogszabályban megállapított feltétel, kamarai egységes szöveg). Kötelező szöveget a skill nem ír át: kimondja, hogy kötelező, és hogy a forrásával kell egyeznie.
 3. KÉK-határ. Ha az olvasó értelmi fogyatékossággal élő vagy alacsony nyelvi kompetenciájú, mondd ki, hogy ehhez könnyen érthető kommunikáció kell, ami más szabályrendszer ([kek-hatar.md](references/kek-hatar.md)).
 4. A négy kérdés mint keret (ISO 24495-1): megkapja-e az olvasó, amire szüksége van; megtalálja-e; megérti-e; tudja-e használni.
-5. Vizsgálat a szabálykatalógus szerint ([szabalyok.md](references/szabalyok.md)). Hivatkozz a szabály azonosítójára (K001–K083).
+5. Vizsgálat a szabálykatalógus szerint. Először a tömör [szabaly-index.md](references/szabaly-index.md) fájlt olvasd el; a példákat, kivételeket és forrásokat csak a szövegre vonatkozó szabályoknál nyisd meg a csoportfájlban (`references/szabalyok-<csoport>.md`). A teljes `szabalyok.md`-t ne töltsd be. Hivatkozz a szabály azonosítójára (K001–K083).
 6. Mérés, jelzésként: `python scripts/meres.py <fájl>` ([parancs-meres.md](references/parancs-meres.md)).
 7. Jogi szövegnél a jogi modul is ([jogi.md](references/jogi.md)). Ilyenkor a kimenet mindig ezzel zárul: „A skill nem ad jogi tanácsot. A jogi tartalom változatlanságáért a szakember felel.”
 
@@ -68,7 +68,10 @@ Minden parancs saját referenciafájlt kap, egységes szerkezettel. Olvasd el a 
 
 ## Fájlok
 
-- [references/szabalyok.md](references/szabalyok.md): a szabálykatalógus csoportonként, példákkal és forrásokkal (generált).
+- [references/szabaly-index.md](references/szabaly-index.md): a szabálykatalógus tömör indexe, szabályonként egy sor (generált). Ezt olvasd be először.
+- `references/szabalyok-<csoport>.md`: a szabályok részletei csoportonként, példákkal és forrásokkal (generált).
+- [references/ellenorzo-lista.md](references/ellenorzo-lista.md): szabályonként egy eldöntendő kérdés (generált).
+- [references/szabalyok.md](references/szabalyok.md): a teljes katalógus egy fájlban, emberi olvasásra (generált).
 - [references/forrasok.md](references/forrasok.md): a forráskatalógus és a teljes forrásleltár (generált).
 - [references/lefedettseg.md](references/lefedettseg.md): melyik forrás melyik tétele hová került (generált).
 - [references/szovegtipusok.md](references/szovegtipusok.md): mit szabad átírni szövegtípusonként.

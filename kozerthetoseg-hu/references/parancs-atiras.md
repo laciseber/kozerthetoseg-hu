@@ -1,6 +1,6 @@
 # Parancs: `atiras`
 
-Közérthetőre írja át a szöveget, majd hűségellenőrzést végez: megnézi, hogy minden tény, szám, határidő, feltétel, kivétel és jogi kifejezés megmaradt-e.
+Közérthetőre írja át a szöveget, majd hűségellenőrzést végez: megnézi, hogy minden tény, szám, határidő, feltétel, kivétel, modalitás és jogi kifejezés megmaradt-e.
 
 ## Mikor kell
 
@@ -17,11 +17,14 @@ Kötelező szöveget (jogszabály, előírt formula, jogszabályban megállapít
 ## Lépések
 
 1. Végezd el az audit 1–4. lépését (olvasó és cél, szövegtípus, KÉK-határ, a négy kérdés). Kötelező szövegnél itt állj meg, és csak a jelzést add.
-2. Leltár az átírás előtt: gyűjtsd ki a szövegből az összes tényt, számot, összeget, dátumot és határidőt, feltételt, kivételt, jogkövetkezményt, jogszabályhelyet és jogi kifejezést. Ez a hűségellenőrzés alapja.
-3. Átírás a [szabalyok.md](szabalyok.md) szerint, ebben a sorrendben: tartalom és felépítés (fő üzenet, teendő, sorrend, alcímek), mondatok, szavak és szerkezetek, végül forma. Jogi szövegnél a [szovegtipusok.md](szovegtipusok.md#szocsere) szerint a szerkezeti átírás az elsődleges; jogi kifejezést csak magyarázattal együtt cserélj, ha egyáltalán.
+2. Leltár az átírás előtt: gyűjtsd ki a szövegből az összes tényt, számot, összeget, dátumot és határidőt, feltételt, kivételt, jogkövetkezményt, jogszabályhelyet, jogi kifejezést és modalitást. Ez a hűségellenőrzés alapja.
+
+   <a id="modalitas"></a>Modalitás: minden olyan elem, amely megmondja, kötelező, lehetséges, megengedett vagy tilos-e valami: „kell”, „köteles”, „jogosult”, „-hat/-het”, „lehet”, „tilos”, „nem kötelező”, „kérjük”. Ezeket elemenként vedd fel a leltárba, mert a közérthetőbb igei alak gyakran észrevétlenül megváltoztatja őket („felhasználhatja” → „felhasználja”: a lehetőségből tény lesz; „köteles megfizetni” → „fizesse meg”: a kötelezettség marad, de a jogi minősítés eltűnik). Ha a modalitás megváltozik, az átírás hibás, akkor is, ha olvashatóbb; ha szándékos, indokold, és jogi szövegnél jelöld jogászi ellenőrzésre.
+3. Átírás a [szabaly-index.md](szabaly-index.md) és a vonatkozó csoportfájlok szerint, ebben a sorrendben: tartalom és felépítés (fő üzenet, teendő, sorrend, alcímek), mondatok, szavak és szerkezetek, végül forma. Jogi szövegnél a [szovegtipusok.md](szovegtipusok.md#szocsere) szerint a szerkezeti átírás az elsődleges; jogi kifejezést csak magyarázattal együtt cserélj, ha egyáltalán.
 4. Mérés az átírt szövegen (`scripts/meres.py`), összevetve az eredetivel.
 5. Hűségellenőrzés: menj végig a 2. lépés leltárán, és jelöld minden elemnél, hogy megvan-e változatlanul, átfogalmazva (azonos tartalommal), megváltozott-e, vagy kimaradt. Ami megváltozott vagy kimaradt, külön listában szerepeljen, indoklással.
-6. Jogi szövegnél: zárómondat a [jogi.md](jogi.md) szerint.
+6. Önellenőrzés az [ellenorzo-lista.md](ellenorzo-lista.md) kérdéseivel: azokat a csoportokat nézd végig, amelyek a szövegre vonatkoznak. Ha egy kérdésre nem a válasz, javíts, vagy írd a változtatások listájához, miért marad.
+7. Jogi szövegnél: zárómondat a [jogi.md](jogi.md) szerint.
 
 ## Kimenet formája
 
@@ -36,6 +39,7 @@ A kimenet négy része, ebben a sorrendben:
    | Elem | Eredetiben | Átírtban | Állapot |
    |---|---|---|---|
    | határidő | „a kézhezvételtől számított 15 napon belül” | „a levél kézhezvételétől számított 15 napon belül” | megvan |
+   | modalitás | „befizetése kötelező” | „Fizesse be” | átfogalmazva: a kötelezettség megmaradt |
 
    Az állapot lehet: megvan, átfogalmazva, megváltozott, kimaradt. A megváltozott és kimaradt elemeket a táblázat alatt külön is sorold fel, indoklással.
 4. Mérés előtte–utána, és jogi szövegnél a zárómondat.
@@ -53,4 +57,4 @@ Bemenet: „Tájékoztatjuk, hogy a 2026. évi gépjárműadó befizetésére a 
 
 Átírt szöveg: „Fizesse be a 2026-os gépjárműadót a határozat kézhezvételétől számított 15 napon belül. Ha nem fizet határidőre, késedelmi pótlékot számítunk fel.”
 
-Hűség: adónem és év megvan; határidő (15 nap a kézhezvételtől) megvan; jogkövetkezmény (késedelmi pótlék) megvan. Megváltozott vagy kimaradt elem nincs.
+Hűség: adónem és év megvan; határidő (15 nap a kézhezvételtől) megvan; jogkövetkezmény (késedelmi pótlék) megvan; modalitás (a befizetés kötelező) megvan, felszólító módban. Megváltozott vagy kimaradt elem nincs.

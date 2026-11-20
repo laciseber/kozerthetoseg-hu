@@ -8,7 +8,7 @@ Csak jogi szövegnél töltődik be: jogszabály, határozat, beadvány, szerző
 
 1. Megnézi, hogy a szöveg kötelező-e ([szovegtipusok.md](szovegtipusok.md#kotott-szoveg)). Kötelező szöveget nem ír át.
 2. Megállapítja, melyik jogszabályi követelmény vonatkozik a szövegre (lent), és a jelentésben megnevezi.
-3. Alkalmazza a „csak jogi szövegnél” jelölésű szabályokat a [szabalyok.md](szabalyok.md) szerint: K047, K079, K080, K081, K082.
+3. Alkalmazza a „csak jogi szövegnél” jelölésű szabályokat a [szabaly-index.md](szabaly-index.md) szerint: K047, K079, K080, K081, K082. Jogi szövegnél a hűségellenőrzés [modalitás](parancs-atiras.md#modalitas) sora kötelező.
 4. Átírásnál a szerkezeti átírást részesíti előnyben, jogi kifejezést csak magyarázattal együtt cserél, és a hűségellenőrzésben a jogszabályhelyeket, a jogkövetkezményeket és a jogi kifejezéseket külön tételként vizsgálja.
 5. Jelzi a fogalomütközéseket (lent).
 

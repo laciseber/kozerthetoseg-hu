@@ -23,7 +23,7 @@ Nincs; a szkript a skill mappáját olvassa. Más helyen lévő skillhez: `--gyo
    - a SKILL.md frontmatterét, a törzs hosszát (legfeljebb 500 sor, kb. 5000 token), a parancstáblázatot, és hogy minden parancsfájl a sablon szakaszait követi;
    - hogy minden parancshoz van eval;
    - a Markdown-hivatkozásokat a SKILL.md-ben és a `references/` fájljaiban;
-   - hogy a generált fájlok (`szabalyok.md`, `forrasok.md`, `lefedettseg.md`) frissek;
+   - hogy a generált fájlok (`szabalyok.md`, `szabaly-index.md`, a `szabalyok-<csoport>.md` fájlok, `ellenorzo-lista.md`, `forrasok.md`, `lefedettseg.md`) frissek;
    - ha a skill a repóban van, hogy a CHANGELOG.md-ben van-e bejegyzés a SKILL.md verziójához.
 3. Hibánál a kimenet minden sora `fájl:sor: üzenet` alakú. Javítsd, majd futtasd újra. Elavult generált fájlnál: `python scripts/generalas.py`.
 

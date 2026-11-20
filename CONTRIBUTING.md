@@ -22,7 +22,7 @@ A szkriptek csak a standard könyvtárat használják. A tesztekhez a repó gyö
 - `assets/adatok/katalogus.toml`: a forráskatalógus verziója.
 - `assets/schemas/`: a két fájltípus mezőinek leírása (JSON Schema).
 - `assets/sablonok/`: a szkriptek és az új parancsok sablonjai.
-- `references/szabalyok.md`, `forrasok.md`, `lefedettseg.md`: generált fájlok. Kézzel ne szerkeszd őket; a `scripts/generalas.py` írja újra.
+- `references/szabalyok.md`, `szabaly-index.md`, `szabalyok-<csoport>.md`, `ellenorzo-lista.md`, `forrasok.md`, `lefedettseg.md`: generált fájlok. Kézzel ne szerkeszd őket; a `scripts/generalas.py` írja újra.
 
 Miért így? Az adat és a szöveg külön van, ezért egy új forrás felvétele adatfelvitel, és a lefedettség gépileg ellenőrizhető. A TOML-t a Python 3.11 óta a standard könyvtár olvassa, nem kell külső csomag. Minden adat a skill mappáján belül van, így a skill bárhová telepítve önálló, és a bővítés telepítés után is működik.
 
@@ -60,7 +60,7 @@ Végül vedd fel a forrást a README „A felhasznált források” táblázatá
 ## Új szabály felvétele
 
 1. `python scripts/uj_szabaly.py --cim "A szabály címe" --csoport mondat` (a csoportok listája: `python scripts/uj_szabaly.py --help`). A szkript a következő szabad azonosítót adja. Egyszer kiosztott azonosítót nem használunk újra.
-2. Töltsd ki: a szabály egy mondatban, miért segít az olvasónak, saját rossz és jó példa, kivételek, alkalmazási kör (`altalanos` vagy `jogi`), és ha a mérőszkript jelzi, a `meres` mező.
+2. Töltsd ki: a szabály egy mondatban, miért segít az olvasónak, egy eldöntendő ellenőrző kérdés (`kerdes`; az igen válasz jelenti a megfelelést), saját rossz és jó példa, kivételek, alkalmazási kör (`altalanos` vagy `jogi`), és ha a mérőszkript jelzi, a `meres` mező.
 3. Forrás nélküli szabályt nem veszünk fel: a leltárban legalább egy tétel mutasson rá, és a szabály `forrasok` listája ugyanezt tartalmazza.
 4. Generálás és ellenőrzés, mint fent.
 
